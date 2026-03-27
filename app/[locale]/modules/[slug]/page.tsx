@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import Image from 'next/image'
+import AnimatedSteps from '@/components/AnimatedSteps'
 
 const moduleData: Record<string, { icon: string; color: string; titleKey: string }> = {
   welcome: { icon: '👋', color: 'from-blue-500 to-blue-600', titleKey: 'welcome' },
@@ -13,7 +14,7 @@ const moduleData: Record<string, { icon: string; color: string; titleKey: string
 }
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps'
   style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
@@ -21,6 +22,7 @@ type Section = {
   icons?: { src: string; alt: string }[]
   steps?: { icon: string; label: string }[]
   gridItems?: { emoji: string; label: string }[]
+  animatedSteps?: { emoji: string; title: string; description: string }[]
 }
 
 type Lesson = {
@@ -253,6 +255,18 @@ function SectionRenderer({ section }: { section: Section }) {
               </div>
             ))}
           </div>
+        </div>
+      )
+
+    case 'animated-steps':
+      return (
+        <div>
+          {section.title && (
+            <h3 className="font-bold text-gray-900 mb-4 text-lg">{section.title}</h3>
+          )}
+          {section.animatedSteps && (
+            <AnimatedSteps steps={section.animatedSteps} />
+          )}
         </div>
       )
 

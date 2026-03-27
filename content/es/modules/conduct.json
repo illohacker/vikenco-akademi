@@ -121,6 +121,81 @@
           "text": "Todos los empleados DEBEN cumplir estas normas. Su incumplimiento puede contaminar nuestros productos."
         }
       ]
+    },
+    {
+      "id": "hygiene-sluice-routine",
+      "title": "Rutina en la esclusa de higiene",
+      "icon": "🚿",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Sigue estos 8 pasos cada vez que entres a producción:",
+          "animatedSteps": [
+            { "emoji": "🧴", "title": "Lavar manos", "description": "Usa el codo para accionar el dispensador de jabón" },
+            { "emoji": "🧻", "title": "Secar manos", "description": "Usa toalla de papel para secar bien" },
+            { "emoji": "🧼", "title": "Desinfectar manos", "description": "Usa el codo para accionar el dispensador" },
+            { "emoji": "🧔", "title": "Red para barba", "description": "Ponte la red de barba desechable si es necesario" },
+            { "emoji": "👩‍🍳", "title": "Gorro protector", "description": "Ponte el gorro de protección" },
+            { "emoji": "💇", "title": "Todo el pelo cubierto", "description": "Asegúrate de que todo el pelo quede bajo el gorro" },
+            { "emoji": "💍", "title": "Sin joyas", "description": "Sin joyas, sin reloj, uñas cortas y limpias" },
+            { "emoji": "🥼", "title": "Ropa de trabajo", "description": "Ponte el mono / ropa de trabajo" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-tag-nfc",
+      "title": "Llavero NFC (Key Tag)",
+      "icon": "🔑",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Todos los empleados con llavero NFC o registrados en las instalaciones deben seguir estas normas:"
+        },
+        {
+          "type": "rules",
+          "title": "Normas del llavero:",
+          "items": [
+            "No está permitido prestar tu llavero a otros – es personal",
+            "No está permitido dejar entrar a otras personas en las instalaciones",
+            "Las personas sin tarjeta de acceso propia deben registrarse en la entrada principal y recepción",
+            "Si has olvidado o perdido tu llave, avisa a Andrea – por seguridad y para registrarlo en Capitech"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "El incumplimiento de esta norma es motivo de amonestación o despido."
+        }
+      ]
+    },
+    {
+      "id": "drive-safely",
+      "title": "Conduce con cuidado hacia y desde Rindarøya",
+      "icon": "🚗",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco ha recibido quejas de nuestros vecinos por conducción insegura e irresponsable en la ruta hacia y desde Rindarøya."
+        },
+        {
+          "type": "info",
+          "title": "Importante recordar:",
+          "items": [
+            "⚠️ No hay acera en este tramo",
+            "👶 Niños y personas mayores caminan por la carretera",
+            "🚦 Respeta las normas de tráfico y adapta la velocidad al estado de la vía y el clima",
+            "🤝 Sé especialmente atento y responsable al conducir hacia y desde Rindarøya"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Trabajemos juntos por la seguridad de todos, garantizando un tránsito seguro y manteniendo la buena reputación de nuestra empresa."
+        }
+      ]
     }
   ]
 }

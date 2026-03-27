@@ -121,6 +121,81 @@
           "text": "Visi darbuotojai PRIVALO laikytis šių taisyklių. Pažeidimai gali sukelti mūsų produktų užteršimą."
         }
       ]
+    },
+    {
+      "id": "hygiene-sluice-routine",
+      "title": "Higienos šliuzo tvarka",
+      "icon": "🚿",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Kiekvieną kartą įeidami į gamybą, atlikite šiuos 8 žingsnius:",
+          "animatedSteps": [
+            { "emoji": "🧴", "title": "Plaukite rankas", "description": "Naudokite alkūnę muilo dozatoriui" },
+            { "emoji": "🧻", "title": "Nusausinkite rankas", "description": "Naudokite popierinius rankšluosčius" },
+            { "emoji": "🧼", "title": "Dezinfekuokite rankas", "description": "Naudokite alkūnę dozatoriui" },
+            { "emoji": "🧔", "title": "Barzdos tinklelis", "description": "Užsidėkite vienkartinį barzdos tinklelį" },
+            { "emoji": "👩‍🍳", "title": "Apsauginė kepurė", "description": "Užsidėkite apsauginę kepurę" },
+            { "emoji": "💇", "title": "Visi plaukai uždengti", "description": "Įsitikinkite, kad visi plaukai yra po kepure" },
+            { "emoji": "💍", "title": "Jokių papuošalų", "description": "Jokių papuošalų, laikrodžių, trumpi ir švarūs nagai" },
+            { "emoji": "🥼", "title": "Darbo drabužiai", "description": "Apsivilkite kombinezoną / darbo drabužius" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-tag-nfc",
+      "title": "Raktų pakabukas (NFC)",
+      "icon": "🔑",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Visi darbuotojai su raktų pakabuku arba užregistruoti objekte privalo laikytis šių taisyklių:"
+        },
+        {
+          "type": "rules",
+          "title": "Raktų pakabuко taisyklės:",
+          "items": [
+            "Draudžiama skolinti savo raktų pakabuką kitiems – jis asmeninis",
+            "Draudžiama įleisti kitus asmenis į objektą",
+            "Asmenys be savo leidimo turi registruotis prie pagrindinio įėjimo ir registratūroje",
+            "Jei pamiršote ar pametėte raktą, praneškite Andrea – dėl saugumo ir registracijos Capitech sistemoje"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Šios taisyklės nesilaikymas yra pagrindas įspėjimui arba atleidimui."
+        }
+      ]
+    },
+    {
+      "id": "drive-safely",
+      "title": "Vairuokite atsargiai į ir iš Rindarøya",
+      "icon": "🚗",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco gavo skundų iš mūsų kaimynų dėl nesaugaus ir neatsakingo vairavimo maršrute į ir iš Rindarøya."
+        },
+        {
+          "type": "info",
+          "title": "Svarbu prisiminti:",
+          "items": [
+            "⚠️ Šiame maršrute nėra šaligatvio",
+            "👶 Vaikai ir pagyvenę žmonės vaikšto keliu",
+            "🚦 Laikykitės eismo taisyklių ir pritaikykite greitį prie kelio bei oro sąlygų",
+            "🤝 Būkite ypač atidūs ir atsakingi vairuodami į ir iš Rindarøya"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Dirbkime kartu dėl savo ir kitų saugumo, užtikrindami saugų eismą ir palaikydami gerą mūsų įmonės reputaciją."
+        }
+      ]
     }
   ]
 }

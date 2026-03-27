@@ -121,6 +121,81 @@
           "text": "Toți angajații TREBUIE să respecte aceste reguli. Încălcarea lor poate duce la contaminarea produselor noastre."
         }
       ]
+    },
+    {
+      "id": "hygiene-sluice-routine",
+      "title": "Rutina în ecluza de igienă",
+      "icon": "🚿",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Urmați acești 8 pași de fiecare dată când intrați în producție:",
+          "animatedSteps": [
+            { "emoji": "🧴", "title": "Spălați mâinile", "description": "Folosiți cotul pentru dozatorul de săpun" },
+            { "emoji": "🧻", "title": "Uscați mâinile", "description": "Folosiți prosop de hârtie" },
+            { "emoji": "🧼", "title": "Dezinfectați mâinile", "description": "Folosiți cotul pentru dozator" },
+            { "emoji": "🧔", "title": "Plasă pentru barbă", "description": "Puneți plasa de unică folosință pentru barbă" },
+            { "emoji": "👩‍🍳", "title": "Bonetă de protecție", "description": "Puneți boneta de protecție" },
+            { "emoji": "💇", "title": "Tot părul acoperit", "description": "Asigurați-vă că tot părul este sub bonetă" },
+            { "emoji": "💍", "title": "Fără bijuterii", "description": "Fără bijuterii, ceas, unghii scurte și curate" },
+            { "emoji": "🥼", "title": "Îmbrăcăminte de lucru", "description": "Îmbrăcați salopeta / echipamentul de lucru" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-tag-nfc",
+      "title": "Tag cheie (NFC)",
+      "icon": "🔑",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Toți angajații cu tag de acces sau înregistrați la obiectiv trebuie să respecte aceste reguli:"
+        },
+        {
+          "type": "rules",
+          "title": "Reguli pentru tag-ul de acces:",
+          "items": [
+            "Nu este permis să împrumutați tag-ul altora – este personal",
+            "Nu este permis să lăsați alte persoane să intre în incintă",
+            "Persoanele fără permis propriu trebuie să se înregistreze la intrarea principală și recepție",
+            "Dacă ați uitat sau pierdut cheia, anunțați-o pe Andrea – din motive de securitate și pentru înregistrare în Capitech"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Nerespectarea acestei reguli constituie motiv de avertisment sau concediere."
+        }
+      ]
+    },
+    {
+      "id": "drive-safely",
+      "title": "Conduceți prudent spre și dinspre Rindarøya",
+      "icon": "🚗",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco a primit plângeri de la vecinii noștri privind conducerea nesigură și iresponsabilă pe ruta spre și dinspre Rindarøya."
+        },
+        {
+          "type": "info",
+          "title": "Important de reținut:",
+          "items": [
+            "⚠️ Nu există trotuar pe acest traseu",
+            "👶 Atât copii cât și persoane în vârstă circulă pe drum",
+            "🚦 Respectați regulile de circulație și adaptați viteza la condițiile drumului și vremii",
+            "🤝 Fiți deosebit de atenți și responsabili când conduceți spre și dinspre Rindarøya"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Să lucrăm împreună pentru siguranța noastră și a celorlalți, asigurând un trafic sigur și menținând o bună reputație a companiei noastre."
+        }
+      ]
     }
   ]
 }

@@ -121,6 +121,81 @@
           "text": "All employees MUST follow these rules. Violations can lead to contamination of our products."
         }
       ]
+    },
+    {
+      "id": "hygiene-sluice-routine",
+      "title": "Routine in Hygiene Sluice",
+      "icon": "🚿",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Follow these 8 steps every time you enter production:",
+          "animatedSteps": [
+            { "emoji": "🧴", "title": "Wash hands", "description": "Use your elbow to operate the soap dispenser" },
+            { "emoji": "🧻", "title": "Dry hands", "description": "Use paper towel to dry thoroughly" },
+            { "emoji": "🧼", "title": "Disinfect hands", "description": "Use your elbow to operate the dispenser" },
+            { "emoji": "🧔", "title": "Beard net", "description": "Put on a disposable beard net if needed" },
+            { "emoji": "👩‍🍳", "title": "Protective cap", "description": "Put on a protective cap" },
+            { "emoji": "💇", "title": "All hair covered", "description": "Make sure all hair is covered under the cap" },
+            { "emoji": "💍", "title": "No jewellery", "description": "No jewellery, no watch, short and clean fingernails" },
+            { "emoji": "🥼", "title": "Work clothes", "description": "Wear an overall / work suit" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-tag-nfc",
+      "title": "Key Tag (NFC)",
+      "icon": "🔑",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "All employees with a key tag or registered at the facility must follow these rules:"
+        },
+        {
+          "type": "rules",
+          "title": "Key tag rules:",
+          "items": [
+            "You may not lend your key tag to others – it is personal",
+            "You may not let other people into the facility",
+            "People without their own access pass must register at the main entrance and reception",
+            "If you have forgotten or lost your key, notify Andrea – for security reasons and registration in Capitech"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Failure to follow this rule is grounds for a warning or termination."
+        }
+      ]
+    },
+    {
+      "id": "drive-safely",
+      "title": "Drive Safely to and from Rindarøya",
+      "icon": "🚗",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco has received complaints from our neighbours regarding unsafe and irresponsible driving on the route to and from Rindarøya."
+        },
+        {
+          "type": "info",
+          "title": "Important to remember:",
+          "items": [
+            "⚠️ There is no pavement/sidewalk on this route",
+            "👶 Both children and elderly people walk along the road",
+            "🚦 Follow traffic rules and adapt your speed to road and weather conditions",
+            "🤝 Be extra attentive and responsible when driving to and from Rindarøya"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Let us all work together for our own and others' safety, to ensure safe travel and maintain a good reputation for our company."
+        }
+      ]
     }
   ]
 }

@@ -121,6 +121,81 @@
           "text": "Alle ansatte MÅ følge disse reglene. Brudd kan føre til kontaminering av produktene våre."
         }
       ]
+    },
+    {
+      "id": "hygiene-sluice-routine",
+      "title": "Rutine i hygieneslusa",
+      "icon": "🚿",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Følg disse 8 stegene hver gang du går inn i produksjonen:",
+          "animatedSteps": [
+            { "emoji": "🧴", "title": "Vask hendene", "description": "Bruk albuen til å betjene såpedispenseren" },
+            { "emoji": "🧻", "title": "Tørk hendene", "description": "Bruk papirtørkle for å tørke grundig" },
+            { "emoji": "🧼", "title": "Desinfiser hendene", "description": "Bruk albuen til å betjene dispenseren" },
+            { "emoji": "🧔", "title": "Skjeggnett", "description": "Ta på engangsskjeggnett hvis nødvendig" },
+            { "emoji": "👩‍🍳", "title": "Hette/hårnett", "description": "Ta på beskyttelseshette" },
+            { "emoji": "💇", "title": "Alt hår under hetten", "description": "Sjekk at alt hår er dekket" },
+            { "emoji": "💍", "title": "Ingen smykker", "description": "Ingen smykker, klokke, korte og rene negler" },
+            { "emoji": "🥼", "title": "Arbeidsklær", "description": "Ta på overall / arbeidsdress" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "key-tag-nfc",
+      "title": "Nøkkelbrikke (Key Tag)",
+      "icon": "🔑",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Alle ansatte med nøkkelbrikke eller som er registrert på anlegget må følge disse reglene:"
+        },
+        {
+          "type": "rules",
+          "title": "Regler for nøkkelbrikke:",
+          "items": [
+            "Det er ikke lov å låne bort nøkkelbrikken til andre – den er personlig",
+            "Det er ikke lov å slippe inn andre personer på anlegget",
+            "Personer uten eget adgangsbevis skal registreres via hovedinngang og resepsjon",
+            "Hvis du har glemt eller mistet nøkkelen, gi beskjed til Andrea – for sikkerhetshensyn og registrering i Capitech"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Unnlatelse å følge denne regelen er grunn til advarsel eller oppsigelse."
+        }
+      ]
+    },
+    {
+      "id": "drive-safely",
+      "title": "Kjør forsiktig til og fra Rindarøya",
+      "icon": "🚗",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco har mottatt klager fra naboene våre angående utrygg og uansvarlig kjøring på strekningen til og fra Rindarøya."
+        },
+        {
+          "type": "info",
+          "title": "Viktig å huske:",
+          "items": [
+            "⚠️ Det finnes ikke gangvei på denne strekningen",
+            "👶 Både barn og eldre personer trafikkerer langs veien",
+            "🚦 Følg trafikkreglene og tilpass farten etter vei- og værforholdene",
+            "🤝 Vær ekstra oppmerksom og ansvarlig når du kjører til og fra Rindarøya"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "La oss jobbe sammen for egen og andres sikkerhet, å sikre trygg ferdsel og opprettholde et godt omdømme for bedriften vår."
+        }
+      ]
     }
   ]
 }
