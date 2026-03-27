@@ -1,4 +1,84 @@
 {
+  "welcome": {
+    "title": "Sveiki atvykę į Vikenco",
+    "questions": [
+      {
+        "question": "Kada buvo įkurta Vikenco?",
+        "options": ["1965", "1973", "1985", "2005"],
+        "correct": 1
+      },
+      {
+        "question": "Kur yra Vikenco?",
+        "options": ["Oslas", "Bergenas", "Rindarøya, Aukra", "Trondheimas"],
+        "correct": 2
+      },
+      {
+        "question": "Kokia yra Vikenco vizija?",
+        "options": ["Žuvis visiems", "Quality from the sea", "Geriausia lašiša pasaulyje", "Šviežia kiekvieną dieną"],
+        "correct": 1
+      },
+      {
+        "question": "Ką gamina Vikenco?",
+        "options": ["Menkę ir silkę", "Lašišą ir upėtakį", "Krevetes ir krabą", "Visų rūšių žuvis"],
+        "correct": 1
+      },
+      {
+        "question": "Kas yra didžiausias Vikenco savininkas?",
+        "options": ["Mowi", "SalMar (51%)", "Lerøy", "Norvegijos vyriausybė"],
+        "correct": 1
+      },
+      {
+        "question": "Kiek darbuotojų turėjo Vikenco 2024 m.?",
+        "options": ["150", "250", "341", "500"],
+        "correct": 2
+      },
+      {
+        "question": "Koks procentas Vikenco darbuotojų buvo moterys 2024 m.?",
+        "options": ["25%", "33%", "43%", "55%"],
+        "correct": 2
+      },
+      {
+        "question": "Kiek jūros gėrybių patiekalų Vikenco pristatо kasdien?",
+        "options": ["50 000", "100 000", "Daugiau nei 500 000", "1 000 000"],
+        "correct": 2
+      },
+      {
+        "question": "Kiek Vikenco investavo nuo 2019 m.?",
+        "options": ["100 mln. NOK", "500 mln. NOK", "Apie 1 mlrd. NOK", "2 mlrd. NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Kokia naujosios skerdyklos (2024) talpa?",
+        "options": ["50 000 t/metus", "80 000 t/metus", "120 000 t/metus", "200 000 t/metus"],
+        "correct": 2
+      },
+      {
+        "question": "Koks procentas Vikenco žaliavų panaudota žmonių maistui 2024 m.?",
+        "options": ["70%", "80%", "90%", "95%"],
+        "correct": 3
+      },
+      {
+        "question": "Kas yra Vikenco vadovas?",
+        "options": ["Gustav Witzøe", "Per Olav Mevold", "SalMar vadovas", "Kristofer Reiten"],
+        "correct": 1
+      },
+      {
+        "question": "Kokį jubiliejų šventė Vikenco 2023 m.?",
+        "options": ["25 metus", "40 metų", "50 metų", "75 metus"],
+        "correct": 2
+      },
+      {
+        "question": "Kiek Vikenco kasmet skiria bendruomenei?",
+        "options": ["500 000 NOK", "1 mln. NOK", "1,5 mln. NOK", "3 mln. NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Į kokias rinkas Vikenco parduoda?",
+        "options": ["Tik Norvegija", "Norvegija ir Švedija", "Norvegija, JAV, Azija ir Europa", "Tik Azija"],
+        "correct": 2
+      }
+    ]
+  },
   "conduct": {
     "title": "Elgesys ir taisyklės",
     "questions": [

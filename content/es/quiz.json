@@ -1,4 +1,84 @@
 {
+  "welcome": {
+    "title": "Bienvenido a Vikenco",
+    "questions": [
+      {
+        "question": "¿Cuándo se fundó Vikenco originalmente?",
+        "options": ["1965", "1973", "1985", "2005"],
+        "correct": 1
+      },
+      {
+        "question": "¿Dónde está ubicado Vikenco?",
+        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuál es la visión de Vikenco?",
+        "options": ["Pescado para todos", "Quality from the sea", "El mejor salmón del mundo", "Fresco cada día"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué produce Vikenco?",
+        "options": ["Bacalao y arenque", "Salmón y trucha", "Gambas y cangrejo", "Todo tipo de pescado"],
+        "correct": 1
+      },
+      {
+        "question": "¿Quién es el accionista mayoritario de Vikenco?",
+        "options": ["Mowi", "SalMar (51%)", "Lerøy", "El gobierno noruego"],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuántos empleados tenía Vikenco en 2024?",
+        "options": ["150", "250", "341", "500"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué porcentaje de empleados de Vikenco eran mujeres en 2024?",
+        "options": ["25%", "33%", "43%", "55%"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuántas comidas de marisco entrega Vikenco al día?",
+        "options": ["50.000", "100.000", "Más de 500.000", "1.000.000"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuánto ha invertido Vikenco desde 2019?",
+        "options": ["100 millones NOK", "500 millones NOK", "~1.000 millones NOK", "2.000 millones NOK"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué capacidad tiene el nuevo matadero (2024)?",
+        "options": ["50.000 ton/año", "80.000 ton/año", "120.000 ton/año", "200.000 ton/año"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué porcentaje de materias primas de Vikenco fue a consumo humano en 2024?",
+        "options": ["70%", "80%", "90%", "95%"],
+        "correct": 3
+      },
+      {
+        "question": "¿Quién es el CEO de Vikenco?",
+        "options": ["Gustav Witzøe", "Per Olav Mevold", "El CEO de SalMar", "Kristofer Reiten"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hito celebró Vikenco en 2023?",
+        "options": ["25 años", "40 años", "50 años", "75 años"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuánto contribuye Vikenco anualmente a la comunidad local?",
+        "options": ["500.000 NOK", "1 millón NOK", "1,5 millones NOK", "3 millones NOK"],
+        "correct": 2
+      },
+      {
+        "question": "¿A qué mercados vende Vikenco?",
+        "options": ["Solo Noruega", "Noruega y Suecia", "Noruega, EEUU, Asia y Europa", "Solo Asia"],
+        "correct": 2
+      }
+    ]
+  },
   "conduct": {
     "title": "Conducta y Normas",
     "questions": [

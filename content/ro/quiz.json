@@ -1,4 +1,84 @@
 {
+  "welcome": {
+    "title": "Bine ați venit la Vikenco",
+    "questions": [
+      {
+        "question": "Când a fost fondată Vikenco?",
+        "options": ["1965", "1973", "1985", "2005"],
+        "correct": 1
+      },
+      {
+        "question": "Unde se află Vikenco?",
+        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "correct": 2
+      },
+      {
+        "question": "Care este viziunea Vikenco?",
+        "options": ["Pește pentru toți", "Quality from the sea", "Cel mai bun somon din lume", "Proaspăt în fiecare zi"],
+        "correct": 1
+      },
+      {
+        "question": "Ce produce Vikenco?",
+        "options": ["Cod și hering", "Somon și păstrăv", "Creveți și crab", "Toate tipurile de pește"],
+        "correct": 1
+      },
+      {
+        "question": "Cine este acționarul majoritar al Vikenco?",
+        "options": ["Mowi", "SalMar (51%)", "Lerøy", "Guvernul norvegian"],
+        "correct": 1
+      },
+      {
+        "question": "Câți angajați avea Vikenco în 2024?",
+        "options": ["150", "250", "341", "500"],
+        "correct": 2
+      },
+      {
+        "question": "Ce procent din angajații Vikenco erau femei în 2024?",
+        "options": ["25%", "33%", "43%", "55%"],
+        "correct": 2
+      },
+      {
+        "question": "Câte mese cu fructe de mare livrează Vikenco zilnic?",
+        "options": ["50.000", "100.000", "Peste 500.000", "1.000.000"],
+        "correct": 2
+      },
+      {
+        "question": "Cât a investit Vikenco din 2019?",
+        "options": ["100 milioane NOK", "500 milioane NOK", "~1 miliard NOK", "2 miliarde NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Care este capacitatea noului abator (2024)?",
+        "options": ["50.000 tone/an", "80.000 tone/an", "120.000 tone/an", "200.000 tone/an"],
+        "correct": 2
+      },
+      {
+        "question": "Ce procent din materiile prime Vikenco a mers la consum uman în 2024?",
+        "options": ["70%", "80%", "90%", "95%"],
+        "correct": 3
+      },
+      {
+        "question": "Cine este CEO-ul Vikenco?",
+        "options": ["Gustav Witzøe", "Per Olav Mevold", "CEO-ul SalMar", "Kristofer Reiten"],
+        "correct": 1
+      },
+      {
+        "question": "Ce reper a sărbătorit Vikenco în 2023?",
+        "options": ["25 de ani", "40 de ani", "50 de ani", "75 de ani"],
+        "correct": 2
+      },
+      {
+        "question": "Cât contribuie Vikenco anual la comunitatea locală?",
+        "options": ["500.000 NOK", "1 milion NOK", "1,5 milioane NOK", "3 milioane NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Pe ce piețe vinde Vikenco?",
+        "options": ["Doar Norvegia", "Norvegia și Suedia", "Norvegia, SUA, Asia și Europa", "Doar Asia"],
+        "correct": 2
+      }
+    ]
+  },
   "conduct": {
     "title": "Comportament & Reguli",
     "questions": [

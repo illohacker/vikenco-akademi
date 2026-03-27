@@ -3,29 +3,79 @@
     "title": "Velkommen til Vikenco",
     "questions": [
       {
+        "question": "Når ble Vikenco opprinnelig grunnlagt?",
+        "options": ["1965", "1973", "1985", "2005"],
+        "correct": 1
+      },
+      {
         "question": "Hvor ligger Vikenco?",
-        "options": ["Aukra", "Oslo", "Bergen", "Trondheim"],
-        "correct": 0
+        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "correct": 2
+      },
+      {
+        "question": "Hva er Vikencos visjon?",
+        "options": ["Fisk for alle", "Quality from the sea", "Verdens beste laks", "Fersk hver dag"],
+        "correct": 1
       },
       {
         "question": "Hva produserer Vikenco?",
-        "options": ["Kjøtt", "Laks", "Melk", "Brød"],
+        "options": ["Torsk og sild", "Laks og ørret", "Reker og krabbe", "Alle typer fisk"],
         "correct": 1
       },
       {
-        "question": "Hva er viktigst for Vikenco?",
-        "options": ["Kvalitet og matsikkerhet", "Laveste pris", "Raskest produksjon", "Minst mulig ansatte"],
-        "correct": 0
-      },
-      {
-        "question": "Hva bør du gjøre første dag på jobb?",
-        "options": ["Gå rett til produksjonen", "Møte opp i garderoben og følge opplæring", "Vente på parkeringsplassen", "Sende e-post til sjefen"],
+        "question": "Hvem er største eier i Vikenco?",
+        "options": ["Mowi", "SalMar (51%)", "Lerøy", "Den norske stat"],
         "correct": 1
       },
       {
-        "question": "Hvilket språk er hovedspråket på arbeidsplassen?",
-        "options": ["Engelsk", "Norsk", "Svensk", "Dansk"],
+        "question": "Hvor mange ansatte hadde Vikenco i 2024?",
+        "options": ["150", "250", "341", "500"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor stor andel av Vikencos ansatte var kvinner i 2024?",
+        "options": ["25%", "33%", "43%", "55%"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor mange sjømatmiddager leverer Vikenco daglig?",
+        "options": ["50 000", "100 000", "Over 500 000", "1 000 000"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor mye har Vikenco investert siden 2019?",
+        "options": ["100 millioner NOK", "500 millioner NOK", "Ca. 1 milliard NOK", "2 milliarder NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Hva er kapasiteten til det nye slakteriet (2024)?",
+        "options": ["50 000 tonn/år", "80 000 tonn/år", "120 000 tonn/år", "200 000 tonn/år"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor stor andel av Vikencos råvarer gikk til humant konsum i 2024?",
+        "options": ["70%", "80%", "90%", "95%"],
+        "correct": 3
+      },
+      {
+        "question": "Hvem er administrerende direktør i Vikenco?",
+        "options": ["Gustav Witzøe", "Per Olav Mevold", "SalMar-sjefen", "Kristofer Reiten"],
         "correct": 1
+      },
+      {
+        "question": "Hvilken milepæl feiret Vikenco i 2023?",
+        "options": ["25 år", "40 år", "50 år", "75 år"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor mye bidrar Vikenco årlig til lokalsamfunnet?",
+        "options": ["500 000 NOK", "1 million NOK", "1,5 millioner NOK", "3 millioner NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Hvilke markeder selger Vikenco til?",
+        "options": ["Bare Norge", "Norge og Sverige", "Norge, USA, Asia og Europa", "Bare Asia"],
+        "correct": 2
       }
     ]
   },

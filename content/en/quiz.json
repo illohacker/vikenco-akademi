@@ -3,29 +3,79 @@
     "title": "Welcome to Vikenco",
     "questions": [
       {
+        "question": "When was Vikenco originally founded?",
+        "options": ["1965", "1973", "1985", "2005"],
+        "correct": 1
+      },
+      {
         "question": "Where is Vikenco located?",
-        "options": ["Aukra", "Oslo", "Bergen", "Trondheim"],
-        "correct": 0
+        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "correct": 2
+      },
+      {
+        "question": "What is Vikenco's vision?",
+        "options": ["Fish for everyone", "Quality from the sea", "The best salmon in the world", "Fresh every day"],
+        "correct": 1
       },
       {
         "question": "What does Vikenco produce?",
-        "options": ["Meat", "Salmon", "Milk", "Bread"],
+        "options": ["Cod and herring", "Salmon and trout", "Shrimp and crab", "All types of fish"],
         "correct": 1
       },
       {
-        "question": "What is most important for Vikenco?",
-        "options": ["Quality and food safety", "Lowest price", "Fastest production", "Fewest employees"],
-        "correct": 0
-      },
-      {
-        "question": "What should you do on your first day?",
-        "options": ["Go straight to production", "Report to the locker room and follow training", "Wait in the parking lot", "Send an email to the boss"],
+        "question": "Who is the majority owner of Vikenco?",
+        "options": ["Mowi", "SalMar (51%)", "Lerøy", "The Norwegian government"],
         "correct": 1
       },
       {
-        "question": "What is the main language at the workplace?",
-        "options": ["English", "Norwegian", "Swedish", "Danish"],
+        "question": "How many employees did Vikenco have in 2024?",
+        "options": ["150", "250", "341", "500"],
+        "correct": 2
+      },
+      {
+        "question": "What percentage of Vikenco's employees were women in 2024?",
+        "options": ["25%", "33%", "43%", "55%"],
+        "correct": 2
+      },
+      {
+        "question": "How many seafood meals does Vikenco deliver daily?",
+        "options": ["50,000", "100,000", "500,000+", "1,000,000"],
+        "correct": 2
+      },
+      {
+        "question": "How much has Vikenco invested since 2019?",
+        "options": ["100 million NOK", "500 million NOK", "~1 billion NOK", "2 billion NOK"],
+        "correct": 2
+      },
+      {
+        "question": "What capacity does the new slaughterhouse (2024) have?",
+        "options": ["50,000 tonnes/year", "80,000 tonnes/year", "120,000 tonnes/year", "200,000 tonnes/year"],
+        "correct": 2
+      },
+      {
+        "question": "What percentage of Vikenco's raw materials went to human consumption in 2024?",
+        "options": ["70%", "80%", "90%", "95%"],
+        "correct": 3
+      },
+      {
+        "question": "Who is the CEO of Vikenco?",
+        "options": ["Gustav Witzøe", "Per Olav Mevold", "SalMar CEO", "Kristofer Reiten"],
         "correct": 1
+      },
+      {
+        "question": "What milestone did Vikenco celebrate in 2023?",
+        "options": ["25 years", "40 years", "50 years", "75 years"],
+        "correct": 2
+      },
+      {
+        "question": "How much does Vikenco contribute annually to the local community?",
+        "options": ["500,000 NOK", "1 million NOK", "1.5 million NOK", "3 million NOK"],
+        "correct": 2
+      },
+      {
+        "question": "Which markets does Vikenco sell to?",
+        "options": ["Only Norway", "Norway and Sweden", "Norway, USA, Asia and Europe", "Only Asia"],
+        "correct": 2
       }
     ]
   },
