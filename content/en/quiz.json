@@ -93,5 +93,85 @@
         "correct": 1
       }
     ]
+  },
+  "conduct": {
+    "title": "Conduct & Rules",
+    "questions": [
+      {
+        "question": "What is the correct order in the hygiene sluice?",
+        "options": ["Soap → dry → disinfect", "Water → soap → water → dry → disinfect", "Disinfect → soap → dry", "Soap → disinfect → dry"],
+        "correct": 1
+      },
+      {
+        "question": "Why must plasters used in production be blue?",
+        "options": ["Because it's the company colour", "Because they contain metal traces and can be detected by metal detectors", "Because they're cheaper", "Because they're more visible"],
+        "correct": 1
+      },
+      {
+        "question": "When must you change your cloth gloves?",
+        "options": ["Every hour", "Every time you return from a break", "Only at the end of the shift", "Only when they smell"],
+        "correct": 1
+      },
+      {
+        "question": "What should you do if your vinyl glove tears during production?",
+        "options": ["Wait until the break", "Change it immediately", "Tape it up", "Continue working"],
+        "correct": 1
+      },
+      {
+        "question": "Is chewing gum allowed in the production area?",
+        "options": ["Yes, if it has no sugar", "Only during breaks", "No, never", "Only mint flavoured"],
+        "correct": 2
+      },
+      {
+        "question": "What colour do production workers wear?",
+        "options": ["Green", "Red", "Blue", "White"],
+        "correct": 2
+      },
+      {
+        "question": "What colour do team leaders wear?",
+        "options": ["Blue", "Red", "White", "Green"],
+        "correct": 3
+      },
+      {
+        "question": "Can you lend your key tag to a colleague?",
+        "options": ["Yes, if they forgot theirs", "Yes, during the same shift", "No, it is strictly personal", "Yes, with permission from a team leader"],
+        "correct": 2
+      },
+      {
+        "question": "Where is the only place you are allowed to smoke on site?",
+        "options": ["At the main entrance", "In the parking lot", "In the designated smoking area", "Anywhere outside the building"],
+        "correct": 2
+      },
+      {
+        "question": "Who should you contact if you lose your key tag?",
+        "options": ["Any colleague", "Andreea", "The police", "Nobody, just wait"],
+        "correct": 1
+      },
+      {
+        "question": "Can you drink water inside the production area?",
+        "options": ["Yes, from a bottle", "Yes, from the tap", "No, only in the canteen", "Yes, during breaks"],
+        "correct": 2
+      },
+      {
+        "question": "What should you do if you see a colleague breaking the rules?",
+        "options": ["Ignore it", "Report it to a team leader (green uniform)", "Post about it online", "Handle it yourself"],
+        "correct": 1
+      },
+      {
+        "question": "When can you eat hot food in the canteen?",
+        "options": ["Anytime", "Only between 08:00 and 14:00", "Only after 14:00", "Only during night shifts"],
+        "correct": 1
+      },
+      {
+        "question": "Why does Vikenco ask employees to drive carefully near Rindarøya?",
+        "options": ["Because of speed cameras", "Because there is no pavement and children walk on the road", "Because the road is private", "Because of toll gates"],
+        "correct": 1
+      },
+      {
+        "question": "Are prescription glasses allowed in the production area?",
+        "options": ["No, never", "Only with special straps", "Yes, without any special requirements", "Only contact lenses"],
+        "correct": 2
+      }
+    ]
   }
 }

@@ -1,0 +1,82 @@
+{
+  "conduct": {
+    "title": "Conducta y Normas",
+    "questions": [
+      {
+        "question": "¿Cuál es el orden correcto en la esclusa de higiene?",
+        "options": ["Jabón → secar → desinfectar", "Agua → jabón → agua → secar → desinfectar", "Desinfectar → jabón → secar", "Jabón → desinfectar → secar"],
+        "correct": 1
+      },
+      {
+        "question": "¿Por qué las tiritas en producción deben ser azules?",
+        "options": ["Porque es el color de la empresa", "Porque contienen trazas metálicas y los detectores de metales las detectan", "Porque son más baratas", "Porque son más visibles"],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuándo debes cambiar los guantes de tela?",
+        "options": ["Cada hora", "Cada vez que vuelves de la pausa", "Solo al final del turno", "Solo cuando huelan"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hacer si se rompe tu guante de vinilo durante la producción?",
+        "options": ["Esperar a la pausa", "Cambiarlo inmediatamente", "Ponerle cinta", "Seguir trabajando"],
+        "correct": 1
+      },
+      {
+        "question": "¿Está permitido el chicle en la zona de producción?",
+        "options": ["Sí, si es sin azúcar", "Solo en las pausas", "No, nunca", "Solo de menta"],
+        "correct": 2
+      },
+      {
+        "question": "¿De qué color es la ropa de los trabajadores de producción?",
+        "options": ["Verde", "Rojo", "Azul", "Blanco"],
+        "correct": 2
+      },
+      {
+        "question": "¿De qué color es la ropa de los team leaders?",
+        "options": ["Azul", "Rojo", "Blanco", "Verde"],
+        "correct": 3
+      },
+      {
+        "question": "¿Puedes prestar tu llavero NFC a un compañero?",
+        "options": ["Sí, si olvidó el suyo", "Sí, en el mismo turno", "No, es estrictamente personal", "Sí, con permiso del team leader"],
+        "correct": 2
+      },
+      {
+        "question": "¿Dónde es el único lugar donde se puede fumar en el recinto?",
+        "options": ["En la entrada principal", "En el parking", "En la zona de fumadores designada", "En cualquier lugar exterior"],
+        "correct": 2
+      },
+      {
+        "question": "¿A quién debes contactar si pierdes tu llavero?",
+        "options": ["A cualquier compañero", "A Andreea", "A la policía", "A nadie, solo espera"],
+        "correct": 1
+      },
+      {
+        "question": "¿Se puede beber agua dentro de la zona de producción?",
+        "options": ["Sí, de una botella", "Sí, del grifo", "No, solo en la cantina", "Sí, en las pausas"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué hacer si ves a un compañero incumpliendo una norma?",
+        "options": ["Ignorarlo", "Reportarlo a un team leader (uniforme verde)", "Publicarlo en redes", "Solucionarlo tú mismo"],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuándo se puede comer comida caliente en la cantina?",
+        "options": ["En cualquier momento", "Solo entre las 08:00 y las 14:00", "Solo después de las 14:00", "Solo en turno de noche"],
+        "correct": 1
+      },
+      {
+        "question": "¿Por qué Vikenco pide conducir con cuidado cerca de Rindarøya?",
+        "options": ["Por los radares", "Porque no hay acera y los niños caminan por la carretera", "Porque la carretera es privada", "Por los peajes"],
+        "correct": 1
+      },
+      {
+        "question": "¿Se permiten gafas graduadas en la zona de producción?",
+        "options": ["No, nunca", "Solo con sujeción especial", "Sí, sin requisitos especiales", "Solo lentillas"],
+        "correct": 2
+      }
+    ]
+  }
+}

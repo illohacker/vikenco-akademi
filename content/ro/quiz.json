@@ -1,0 +1,82 @@
+{
+  "conduct": {
+    "title": "Comportament & Reguli",
+    "questions": [
+      {
+        "question": "Care este ordinea corectă în ecluza de igienă?",
+        "options": ["Săpun → uscare → dezinfecție", "Apă → săpun → apă → uscare → dezinfecție", "Dezinfecție → săpun → uscare", "Săpun → dezinfecție → uscare"],
+        "correct": 1
+      },
+      {
+        "question": "De ce plasturii folosiți în producție trebuie să fie albaștri?",
+        "options": ["Pentru că e culoarea companiei", "Pentru că conțin urme de metal și sunt detectați de detectoare", "Pentru că sunt mai ieftini", "Pentru că sunt mai vizibili"],
+        "correct": 1
+      },
+      {
+        "question": "Când trebuie schimbate mănușile textile?",
+        "options": ["În fiecare oră", "De fiecare dată când reveniți din pauză", "Doar la sfârșitul schimbului", "Doar când miros"],
+        "correct": 1
+      },
+      {
+        "question": "Ce faceți dacă mănușa de vinil se rupe în timpul producției?",
+        "options": ["Așteptați pauza", "O schimbați imediat", "O lipiți cu bandă", "Continuați să lucrați"],
+        "correct": 1
+      },
+      {
+        "question": "Este permisă guma de mestecat în zona de producție?",
+        "options": ["Da, dacă e fără zahăr", "Doar în pauze", "Nu, niciodată", "Doar cu aromă de mentă"],
+        "correct": 2
+      },
+      {
+        "question": "Ce culoare poartă muncitorii din producție?",
+        "options": ["Verde", "Roșu", "Albastru", "Alb"],
+        "correct": 2
+      },
+      {
+        "question": "Ce culoare poartă liderii de echipă?",
+        "options": ["Albastru", "Roșu", "Alb", "Verde"],
+        "correct": 3
+      },
+      {
+        "question": "Puteți împrumuta tag-ul de acces unui coleg?",
+        "options": ["Da, dacă și-a uitat-o", "Da, în același schimb", "Nu, este strict personal", "Da, cu permisiunea liderului"],
+        "correct": 2
+      },
+      {
+        "question": "Unde este singurul loc unde puteți fuma pe teritoriu?",
+        "options": ["La intrarea principală", "În parcare", "În zona de fumat desemnată", "Oriunde în exterior"],
+        "correct": 2
+      },
+      {
+        "question": "Pe cine contactați dacă pierdeți tag-ul de acces?",
+        "options": ["Orice coleg", "Andreea", "Poliția", "Pe nimeni, doar așteptați"],
+        "correct": 1
+      },
+      {
+        "question": "Puteți bea apă în zona de producție?",
+        "options": ["Da, dintr-o sticlă", "Da, de la robinet", "Nu, doar în cantină", "Da, în pauze"],
+        "correct": 2
+      },
+      {
+        "question": "Ce faceți dacă vedeți un coleg încălcând regulile?",
+        "options": ["Ignorați", "Raportați liderului de echipă (uniforma verde)", "Publicați online", "Rezolvați singur"],
+        "correct": 1
+      },
+      {
+        "question": "Când puteți mânca mâncare caldă în cantină?",
+        "options": ["Oricând", "Doar între 08:00 și 14:00", "Doar după 14:00", "Doar în schimbul de noapte"],
+        "correct": 1
+      },
+      {
+        "question": "De ce Vikenco cere angajaților să conducă prudent lângă Rindarøya?",
+        "options": ["Din cauza camerelor de viteză", "Pentru că nu există trotuar și copiii merg pe drum", "Pentru că drumul este privat", "Din cauza taxelor de drum"],
+        "correct": 1
+      },
+      {
+        "question": "Sunt permise ochelarii de vedere în zona de producție?",
+        "options": ["Nu, niciodată", "Doar cu curele speciale", "Da, fără cerințe speciale", "Doar lentile de contact"],
+        "correct": 2
+      }
+    ]
+  }
+}

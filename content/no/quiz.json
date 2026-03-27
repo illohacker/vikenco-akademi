@@ -93,5 +93,85 @@
         "correct": 1
       }
     ]
+  },
+  "conduct": {
+    "title": "Oppførsel & Regler",
+    "questions": [
+      {
+        "question": "Hva er riktig rekkefølge i hygieneslusa?",
+        "options": ["Såpe → tørk → desinfeksjon", "Vann → såpe → vann → tørk → desinfeksjon", "Desinfeksjon → såpe → tørk", "Såpe → desinfeksjon → tørk"],
+        "correct": 1
+      },
+      {
+        "question": "Hvorfor må plaster brukt i produksjonen være blått?",
+        "options": ["Fordi det er bedriftens farge", "Fordi det inneholder metallspor og kan oppdages av metalldetektorer", "Fordi det er billigere", "Fordi det er mer synlig"],
+        "correct": 1
+      },
+      {
+        "question": "Når må du bytte tøyhansker?",
+        "options": ["Hver time", "Hver gang du kommer tilbake fra pause", "Bare ved slutten av skiftet", "Bare når de lukter"],
+        "correct": 1
+      },
+      {
+        "question": "Hva gjør du hvis vinylhansken din revner under produksjon?",
+        "options": ["Vent til pausen", "Bytt den umiddelbart", "Teip den", "Fortsett å jobbe"],
+        "correct": 1
+      },
+      {
+        "question": "Er tyggegummi tillatt i produksjonsområdet?",
+        "options": ["Ja, hvis den er sukkerfri", "Bare i pausene", "Nei, aldri", "Bare mint"],
+        "correct": 2
+      },
+      {
+        "question": "Hvilken farge bruker produksjonsarbeidere?",
+        "options": ["Grønn", "Rød", "Blå", "Hvit"],
+        "correct": 2
+      },
+      {
+        "question": "Hvilken farge bruker teamledere?",
+        "options": ["Blå", "Rød", "Hvit", "Grønn"],
+        "correct": 3
+      },
+      {
+        "question": "Kan du låne bort nøkkelbrikken din til en kollega?",
+        "options": ["Ja, hvis de har glemt sin", "Ja, på samme skift", "Nei, den er strengt personlig", "Ja, med tillatelse fra teamleder"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor er det eneste stedet du kan røyke på anlegget?",
+        "options": ["Ved hovedinngangen", "På parkeringsplassen", "I det utpekte røykeområdet", "Hvor som helst utendørs"],
+        "correct": 2
+      },
+      {
+        "question": "Hvem skal du kontakte hvis du mister nøkkelbrikken?",
+        "options": ["En hvilken som helst kollega", "Andreea", "Politiet", "Ingen, bare vent"],
+        "correct": 1
+      },
+      {
+        "question": "Kan du drikke vann inne i produksjonsområdet?",
+        "options": ["Ja, fra en flaske", "Ja, fra springen", "Nei, bare i kantina", "Ja, i pausene"],
+        "correct": 2
+      },
+      {
+        "question": "Hva gjør du hvis du ser en kollega bryte reglene?",
+        "options": ["Ignorer det", "Meld det til en teamleder (grønn uniform)", "Legg det ut på nett", "Ordne det selv"],
+        "correct": 1
+      },
+      {
+        "question": "Når kan du spise varm mat i kantina?",
+        "options": ["Når som helst", "Bare mellom 08:00 og 14:00", "Bare etter 14:00", "Bare på nattskift"],
+        "correct": 1
+      },
+      {
+        "question": "Hvorfor ber Vikenco ansatte kjøre forsiktig nær Rindarøya?",
+        "options": ["På grunn av fotobokser", "Fordi det ikke finnes gangvei og barn går langs veien", "Fordi veien er privat", "På grunn av bommer"],
+        "correct": 1
+      },
+      {
+        "question": "Er briller tillatt i produksjonsområdet?",
+        "options": ["Nei, aldri", "Bare med spesielle stropper", "Ja, uten spesielle krav", "Bare kontaktlinser"],
+        "correct": 2
+      }
+    ]
   }
 }

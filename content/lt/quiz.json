@@ -1,0 +1,82 @@
+{
+  "conduct": {
+    "title": "Elgesys ir taisyklės",
+    "questions": [
+      {
+        "question": "Kokia teisinga tvarka higienos šliuze?",
+        "options": ["Muilas → sausinti → dezinfekuoti", "Vanduo → muilas → vanduo → sausinti → dezinfekuoti", "Dezinfekuoti → muilas → sausinti", "Muilas → dezinfekuoti → sausinti"],
+        "correct": 1
+      },
+      {
+        "question": "Kodėl gamyboje naudojami pleistrai turi būti mėlyni?",
+        "options": ["Nes tai įmonės spalva", "Nes juose yra metalo pėdsakų ir metalų detektoriai juos aptinka", "Nes jie pigesni", "Nes jie labiau matomi"],
+        "correct": 1
+      },
+      {
+        "question": "Kada reikia keisti medžiagines pirštines?",
+        "options": ["Kas valandą", "Kiekvieną kartą grįžus iš pertraukos", "Tik pamainos pabaigoje", "Tik kai pradeda dvokti"],
+        "correct": 1
+      },
+      {
+        "question": "Ką daryti, jei vinilinė pirštinė suplyšta gamybos metu?",
+        "options": ["Palaukti pertraukos", "Pakeisti ją nedelsiant", "Užklijuoti juostele", "Toliau dirbti"],
+        "correct": 1
+      },
+      {
+        "question": "Ar leidžiama kramtomoji guma gamybos zonoje?",
+        "options": ["Taip, jei be cukraus", "Tik pertraukų metu", "Ne, niekada", "Tik mėtų skonio"],
+        "correct": 2
+      },
+      {
+        "question": "Kokios spalvos drabužius dėvi gamybos darbuotojai?",
+        "options": ["Žalios", "Raudonos", "Mėlynos", "Baltos"],
+        "correct": 2
+      },
+      {
+        "question": "Kokios spalvos drabužius dėvi komandos vadovai?",
+        "options": ["Mėlynos", "Raudonos", "Baltos", "Žalios"],
+        "correct": 3
+      },
+      {
+        "question": "Ar galite paskolinti savo raktų pakabuką kolegai?",
+        "options": ["Taip, jei jis pamiršo", "Taip, toje pačioje pamainoje", "Ne, jis griežtai asmeninis", "Taip, su vadovo leidimu"],
+        "correct": 2
+      },
+      {
+        "question": "Kur vienintelė vieta, kur galima rūkyti teritorijoje?",
+        "options": ["Prie pagrindinio įėjimo", "Automobilių stovėjimo aikštelėje", "Paskirtoje rūkymo zonoje", "Bet kur lauke"],
+        "correct": 2
+      },
+      {
+        "question": "Kam pranešti, jei praradote raktų pakabuką?",
+        "options": ["Bet kuriam kolegai", "Andreea", "Policijai", "Niekam, tiesiog laukti"],
+        "correct": 1
+      },
+      {
+        "question": "Ar galima gerti vandenį gamybos zonoje?",
+        "options": ["Taip, iš butelio", "Taip, iš čiaupo", "Ne, tik valgykloje", "Taip, pertraukų metu"],
+        "correct": 2
+      },
+      {
+        "question": "Ką daryti, jei matote kolegą pažeidžiantį taisykles?",
+        "options": ["Ignoruoti", "Pranešti komandos vadovui (žalia uniforma)", "Paskelbti internete", "Susitvarkyti pačiam"],
+        "correct": 1
+      },
+      {
+        "question": "Kada galima valgyti karštą maistą valgykloje?",
+        "options": ["Bet kada", "Tik nuo 08:00 iki 14:00", "Tik po 14:00", "Tik naktinėje pamainoje"],
+        "correct": 1
+      },
+      {
+        "question": "Kodėl Vikenco prašo darbuotojų vairuoti atsargiai prie Rindarøya?",
+        "options": ["Dėl greičio kamerų", "Nes nėra šaligatvio ir vaikai vaikšto keliu", "Nes kelias privatus", "Dėl mokesčių rinkliavų"],
+        "correct": 1
+      },
+      {
+        "question": "Ar leidžiama dėvėti akinius gamybos zonoje?",
+        "options": ["Ne, niekada", "Tik su specialiais dirželiais", "Taip, be specialių reikalavimų", "Tik kontaktinius lęšius"],
+        "correct": 2
+      }
+    ]
+  }
+}
