@@ -1,0 +1,173 @@
+{
+  "title": "Welcome to Vikenco",
+  "description": "Company history and introduction",
+  "lessons": [
+    {
+      "id": "about-vikenco",
+      "title": "About Vikenco",
+      "icon": "🏢",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco's vision is \"Quality from the sea\""
+        },
+        {
+          "type": "info",
+          "title": "About the company",
+          "items": [
+            "🐟 Salmon and trout slaughtering, processing and sales",
+            "📍 Located on Rindarøya, Aukra, Møre og Romsdal, Norway",
+            "🏭 One of the world's most modern salmon processing facilities",
+            "👥 341 employees (2024) from Norway, Lithuania, Ukraine, Romania and more",
+            "🌍 Products sold to Norway, USA, Asia and Europe",
+            "💰 SalMar is the majority owner (51%)"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco's business idea is to produce fish with the lowest possible footprint, at the best possible quality and price."
+        }
+      ]
+    },
+    {
+      "id": "vikenco-history",
+      "title": "Our History",
+      "icon": "📜",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Vikenco's Timeline",
+          "animatedSteps": [
+            {
+              "emoji": "🏗️",
+              "title": "1973",
+              "description": "Founded as a seafood company in Aukra, Møre og Romsdal"
+            },
+            {
+              "emoji": "📋",
+              "title": "2005",
+              "description": "Vikenco AS officially registered (March 15)"
+            },
+            {
+              "emoji": "🔧",
+              "title": "2019",
+              "description": "Start of massive investment program (~1 billion NOK)"
+            },
+            {
+              "emoji": "🎂",
+              "title": "2023",
+              "description": "Vikenco celebrates 50th anniversary"
+            },
+            {
+              "emoji": "🏭",
+              "title": "2024",
+              "description": "New state-of-the-art slaughterhouse completed (120,000 tonnes/year, 120 fish/minute)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vikenco-numbers",
+      "title": "Vikenco in Numbers",
+      "icon": "📊",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Key Figures",
+          "gridItems": [
+            { "emoji": "🐟", "label": "29,300 tonnes slaughtered (2024)" },
+            { "emoji": "📦", "label": "33,000 tonnes processed (2024)" },
+            { "emoji": "🍽️", "label": "500,000+ seafood meals delivered daily" },
+            { "emoji": "💰", "label": "4,965 MNOK revenue (2024)" },
+            { "emoji": "👥", "label": "341 employees" },
+            { "emoji": "🌱", "label": "95% of raw materials to human consumption" },
+            { "emoji": "💎", "label": "~1 billion NOK invested since 2019" },
+            { "emoji": "❤️", "label": "1.5 MNOK annual community contributions" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-sustainability",
+      "title": "Our Values & Sustainability",
+      "icon": "🌱",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Our values",
+          "items": [
+            "🎯 Quality and food safety above all",
+            "🌍 Lowest possible environmental footprint",
+            "🤝 Motivated and skilled workforce",
+            "📈 At the forefront of technological development",
+            "♻️ 95% raw material utilization for human consumption"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Community engagement",
+          "items": [
+            "⚽ Gold partner of Molde FK (football club)",
+            "👶 Supporting children's sports and culture",
+            "🏘️ 1.5 million NOK annually to local community"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "We believe in creating value not just through production, but by giving back to the community where we live and work."
+        }
+      ]
+    },
+    {
+      "id": "our-people",
+      "title": "Our People",
+      "icon": "👥",
+      "sections": [
+        {
+          "type": "info",
+          "title": "About the workforce",
+          "items": [
+            "🌍 Multicultural workplace: employees from Norway, Lithuania, Ukraine, Romania and more",
+            "👩 43% women (2024)",
+            "⚖️ Equal treatment regardless of gender, language, origin or life situation",
+            "📋 Collective agreements ensure predictability and equal pay",
+            "🏥 Sick leave rate 7.33% in 2024 (decreasing)",
+            "🛡️ Focus on preventing musculoskeletal disorders"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "At Vikenco, all employees are treated equally, regardless of gender, language, origin or life situation."
+        }
+      ]
+    },
+    {
+      "id": "ceo-message",
+      "title": "CEO Message",
+      "icon": "💬",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Quote from CEO Per Olav Mevold: \"We are the sum of our employees and partners.\""
+        },
+        {
+          "type": "info",
+          "title": "Key messages from the CEO",
+          "items": [
+            "📈 2024 was a record year with growth and efficiency",
+            "🏗️ Building phase 2 at Rindarøya completed",
+            "🌱 Sustainability is our compass",
+            "🤝 350 employees delivering their best every day",
+            "🌍 Ready to face a complex world without losing competitiveness"
+          ]
+        }
+      ]
+    }
+  ]
+}

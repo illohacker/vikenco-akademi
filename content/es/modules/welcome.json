@@ -1,0 +1,173 @@
+{
+  "title": "Bienvenido a Vikenco",
+  "description": "Historia e introducción de la empresa",
+  "lessons": [
+    {
+      "id": "about-vikenco",
+      "title": "Sobre Vikenco",
+      "icon": "🏢",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "La visión de Vikenco es «Calidad del mar»"
+        },
+        {
+          "type": "info",
+          "title": "Sobre la empresa",
+          "items": [
+            "🐟 Sacrificio, procesamiento y venta de salmón y trucha",
+            "📍 Ubicada en Rindarøya, Aukra, Møre og Romsdal, Noruega",
+            "🏭 Una de las instalaciones de procesamiento de salmón más modernas del mundo",
+            "👥 341 empleados (2024) de Noruega, Lituania, Ucrania, Rumanía y más",
+            "🌍 Productos vendidos a Noruega, EE.UU., Asia y Europa",
+            "💰 SalMar es el propietario mayoritario (51%)"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "La idea de negocio de Vikenco es producir pescado con la menor huella posible, con la mejor calidad y precio posibles."
+        }
+      ]
+    },
+    {
+      "id": "vikenco-history",
+      "title": "Nuestra historia",
+      "icon": "📜",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Cronología de Vikenco",
+          "animatedSteps": [
+            {
+              "emoji": "🏗️",
+              "title": "1973",
+              "description": "Fundada como empresa de productos del mar en Aukra, Møre og Romsdal"
+            },
+            {
+              "emoji": "📋",
+              "title": "2005",
+              "description": "Vikenco AS registrada oficialmente (15 de marzo)"
+            },
+            {
+              "emoji": "🔧",
+              "title": "2019",
+              "description": "Inicio del programa masivo de inversión (~1.000 millones de NOK)"
+            },
+            {
+              "emoji": "🎂",
+              "title": "2023",
+              "description": "Vikenco celebra su 50 aniversario"
+            },
+            {
+              "emoji": "🏭",
+              "title": "2024",
+              "description": "Nuevo matadero de última generación completado (120.000 toneladas/año, 120 peces/minuto)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vikenco-numbers",
+      "title": "Vikenco en cifras",
+      "icon": "📊",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Cifras clave",
+          "gridItems": [
+            { "emoji": "🐟", "label": "29.300 toneladas sacrificadas (2024)" },
+            { "emoji": "📦", "label": "33.000 toneladas procesadas (2024)" },
+            { "emoji": "🍽️", "label": "Más de 500.000 comidas de mariscos entregadas diariamente" },
+            { "emoji": "💰", "label": "4.965 MNOK de ingresos (2024)" },
+            { "emoji": "👥", "label": "341 empleados" },
+            { "emoji": "🌱", "label": "95% de materias primas para consumo humano" },
+            { "emoji": "💎", "label": "~1.000 millones de NOK invertidos desde 2019" },
+            { "emoji": "❤️", "label": "1,5 MNOK de contribuciones anuales a la comunidad" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-sustainability",
+      "title": "Nuestros valores y sostenibilidad",
+      "icon": "🌱",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Nuestros valores",
+          "items": [
+            "🎯 Calidad y seguridad alimentaria ante todo",
+            "🌍 La menor huella ambiental posible",
+            "🤝 Fuerza laboral motivada y capacitada",
+            "📈 A la vanguardia del desarrollo tecnológico",
+            "♻️ 95% de utilización de materias primas para consumo humano"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Compromiso con la comunidad",
+          "items": [
+            "⚽ Socio de oro del Molde FK (club de fútbol)",
+            "👶 Apoyo al deporte infantil y la cultura",
+            "🏘️ 1,5 millones de NOK anuales para la comunidad local"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Creemos en crear valor no solo a través de la producción, sino devolviendo a la comunidad donde vivimos y trabajamos."
+        }
+      ]
+    },
+    {
+      "id": "our-people",
+      "title": "Nuestra gente",
+      "icon": "👥",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Sobre la fuerza laboral",
+          "items": [
+            "🌍 Lugar de trabajo multicultural: empleados de Noruega, Lituania, Ucrania, Rumanía y más",
+            "👩 43% mujeres (2024)",
+            "⚖️ Trato igualitario independientemente del género, idioma, origen o situación de vida",
+            "📋 Los convenios colectivos garantizan previsibilidad e igualdad salarial",
+            "🏥 Tasa de baja por enfermedad del 7,33% en 2024 (en descenso)",
+            "🛡️ Enfoque en la prevención de trastornos musculoesqueléticos"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "En Vikenco, todos los empleados son tratados por igual, independientemente del género, idioma, origen o situación de vida."
+        }
+      ]
+    },
+    {
+      "id": "ceo-message",
+      "title": "Mensaje del director general",
+      "icon": "💬",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Cita del director general Per Olav Mevold: «Somos la suma de nuestros empleados y socios.»"
+        },
+        {
+          "type": "info",
+          "title": "Mensajes clave del director general",
+          "items": [
+            "📈 2024 fue un año récord con crecimiento y eficiencia",
+            "🏗️ Fase de construcción 2 en Rindarøya completada",
+            "🌱 La sostenibilidad es nuestra brújula",
+            "🤝 350 empleados dando lo mejor de sí cada día",
+            "🌍 Listos para enfrentar un mundo complejo sin perder competitividad"
+          ]
+        }
+      ]
+    }
+  ]
+}

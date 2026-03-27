@@ -1,0 +1,173 @@
+{
+  "title": "Velkommen til Vikenco",
+  "description": "Bedriftens historie og introduksjon",
+  "lessons": [
+    {
+      "id": "about-vikenco",
+      "title": "Om Vikenco",
+      "icon": "🏢",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikencoss visjon er «Kvalitet fra havet»"
+        },
+        {
+          "type": "info",
+          "title": "Om selskapet",
+          "items": [
+            "🐟 Slakting, foredling og salg av laks og ørret",
+            "📍 Ligger på Rindarøya, Aukra, Møre og Romsdal, Norge",
+            "🏭 Et av verdens mest moderne lakseanlegg",
+            "👥 341 ansatte (2024) fra Norge, Litauen, Ukraina, Romania og flere land",
+            "🌍 Produkter selges til Norge, USA, Asia og Europa",
+            "💰 SalMar er majoritetseier (51%)"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikencoss forretningsidé er å produsere fisk med lavest mulig fotavtrykk, til best mulig kvalitet og pris."
+        }
+      ]
+    },
+    {
+      "id": "vikenco-history",
+      "title": "Vår historie",
+      "icon": "📜",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Vikencoss tidslinje",
+          "animatedSteps": [
+            {
+              "emoji": "🏗️",
+              "title": "1973",
+              "description": "Grunnlagt som sjømatselskap i Aukra, Møre og Romsdal"
+            },
+            {
+              "emoji": "📋",
+              "title": "2005",
+              "description": "Vikenco AS offisielt registrert (15. mars)"
+            },
+            {
+              "emoji": "🔧",
+              "title": "2019",
+              "description": "Start på massivt investeringsprogram (~1 milliard NOK)"
+            },
+            {
+              "emoji": "🎂",
+              "title": "2023",
+              "description": "Vikenco feirer 50-årsjubileum"
+            },
+            {
+              "emoji": "🏭",
+              "title": "2024",
+              "description": "Nytt toppmoderne slakteri ferdigstilt (120 000 tonn/år, 120 fisk/minutt)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vikenco-numbers",
+      "title": "Vikenco i tall",
+      "icon": "📊",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Nøkkeltall",
+          "gridItems": [
+            { "emoji": "🐟", "label": "29 300 tonn slaktet (2024)" },
+            { "emoji": "📦", "label": "33 000 tonn foredlet (2024)" },
+            { "emoji": "🍽️", "label": "500 000+ sjømatmåltider levert daglig" },
+            { "emoji": "💰", "label": "4 965 MNOK omsetning (2024)" },
+            { "emoji": "👥", "label": "341 ansatte" },
+            { "emoji": "🌱", "label": "95% av råvarer til humant konsum" },
+            { "emoji": "💎", "label": "~1 milliard NOK investert siden 2019" },
+            { "emoji": "❤️", "label": "1,5 MNOK årlige bidrag til lokalsamfunnet" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-sustainability",
+      "title": "Våre verdier og bærekraft",
+      "icon": "🌱",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Våre verdier",
+          "items": [
+            "🎯 Kvalitet og mattrygghet fremfor alt",
+            "🌍 Lavest mulig miljøfotavtrykk",
+            "🤝 Motiverte og dyktige medarbeidere",
+            "📈 I forkant av teknologisk utvikling",
+            "♻️ 95% råvareutnyttelse til humant konsum"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Samfunnsengasjement",
+          "items": [
+            "⚽ Gullpartner i Molde FK",
+            "👶 Støtter barneidrett og kultur",
+            "🏘️ 1,5 millioner NOK årlig til lokalsamfunnet"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vi tror på å skape verdier ikke bare gjennom produksjon, men ved å gi tilbake til samfunnet der vi bor og arbeider."
+        }
+      ]
+    },
+    {
+      "id": "our-people",
+      "title": "Våre mennesker",
+      "icon": "👥",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Om arbeidsstyrken",
+          "items": [
+            "🌍 Flerkulturell arbeidsplass: ansatte fra Norge, Litauen, Ukraina, Romania og flere land",
+            "👩 43% kvinner (2024)",
+            "⚖️ Lik behandling uavhengig av kjønn, språk, opprinnelse eller livssituasjon",
+            "📋 Tariffavtaler sikrer forutsigbarhet og lik lønn",
+            "🏥 Sykefravær 7,33% i 2024 (synkende)",
+            "🛡️ Fokus på forebygging av muskel- og skjelettlidelser"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Hos Vikenco behandles alle ansatte likt, uavhengig av kjønn, språk, opprinnelse eller livssituasjon."
+        }
+      ]
+    },
+    {
+      "id": "ceo-message",
+      "title": "Melding fra daglig leder",
+      "icon": "💬",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Sitat fra daglig leder Per Olav Mevold: «Vi er summen av våre ansatte og partnere.»"
+        },
+        {
+          "type": "info",
+          "title": "Nøkkelbudskap fra daglig leder",
+          "items": [
+            "📈 2024 var et rekordår med vekst og effektivitet",
+            "🏗️ Byggetrinn 2 på Rindarøya ferdigstilt",
+            "🌱 Bærekraft er vårt kompass",
+            "🤝 350 ansatte leverer sitt beste hver dag",
+            "🌍 Klar til å møte en kompleks verden uten å miste konkurranseevnen"
+          ]
+        }
+      ]
+    }
+  ]
+}

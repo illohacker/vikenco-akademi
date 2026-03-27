@@ -1,0 +1,173 @@
+{
+  "title": "Sveiki atvykę į Vikenco",
+  "description": "Įmonės istorija ir pristatymas",
+  "lessons": [
+    {
+      "id": "about-vikenco",
+      "title": "Apie Vikenco",
+      "icon": "🏢",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco vizija \u2013 \u201eKokyb\u0117 i\u0161 j\u016br\u0173\u201c"
+        },
+        {
+          "type": "info",
+          "title": "Apie įmonę",
+          "items": [
+            "🐟 Lašišų ir upėtakių skerdimas, perdirbimas ir pardavimas",
+            "📍 Įsikūrusi Rindarøya saloje, Aukra, Møre og Romsdal, Norvegija",
+            "🏭 Vienas moderniausių lašišų perdirbimo įrenginių pasaulyje",
+            "👥 341 darbuotojas (2024) iš Norvegijos, Lietuvos, Ukrainos, Rumunijos ir kitų šalių",
+            "🌍 Produktai parduodami Norvegijoje, JAV, Azijoje ir Europoje",
+            "💰 SalMar yra pagrindinis savininkas (51%)"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Vikenco verslo idėja – gaminti žuvį su mažiausiu įmanomu pėdsaku, geriausios įmanomos kokybės ir kainos."
+        }
+      ]
+    },
+    {
+      "id": "vikenco-history",
+      "title": "Mūsų istorija",
+      "icon": "📜",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Vikenco laiko juosta",
+          "animatedSteps": [
+            {
+              "emoji": "🏗️",
+              "title": "1973",
+              "description": "Įkurta kaip jūros gėrybių įmonė Aukroje, Møre og Romsdal"
+            },
+            {
+              "emoji": "📋",
+              "title": "2005",
+              "description": "Vikenco AS oficialiai registruota (kovo 15 d.)"
+            },
+            {
+              "emoji": "🔧",
+              "title": "2019",
+              "description": "Didžiulės investicijų programos pradžia (~1 mlrd. NOK)"
+            },
+            {
+              "emoji": "🎂",
+              "title": "2023",
+              "description": "Vikenco švenčia 50-metį"
+            },
+            {
+              "emoji": "🏭",
+              "title": "2024",
+              "description": "Naujas moderniausias skerdykla baigta (120 000 tonų/metus, 120 žuvų/minutę)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vikenco-numbers",
+      "title": "Vikenco skaičiais",
+      "icon": "📊",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Pagrindiniai rodikliai",
+          "gridItems": [
+            { "emoji": "🐟", "label": "29 300 tonų paskerstų (2024)" },
+            { "emoji": "📦", "label": "33 000 tonų perdirbtų (2024)" },
+            { "emoji": "🍽️", "label": "Daugiau nei 500 000 jūros gėrybių patiekalų kasdien" },
+            { "emoji": "💰", "label": "4 965 mln. NOK pajamos (2024)" },
+            { "emoji": "👥", "label": "341 darbuotojas" },
+            { "emoji": "🌱", "label": "95% žaliavų žmonių maistui" },
+            { "emoji": "💎", "label": "~1 mlrd. NOK investuota nuo 2019 m." },
+            { "emoji": "❤️", "label": "1,5 mln. NOK metiniai įnašai bendruomenei" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-sustainability",
+      "title": "Mūsų vertybės ir tvarumas",
+      "icon": "🌱",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Mūsų vertybės",
+          "items": [
+            "🎯 Kokybė ir maisto sauga svarbiausia",
+            "🌍 Mažiausias įmanomas aplinkos pėdsakas",
+            "🤝 Motyvuoti ir kvalifikuoti darbuotojai",
+            "📈 Technologinės plėtros avangardas",
+            "♻️ 95% žaliavų panaudojimas žmonių maistui"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Bendruomenės įsitraukimas",
+          "items": [
+            "⚽ Aukso partneris Molde FK (futbolo klubas)",
+            "👶 Vaikų sporto ir kultūros rėmimas",
+            "🏘️ 1,5 mln. NOK kasmet vietos bendruomenei"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Tikime, kad vertę kuriame ne tik gamindami, bet ir grąžindami bendruomenei, kurioje gyvename ir dirbame."
+        }
+      ]
+    },
+    {
+      "id": "our-people",
+      "title": "Mūsų žmonės",
+      "icon": "👥",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Apie darbuotojus",
+          "items": [
+            "🌍 Daugiakultūrė darbo vieta: darbuotojai iš Norvegijos, Lietuvos, Ukrainos, Rumunijos ir kitų šalių",
+            "👩 43% moterų (2024)",
+            "⚖️ Vienodas elgesys nepriklausomai nuo lyties, kalbos, kilmės ar gyvenimo situacijos",
+            "📋 Kolektyvinės sutartys užtikrina nuspėjamumą ir vienodą atlyginimą",
+            "🏥 Nedarbingumo lygis 7,33% 2024 m. (mažėjantis)",
+            "🛡️ Dėmesys raumenų ir skeleto sutrikimų prevencijai"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco visi darbuotojai traktuojami vienodai, nepriklausomai nuo lyties, kalbos, kilmės ar gyvenimo situacijos."
+        }
+      ]
+    },
+    {
+      "id": "ceo-message",
+      "title": "Generalinio direktoriaus žinutė",
+      "icon": "💬",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Generalinio direktoriaus Per Olav Mevold citata: «Mes esame mūsų darbuotojų ir partnerių suma.»"
+        },
+        {
+          "type": "info",
+          "title": "Pagrindinės generalinio direktoriaus žinutės",
+          "items": [
+            "📈 2024 buvo rekordiniai metai su augimu ir efektyvumu",
+            "🏗️ Statybos 2 etapas Rindarøya baigtas",
+            "🌱 Tvarumas yra mūsų kompasas",
+            "🤝 350 darbuotojų kiekvieną dieną duoda viską",
+            "🌍 Pasirengę susidoroti su sudėtingu pasauliu neprarandant konkurencingumo"
+          ]
+        }
+      ]
+    }
+  ]
+}

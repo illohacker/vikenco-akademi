@@ -1,0 +1,173 @@
+{
+  "title": "Bine ați venit la Vikenco",
+  "description": "Istoria și prezentarea companiei",
+  "lessons": [
+    {
+      "id": "about-vikenco",
+      "title": "Despre Vikenco",
+      "icon": "🏢",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Viziunea Vikenco este «Calitate din mare»"
+        },
+        {
+          "type": "info",
+          "title": "Despre companie",
+          "items": [
+            "🐟 Sacrificarea, prelucrarea și vânzarea de somon și păstrăv",
+            "📍 Situată pe Rindarøya, Aukra, Møre og Romsdal, Norvegia",
+            "🏭 Una dintre cele mai moderne fabrici de prelucrare a somonului din lume",
+            "👥 341 de angajați (2024) din Norvegia, Lituania, Ucraina, România și alte țări",
+            "🌍 Produse vândute în Norvegia, SUA, Asia și Europa",
+            "💰 SalMar este acționarul majoritar (51%)"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Ideea de afaceri a Vikenco este de a produce pește cu cea mai mică amprentă posibilă, la cea mai bună calitate și preț posibil."
+        }
+      ]
+    },
+    {
+      "id": "vikenco-history",
+      "title": "Istoria noastră",
+      "icon": "📜",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Cronologia Vikenco",
+          "animatedSteps": [
+            {
+              "emoji": "🏗️",
+              "title": "1973",
+              "description": "Fondată ca o companie de fructe de mare în Aukra, Møre og Romsdal"
+            },
+            {
+              "emoji": "📋",
+              "title": "2005",
+              "description": "Vikenco AS înregistrată oficial (15 martie)"
+            },
+            {
+              "emoji": "🔧",
+              "title": "2019",
+              "description": "Începutul programului masiv de investiții (~1 miliard NOK)"
+            },
+            {
+              "emoji": "🎂",
+              "title": "2023",
+              "description": "Vikenco sărbătorește aniversarea de 50 de ani"
+            },
+            {
+              "emoji": "🏭",
+              "title": "2024",
+              "description": "Noul abator de ultimă generație finalizat (120.000 tone/an, 120 pești/minut)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vikenco-numbers",
+      "title": "Vikenco în cifre",
+      "icon": "📊",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Cifre cheie",
+          "gridItems": [
+            { "emoji": "🐟", "label": "29.300 tone sacrificate (2024)" },
+            { "emoji": "📦", "label": "33.000 tone prelucrate (2024)" },
+            { "emoji": "🍽️", "label": "Peste 500.000 mese cu fructe de mare livrate zilnic" },
+            { "emoji": "💰", "label": "4.965 MNOK venituri (2024)" },
+            { "emoji": "👥", "label": "341 de angajați" },
+            { "emoji": "🌱", "label": "95% din materii prime pentru consum uman" },
+            { "emoji": "💎", "label": "~1 miliard NOK investit din 2019" },
+            { "emoji": "❤️", "label": "1,5 MNOK contribuții anuale pentru comunitate" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-sustainability",
+      "title": "Valorile și sustenabilitatea noastră",
+      "icon": "🌱",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Valorile noastre",
+          "items": [
+            "🎯 Calitate și siguranță alimentară mai presus de toate",
+            "🌍 Cea mai mică amprentă de mediu posibilă",
+            "🤝 Forță de muncă motivată și calificată",
+            "📈 În avangarda dezvoltării tehnologice",
+            "♻️ 95% utilizare a materiilor prime pentru consum uman"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Implicarea în comunitate",
+          "items": [
+            "⚽ Partener de aur al Molde FK (club de fotbal)",
+            "👶 Sprijinirea sportului și culturii copiilor",
+            "🏘️ 1,5 milioane NOK anual pentru comunitatea locală"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Credem în crearea valorii nu doar prin producție, ci și prin a oferi înapoi comunității în care trăim și muncim."
+        }
+      ]
+    },
+    {
+      "id": "our-people",
+      "title": "Oamenii noștri",
+      "icon": "👥",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Despre forța de muncă",
+          "items": [
+            "🌍 Loc de muncă multicultural: angajați din Norvegia, Lituania, Ucraina, România și alte țări",
+            "👩 43% femei (2024)",
+            "⚖️ Tratament egal indiferent de gen, limbă, origine sau situație de viață",
+            "📋 Contractele colective asigură predictibilitate și salariu egal",
+            "🏥 Rata concediului medical 7,33% în 2024 (în scădere)",
+            "🛡️ Accent pe prevenirea tulburărilor musculo-scheletice"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "La Vikenco, toți angajații sunt tratați în mod egal, indiferent de gen, limbă, origine sau situație de viață."
+        }
+      ]
+    },
+    {
+      "id": "ceo-message",
+      "title": "Mesajul directorului general",
+      "icon": "💬",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Citat de la directorul general Per Olav Mevold: «Suntem suma angajaților și partenerilor noștri.»"
+        },
+        {
+          "type": "info",
+          "title": "Mesaje cheie de la directorul general",
+          "items": [
+            "📈 2024 a fost un an record cu creștere și eficiență",
+            "🏗️ Faza 2 de construcție la Rindarøya finalizată",
+            "🌱 Sustenabilitatea este busola noastră",
+            "🤝 350 de angajați dau tot ce au mai bun în fiecare zi",
+            "🌍 Pregătiți să înfruntăm o lume complexă fără a pierde competitivitatea"
+          ]
+        }
+      ]
+    }
+  ]
+}
