@@ -1,0 +1,47 @@
+{
+  "title": "Oppførsel & Regler",
+  "description": "Skrevne og uskrevne regler på arbeidsplassen",
+  "lessons": [
+    {
+      "id": "hygiene-gum-perfume",
+      "title": "Tyggegummi & parfyme – Ikke tillatt i produksjonen",
+      "icon": "🚫",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Det er observert at tyggegummi og parfyme brukes i produksjonen. Dette er ikke tillatt i henhold til bedriftens hygieneregler."
+        },
+        {
+          "type": "icon-row",
+          "icons": [
+            { "src": "/icons/no-gum.svg", "alt": "Ingen tyggegummi" },
+            { "src": "/icons/no-perfume.svg", "alt": "Ingen parfyme" }
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "Følgende er strengt forbudt i produksjonsområder:",
+          "items": [
+            "Tyggegummi, godteri og pastiller",
+            "Parfyme og parfymerte produkter"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Dette er viktig for å sikre:",
+          "items": [
+            "🍽️ Mattrygghet",
+            "🧼 Hygiene",
+            "🛡️ Et trygt arbeidsmiljø"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Alle ansatte må følge disse reglene uten unntak!"
+        }
+      ]
+    }
+  ]
+}

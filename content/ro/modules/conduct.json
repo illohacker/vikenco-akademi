@@ -1,0 +1,47 @@
+{
+  "title": "Comportament & Reguli",
+  "description": "Reguli scrise și nescrise la locul de muncă",
+  "lessons": [
+    {
+      "id": "hygiene-gum-perfume",
+      "title": "Guma de mestecat și parfumul – Interzise în producție",
+      "icon": "🚫",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "S-a observat că se folosește gumă de mestecat și parfum în producție. Acest lucru nu este permis conform regulilor de igienă ale companiei."
+        },
+        {
+          "type": "icon-row",
+          "icons": [
+            { "src": "/icons/no-gum.svg", "alt": "Guma de mestecat interzisă" },
+            { "src": "/icons/no-perfume.svg", "alt": "Parfumul interzis" }
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "Următoarele sunt strict interzise în zonele de producție:",
+          "items": [
+            "Guma de mestecat, bomboane și dropsuri de mentă",
+            "Parfumul și produsele parfumate"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Acest lucru este important pentru a asigura:",
+          "items": [
+            "🍽️ Siguranța alimentară",
+            "🧼 Igiena",
+            "🛡️ Un mediu de lucru sigur"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Toți angajații trebuie să respecte aceste reguli fără excepție!"
+        }
+      ]
+    }
+  ]
+}

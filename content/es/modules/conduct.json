@@ -1,0 +1,47 @@
+{
+  "title": "Conducta y Normas",
+  "description": "Normas escritas y no escritas en el trabajo",
+  "lessons": [
+    {
+      "id": "hygiene-gum-perfume",
+      "title": "Chicle y perfume – Prohibidos en producción",
+      "icon": "🚫",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Se ha observado que se está usando chicle y perfume en producción. Esto no está permitido según las normas de higiene de la empresa."
+        },
+        {
+          "type": "icon-row",
+          "icons": [
+            { "src": "/icons/no-gum.svg", "alt": "Prohibido chicle" },
+            { "src": "/icons/no-perfume.svg", "alt": "Prohibido perfume" }
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "Lo siguiente está estrictamente prohibido en las zonas de producción:",
+          "items": [
+            "Chicle, caramelos y pastillas de menta",
+            "Perfume y productos con fragancia"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Esto es importante para garantizar:",
+          "items": [
+            "🍽️ Seguridad alimentaria",
+            "🧼 Higiene",
+            "🛡️ Un entorno de trabajo seguro"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "¡Todos los empleados deben cumplir estas normas sin excepción!"
+        }
+      ]
+    }
+  ]
+}

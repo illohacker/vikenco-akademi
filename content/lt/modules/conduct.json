@@ -1,0 +1,47 @@
+{
+  "title": "Elgesys ir taisyklės",
+  "description": "Rašytos ir nerašytos darbo vietos taisyklės",
+  "lessons": [
+    {
+      "id": "hygiene-gum-perfume",
+      "title": "Kramtomoji guma ir kvepalai – Draudžiama gamyboje",
+      "icon": "🚫",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Pastebėta, kad gamyboje naudojama kramtomoji guma ir kvepalai. Tai draudžiama pagal įmonės higienos taisykles."
+        },
+        {
+          "type": "icon-row",
+          "icons": [
+            { "src": "/icons/no-gum.svg", "alt": "Draudžiama kramtomoji guma" },
+            { "src": "/icons/no-perfume.svg", "alt": "Draudžiami kvepalai" }
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "Gamybos zonose griežtai draudžiama:",
+          "items": [
+            "Kramtomoji guma, saldainiai ir mėtinės pastilės",
+            "Kvepalai ir kvepiančios priemonės"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Tai svarbu siekiant užtikrinti:",
+          "items": [
+            "🍽️ Maisto saugą",
+            "🧼 Higieną",
+            "🛡️ Saugią darbo aplinką"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Visi darbuotojai privalo laikytis šių taisyklių be išimčių!"
+        }
+      ]
+    }
+  ]
+}

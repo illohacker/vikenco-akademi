@@ -1,0 +1,47 @@
+{
+  "title": "Conduct & Rules",
+  "description": "Written and unwritten rules at the workplace",
+  "lessons": [
+    {
+      "id": "hygiene-gum-perfume",
+      "title": "Chewing Gum & Perfume – Not Allowed in Production",
+      "icon": "🚫",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "It has been observed that chewing gum and perfume are being used in production. This is not permitted in accordance with the company's hygiene rules."
+        },
+        {
+          "type": "icon-row",
+          "icons": [
+            { "src": "/icons/no-gum.svg", "alt": "No chewing gum" },
+            { "src": "/icons/no-perfume.svg", "alt": "No perfume" }
+          ]
+        },
+        {
+          "type": "rules",
+          "title": "The following is strictly prohibited in production areas:",
+          "items": [
+            "Chewing gum, candy, and mints",
+            "Perfume and scented products"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "This is important to ensure:",
+          "items": [
+            "🍽️ Food safety",
+            "🧼 Hygiene",
+            "🛡️ A safe working environment"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "All employees must comply with these rules without exception!"
+        }
+      ]
+    }
+  ]
+}
