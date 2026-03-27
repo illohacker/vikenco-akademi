@@ -79,6 +79,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ppe-mandatory-prohibited",
+      "title": "Mandatory & Prohibited in Production",
+      "icon": "🦺",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Mandatory – Must be used in production",
+          "gridItems": [
+            { "emoji": "🚿", "label": "Wash hands" },
+            { "emoji": "👩‍🍳", "label": "Hairnet" },
+            { "emoji": "😷", "label": "Face mask" },
+            { "emoji": "🥼", "label": "Work clothes" },
+            { "emoji": "🎧", "label": "Hearing protection" },
+            { "emoji": "🥾", "label": "Safety boots" },
+            { "emoji": "🧤", "label": "Gloves" },
+            { "emoji": "🩹", "label": "Blue plaster" }
+          ]
+        },
+        {
+          "type": "prohibited",
+          "title": "Prohibited – Not allowed in production",
+          "gridItems": [
+            { "emoji": "💄", "label": "Makeup / nail polish" },
+            { "emoji": "🚬", "label": "Smoking" },
+            { "emoji": "🍬", "label": "Chewing gum / candy" },
+            { "emoji": "💊", "label": "Medicines / sharp objects" },
+            { "emoji": "💍", "label": "Jewellery / piercings" },
+            { "emoji": "⌚", "label": "Watches" },
+            { "emoji": "🖊️", "label": "Pens / loose objects" },
+            { "emoji": "👁️", "label": "False eyelashes" },
+            { "emoji": "🌸", "label": "Perfume" },
+            { "emoji": "📱", "label": "Mobile phone" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "All employees MUST follow these rules. Violations can lead to contamination of our products."
+        }
+      ]
     }
   ]
 }

@@ -79,6 +79,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ppe-mandatory-prohibited",
+      "title": "Obligatoriu și interzis în producție",
+      "icon": "🦺",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Obligatoriu – Trebuie utilizat în producție",
+          "gridItems": [
+            { "emoji": "🚿", "label": "Spălarea mâinilor" },
+            { "emoji": "👩‍🍳", "label": "Bonetă pentru păr" },
+            { "emoji": "😷", "label": "Mască de protecție" },
+            { "emoji": "🥼", "label": "Îmbrăcăminte de lucru" },
+            { "emoji": "🎧", "label": "Protecție auditivă" },
+            { "emoji": "🥾", "label": "Cizme de protecție" },
+            { "emoji": "🧤", "label": "Mănuși" },
+            { "emoji": "🩹", "label": "Plasture albastru" }
+          ]
+        },
+        {
+          "type": "prohibited",
+          "title": "Interzis – Nu este permis în producție",
+          "gridItems": [
+            { "emoji": "💄", "label": "Machiaj / ojă" },
+            { "emoji": "🚬", "label": "Fumatul" },
+            { "emoji": "🍬", "label": "Gumă de mestecat / bomboane" },
+            { "emoji": "💊", "label": "Medicamente / obiecte ascuțite" },
+            { "emoji": "💍", "label": "Bijuterii / piercing-uri" },
+            { "emoji": "⌚", "label": "Ceasuri" },
+            { "emoji": "🖊️", "label": "Pixuri / obiecte libere" },
+            { "emoji": "👁️", "label": "Gene false" },
+            { "emoji": "🌸", "label": "Parfum" },
+            { "emoji": "📱", "label": "Telefon mobil" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Toți angajații TREBUIE să respecte aceste reguli. Încălcarea lor poate duce la contaminarea produselor noastre."
+        }
+      ]
     }
   ]
 }

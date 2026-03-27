@@ -79,6 +79,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ppe-mandatory-prohibited",
+      "title": "Privaloma ir draudžiama gamyboje",
+      "icon": "🦺",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Privaloma – Turi būti naudojama gamyboje",
+          "gridItems": [
+            { "emoji": "🚿", "label": "Plauti rankas" },
+            { "emoji": "👩‍🍳", "label": "Plaukų tinklelis" },
+            { "emoji": "😷", "label": "Veido kaukė" },
+            { "emoji": "🥼", "label": "Darbo drabužiai" },
+            { "emoji": "🎧", "label": "Klausos apsauga" },
+            { "emoji": "🥾", "label": "Apsauginiai batai" },
+            { "emoji": "🧤", "label": "Pirštinės" },
+            { "emoji": "🩹", "label": "Mėlynas pleistras" }
+          ]
+        },
+        {
+          "type": "prohibited",
+          "title": "Draudžiama – Neleidžiama gamyboje",
+          "gridItems": [
+            { "emoji": "💄", "label": "Makiažas / nagų lakas" },
+            { "emoji": "🚬", "label": "Rūkymas" },
+            { "emoji": "🍬", "label": "Kramtomoji guma / saldainiai" },
+            { "emoji": "💊", "label": "Vaistai / aštrūs daiktai" },
+            { "emoji": "💍", "label": "Papuošalai / auskarai" },
+            { "emoji": "⌚", "label": "Laikrodžiai" },
+            { "emoji": "🖊️", "label": "Rašikliai / palaidi daiktai" },
+            { "emoji": "👁️", "label": "Dirbtinės blakstienos" },
+            { "emoji": "🌸", "label": "Kvepalai" },
+            { "emoji": "📱", "label": "Mobilusis telefonas" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Visi darbuotojai PRIVALO laikytis šių taisyklių. Pažeidimai gali sukelti mūsų produktų užteršimą."
+        }
+      ]
     }
   ]
 }

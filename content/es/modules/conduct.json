@@ -79,6 +79,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ppe-mandatory-prohibited",
+      "title": "Obligatorio y prohibido en producción",
+      "icon": "🦺",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Obligatorio – Debe usarse en producción",
+          "gridItems": [
+            { "emoji": "🚿", "label": "Lavarse las manos" },
+            { "emoji": "👩‍🍳", "label": "Redecilla" },
+            { "emoji": "😷", "label": "Mascarilla" },
+            { "emoji": "🥼", "label": "Ropa de trabajo" },
+            { "emoji": "🎧", "label": "Protección auditiva" },
+            { "emoji": "🥾", "label": "Botas de seguridad" },
+            { "emoji": "🧤", "label": "Guantes" },
+            { "emoji": "🩹", "label": "Tirita azul" }
+          ]
+        },
+        {
+          "type": "prohibited",
+          "title": "Prohibido – No permitido en producción",
+          "gridItems": [
+            { "emoji": "💄", "label": "Maquillaje / esmalte" },
+            { "emoji": "🚬", "label": "Fumar" },
+            { "emoji": "🍬", "label": "Chicle / caramelos" },
+            { "emoji": "💊", "label": "Medicamentos / objetos punzantes" },
+            { "emoji": "💍", "label": "Joyas / piercings" },
+            { "emoji": "⌚", "label": "Relojes" },
+            { "emoji": "🖊️", "label": "Bolígrafos / objetos sueltos" },
+            { "emoji": "👁️", "label": "Pestañas postizas" },
+            { "emoji": "🌸", "label": "Perfume" },
+            { "emoji": "📱", "label": "Teléfono móvil" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Todos los empleados DEBEN cumplir estas normas. Su incumplimiento puede contaminar nuestros productos."
+        }
+      ]
     }
   ]
 }

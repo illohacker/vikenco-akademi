@@ -79,6 +79,48 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ppe-mandatory-prohibited",
+      "title": "Påbudt og forbudt i produksjonen",
+      "icon": "🦺",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Påbudt – Må brukes i produksjonen",
+          "gridItems": [
+            { "emoji": "🚿", "label": "Vask hendene" },
+            { "emoji": "👩‍🍳", "label": "Hårnett" },
+            { "emoji": "😷", "label": "Munnbind" },
+            { "emoji": "🥼", "label": "Arbeidsklær" },
+            { "emoji": "🎧", "label": "Hørselsvern" },
+            { "emoji": "🥾", "label": "Vernesko" },
+            { "emoji": "🧤", "label": "Hansker" },
+            { "emoji": "🩹", "label": "Blått plaster" }
+          ]
+        },
+        {
+          "type": "prohibited",
+          "title": "Forbudt – Ikke tillatt i produksjonen",
+          "gridItems": [
+            { "emoji": "💄", "label": "Sminke / neglelakk" },
+            { "emoji": "🚬", "label": "Røyking" },
+            { "emoji": "🍬", "label": "Tyggegummi / godteri" },
+            { "emoji": "💊", "label": "Medisiner / skarpe gjenstander" },
+            { "emoji": "💍", "label": "Smykker / piercinger" },
+            { "emoji": "⌚", "label": "Klokker" },
+            { "emoji": "🖊️", "label": "Penner / løse gjenstander" },
+            { "emoji": "👁️", "label": "Falske vipper" },
+            { "emoji": "🌸", "label": "Parfyme" },
+            { "emoji": "📱", "label": "Mobiltelefon" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Alle ansatte MÅ følge disse reglene. Brudd kan føre til kontaminering av produktene våre."
+        }
+      ]
     }
   ]
 }

@@ -13,13 +13,14 @@ const moduleData: Record<string, { icon: string; color: string; titleKey: string
 }
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited'
   style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
   items?: string[]
   icons?: { src: string; alt: string }[]
   steps?: { icon: string; label: string }[]
+  gridItems?: { emoji: string; label: string }[]
 }
 
 type Lesson = {
@@ -249,6 +250,54 @@ function SectionRenderer({ section }: { section: Section }) {
                   />
                 </div>
                 <span className="text-xs sm:text-sm font-semibold text-gray-700 text-center">{step.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+
+    case 'mandatory':
+      return (
+        <div className="bg-blue-50 rounded-xl p-5 border border-blue-200">
+          {section.title && (
+            <h3 className="font-bold text-blue-900 mb-4 flex items-center gap-2 text-lg">
+              <span className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              {section.title}
+            </h3>
+          )}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {section.gridItems?.map((item, i) => (
+              <div key={i} className="flex flex-col items-center gap-2 bg-white rounded-xl p-3 shadow-sm border border-blue-100">
+                <span className="text-3xl">{item.emoji}</span>
+                <span className="text-xs sm:text-sm font-semibold text-blue-900 text-center leading-tight">{item.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+
+    case 'prohibited':
+      return (
+        <div className="bg-red-50 rounded-xl p-5 border border-red-200">
+          {section.title && (
+            <h3 className="font-bold text-red-900 mb-4 flex items-center gap-2 text-lg">
+              <span className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </span>
+              {section.title}
+            </h3>
+          )}
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+            {section.gridItems?.map((item, i) => (
+              <div key={i} className="flex flex-col items-center gap-2 bg-white rounded-xl p-3 shadow-sm border border-red-100">
+                <span className="text-3xl">{item.emoji}</span>
+                <span className="text-xs sm:text-sm font-semibold text-red-900 text-center leading-tight">{item.label}</span>
               </div>
             ))}
           </div>
