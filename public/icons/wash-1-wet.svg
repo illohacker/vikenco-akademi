@@ -1,26 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <rect x="4" y="4" width="112" height="112" rx="16" fill="#22C55E"/>
-  <!-- Water drops -->
-  <g fill="white" opacity="0.7">
-    <circle cx="48" cy="22" r="2"/>
-    <circle cx="55" cy="18" r="2"/>
-    <circle cx="42" cy="28" r="2"/>
-    <circle cx="60" cy="25" r="2"/>
-    <circle cx="50" cy="32" r="2"/>
-    <circle cx="44" cy="38" r="2"/>
-    <circle cx="56" cy="35" r="2"/>
-    <circle cx="38" cy="34" r="2"/>
-    <circle cx="62" cy="30" r="2"/>
-  </g>
-  <!-- Faucet -->
-  <path d="M35 15 Q35 10 45 10 L65 10 Q70 10 70 15 L70 20 Q70 24 66 24 L64 24 L64 30" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-  <!-- Hand catching water -->
-  <path d="M30 75 Q30 55 50 50 L70 50 Q85 50 85 65 L85 72 Q85 82 75 85 L55 90 Q35 92 30 75Z" fill="white"/>
-  <!-- Fingers -->
-  <path d="M50 50 Q48 42 52 40" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M60 48 Q58 38 62 36" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M70 50 Q68 40 72 38" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <!-- Step number -->
-  <circle cx="95" cy="95" r="14" fill="white"/>
-  <text x="95" y="101" text-anchor="middle" fill="#22C55E" font-size="18" font-weight="bold" font-family="Arial, sans-serif">1</text>
-</svg>
+<?xml version="1.0" ?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 64 64" id="filled" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#ffffff;}.cls-1,.cls-2,.cls-3{stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{fill:#bdc3c7;}.cls-3{fill:#004fe3;}</style></defs><title/><rect class="cls-1" height="16" transform="translate(114 70) rotate(-180)" width="6" x="54" y="27"/><rect class="cls-1" height="12" transform="translate(66 40) rotate(-180)" width="4" x="31" y="14"/><path class="cls-2" d="M25,30l.1026-.3079A8.3246,8.3246,0,0,1,33,24h0a8.3246,8.3246,0,0,1,7.8974,5.6921L41,30H54V40H41l-.1026.3079A8.3246,8.3246,0,0,1,33,46h0a8.3246,8.3246,0,0,1-7.8974-5.6921L25,40H16a2,2,0,0,0-2,2v8H6V40A10,10,0,0,1,16,30Z"/><rect class="cls-1" height="4" transform="translate(20 104) rotate(-180)" width="12" x="4" y="50"/><path class="cls-3" d="M46.9731,13.1259C46.6841,8.4636,44,8,41.6236,8.69A33.3294,33.3294,0,0,1,33,9.8251,33.3294,33.3294,0,0,1,24.3764,8.69C22,8,19.3159,8.4636,19.0269,13.1259Q19,13.556,19,14H47Q47,13.5565,46.9731,13.1259Z"/></svg>
