@@ -42,6 +42,43 @@
           "text": "Visi darbuotojai privalo laikytis šių taisyklių be išimčių!"
         }
       ]
+    },
+    {
+      "id": "hygiene-handwashing",
+      "title": "Svarbi higienos informacija – Plaukite rankas",
+      "icon": "🧼",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Gamybos linijose aptikti higienos pažeidimai. Kruopščiai plaukite rankas. Atidžiai laikykitės higienos taisyklių."
+        },
+        {
+          "type": "steps",
+          "title": "Kaip teisingai plauti rankas:",
+          "steps": [
+            { "icon": "/icons/wash-1-wet.svg", "label": "Sudrėkinti rankas" },
+            { "icon": "/icons/wash-2-soap.svg", "label": "Užtepti muilą" },
+            { "icon": "/icons/wash-3-scrub.svg", "label": "Trinti 20 sekundžių" },
+            { "icon": "/icons/wash-4-rinse.svg", "label": "Nuskalauti" },
+            { "icon": "/icons/wash-5-dry.svg", "label": "Nusausinti" },
+            { "icon": "/icons/wash-6-sanitize.svg", "label": "Dezinfekuoti" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Kitą savaitę bus atliekami patikrinimai šliuzo zonoje."
+        },
+        {
+          "type": "info",
+          "title": "Jūsų atsakomybė:",
+          "items": [
+            "🤝 Prisiimkite atsakomybę – mandagiai priminkite kolegoms, jei pastebite taisyklių pažeidimus",
+            "🐟 Mes gaminame maistą – KOKYBĖ ir HIGIENA YRA SVARBŪS!"
+          ]
+        }
+      ]
     }
   ]
 }

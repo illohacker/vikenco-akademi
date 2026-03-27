@@ -42,6 +42,43 @@
           "text": "Alle ansatte må følge disse reglene uten unntak!"
         }
       ]
+    },
+    {
+      "id": "hygiene-handwashing",
+      "title": "Viktig hygieneinformasjon – Vask hendene",
+      "icon": "🧼",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Det er oppdaget hygieniske avvik på produksjonslinjene. Vask hendene grundig. Følg hygienereglene nøye."
+        },
+        {
+          "type": "steps",
+          "title": "Slik vasker du hendene riktig:",
+          "steps": [
+            { "icon": "/icons/wash-1-wet.svg", "label": "Fukt hendene" },
+            { "icon": "/icons/wash-2-soap.svg", "label": "Påfør såpe" },
+            { "icon": "/icons/wash-3-scrub.svg", "label": "Vask i 20 sekunder" },
+            { "icon": "/icons/wash-4-rinse.svg", "label": "Skyll" },
+            { "icon": "/icons/wash-5-dry.svg", "label": "Tørk" },
+            { "icon": "/icons/wash-6-sanitize.svg", "label": "Bruk desinfeksjon" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Tester vil bli gjennomført i sluseområdet neste uke."
+        },
+        {
+          "type": "info",
+          "title": "Ditt ansvar:",
+          "items": [
+            "🤝 Ta ansvar – si ifra vennlig til kollegaene dine om du ser regelbrudd",
+            "🐟 Vi produserer mat – KVALITET og HYGIENE ER VIKTIG!"
+          ]
+        }
+      ]
     }
   ]
 }

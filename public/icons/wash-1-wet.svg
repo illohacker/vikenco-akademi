@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect x="4" y="4" width="112" height="112" rx="16" fill="#22C55E"/>
+  <!-- Water drops -->
+  <g fill="white" opacity="0.7">
+    <circle cx="48" cy="22" r="2"/>
+    <circle cx="55" cy="18" r="2"/>
+    <circle cx="42" cy="28" r="2"/>
+    <circle cx="60" cy="25" r="2"/>
+    <circle cx="50" cy="32" r="2"/>
+    <circle cx="44" cy="38" r="2"/>
+    <circle cx="56" cy="35" r="2"/>
+    <circle cx="38" cy="34" r="2"/>
+    <circle cx="62" cy="30" r="2"/>
+  </g>
+  <!-- Faucet -->
+  <path d="M35 15 Q35 10 45 10 L65 10 Q70 10 70 15 L70 20 Q70 24 66 24 L64 24 L64 30" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Hand catching water -->
+  <path d="M30 75 Q30 55 50 50 L70 50 Q85 50 85 65 L85 72 Q85 82 75 85 L55 90 Q35 92 30 75Z" fill="white"/>
+  <!-- Fingers -->
+  <path d="M50 50 Q48 42 52 40" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M60 48 Q58 38 62 36" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M70 50 Q68 40 72 38" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Step number -->
+  <circle cx="95" cy="95" r="14" fill="white"/>
+  <text x="95" y="101" text-anchor="middle" fill="#22C55E" font-size="18" font-weight="bold" font-family="Arial, sans-serif">1</text>
+</svg>

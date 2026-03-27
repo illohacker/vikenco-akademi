@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect x="4" y="4" width="112" height="112" rx="16" fill="#EA580C"/>
+  <!-- Hands under water -->
+  <path d="M30 78 Q28 62 42 55 L55 50 Q65 48 70 55 L72 60 Q76 70 68 80 L52 88 Q35 92 30 78Z" fill="white"/>
+  <path d="M85 78 Q88 62 74 55 L65 50" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Fingers up -->
+  <path d="M42 55 Q38 44 42 38" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M52 50 Q50 40 53 34" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M62 49 Q62 39 64 33" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M70 52 Q72 42 74 37" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Water drops falling -->
+  <g fill="white" opacity="0.5">
+    <ellipse cx="45" cy="94" rx="3" ry="4"/>
+    <ellipse cx="55" cy="96" rx="2.5" ry="3.5"/>
+    <ellipse cx="65" cy="93" rx="3" ry="4"/>
+    <ellipse cx="38" cy="90" rx="2" ry="3"/>
+    <ellipse cx="72" cy="91" rx="2.5" ry="3"/>
+  </g>
+  <!-- Water stream from top -->
+  <g stroke="white" stroke-width="2" opacity="0.6" stroke-linecap="round">
+    <line x1="50" y1="10" x2="48" y2="30"/>
+    <line x1="58" y1="10" x2="56" y2="28"/>
+    <line x1="66" y1="10" x2="63" y2="30"/>
+  </g>
+  <!-- Step number -->
+  <circle cx="95" cy="95" r="14" fill="white"/>
+  <text x="95" y="101" text-anchor="middle" fill="#EA580C" font-size="18" font-weight="bold" font-family="Arial, sans-serif">4</text>
+</svg>

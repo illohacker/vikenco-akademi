@@ -42,6 +42,43 @@
           "text": "All employees must comply with these rules without exception!"
         }
       ]
+    },
+    {
+      "id": "hygiene-handwashing",
+      "title": "Important Hygiene Information – Wash Your Hands",
+      "icon": "🧼",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Hygiene deviations have been detected on the production lines. Wash your hands thoroughly. Follow the hygiene rules carefully."
+        },
+        {
+          "type": "steps",
+          "title": "How to wash your hands correctly:",
+          "steps": [
+            { "icon": "/icons/wash-1-wet.svg", "label": "Wet hands" },
+            { "icon": "/icons/wash-2-soap.svg", "label": "Apply soap" },
+            { "icon": "/icons/wash-3-scrub.svg", "label": "Scrub for 20 seconds" },
+            { "icon": "/icons/wash-4-rinse.svg", "label": "Rinse" },
+            { "icon": "/icons/wash-5-dry.svg", "label": "Dry" },
+            { "icon": "/icons/wash-6-sanitize.svg", "label": "Apply sanitizer" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Tests will be carried out in the airlock area next week."
+        },
+        {
+          "type": "info",
+          "title": "Your responsibility:",
+          "items": [
+            "🤝 Take responsibility – kindly remind your colleagues if you see rule violations",
+            "🐟 We produce food – QUALITY and HYGIENE ARE ESSENTIAL!"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -13,12 +13,13 @@ const moduleData: Record<string, { icon: string; color: string; titleKey: string
 }
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info'
-  style?: 'warning' | 'danger'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps'
+  style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
   items?: string[]
   icons?: { src: string; alt: string }[]
+  steps?: { icon: string; label: string }[]
 }
 
 type Lesson = {
@@ -156,23 +157,20 @@ function ModuleRenderer({ slug, mod, content }: { slug: string; mod: { icon: str
 
 function SectionRenderer({ section }: { section: Section }) {
   switch (section.type) {
-    case 'alert':
+    case 'alert': {
+      const alertStyles = {
+        danger: { bg: 'bg-red-50 border-l-4 border-red-500', text: 'text-red-800', icon: '🚨' },
+        warning: { bg: 'bg-amber-50 border-l-4 border-amber-500', text: 'text-amber-800', icon: '⚠️' },
+        success: { bg: 'bg-green-50 border-l-4 border-green-500', text: 'text-green-800', icon: '✅' },
+      }
+      const s = alertStyles[section.style || 'warning']
       return (
-        <div className={`rounded-xl p-4 flex items-start gap-3 ${
-          section.style === 'danger'
-            ? 'bg-red-50 border-l-4 border-red-500'
-            : 'bg-amber-50 border-l-4 border-amber-500'
-        }`}>
-          <span className="text-xl flex-shrink-0 mt-0.5">
-            {section.style === 'danger' ? '🚨' : '⚠️'}
-          </span>
-          <p className={`font-semibold ${
-            section.style === 'danger' ? 'text-red-800' : 'text-amber-800'
-          }`}>
-            {section.text}
-          </p>
+        <div className={`rounded-xl p-4 flex items-start gap-3 ${s.bg}`}>
+          <span className="text-xl flex-shrink-0 mt-0.5">{s.icon}</span>
+          <p className={`font-semibold ${s.text}`}>{section.text}</p>
         </div>
       )
+    }
 
     case 'icon-row':
       return (
@@ -228,6 +226,32 @@ function SectionRenderer({ section }: { section: Section }) {
               </li>
             ))}
           </ul>
+        </div>
+      )
+
+    case 'steps':
+      return (
+        <div>
+          {section.title && (
+            <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <span className="text-lg">👣</span> {section.title}
+            </h3>
+          )}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {section.steps?.map((step, i) => (
+              <div key={i} className="flex flex-col items-center gap-2 p-2">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 relative drop-shadow-md">
+                  <Image
+                    src={step.icon}
+                    alt={step.label}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <span className="text-xs sm:text-sm font-semibold text-gray-700 text-center">{step.label}</span>
+              </div>
+            ))}
+          </div>
         </div>
       )
 

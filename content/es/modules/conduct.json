@@ -42,6 +42,43 @@
           "text": "¡Todos los empleados deben cumplir estas normas sin excepción!"
         }
       ]
+    },
+    {
+      "id": "hygiene-handwashing",
+      "title": "Información importante de higiene – Lávate las manos",
+      "icon": "🧼",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Se han detectado desviaciones higiénicas en las líneas de producción. Lávate las manos a fondo. Sigue las normas de higiene al pie de la letra."
+        },
+        {
+          "type": "steps",
+          "title": "Cómo lavarse las manos correctamente:",
+          "steps": [
+            { "icon": "/icons/wash-1-wet.svg", "label": "Mojar las manos" },
+            { "icon": "/icons/wash-2-soap.svg", "label": "Aplicar jabón" },
+            { "icon": "/icons/wash-3-scrub.svg", "label": "Frotar 20 segundos" },
+            { "icon": "/icons/wash-4-rinse.svg", "label": "Aclarar" },
+            { "icon": "/icons/wash-5-dry.svg", "label": "Secar" },
+            { "icon": "/icons/wash-6-sanitize.svg", "label": "Aplicar desinfectante" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "La próxima semana se realizarán controles en la zona de esclusa."
+        },
+        {
+          "type": "info",
+          "title": "Tu responsabilidad:",
+          "items": [
+            "🤝 Asume la responsabilidad – avisa amablemente a tus compañeros si ves incumplimientos",
+            "🐟 Producimos alimentos – ¡LA CALIDAD y LA HIGIENE SON FUNDAMENTALES!"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect x="4" y="4" width="112" height="112" rx="16" fill="#EA580C"/>
+  <!-- Two hands rubbing together -->
+  <!-- Left hand -->
+  <path d="M22 72 Q20 55 35 48 L50 42 Q58 40 60 50 L60 65 Q60 78 48 82 L32 86 Q22 86 22 72Z" fill="white"/>
+  <path d="M35 48 Q30 38 34 32" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M45 43 Q43 33 46 28" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M55 42 Q55 32 57 27" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Right hand overlapping -->
+  <path d="M98 72 Q100 55 85 48 L70 42 Q62 40 60 50 L60 65 Q60 78 72 82 L88 86 Q98 86 98 72Z" fill="white" fill-opacity="0.85"/>
+  <path d="M85 48 Q90 38 86 32" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M75 43 Q77 33 74 28" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Soap bubbles -->
+  <circle cx="60" cy="55" r="6" fill="white" fill-opacity="0.4" stroke="white" stroke-width="1"/>
+  <circle cx="50" cy="60" r="4" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <circle cx="70" cy="58" r="5" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <circle cx="55" cy="68" r="3.5" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <circle cx="66" cy="66" r="3" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1"/>
+  <!-- Motion lines -->
+  <path d="M42 90 Q50 95 58 90" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M62 90 Q70 95 78 90" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- 20s clock indicator -->
+  <circle cx="95" cy="20" r="12" fill="white" fill-opacity="0.3" stroke="white" stroke-width="1.5"/>
+  <line x1="95" y1="20" x2="95" y2="12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="95" y1="20" x2="101" y2="20" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <!-- Step number -->
+  <circle cx="95" cy="95" r="14" fill="white"/>
+  <text x="95" y="101" text-anchor="middle" fill="#EA580C" font-size="18" font-weight="bold" font-family="Arial, sans-serif">3</text>
+</svg>

@@ -42,6 +42,43 @@
           "text": "Toți angajații trebuie să respecte aceste reguli fără excepție!"
         }
       ]
+    },
+    {
+      "id": "hygiene-handwashing",
+      "title": "Informații importante despre igienă – Spălați-vă pe mâini",
+      "icon": "🧼",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Au fost detectate abateri igienice pe liniile de producție. Spălați-vă bine pe mâini. Respectați cu strictețe regulile de igienă."
+        },
+        {
+          "type": "steps",
+          "title": "Cum să vă spălați corect pe mâini:",
+          "steps": [
+            { "icon": "/icons/wash-1-wet.svg", "label": "Udați mâinile" },
+            { "icon": "/icons/wash-2-soap.svg", "label": "Aplicați săpun" },
+            { "icon": "/icons/wash-3-scrub.svg", "label": "Frecați 20 de secunde" },
+            { "icon": "/icons/wash-4-rinse.svg", "label": "Clătiți" },
+            { "icon": "/icons/wash-5-dry.svg", "label": "Uscați" },
+            { "icon": "/icons/wash-6-sanitize.svg", "label": "Aplicați dezinfectant" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Săptămâna viitoare vor fi efectuate teste în zona de ecluză."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitatea dumneavoastră:",
+          "items": [
+            "🤝 Asumați-vă responsabilitatea – amintiți-le colegilor cu amabilitate dacă observați încălcări ale regulilor",
+            "🐟 Producem alimente – CALITATEA și IGIENA SUNT ESENȚIALE!"
+          ]
+        }
+      ]
     }
   ]
 }
