@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Academia Vikenco",
+    "home": "Inicio",
+    "modules": "Módulos",
+    "quiz": "Quiz",
+    "maps": "Fábrica",
+    "leaderboard": "Clasificación",
+    "selectLanguage": "Seleccionar idioma",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "score": "Puntos",
+    "of": "de"
+  },
+  "home": {
+    "welcome": "Bienvenido a la Academia Vikenco",
+    "subtitle": "Tu plataforma de formación para nuevos empleados",
+    "description": "Aprende todo lo que necesitas saber sobre trabajar en Vikenco. Explora los módulos, haz los quiz y conoce la fábrica.",
+    "startLearning": "Empezar a aprender",
+    "yourProgress": "Tu progreso",
+    "quickAccess": "Acceso rápido"
+  },
+  "modules": {
+    "title": "Módulos de formación",
+    "subtitle": "Elige un módulo para empezar",
+    "welcome": "Bienvenido a Vikenco",
+    "welcomeDesc": "Conoce la empresa, nuestra historia y valores",
+    "hms": "PRL e Higiene",
+    "hmsDesc": "Seguridad, higiene y equipos de protección",
+    "production": "Producción de salmón",
+    "productionDesc": "Todo el proceso de recepción a envasado",
+    "factory": "La Fábrica",
+    "factoryDesc": "Familiarízate con todas las zonas y departamentos",
+    "conduct": "Conducta y Normas",
+    "conductDesc": "Normas escritas y no escritas en el trabajo",
+    "equipment": "Equipamiento y Herramientas",
+    "equipmentDesc": "Todo el equipo que necesitas conocer",
+    "emergency": "Emergencias",
+    "emergencyDesc": "¿Qué hacer en caso de emergencia?"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Pon a prueba tus conocimientos",
+    "start": "Empezar quiz",
+    "question": "Pregunta",
+    "correct": "¡Correcto!",
+    "wrong": "¡Incorrecto!",
+    "result": "Resultado",
+    "tryAgain": "Intentar de nuevo",
+    "saveName": "Escribe tu nombre",
+    "saveScore": "Guardar resultado",
+    "saved": "¡Guardado!",
+    "yourScore": "Has acertado {score} de {total}"
+  },
+  "maps": {
+    "title": "Mapa de la fábrica",
+    "subtitle": "Haz clic en una zona para saber más",
+    "reception": "Recepción",
+    "processing": "Procesado",
+    "packing": "Envasado",
+    "storage": "Almacén",
+    "shipping": "Expedición",
+    "cleaning": "Limpieza",
+    "staff": "Vestuario y Comedor",
+    "office": "Oficina"
+  },
+  "leaderboard": {
+    "title": "Clasificación",
+    "subtitle": "Mejores resultados en los quiz",
+    "rank": "Puesto",
+    "name": "Nombre",
+    "quizName": "Quiz",
+    "score": "Puntos",
+    "date": "Fecha",
+    "noResults": "Aún no hay resultados. ¡Sé el primero!",
+    "filterByQuiz": "Filtrar por quiz",
+    "all": "Todos"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Vikenco Academy",
+    "home": "Home",
+    "modules": "Modules",
+    "quiz": "Quiz",
+    "maps": "Factory",
+    "leaderboard": "Leaderboard",
+    "selectLanguage": "Select language",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "score": "Score",
+    "of": "of"
+  },
+  "home": {
+    "welcome": "Welcome to Vikenco Academy",
+    "subtitle": "Your training platform for new employees",
+    "description": "Learn everything you need to know about working at Vikenco. Explore modules, take quizzes, and get to know the factory.",
+    "startLearning": "Start learning",
+    "yourProgress": "Your progress",
+    "quickAccess": "Quick access"
+  },
+  "modules": {
+    "title": "Training Modules",
+    "subtitle": "Choose a module to get started",
+    "welcome": "Welcome to Vikenco",
+    "welcomeDesc": "Get to know the company, our history and values",
+    "hms": "HSE & Hygiene",
+    "hmsDesc": "Safety, hygiene, and personal protective equipment",
+    "production": "Salmon Production",
+    "productionDesc": "The full process from reception to packaging",
+    "factory": "The Factory",
+    "factoryDesc": "Get familiar with all zones and departments",
+    "conduct": "Conduct & Rules",
+    "conductDesc": "Written and unwritten rules at the workplace",
+    "equipment": "Equipment & Tools",
+    "equipmentDesc": "All the equipment you need to know",
+    "emergency": "Emergencies",
+    "emergencyDesc": "What to do in an emergency?"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Test your knowledge",
+    "start": "Start quiz",
+    "question": "Question",
+    "correct": "Correct!",
+    "wrong": "Wrong!",
+    "result": "Result",
+    "tryAgain": "Try again",
+    "saveName": "Enter your name",
+    "saveScore": "Save score",
+    "saved": "Saved!",
+    "yourScore": "You got {score} of {total} correct"
+  },
+  "maps": {
+    "title": "Factory Map",
+    "subtitle": "Click on a zone to learn more",
+    "reception": "Reception",
+    "processing": "Processing",
+    "packing": "Packing",
+    "storage": "Storage",
+    "shipping": "Shipping",
+    "cleaning": "Cleaning",
+    "staff": "Locker Room & Canteen",
+    "office": "Office"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "subtitle": "Best quiz results",
+    "rank": "Rank",
+    "name": "Name",
+    "quizName": "Quiz",
+    "score": "Score",
+    "date": "Date",
+    "noResults": "No results yet. Be the first!",
+    "filterByQuiz": "Filter by quiz",
+    "all": "All"
+  }
+}

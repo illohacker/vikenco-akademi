@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Vikenco Akademi",
+    "home": "Hjem",
+    "modules": "Moduler",
+    "quiz": "Quiz",
+    "maps": "Fabrikken",
+    "leaderboard": "Resultater",
+    "selectLanguage": "Velg språk",
+    "back": "Tilbake",
+    "next": "Neste",
+    "submit": "Send inn",
+    "loading": "Laster...",
+    "score": "Poeng",
+    "of": "av"
+  },
+  "home": {
+    "welcome": "Velkommen til Vikenco Akademi",
+    "subtitle": "Din opplæringsplattform for nye medarbeidere",
+    "description": "Lær alt du trenger å vite for å jobbe hos Vikenco. Utforsk modulene, ta quizer og bli kjent med fabrikken.",
+    "startLearning": "Start opplæringen",
+    "yourProgress": "Din fremgang",
+    "quickAccess": "Hurtigtilgang"
+  },
+  "modules": {
+    "title": "Opplæringsmoduler",
+    "subtitle": "Velg en modul for å starte",
+    "welcome": "Velkommen til Vikenco",
+    "welcomeDesc": "Bli kjent med bedriften, vår historie og verdier",
+    "hms": "HMS & Hygiene",
+    "hmsDesc": "Sikkerhet, hygiene og verneutstyr",
+    "production": "Lakseproduksjon",
+    "productionDesc": "Hele prosessen fra mottak til pakking",
+    "factory": "Fabrikken",
+    "factoryDesc": "Kjenn deg igjen i alle soner og avdelinger",
+    "conduct": "Oppførsel & Regler",
+    "conductDesc": "Skrevne og uskrevne regler på arbeidsplassen",
+    "equipment": "Utstyr & Verktøy",
+    "equipmentDesc": "Alt utstyret du trenger å kjenne til",
+    "emergency": "Nødsituasjoner",
+    "emergencyDesc": "Hva gjør du i en nødsituasjon?"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Test kunnskapen din",
+    "start": "Start quiz",
+    "question": "Spørsmål",
+    "correct": "Riktig!",
+    "wrong": "Feil!",
+    "result": "Resultat",
+    "tryAgain": "Prøv igjen",
+    "saveName": "Skriv navnet ditt",
+    "saveScore": "Lagre resultat",
+    "saved": "Lagret!",
+    "yourScore": "Du fikk {score} av {total} riktig"
+  },
+  "maps": {
+    "title": "Fabrikkart",
+    "subtitle": "Klikk på en sone for å lære mer",
+    "reception": "Mottak",
+    "processing": "Prosessering",
+    "packing": "Pakking",
+    "storage": "Lager",
+    "shipping": "Utsending",
+    "cleaning": "Renhold",
+    "staff": "Garderobe & Kantine",
+    "office": "Kontor"
+  },
+  "leaderboard": {
+    "title": "Resultattavle",
+    "subtitle": "Beste resultater på quizene",
+    "rank": "Plass",
+    "name": "Navn",
+    "quizName": "Quiz",
+    "score": "Poeng",
+    "date": "Dato",
+    "noResults": "Ingen resultater ennå. Bli den første!",
+    "filterByQuiz": "Filtrer etter quiz",
+    "all": "Alle"
+  }
+}

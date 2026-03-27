@@ -1,0 +1,97 @@
+{
+  "welcome": {
+    "title": "Velkommen til Vikenco",
+    "questions": [
+      {
+        "question": "Hvor ligger Vikenco?",
+        "options": ["Aukra", "Oslo", "Bergen", "Trondheim"],
+        "correct": 0
+      },
+      {
+        "question": "Hva produserer Vikenco?",
+        "options": ["Kjøtt", "Laks", "Melk", "Brød"],
+        "correct": 1
+      },
+      {
+        "question": "Hva er viktigst for Vikenco?",
+        "options": ["Kvalitet og matsikkerhet", "Laveste pris", "Raskest produksjon", "Minst mulig ansatte"],
+        "correct": 0
+      },
+      {
+        "question": "Hva bør du gjøre første dag på jobb?",
+        "options": ["Gå rett til produksjonen", "Møte opp i garderoben og følge opplæring", "Vente på parkeringsplassen", "Sende e-post til sjefen"],
+        "correct": 1
+      },
+      {
+        "question": "Hvilket språk er hovedspråket på arbeidsplassen?",
+        "options": ["Engelsk", "Norsk", "Svensk", "Dansk"],
+        "correct": 1
+      }
+    ]
+  },
+  "hms": {
+    "title": "HMS & Hygiene",
+    "questions": [
+      {
+        "question": "Hva må du alltid bruke i produksjonsområdet?",
+        "options": ["Solbriller", "Verneutstyr og arbeidstøy", "Egne klær", "Ingenting spesielt"],
+        "correct": 1
+      },
+      {
+        "question": "Når må du vaske hendene?",
+        "options": ["Bare ved lunsj", "Hver gang du går inn i produksjonen", "Bare om morgenen", "Bare når de er synlig skitne"],
+        "correct": 1
+      },
+      {
+        "question": "Hva gjør du hvis du ser en sikkerhetsfare?",
+        "options": ["Ignorerer det", "Varsler nærmeste leder umiddelbart", "Venter til neste dag", "Fikser det selv uten å si fra"],
+        "correct": 1
+      },
+      {
+        "question": "Er det lov å bruke smykker i produksjonen?",
+        "options": ["Ja, alltid", "Bare ringer", "Nei, aldri", "Bare halskjeder"],
+        "correct": 2
+      },
+      {
+        "question": "Hva er HMS?",
+        "options": ["Helse, Miljø og Sikkerhet", "Hurtig Mat Service", "Hovedkontorets Management System", "Hygiene Med Sertifisering"],
+        "correct": 0
+      },
+      {
+        "question": "Hva gjør du med håret i produksjonsområdet?",
+        "options": ["Det trenger ingen beskyttelse", "Dekker det med hårnettet", "Bruker gel", "Klipper det kort"],
+        "correct": 1
+      }
+    ]
+  },
+  "production": {
+    "title": "Lakseproduksjon",
+    "questions": [
+      {
+        "question": "Hva er det første steget i produksjonen?",
+        "options": ["Pakking", "Mottak av råvarer", "Utsending", "Filettering"],
+        "correct": 1
+      },
+      {
+        "question": "Hvorfor er temperaturkontroll viktig?",
+        "options": ["For å spare strøm", "For matsikkerhet og kvalitet", "For å gjøre det kaldere inne", "Det er ikke viktig"],
+        "correct": 1
+      },
+      {
+        "question": "Hva skjer etter filettering?",
+        "options": ["Laksen kastes", "Pakking og merking", "Den sendes tilbake til havet", "Ingenting"],
+        "correct": 1
+      },
+      {
+        "question": "Hva er FIFO-prinsippet?",
+        "options": ["First In, First Out", "Final Inspection, First Order", "Fish In, Fish Out", "Fast Information Flow Online"],
+        "correct": 0
+      },
+      {
+        "question": "Hvilken temperatur skal kjølelageret ha?",
+        "options": ["10-15°C", "0-4°C", "20-25°C", "-20°C"],
+        "correct": 1
+      }
+    ]
+  }
+}

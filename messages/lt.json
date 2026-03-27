@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Vikenco Akademija",
+    "home": "Pradžia",
+    "modules": "Moduliai",
+    "quiz": "Viktorina",
+    "maps": "Gamykla",
+    "leaderboard": "Rezultatai",
+    "selectLanguage": "Pasirinkite kalbą",
+    "back": "Atgal",
+    "next": "Kitas",
+    "submit": "Pateikti",
+    "loading": "Kraunama...",
+    "score": "Taškai",
+    "of": "iš"
+  },
+  "home": {
+    "welcome": "Sveiki atvykę į Vikenco Akademiją",
+    "subtitle": "Jūsų mokymo platforma naujiems darbuotojams",
+    "description": "Sužinokite viską, ką reikia žinoti apie darbą Vikenco. Tyrinėkite modulius, laikykite viktorinas ir susipažinkite su gamykla.",
+    "startLearning": "Pradėti mokymąsi",
+    "yourProgress": "Jūsų progresas",
+    "quickAccess": "Greita prieiga"
+  },
+  "modules": {
+    "title": "Mokymo moduliai",
+    "subtitle": "Pasirinkite modulį pradžiai",
+    "welcome": "Sveiki atvykę į Vikenco",
+    "welcomeDesc": "Susipažinkite su įmone, mūsų istorija ir vertybėmis",
+    "hms": "DSS ir higiena",
+    "hmsDesc": "Saugumas, higiena ir apsauginė įranga",
+    "production": "Lašišos gamyba",
+    "productionDesc": "Visas procesas nuo priėmimo iki pakavimo",
+    "factory": "Gamykla",
+    "factoryDesc": "Susipažinkite su visomis zonomis ir skyriais",
+    "conduct": "Elgesys ir taisyklės",
+    "conductDesc": "Rašytos ir nerašytos darbo vietos taisyklės",
+    "equipment": "Įranga ir įrankiai",
+    "equipmentDesc": "Visa įranga, kurią reikia žinoti",
+    "emergency": "Avarinės situacijos",
+    "emergencyDesc": "Ką daryti avarinėje situacijoje?"
+  },
+  "quiz": {
+    "title": "Viktorina",
+    "subtitle": "Patikrinkite savo žinias",
+    "start": "Pradėti viktoriną",
+    "question": "Klausimas",
+    "correct": "Teisingai!",
+    "wrong": "Neteisingai!",
+    "result": "Rezultatas",
+    "tryAgain": "Bandyti dar kartą",
+    "saveName": "Įveskite savo vardą",
+    "saveScore": "Išsaugoti rezultatą",
+    "saved": "Išsaugota!",
+    "yourScore": "Jūs atsakėte teisingai {score} iš {total}"
+  },
+  "maps": {
+    "title": "Gamyklos žemėlapis",
+    "subtitle": "Spustelėkite zoną, kad sužinotumėte daugiau",
+    "reception": "Priėmimas",
+    "processing": "Apdorojimas",
+    "packing": "Pakavimas",
+    "storage": "Sandėlis",
+    "shipping": "Siuntimas",
+    "cleaning": "Valymas",
+    "staff": "Persirengimo kambarys ir valgykla",
+    "office": "Biuras"
+  },
+  "leaderboard": {
+    "title": "Rezultatų lentelė",
+    "subtitle": "Geriausi viktorinų rezultatai",
+    "rank": "Vieta",
+    "name": "Vardas",
+    "quizName": "Viktorina",
+    "score": "Taškai",
+    "date": "Data",
+    "noResults": "Dar nėra rezultatų. Būkite pirmas!",
+    "filterByQuiz": "Filtruoti pagal viktoriną",
+    "all": "Visi"
+  }
+}

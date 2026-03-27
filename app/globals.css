@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --vikenco-blue: #003366;
+  --vikenco-light: #0066cc;
+  --vikenco-salmon: #fa8072;
+  --vikenco-ocean: #006994;
+  --vikenco-ice: #e8f4f8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}

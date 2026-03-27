@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Academia Vikenco",
+    "home": "Acasă",
+    "modules": "Module",
+    "quiz": "Quiz",
+    "maps": "Fabrica",
+    "leaderboard": "Clasament",
+    "selectLanguage": "Selectați limba",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "submit": "Trimite",
+    "loading": "Se încarcă...",
+    "score": "Puncte",
+    "of": "din"
+  },
+  "home": {
+    "welcome": "Bine ați venit la Academia Vikenco",
+    "subtitle": "Platforma dumneavoastră de instruire pentru angajații noi",
+    "description": "Aflați tot ce trebuie să știți despre lucrul la Vikenco. Explorați modulele, rezolvați quiz-uri și familiarizați-vă cu fabrica.",
+    "startLearning": "Începeți învățarea",
+    "yourProgress": "Progresul dumneavoastră",
+    "quickAccess": "Acces rapid"
+  },
+  "modules": {
+    "title": "Module de instruire",
+    "subtitle": "Alegeți un modul pentru a începe",
+    "welcome": "Bine ați venit la Vikenco",
+    "welcomeDesc": "Cunoașteți compania, istoria și valorile noastre",
+    "hms": "SSM & Igienă",
+    "hmsDesc": "Siguranță, igienă și echipament de protecție",
+    "production": "Producția de somon",
+    "productionDesc": "Întregul proces de la recepție la ambalare",
+    "factory": "Fabrica",
+    "factoryDesc": "Familiarizați-vă cu toate zonele și departamentele",
+    "conduct": "Comportament & Reguli",
+    "conductDesc": "Reguli scrise și nescrise la locul de muncă",
+    "equipment": "Echipamente & Unelte",
+    "equipmentDesc": "Tot echipamentul pe care trebuie să-l cunoașteți",
+    "emergency": "Situații de urgență",
+    "emergencyDesc": "Ce faceți într-o situație de urgență?"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "subtitle": "Testați-vă cunoștințele",
+    "start": "Începeți quiz-ul",
+    "question": "Întrebare",
+    "correct": "Corect!",
+    "wrong": "Greșit!",
+    "result": "Rezultat",
+    "tryAgain": "Încercați din nou",
+    "saveName": "Introduceți numele",
+    "saveScore": "Salvați rezultatul",
+    "saved": "Salvat!",
+    "yourScore": "Ați răspuns corect la {score} din {total}"
+  },
+  "maps": {
+    "title": "Harta fabricii",
+    "subtitle": "Faceți clic pe o zonă pentru a afla mai multe",
+    "reception": "Recepție",
+    "processing": "Procesare",
+    "packing": "Ambalare",
+    "storage": "Depozit",
+    "shipping": "Expediere",
+    "cleaning": "Curățenie",
+    "staff": "Vestiar & Cantină",
+    "office": "Birou"
+  },
+  "leaderboard": {
+    "title": "Clasament",
+    "subtitle": "Cele mai bune rezultate la quiz-uri",
+    "rank": "Loc",
+    "name": "Nume",
+    "quizName": "Quiz",
+    "score": "Puncte",
+    "date": "Dată",
+    "noResults": "Nu sunt rezultate încă. Fii primul!",
+    "filterByQuiz": "Filtrează după quiz",
+    "all": "Toate"
+  }
+}

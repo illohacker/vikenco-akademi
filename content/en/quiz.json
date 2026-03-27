@@ -1,0 +1,97 @@
+{
+  "welcome": {
+    "title": "Welcome to Vikenco",
+    "questions": [
+      {
+        "question": "Where is Vikenco located?",
+        "options": ["Aukra", "Oslo", "Bergen", "Trondheim"],
+        "correct": 0
+      },
+      {
+        "question": "What does Vikenco produce?",
+        "options": ["Meat", "Salmon", "Milk", "Bread"],
+        "correct": 1
+      },
+      {
+        "question": "What is most important for Vikenco?",
+        "options": ["Quality and food safety", "Lowest price", "Fastest production", "Fewest employees"],
+        "correct": 0
+      },
+      {
+        "question": "What should you do on your first day?",
+        "options": ["Go straight to production", "Report to the locker room and follow training", "Wait in the parking lot", "Send an email to the boss"],
+        "correct": 1
+      },
+      {
+        "question": "What is the main language at the workplace?",
+        "options": ["English", "Norwegian", "Swedish", "Danish"],
+        "correct": 1
+      }
+    ]
+  },
+  "hms": {
+    "title": "HSE & Hygiene",
+    "questions": [
+      {
+        "question": "What must you always wear in the production area?",
+        "options": ["Sunglasses", "Protective equipment and work clothes", "Your own clothes", "Nothing special"],
+        "correct": 1
+      },
+      {
+        "question": "When should you wash your hands?",
+        "options": ["Only at lunch", "Every time you enter production", "Only in the morning", "Only when visibly dirty"],
+        "correct": 1
+      },
+      {
+        "question": "What do you do if you spot a safety hazard?",
+        "options": ["Ignore it", "Notify the nearest supervisor immediately", "Wait until the next day", "Fix it yourself without telling anyone"],
+        "correct": 1
+      },
+      {
+        "question": "Is jewelry allowed in the production area?",
+        "options": ["Yes, always", "Only rings", "No, never", "Only necklaces"],
+        "correct": 2
+      },
+      {
+        "question": "What does HSE stand for?",
+        "options": ["Health, Safety and Environment", "High Speed Equipment", "Head Safety Engineer", "Hygiene Standard Evaluation"],
+        "correct": 0
+      },
+      {
+        "question": "What do you do with your hair in the production area?",
+        "options": ["No protection needed", "Cover it with a hair net", "Use gel", "Cut it short"],
+        "correct": 1
+      }
+    ]
+  },
+  "production": {
+    "title": "Salmon Production",
+    "questions": [
+      {
+        "question": "What is the first step in production?",
+        "options": ["Packing", "Receiving raw materials", "Shipping", "Filleting"],
+        "correct": 1
+      },
+      {
+        "question": "Why is temperature control important?",
+        "options": ["To save electricity", "For food safety and quality", "To make it colder inside", "It's not important"],
+        "correct": 1
+      },
+      {
+        "question": "What happens after filleting?",
+        "options": ["The salmon is thrown away", "Packing and labeling", "It goes back to the sea", "Nothing"],
+        "correct": 1
+      },
+      {
+        "question": "What is the FIFO principle?",
+        "options": ["First In, First Out", "Final Inspection, First Order", "Fish In, Fish Out", "Fast Information Flow Online"],
+        "correct": 0
+      },
+      {
+        "question": "What temperature should the cold storage be?",
+        "options": ["10-15°C", "0-4°C", "20-25°C", "-20°C"],
+        "correct": 1
+      }
+    ]
+  }
+}
