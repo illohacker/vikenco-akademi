@@ -193,28 +193,40 @@
     },
     {
       "id": "porsjoner",
-      "title": "Porsjoner",
-      "icon": "5️⃣",
+      "title": "Trim – Sirkulær kuttemaskin",
+      "icon": "⚙️",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Porsjoneringsstasjon der fileter kuttes i forbruksklare porsjoner."
+          "text": "Trim-posisjonen krever ferdigheter og øvelse. 2 arbeidere (1 per side). Du betjener en sirkulær kuttemaskin som kutter langs sentrallinjen på fileten."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Slik bruker du trimmaskinen:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Plasser fileten", "description": "Legg fileten på maskinplattformen med hodeenden til venstre" },
+            { "emoji": "📐", "title": "Vipp maskinen ~30°", "description": "Hold maskinen vippet ca. 30 grader – ikke press den flatt ned. Dette er den mest effektive vinkelen" },
+            { "emoji": "➡️", "title": "Kutt fra venstre til høyre", "description": "Før fra hode til hale (venstre til høyre). Ingen skreven regel, men denne retningen er enklere og gir et renere snitt" },
+            { "emoji": "⚠️", "title": "Ikke press maskinen ned", "description": "Nøkkelteknikken: IKKE senk maskinen ned i fileten. Hold den lett og i vinkel for et jevnt kutt" },
+            { "emoji": "🪣", "title": "Avskjær til metallkaret", "description": "Avskjæret legges i metallkaret ved siden av deg – hold det rent og ryddig" }
+          ]
         },
         {
           "type": "info",
-          "title": "Hovedansvar:",
+          "title": "Viktige tips:",
           "items": [
-            "🔪 Kutte fileter i spesifiserte porsjoner",
-            "⚖️ Sikre korrekt vekt per porsjon",
-            "📦 Klargjore porsjoner for pakking",
-            "👀 Kvalitetskontroll av hver porsjon"
+            "📐 ~30° vinkel er mer effektivt enn å presse flatt",
+            "➡️ Hode til hale (venstre til høyre) gir best resultat",
+            "🪶 Lett berøring – ikke tving maskinen ned i kjøttet",
+            "🪣 Avskjær skal alltid i metallkaret ved siden av deg",
+            "🔄 Øvelse gjør mester – fart kommer med erfaring"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "style": "danger",
+          "text": "Det sirkulære bladet er ekstremt skarpt. Hold hendene unna kutteområdet til enhver tid. Fokus og konsentrasjon er avgjørende."
         }
       ]
     },

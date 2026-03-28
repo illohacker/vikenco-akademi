@@ -193,28 +193,40 @@
     },
     {
       "id": "porsjoner",
-      "title": "Porsjoner (Porcijos)",
-      "icon": "5️⃣",
+      "title": "Trim – Apvalaus pjovimo mašina",
+      "icon": "⚙️",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Porcijavimo stotis, kurioje files pjaustomos i vartotojui paruostas porcijas."
+          "text": "Trim pozicija reikalauja įgūdžių ir praktikos. 2 darbuotojai (1 kiekvienoje pusėje). Valdote apvalią pjovimo mašiną, kuri pjauna centrinę filė liniją."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Kaip naudoti trim mašiną:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Padėkite filė", "description": "Padėkite filė ant mašinos platformos galvos galu į kairę" },
+            { "emoji": "📐", "title": "Pakreipkite mašiną ~30°", "description": "Laikykite mašiną pakreiptą maždaug 30 laipsnių – nespauskite plokščiai. Tai efektyviausias kampas" },
+            { "emoji": "➡️", "title": "Pjaukite iš kairės į dešinę", "description": "Veskite nuo galvos iki uodegos (kairė–dešinė). Rašytos taisyklės nėra, bet ši kryptis lengvesnė" },
+            { "emoji": "⚠️", "title": "Nespauskite mašinos žemyn", "description": "Pagrindinė technika: NEGRĄŽINKITE mašinos į filė. Laikykite lengvai ir kampu" },
+            { "emoji": "🪣", "title": "Nuopjovos į metalinę kubą", "description": "Nupjauta juostelė dedama į metalinę kubą šalia jūsų" }
+          ]
         },
         {
           "type": "info",
-          "title": "Pagrindines atsakomybes:",
+          "title": "Svarbūs patarimai:",
           "items": [
-            "🔪 Pjaustyti files i nurodytas porcijas",
-            "⚖️ Uztikrinti teisinga svori kiekvienai porcijai",
-            "📦 Paruosti porcijas pakavimui",
-            "👀 Kiekvienos porcijos kokybes patikra"
+            "📐 ~30° kampas efektyvesnis nei plokščias spaudimas",
+            "➡️ Nuo galvos iki uodegos (kairė–dešinė) duoda geriausią rezultatą",
+            "🪶 Lengvas prisilietimas – nespauskite mašinos į mėsą",
+            "🪣 Nuopjovos visada dedamos į metalinę kubą šalia",
+            "🔄 Praktika tobulina – greitis ateina su patirtimi"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "style": "danger",
+          "text": "Apvalus peilis yra itin aštrus. Visada laikykite rankas toli nuo pjovimo zonos. Dėmesys ir koncentracija yra būtini."
         }
       ]
     },

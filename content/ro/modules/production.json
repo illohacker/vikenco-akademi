@@ -193,28 +193,40 @@
     },
     {
       "id": "porsjoner",
-      "title": "Porsjoner (Portii)",
-      "icon": "5️⃣",
+      "title": "Trim – Mașina de tăiere circulară",
+      "icon": "⚙️",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Statia de portionare unde fileurile sunt taiate in portii gata pentru consumator."
+          "text": "Poziția Trim necesită îndemânare și practică. 2 muncitori (1 pe fiecare parte). Operezi o mașină de tăiere circulară care taie de-a lungul liniei centrale a fileului."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cum să folosești mașina de trim:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Poziționează fileul", "description": "Pune fileul pe platforma mașinii cu capul în stânga" },
+            { "emoji": "📐", "title": "Înclină mașina ~30°", "description": "Ține mașina înclinată la aproximativ 30 de grade – nu o apăsa plat. Este cel mai eficient unghi" },
+            { "emoji": "➡️", "title": "Taie de la stânga la dreapta", "description": "Ghidează de la cap la coadă (stânga–dreapta). Nu e regulă scrisă, dar direcția asta e mai ușoară" },
+            { "emoji": "⚠️", "title": "Nu apăsa mașina în jos", "description": "Tehnica cheie: NU afunda mașina în fileu. Ține-o ușor și în unghi pentru o tăietură netedă" },
+            { "emoji": "🪣", "title": "Resturile în cuva metalică", "description": "Fâșia tăiată merge în cuva metalică de lângă tine" }
+          ]
         },
         {
           "type": "info",
-          "title": "Responsabilitati cheie:",
+          "title": "Sfaturi cheie:",
           "items": [
-            "🔪 Taierea fileurilor in portii specificate",
-            "⚖️ Asigurarea greutatii corecte per portie",
-            "📦 Pregatirea portiilor pentru ambalare",
-            "👀 Controlul calitatii fiecarei portii"
+            "📐 ~30° unghi e mai eficient decât presarea plată",
+            "➡️ De la cap la coadă (stânga–dreapta) dă cel mai bun rezultat",
+            "🪶 Atingere ușoară – nu forța mașina în carne",
+            "🪣 Resturile merg întotdeauna în cuva metalică",
+            "🔄 Practica face perfectă – viteza vine cu experiența"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "style": "danger",
+          "text": "Lama circulară este extrem de ascuțită. Ține mâinile departe de zona de tăiere în orice moment. Concentrarea este esențială."
         }
       ]
     },

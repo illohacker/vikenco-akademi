@@ -193,28 +193,40 @@
     },
     {
       "id": "porsjoner",
-      "title": "Porsjoner (Portions)",
-      "icon": "5️⃣",
+      "title": "Trim – Circular Cutting Machine",
+      "icon": "⚙️",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Portioning station where fillets are cut into consumer-ready portions."
+          "text": "The Trim position requires skill and practice. 2 workers (1 per side). You operate a circular cutting machine that cuts along the central line of the fillet."
+        },
+        {
+          "type": "animated-steps",
+          "title": "How to use the trim machine:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Position the fillet", "description": "Place the fillet on the machine platform with the head end on your left" },
+            { "emoji": "📐", "title": "Tilt the machine ~30°", "description": "Keep the machine tilted at about 30 degrees – don't press it flat down. This is the most efficient angle" },
+            { "emoji": "➡️", "title": "Cut left to right", "description": "Guide from head to tail (left to right). There's no written rule, but this direction is easier and gives a cleaner cut" },
+            { "emoji": "⚠️", "title": "Don't push the machine down", "description": "The key technique: DON'T sink the machine into the fillet. Keep it light and at an angle for a smooth cut" },
+            { "emoji": "🪣", "title": "Trimmings to the metal tub", "description": "The cut-off strip goes into the metal tub at your side – keep it clean and organized" }
+          ]
         },
         {
           "type": "info",
-          "title": "Key responsibilities:",
+          "title": "Key tips:",
           "items": [
-            "🔪 Cut fillets into specified portions",
-            "⚖️ Ensure correct weight per portion",
-            "📦 Prepare portions for packaging",
-            "👀 Quality check each portion"
+            "📐 ~30° angle is more efficient than pressing flat",
+            "➡️ Head to tail (left to right) gives the best result",
+            "🪶 Light touch – don't force the machine down into the flesh",
+            "🪣 Trimmings always go in the metal tub beside you",
+            "🔄 Practice makes perfect – speed comes with experience"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "style": "danger",
+          "text": "The circular blade is extremely sharp. Keep your hands clear of the cutting area at all times. Focus and concentration are essential."
         }
       ]
     },

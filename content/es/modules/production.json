@@ -193,28 +193,40 @@
     },
     {
       "id": "porsjoner",
-      "title": "Porsjoner (Porciones)",
-      "icon": "5️⃣",
+      "title": "Trim – Máquina de corte circular",
+      "icon": "⚙️",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Estacion de porcionado donde los filetes se cortan en porciones listas para el consumidor."
+          "text": "La posición de Trim requiere destreza y práctica. 2 trabajadores (1 por lado). Operas una máquina de corte circular que corta la línea central del filete."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cómo usar la máquina de trim:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Coloca el filete", "description": "Pon el filete en la plataforma de la máquina con la cabeza a tu izquierda" },
+            { "emoji": "📐", "title": "Inclina la máquina ~30°", "description": "Mantén la máquina inclinada unos 30 grados – no la hundas plana. Es el ángulo más eficiente" },
+            { "emoji": "➡️", "title": "Corta de izquierda a derecha", "description": "Guía de cabeza a cola (izquierda a derecha). No hay norma escrita, pero esta dirección es más fácil y da un corte más limpio" },
+            { "emoji": "⚠️", "title": "No hundas la máquina", "description": "La técnica clave: NO hundas la máquina en el filete. Mantenla ligera y en ángulo para un corte suave" },
+            { "emoji": "🪣", "title": "Recortes a la cuba metálica", "description": "La tira cortada va a la cuba metálica que tienes al lado – mantenla limpia y organizada" }
+          ]
         },
         {
           "type": "info",
-          "title": "Responsabilidades clave:",
+          "title": "Consejos clave:",
           "items": [
-            "🔪 Cortar filetes en porciones especificadas",
-            "⚖️ Asegurar el peso correcto por porcion",
-            "📦 Preparar porciones para empaque",
-            "👀 Control de calidad de cada porcion"
+            "📐 ~30° de inclinación es más eficiente que presionar plano",
+            "➡️ De cabeza a cola (izquierda a derecha) da el mejor resultado",
+            "🪶 Toque ligero – no fuerces la máquina contra la carne",
+            "🪣 Los recortes siempre van a la cuba metálica de tu lado",
+            "🔄 La práctica hace al maestro – la velocidad llega con la experiencia"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "style": "danger",
+          "text": "La cuchilla circular es extremadamente afilada. Mantén las manos lejos de la zona de corte en todo momento. La concentración es esencial."
         }
       ]
     },
