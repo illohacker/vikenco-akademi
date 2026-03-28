@@ -4,28 +4,52 @@
   "lessons": [
     {
       "id": "infeed-line-1",
-      "title": "Infeed / Machine Line 1",
-      "icon": "1️⃣",
+      "title": "Infeed / Machine Line 1 – Cutting Station",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "This is the first production line where salmon enters the processing system."
+          "text": "The cutting station is the first position on the production line. 4 workers (2 per side) process each salmon fillet as it arrives."
         },
         {
           "type": "info",
-          "title": "Key responsibilities:",
+          "title": "Position 1 – Right side operator:",
           "items": [
-            "🐟 Receive and load salmon onto the production line",
-            "⚙️ Monitor machine operation and flow",
-            "👀 Quality check incoming fish",
-            "🛑 Stop the line if issues are detected"
+            "🔪 Cuts the lower part and fat of the salmon in a half-moon shape",
+            "👀 Removes the main defects and imperfections from the fillet",
+            "📋 Must follow the trim specification of the current order"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Position 2 – Left side operator:",
+          "items": [
+            "🔪 Cuts the entire white lateral strip from the fillet",
+            "👀 Ensures a clean, uniform edge",
+            "📋 Must follow the trim specification of the current order"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "You will be informed at all times which Trim class production is running (A Trim to E Trim). Always follow the current specification!"
+        },
+        {
+          "type": "steps",
+          "title": "Trim Levels – Know Your Specifications:",
+          "steps": [
+            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Backbone & bellybones off" },
+            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Backfin, collar, belly flap, tail off" },
+            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Pin bones removed" },
+            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Fully trimmed, membrane off" },
+            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Skinless (skin removed)" }
           ]
         },
         {
           "type": "alert",
           "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "text": "Always handle knives carefully. Cut away from your body. Change blue gloves immediately if torn."
         }
       ]
     },

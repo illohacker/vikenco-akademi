@@ -4,28 +4,52 @@
   "lessons": [
     {
       "id": "infeed-line-1",
-      "title": "Infeed / Machine Line 1 (Tiekimo / Masinu linija 1)",
-      "icon": "1️⃣",
+      "title": "Infeed / Mašinų linija 1 – Pjovimo stotis",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Tai pirmoji gamybos linija, kurioje lasis patenka i apdorojimo sistema."
+          "text": "Pjovimo stotis yra pirmoji pozicija gamybos linijoje. 4 darbuotojai (2 kiekvienoje pusėje) apdoroja kiekvieną lašišos filė, kai ji atvyksta."
         },
         {
           "type": "info",
-          "title": "Pagrindines atsakomybes:",
+          "title": "Pozicija 1 – Dešinės pusės operatorius:",
           "items": [
-            "🐟 Priimti ir pakrauti lasi ant gamybos linijos",
-            "⚙️ Stebet masinos veikima ir srautus",
-            "👀 Ateinancio zuvu kokybes patikra",
-            "🛑 Sustabdyti linija, jei aptinkamos problemos"
+            "🔪 Pjauna apatinę dalį ir lašišos riebalus pusmėnulio forma",
+            "👀 Pašalina pagrindinius filė defektus ir netobulumus",
+            "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Pozicija 2 – Kairės pusės operatorius:",
+          "items": [
+            "🔪 Pjauna visą baltą šoninę juostą nuo filė",
+            "👀 Užtikrina švarų, tolygų kraštą",
+            "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Visada būsite informuoti, kokia Trim klasė vyksta gamyboje (A Trim iki E Trim). Visada laikykitės esamos specifikacijos!"
+        },
+        {
+          "type": "steps",
+          "title": "Trim lygiai – Žinokite specifikacijas:",
+          "steps": [
+            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Stuburas ir pilvo kaulai pašalinti" },
+            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Nugaros pelekas, apykaklė, pilvo atlankas" },
+            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Smeigtiniai kaulai pašalinti" },
+            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Visiškai apipjaustytas, membrana pašalinta" },
+            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Be odos (skinless)" }
           ]
         },
         {
           "type": "alert",
           "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "text": "Visada atsargiai elkitės su peiliais. Pjaukite nuo savęs. Nedelsdami pakeiskite mėlynas pirštines, jei jos suplyšta."
         }
       ]
     },

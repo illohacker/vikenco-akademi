@@ -4,28 +4,52 @@
   "lessons": [
     {
       "id": "infeed-line-1",
-      "title": "Infeed / Machine Line 1 (Alimentacion / Linea de maquinas 1)",
-      "icon": "1️⃣",
+      "title": "Infeed / Línea Máquina 1 – Estación de Corte",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Esta es la primera linea de produccion donde el salmon entra en el sistema de procesamiento."
+          "text": "La estación de corte es la primera posición en la línea de producción. 4 trabajadores (2 por lado) procesan cada filete de salmón a su llegada."
         },
         {
           "type": "info",
-          "title": "Responsabilidades clave:",
+          "title": "Posición 1 – Operario lado derecho:",
           "items": [
-            "🐟 Recibir y cargar salmon en la linea de produccion",
-            "⚙️ Supervisar el funcionamiento de la maquina y el flujo",
-            "👀 Control de calidad del pescado entrante",
-            "🛑 Detener la linea si se detectan problemas"
+            "🔪 Corta la parte inferior y la grasa del salmón en forma de media luna",
+            "👀 Elimina los defectos e imperfecciones principales del filete",
+            "📋 Debe seguir la especificación de trim del pedido actual"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Posición 2 – Operario lado izquierdo:",
+          "items": [
+            "🔪 Corta toda la franja blanca lateral del filete",
+            "👀 Asegura un borde limpio y uniforme",
+            "📋 Debe seguir la especificación de trim del pedido actual"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Se te informará en todo momento qué clase de Trim está en producción (A Trim a E Trim). ¡Sigue siempre la especificación vigente!"
+        },
+        {
+          "type": "steps",
+          "title": "Niveles de Trim – Conoce las especificaciones:",
+          "steps": [
+            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Espinazo y huesos ventrales retirados" },
+            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Aleta dorsal, collar, falda ventral, cola" },
+            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Espinas pin retiradas" },
+            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Totalmente recortado, membrana retirada" },
+            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Sin piel (skinless)" }
           ]
         },
         {
           "type": "alert",
           "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "text": "Maneja siempre los cuchillos con cuidado. Corta alejándote del cuerpo. Cambia los guantes azules inmediatamente si se rompen."
         }
       ]
     },

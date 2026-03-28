@@ -4,28 +4,52 @@
   "lessons": [
     {
       "id": "infeed-line-1",
-      "title": "Infeed / Machine Line 1 (Alimentare / Linia de masini 1)",
-      "icon": "1️⃣",
+      "title": "Infeed / Linia Mașină 1 – Stația de Tăiere",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Aceasta este prima linie de productie unde somonul intra in sistemul de procesare."
+          "text": "Stația de tăiere este prima poziție pe linia de producție. 4 muncitori (2 pe fiecare parte) prelucrează fiecare fileu de somon la sosire."
         },
         {
           "type": "info",
-          "title": "Responsabilitati cheie:",
+          "title": "Poziția 1 – Operator partea dreaptă:",
           "items": [
-            "🐟 Receptia si incarcarea somonului pe linia de productie",
-            "⚙️ Monitorizarea functionarii masinii si a fluxului",
-            "👀 Controlul calitatii pestelui primit",
-            "🛑 Oprirea liniei daca sunt detectate probleme"
+            "🔪 Taie partea inferioară și grăsimea somonului în formă de semilună",
+            "👀 Îndepărtează defectele și imperfecțiunile principale ale fileului",
+            "📋 Trebuie să urmeze specificația trim a comenzii curente"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Poziția 2 – Operator partea stângă:",
+          "items": [
+            "🔪 Taie întreaga fâșie albă laterală de pe fileu",
+            "👀 Asigură o margine curată și uniformă",
+            "📋 Trebuie să urmeze specificația trim a comenzii curente"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Veți fi informați în orice moment ce clasă de Trim se produce (A Trim la E Trim). Urmați întotdeauna specificația curentă!"
+        },
+        {
+          "type": "steps",
+          "title": "Niveluri Trim – Cunoașteți specificațiile:",
+          "steps": [
+            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Coloana vertebrală și oasele ventrale îndepărtate" },
+            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Înotătoarea dorsală, gulerul, clapeta ventrală" },
+            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Oasele pin îndepărtate" },
+            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Complet curățat, membrana îndepărtată" },
+            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Fără piele (skinless)" }
           ]
         },
         {
           "type": "alert",
           "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "text": "Manevrați întotdeauna cuțitele cu atenție. Tăiați în direcție opusă corpului. Schimbați imediat mănușile albastre dacă se rup."
         }
       ]
     },

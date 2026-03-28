@@ -4,28 +4,52 @@
   "lessons": [
     {
       "id": "infeed-line-1",
-      "title": "Infeed / Machine Line 1 (Innmating / Maskinlinje 1)",
-      "icon": "1️⃣",
+      "title": "Infeed / Maskinlinje 1 – Kuttestasjon",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Dette er den forste produksjonslinjen der laksen kommer inn i prosesseringssystemet."
+          "text": "Kuttestasjonen er den første posisjonen på produksjonslinjen. 4 arbeidere (2 per side) bearbeider hver laksefilet når den ankommer."
         },
         {
           "type": "info",
-          "title": "Hovedansvar:",
+          "title": "Posisjon 1 – Operatør høyre side:",
           "items": [
-            "🐟 Motta og laste laks pa produksjonslinjen",
-            "⚙️ Overvake maskindrift og flyt",
-            "👀 Kvalitetskontroll av innkommende fisk",
-            "🛑 Stopp linjen hvis problemer oppdages"
+            "🔪 Kutter den nedre delen og fettet på laksen i en halvmåneform",
+            "👀 Fjerner de viktigste defektene og ujevnhetene fra fileten",
+            "📋 Må følge trimspesifikasjonen for den aktuelle bestillingen"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Posisjon 2 – Operatør venstre side:",
+          "items": [
+            "🔪 Kutter hele den hvite laterale stripen fra fileten",
+            "👀 Sikrer en ren, jevn kant",
+            "📋 Må følge trimspesifikasjonen for den aktuelle bestillingen"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Du vil til enhver tid bli informert om hvilken Trim-klasse produksjonen kjører (A Trim til E Trim). Følg alltid gjeldende spesifikasjon!"
+        },
+        {
+          "type": "steps",
+          "title": "Trim-nivåer – Kjenn spesifikasjonene:",
+          "steps": [
+            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Ryggbein og bukbein fjernet" },
+            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Ryggfinne, krageben, buklapp, hale fjernet" },
+            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Pinnebein fjernet" },
+            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Fullt trimmet, bukhinne fjernet" },
+            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Skinnet fjernet (skinless)" }
           ]
         },
         {
           "type": "alert",
           "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "text": "Håndter alltid kniver forsiktig. Kutt bort fra kroppen. Bytt blå hansker umiddelbart hvis de revner."
         }
       ]
     },

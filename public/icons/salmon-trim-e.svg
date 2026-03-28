@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <rect width="200" height="100" rx="8" fill="#ede9fe"/>
+  <!-- Salmon fillet - E trim (skinless) -->
+  <path d="M45 52 Q50 37 72 33 Q100 29 135 31 Q150 35 153 42 Q154 46 153 50 Q148 54 133 56 Q100 58 72 56 Q52 55 45 52Z" fill="#ffb4a2" stroke="#e05050" stroke-width="1.5"/>
+  <!-- No skin pattern -->
+  <text x="100" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#7c3aed">TRIM E</text>
+</svg>

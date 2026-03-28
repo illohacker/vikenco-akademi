@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <rect width="200" height="100" rx="8" fill="#fef3c7"/>
+  <!-- Salmon fillet - C trim (+ pin bones out) -->
+  <path d="M38 60 Q43 32 68 27 Q100 22 142 24 Q160 30 165 40 Q167 47 165 53 Q157 58 138 61 Q100 65 68 63 Q45 62 38 60Z" fill="#fa8072" stroke="#e05050" stroke-width="1.5"/>
+  <!-- Pin bone dots removed -->
+  <circle cx="70" cy="35" r="2" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="85" cy="33" r="2" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="100" cy="32" r="2" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="115" cy="33" r="2" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="130" cy="35" r="2" fill="#94a3b8" opacity="0.5"/>
+  <line x1="65" y1="30" x2="135" y2="30" stroke="#94a3b8" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <text x="100" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#b45309">TRIM C</text>
+</svg>

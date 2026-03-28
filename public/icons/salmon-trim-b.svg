@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <rect width="200" height="100" rx="8" fill="#fefce8"/>
+  <!-- Salmon fillet - B trim (belly flap, tail, collar removed) -->
+  <path d="M35 65 Q40 30 65 25 Q100 20 145 22 Q165 28 170 40 Q172 48 170 55 Q160 62 140 65 Q100 70 65 68 Q40 66 35 65Z" fill="#fa8072" stroke="#e05050" stroke-width="1.5"/>
+  <!-- Removed parts shown as dashed -->
+  <path d="M20 70 Q25 60 35 65" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2" fill="none"/>
+  <path d="M170 55 Q180 60 185 65 Q180 70 170 68" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2" fill="none"/>
+  <path d="M35 65 Q30 72 25 75 Q35 78 45 72 Q40 68 35 65" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2" fill="none"/>
+  <text x="100" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#854d0e">TRIM B</text>
+</svg>
