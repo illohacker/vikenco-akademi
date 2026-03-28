@@ -2,27 +2,27 @@
 
 import { useState } from 'react'
 
-type Zone = {
+type ZoneData = {
   id: string
   x: number
   y: number
   width: number
   height: number
-  label: string
+  labelKey: string
   color: string
   lessonId: string
   people: { x: number; y: number }[]
 }
 
-const zones: Zone[] = [
+const zones: ZoneData[] = [
   {
     id: 'corte', x: 770, y: 100, width: 120, height: 310,
-    label: 'CORTE', color: '#ef4444', lessonId: 'infeed-line-1',
+    labelKey: 'corte', color: '#ef4444', lessonId: 'infeed-line-1',
     people: [{ x: 810, y: 190 }, { x: 863, y: 191 }, { x: 812, y: 314 }, { x: 869, y: 314 }]
   },
   {
     id: 'espinas', x: 530, y: 100, width: 230, height: 310,
-    label: 'ESPINAS', color: '#eab308', lessonId: 'infeed-line-2',
+    labelKey: 'espinas', color: '#eab308', lessonId: 'infeed-line-2',
     people: [
       { x: 560, y: 170 }, { x: 620, y: 170 }, { x: 680, y: 170 },
       { x: 560, y: 310 }, { x: 620, y: 310 }, { x: 680, y: 310 }
@@ -30,32 +30,48 @@ const zones: Zone[] = [
   },
   {
     id: 'supervision', x: 475, y: 101, width: 50, height: 310,
-    label: 'SUP.', color: '#22c55e', lessonId: '',
+    labelKey: 'supervision', color: '#22c55e', lessonId: '',
     people: [{ x: 499, y: 320 }]
   },
   {
     id: 'acabado-corte', x: 365, y: 98, width: 110, height: 310,
-    label: 'A. CORTE', color: '#3b82f6', lessonId: 'filet-line-1',
+    labelKey: 'acabadoCorte', color: '#3b82f6', lessonId: 'filet-line-1',
     people: [{ x: 420, y: 190 }, { x: 420, y: 310 }]
   },
   {
     id: 'trim', x: 261, y: 99, width: 110, height: 310,
-    label: 'TRIM', color: '#6366f1', lessonId: 'filet-line-2',
+    labelKey: 'trim', color: '#6366f1', lessonId: 'filet-line-2',
     people: [{ x: 316, y: 190 }, { x: 316, y: 310 }]
   },
   {
     id: 'cajas', x: 170, y: 100, width: 90, height: 310,
-    label: 'CAJAS', color: '#06b6d4', lessonId: 'porsjoner',
+    labelKey: 'cajas', color: '#06b6d4', lessonId: 'porsjoner',
     people: [{ x: 215, y: 255 }]
   },
   {
     id: 'etiq', x: 60, y: 100, width: 110, height: 310,
-    label: 'ETIQ.', color: '#8b5cf6', lessonId: 'head-backbone-dryice-belly',
+    labelKey: 'etiq', color: '#8b5cf6', lessonId: 'head-backbone-dryice-belly',
     people: [{ x: 115, y: 255 }]
   },
 ]
 
-export default function LineDiagram({ title }: { title: string }) {
+type Labels = {
+  corte: string
+  espinas: string
+  supervision: string
+  acabadoCorte: string
+  trim: string
+  cajas: string
+  etiq: string
+  entry: string
+  exit: string
+  sideA: string
+  sideB: string
+  belt: string
+  clickHint: string
+}
+
+export default function LineDiagram({ title, labels }: { title: string; labels: Labels }) {
   const [hovered, setHovered] = useState<string | null>(null)
 
   const scrollToLesson = (lessonId: string) => {
@@ -63,11 +79,12 @@ export default function LineDiagram({ title }: { title: string }) {
     const el = document.getElementById(`lesson-${lessonId}`)
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      // Flash effect
       el.classList.add('ring-4', 'ring-amber-400', 'ring-offset-2')
       setTimeout(() => el.classList.remove('ring-4', 'ring-amber-400', 'ring-offset-2'), 2000)
     }
   }
+
+  const getLabel = (key: string) => (labels as Record<string, string>)[key] || key
 
   return (
     <div>
@@ -75,12 +92,12 @@ export default function LineDiagram({ title }: { title: string }) {
       <div className="bg-slate-900 rounded-2xl p-3 overflow-hidden">
         <svg viewBox="0 0 950 450" className="w-full h-auto">
           {/* Flow labels */}
-          <text x="890" y="25" textAnchor="end" fill="#64748b" fontSize="11" fontWeight="bold">ENTRADA →</text>
-          <text x="60" y="25" fill="#64748b" fontSize="11" fontWeight="bold">← SALIDA</text>
+          <text x="890" y="25" textAnchor="end" fill="#64748b" fontSize="11" fontWeight="bold">{labels.entry} →</text>
+          <text x="60" y="25" fill="#64748b" fontSize="11" fontWeight="bold">← {labels.exit}</text>
 
           {/* Side labels */}
-          <text x="20" y="170" fill="#475569" fontSize="10" transform="rotate(-90, 20, 170)">LADO A</text>
-          <text x="20" y={320} fill="#475569" fontSize="10" transform="rotate(-90, 20, 320)">LADO B</text>
+          <text x="20" y={170} fill="#475569" fontSize="10" transform="rotate(-90, 20, 170)">{labels.sideA}</text>
+          <text x="20" y={320} fill="#475569" fontSize="10" transform="rotate(-90, 20, 320)">{labels.sideB}</text>
 
           {/* Zones */}
           {zones.map((zone) => {
@@ -94,7 +111,6 @@ export default function LineDiagram({ title }: { title: string }) {
                 onMouseLeave={() => setHovered(null)}
                 className={hasLink ? 'cursor-pointer' : 'cursor-default'}
               >
-                {/* Zone background */}
                 <rect
                   x={zone.x} y={zone.y - 60}
                   width={zone.width} height={zone.height - 20}
@@ -106,16 +122,14 @@ export default function LineDiagram({ title }: { title: string }) {
                   strokeDasharray={isHovered ? 'none' : '6 3'}
                   className="transition-all duration-200"
                 />
-                {/* Zone label */}
                 <text
                   x={zone.x + zone.width / 2} y={zone.y - 42}
                   textAnchor="middle" fill={zone.color}
                   fontSize={zone.width < 80 ? "9" : "12"} fontWeight="bold"
                   className="pointer-events-none select-none"
                 >
-                  {zone.label}
+                  {getLabel(zone.labelKey)}
                 </text>
-                {/* People count */}
                 <text
                   x={zone.x + zone.width / 2} y={zone.y - 28}
                   textAnchor="middle" fill={zone.color}
@@ -124,12 +138,10 @@ export default function LineDiagram({ title }: { title: string }) {
                 >
                   {zone.people.length}p
                 </text>
-                {/* People circles */}
                 {zone.people.map((p, i) => (
                   <g key={i}>
                     <circle
-                      cx={p.x} cy={p.y - 60}
-                      r="16"
+                      cx={p.x} cy={p.y - 60} r="16"
                       fill={zone.color}
                       opacity={isHovered ? 1 : 0.8}
                       className="transition-all duration-200"
@@ -139,9 +151,7 @@ export default function LineDiagram({ title }: { title: string }) {
                       textAnchor="middle" dominantBaseline="central"
                       fill="white" fontSize="14"
                       className="pointer-events-none select-none"
-                    >
-                      👤
-                    </text>
+                    >👤</text>
                   </g>
                 ))}
               </g>
@@ -154,12 +164,12 @@ export default function LineDiagram({ title }: { title: string }) {
             <text key={i} x={870 - i * 55} y="207" fill="#94a3b8" fontSize="12" className="pointer-events-none select-none">◄</text>
           ))}
           <text x="475" y="206" textAnchor="middle" fill="white" fontSize="8" fontWeight="bold" className="pointer-events-none select-none">
-            CINTA TRANSPORTADORA
+            {labels.belt}
           </text>
 
-          {/* Legend */}
+          {/* Hint */}
           <text x="475" y="420" textAnchor="middle" fill="#475569" fontSize="10">
-            Haz clic en una zona para ir a sus instrucciones ↓
+            {labels.clickHint}
           </text>
         </svg>
       </div>
@@ -173,7 +183,7 @@ export default function LineDiagram({ title }: { title: string }) {
             className="flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-semibold text-white transition-all hover:scale-105"
             style={{ backgroundColor: z.color }}
           >
-            {z.label} ({z.people.length})
+            {getLabel(z.labelKey)} ({z.people.length})
           </button>
         ))}
       </div>

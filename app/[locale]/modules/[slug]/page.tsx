@@ -253,7 +253,24 @@ function SectionRenderer({ section }: { section: Section }) {
 
     case 'line-map':
       return (
-        <LineDiagram title={section.title || ''} />
+        <LineDiagram
+          title={section.title || ''}
+          labels={{
+            corte: section.items?.[0] || 'Cutting',
+            espinas: section.items?.[1] || 'Bones',
+            supervision: section.items?.[2] || 'Sup.',
+            acabadoCorte: section.items?.[3] || 'Fin. Cut',
+            trim: section.items?.[4] || 'Trim',
+            cajas: section.items?.[5] || 'Boxes',
+            etiq: section.items?.[6] || 'Label',
+            entry: section.items?.[7] || 'ENTRY',
+            exit: section.items?.[8] || 'EXIT',
+            sideA: section.items?.[9] || 'SIDE A',
+            sideB: section.items?.[10] || 'SIDE B',
+            belt: section.items?.[11] || 'CONVEYOR BELT',
+            clickHint: section.items?.[12] || 'Click a zone to see instructions',
+          }}
+        />
       )
 
     case 'steps':

@@ -9,7 +9,8 @@
       "sections": [
         {
           "type": "line-map",
-          "title": "Production Line 1 – Click a station to see its instructions"
+          "title": "Production Line 1 – Click a station to see its instructions",
+          "items": ["CUTTING", "BONES", "SUP.", "FIN. CUT", "TRIM", "BOXES", "LABEL", "ENTRY", "EXIT", "SIDE A", "SIDE B", "CONVEYOR BELT", "Click a zone to see its instructions ↓"]
         },
         {
           "type": "info",
@@ -17,7 +18,7 @@
           "items": [
             "🔴 Corte (4p) – Initial cutting and defect removal",
             "🟡 Espinas (6p) – Bone removal",
-            "🟢 Supervision (1p) – Quality oversight",
+            "🟢 Supervision (1p) – Ensures salmon enters the skinning machine correctly",
             "🔵 Acabado Corte (2p) – Final cutting",
             "🟣 Trim (2p) – Trimming to specification",
             "🔵 Cajas (1p) – Boxing",

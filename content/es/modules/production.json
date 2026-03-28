@@ -9,7 +9,8 @@
       "sections": [
         {
           "type": "line-map",
-          "title": "Línea de Producción 1 – Haz clic en una estación para ver sus instrucciones"
+          "title": "Línea de Producción 1 – Haz clic en una estación para ver sus instrucciones",
+          "items": ["CORTE", "ESPINAS", "SUP.", "A. CORTE", "TRIM", "CAJAS", "ETIQ.", "ENTRADA", "SALIDA", "LADO A", "LADO B", "CINTA TRANSPORTADORA", "Haz clic en una zona para ver sus instrucciones ↓"]
         },
         {
           "type": "info",
@@ -17,7 +18,7 @@
           "items": [
             "🔴 Corte (4p) – Corte inicial y eliminación de defectos",
             "🟡 Espinas (6p) – Retirada de espinas",
-            "🟢 Supervisión (1p) – Control de calidad",
+            "🟢 Supervisión (1p) – Asegura que el salmón entre correctamente en la máquina de piel",
             "🔵 Acabado Corte (2p) – Corte final",
             "🟣 Trim (2p) – Recorte según especificación",
             "🔵 Cajas (1p) – Empaquetado en cajas",

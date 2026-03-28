@@ -9,7 +9,8 @@
       "sections": [
         {
           "type": "line-map",
-          "title": "Produksjonslinje 1 – Klikk på en stasjon for å se instruksjonene"
+          "title": "Produksjonslinje 1 – Klikk på en stasjon for å se instruksjonene",
+          "items": ["KUTT", "BEIN", "TILSYN", "SLUTTKUTT", "TRIM", "KASSER", "ETIKETT", "INNGANG", "UTGANG", "SIDE A", "SIDE B", "TRANSPORTBÅND", "Klikk på en sone for å se instruksjonene ↓"]
         },
         {
           "type": "info",
@@ -17,7 +18,7 @@
           "items": [
             "🔴 Kutt (4p) – Første kutting og fjerning av defekter",
             "🟡 Bein (6p) – Fjerning av bein",
-            "🟢 Tilsyn (1p) – Kvalitetskontroll",
+            "🟢 Tilsyn (1p) – Sikrer at laksen går riktig inn i skinnemaskinen",
             "🔵 Sluttskjæring (2p) – Endelig kutting",
             "🟣 Trim (2p) – Trimming etter spesifikasjon",
             "🔵 Kasser (1p) – Pakking i kasser",

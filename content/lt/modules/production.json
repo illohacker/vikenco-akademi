@@ -9,7 +9,8 @@
       "sections": [
         {
           "type": "line-map",
-          "title": "Gamybos linija 1 – Spustelėkite stotį, kad pamatytumėte instrukcijas"
+          "title": "Gamybos linija 1 – Spustelėkite stotį, kad pamatytumėte instrukcijas",
+          "items": ["PJOVIMAS", "KAULAI", "PRIEŹ.", "GAL. PJ.", "TRIM", "DĖŽĖS", "ETIK.", "ĮĖJIMAS", "IŠĖJIMAS", "PUSĖ A", "PUSĖ B", "KONVEJERIS", "Spustelėkite zoną, kad pamatytumėte instrukcijas ↓"]
         },
         {
           "type": "info",
@@ -17,7 +18,7 @@
           "items": [
             "🔴 Pjovimas (4p) – Pradinis pjovimas ir defektų šalinimas",
             "🟡 Kaulai (6p) – Kaulų šalinimas",
-            "🟢 Priežiūra (1p) – Kokybės kontrolė",
+            "🟢 Priežiūra (1p) – Užtikrina, kad lašiša teisingai patenka į odos šalinimo mašiną",
             "🔵 Galutinis pjovimas (2p) – Galutinis pjovimas",
             "🟣 Trim (2p) – Apipjaustymas pagal specifikaciją",
             "🔵 Dėžės (1p) – Pakavimas į dėžes",

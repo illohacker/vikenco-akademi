@@ -9,7 +9,8 @@
       "sections": [
         {
           "type": "line-map",
-          "title": "Linia de producție 1 – Faceți clic pe o stație pentru instrucțiuni"
+          "title": "Linia de producție 1 – Faceți clic pe o stație pentru instrucțiuni",
+          "items": ["TĂIERE", "OASE", "SUPV.", "TĂI. FIN.", "TRIM", "CUTII", "ETICH.", "INTRARE", "IEȘIRE", "LATURA A", "LATURA B", "BANDĂ TRANSPORTOARE", "Faceți clic pe o zonă pentru instrucțiuni ↓"]
         },
         {
           "type": "info",
@@ -17,7 +18,7 @@
           "items": [
             "🔴 Tăiere (4p) – Tăierea inițială și eliminarea defectelor",
             "🟡 Oase (6p) – Îndepărtarea oaselor",
-            "🟢 Supraveghere (1p) – Controlul calității",
+            "🟢 Supraveghere (1p) – Asigură că somonul intră corect în mașina de curățare",
             "🔵 Tăiere finală (2p) – Tăierea finală",
             "🟣 Trim (2p) – Curățare conform specificației",
             "🔵 Cutii (1p) – Ambalare în cutii",
