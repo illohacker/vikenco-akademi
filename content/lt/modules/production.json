@@ -1,300 +1,446 @@
 {
   "title": "Gamyba",
   "description": "Darbo stotys ir uzduotys gamyboje",
-  "lessons": [
+  "lines": [
     {
-      "id": "line-overview",
-      "title": "Linija 1 – Stočių apžvalga",
-      "icon": "🗺️",
-      "sections": [
+      "id": "line-1",
+      "title": "Linija 1",
+      "description": "Pagrindinė gamybos linija – lašišos apdorojimas",
+      "lessons": [
         {
-          "type": "line-map",
-          "title": "Gamybos linija 1 – Spustelėkite stotį, kad pamatytumėte instrukcijas",
-          "items": ["PJOVIMAS", "KAULAI", "PRIEŹ.", "GAL. PJ.", "TRIM", "DĖŽĖS", "ETIK.", "ĮĖJIMAS", "IŠĖJIMAS", "PUSĖ A", "PUSĖ B", "KONVEJERIS", "Spustelėkite zoną, kad pamatytumėte instrukcijas ↓"]
+          "id": "line-overview",
+          "title": "Linija 1 – Stočių apžvalga",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map",
+              "title": "Gamybos linija 1 – Spustelėkite stotį, kad pamatytumėte instrukcijas",
+              "items": [
+                "PJOVIMAS",
+                "KAULAI",
+                "PRIEŹ.",
+                "GAL. PJ.",
+                "TRIM",
+                "DĖŽĖS",
+                "ETIK.",
+                "ĮĖJIMAS",
+                "IŠĖJIMAS",
+                "PUSĖ A",
+                "PUSĖ B",
+                "KONVEJERIS",
+                "Spustelėkite zoną, kad pamatytumėte instrukcijas ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stotys (iš dešinės į kairę, sekant lašišos srautą):",
+              "items": [
+                "🔴 Pjovimas (4p) – Pradinis pjovimas ir defektų šalinimas",
+                "🟡 Kaulai (6p) – Kaulų šalinimas",
+                "🟢 Priežiūra (1p) – Užtikrina, kad lašiša teisingai patenka į odos šalinimo mašiną",
+                "🔵 Galutinis pjovimas (2p) – Galutinis pjovimas",
+                "🟣 Trim (2p) – Apipjaustymas pagal specifikaciją",
+                "🔵 Dėžės (1p) – Pakavimas į dėžes",
+                "🟣 Etiketė (1p) – Ženklinimas"
+              ]
+            }
+          ]
         },
         {
-          "type": "info",
-          "title": "Stotys (iš dešinės į kairę, sekant lašišos srautą):",
-          "items": [
-            "🔴 Pjovimas (4p) – Pradinis pjovimas ir defektų šalinimas",
-            "🟡 Kaulai (6p) – Kaulų šalinimas",
-            "🟢 Priežiūra (1p) – Užtikrina, kad lašiša teisingai patenka į odos šalinimo mašiną",
-            "🔵 Galutinis pjovimas (2p) – Galutinis pjovimas",
-            "🟣 Trim (2p) – Apipjaustymas pagal specifikaciją",
-            "🔵 Dėžės (1p) – Pakavimas į dėžes",
-            "🟣 Etiketė (1p) – Ženklinimas"
+          "id": "infeed-line-1",
+          "title": "Infeed / Mašinų linija 1 – Pjovimo stotis",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Pjovimo stotis yra pirmoji pozicija gamybos linijoje. 4 darbuotojai (2 kiekvienoje pusėje) apdoroja kiekvieną lašišos filė, kai ji atvyksta."
+            },
+            {
+              "type": "info",
+              "title": "Pozicija 1 – Dešinės pusės operatorius:",
+              "items": [
+                "🔪 Pjauna apatinę dalį ir lašišos riebalus pusmėnulio forma",
+                "👀 Pašalina pagrindinius filė defektus ir netobulumus",
+                "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Pozicija 2 – Kairės pusės operatorius:",
+              "items": [
+                "🔪 Pjauna visą baltą šoninę juostą nuo filė",
+                "👀 Užtikrina švarų, tolygų kraštą",
+                "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Visada būsite informuoti, kokia Trim klasė vyksta gamyboje (A Trim iki E Trim). Visada laikykitės esamos specifikacijos!"
+            },
+            {
+              "type": "steps",
+              "title": "Trim lygiai – Žinokite specifikacijas:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Stuburas ir pilvo kaulai pašalinti"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Nugaros pelekas, apykaklė, pilvo atlankas"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Smeigtiniai kaulai pašalinti"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Visiškai apipjaustytas, membrana pašalinta"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Be odos (skinless)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Visada atsargiai elkitės su peiliais. Pjaukite nuo savęs. Nedelsdami pakeiskite mėlynas pirštines, jei jos suplyšta."
+            }
+          ]
+        },
+        {
+          "id": "infeed-line-2",
+          "title": "Kaulų šalinimo stotis (Espinas)",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Kaulų šalinimo stotis yra viena iš labiausiai užimtų pozicijų. 6 darbuotojai (3 kiekvienoje pusėje, veidrodiškai) šalina smulkius kaulus iš lašišos filė."
+            },
+            {
+              "type": "info",
+              "title": "Prieš pradedant – BAADER 988 mašina:",
+              "items": [
+                "⚙️ Prieš filė pasiekiant jus, ji praeina per BAADER 988 mašiną",
+                "🦴 Ši mašina automatiškai pašalina daugumą smulkių kaulų",
+                "🔧 Jūsų darbas – rasti ir pašalinti likusius kaulus replėmis",
+                "🌐 Žiūrėkite mašiną veikiančią: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Kaip paskirstomos filė:",
+              "items": [
+                "🐟 Trys lašišos nugarinės atvyksta ant juostos vienu metu",
+                "1️⃣ Apatinė nugarinė → Pozicija 1 (arčiausiai juostos)",
+                "2️⃣ Vidurinė nugarinė → Pozicija 2 (centre)",
+                "3️⃣ Viršutinė nugarinė → Pozicija 3 (toliausiai nuo juostos)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "Kaip šalinti kaulus – žingsnis po žingsnio:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Paimkite filė",
+                  "description": "Paimkite savo priskirtą nugarinę nuo juostos (apatinę, vidurinę ar viršutinę)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Patikrinkite galvos zoną",
+                  "description": "Galvos zonoje VISADA yra daugiau nei 3 smulkūs kaulai. Raskite ir pašalinkite visus"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Slinkite ranka per nugarinę",
+                  "description": "Praveskite ranką per visą filė ilgį, kad rastumėte likusius kaulus"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Pašalinkite visus rastus kaulus",
+                  "description": "Ištraukite kiekvieną rastą kaulą savo įrankiu. Būkite kruopštūs – neturi likti nė vieno"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Patikrinkite ir paleiskite",
+                  "description": "Tik kai esate tikri, kad daugiau kaulų nėra, padėkite filė atgal ant juostos"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Kita filė",
+                  "description": "Nedelsiant pradėkite su kita atvykstančia filė"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "NIEKADA neskubėkite šiame žingsnyje. Kaulas filė yra kokybės defektas ir rizika vartotojui. Skirkite laiko kruopščiam patikrinimui."
+            },
+            {
+              "type": "info",
+              "title": "Svarbūs priminimai:",
+              "items": [
+                "⚠️ Galvos zonoje visada daugiausiai kaulų – pirmiausia atidžiai patikrinkite ją",
+                "✋ Naudokite ranką, kad apčiuoptumėte visą nugarinę – kaulai gali slėptis bet kur",
+                "🔄 Dirbkite pastoviu tempu – greitis ateina su praktika",
+                "🩹 Jei įsipjovėte, nedelsdami sustokite ir kreipkitės į komandos vadovą (žalia)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filet-line-1",
+          "title": "Priežiūra – Odos šalinimo mašinos maitinimas",
+          "icon": "👀",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Šioje pozicijoje dirba 1 darbuotojas. Jūsų darbas paprastas, bet labai svarbus: užtikrinti, kad kiekviena filė teisingai patektų į odos šalinimo mašiną."
+            },
+            {
+              "type": "info",
+              "title": "Ką turite daryti:",
+              "items": [
+                "🐟 Padėkite kiekvieną filė uodega konvejerio judėjimo kryptimi",
+                "↔️ Filė turi eiti tiesiai – negali patekti šonu ar kampu",
+                "⚙️ Jei filė patenka kreivai, odos šalinimo mašina užstringa",
+                "🔄 Dirbkite nuolat – kiekviena filė turi būti patikrinta ir išlyginta"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Užstrigusi mašina sustabdo visą liniją. Visada įsitikinkite, kad uodega rodo judėjimo kryptimi ir filė yra tiesi."
+            }
+          ]
+        },
+        {
+          "id": "filet-line-2",
+          "title": "Galutinis pjovimas (Acabado Corte)",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Tai viena iš reikliausių pozicijų. 2 darbuotojai (1 kiekvienoje pusėje). Filė be odos ateina iš mašinos ir turi būti išvalyta, apipjaustyta ir apversta greitai ir tiksliai."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Jūsų užduotys – žingsnis po žingsnio:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Priimkite filė",
+                  "description": "Filė be odos nukrenta nuo konvejerio po odos šalinimo mašinos"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Pašalinkite netobulumus",
+                  "description": "Nupjaukite likusią odą, tamsias dėmes, mėlynes ar pažeistas vietas"
+                },
+                {
+                  "emoji": "🧈",
+                  "title": "Pašalinkite perteklinius riebalus",
+                  "description": "Nupjaukite riebalus, kurių neturi būti galutiniame produkte"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Apverskite filė",
+                  "description": "Apverskite filė, kad ji tęstų kelionę prezentacine puse į viršų"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Paleiskite arba atmeskite",
+                  "description": "Jei filė atrodo gerai, padėkite ant juostos. Jei nepataisoma, dėkite į šonines dėžes"
+                }
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Šoninės dėžės – atmestos filė:",
+              "items": [
+                "📦 Per daug pažeistos filė premium pardavimui dedamos į šonines dėžes",
+                "♻️ Jos NEIŠMETAMOS – panaudojamos kitose gamyklos dalyse",
+                "⚠️ Atmeskite filė tik jei ji tikrai negali būti pataisyta apipjaustymu"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Ši pozicija reikalauja puikių peilio įgūdžių ir greičio. Visada pjaukite nuo savęs. Tikslumas yra raktas – per daug apipjaustymo švaisto produktą, per mažai – kokybės defektas."
+            }
+          ]
+        },
+        {
+          "id": "porsjoner",
+          "title": "Trim – Apvalaus pjovimo mašina",
+          "icon": "⚙️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Trim pozicija reikalauja įgūdžių ir praktikos. 2 darbuotojai (1 kiekvienoje pusėje). Valdote apvalią pjovimo mašiną, kuri pjauna centrinę filė liniją."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Kaip naudoti trim mašiną:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Padėkite filė",
+                  "description": "Padėkite filė ant mašinos platformos galvos galu į kairę"
+                },
+                {
+                  "emoji": "📐",
+                  "title": "Pakreipkite mašiną ~30°",
+                  "description": "Laikykite mašiną pakreiptą maždaug 30 laipsnių – nespauskite plokščiai. Tai efektyviausias kampas"
+                },
+                {
+                  "emoji": "➡️",
+                  "title": "Pjaukite iš kairės į dešinę",
+                  "description": "Veskite nuo galvos iki uodegos (kairė–dešinė). Rašytos taisyklės nėra, bet ši kryptis lengvesnė"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Nespauskite mašinos žemyn",
+                  "description": "Pagrindinė technika: NEGRĄŽINKITE mašinos į filė. Laikykite lengvai ir kampu"
+                },
+                {
+                  "emoji": "🪣",
+                  "title": "Nuopjovos į metalinę kubą",
+                  "description": "Nupjauta juostelė dedama į metalinę kubą šalia jūsų"
+                }
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Svarbūs patarimai:",
+              "items": [
+                "📐 ~30° kampas efektyvesnis nei plokščias spaudimas",
+                "➡️ Nuo galvos iki uodegos (kairė–dešinė) duoda geriausią rezultatą",
+                "🪶 Lengvas prisilietimas – nespauskite mašinos į mėsą",
+                "🪣 Nuopjovos visada dedamos į metalinę kubą šalia",
+                "🔄 Praktika tobulina – greitis ateina su patirtimi"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Apvalus peilis yra itin aštrus. Visada laikykite rankas toli nuo pjovimo zonos. Dėmesys ir koncentracija yra būtini."
+            }
+          ]
+        },
+        {
+          "id": "cajas-station",
+          "title": "Dėžės (Cajas)",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 darbuotojas šioje pozicijoje. Jūsų darbas – imti paruoštas filė nuo juostos ir dėti jas į dėžes pagal tam tikrą sluoksniavimo tvarką."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Kaip teisingai pakuoti dėžes:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Paimkite filė nuo juostos",
+                  "description": "Imkite paruoštas filė, kai jos atvyksta konvejeriu"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Dėkite sluoksniais po 3",
+                  "description": "Kiekvienas sluoksnis dėžėje – 3 lašišos filė greta viena kitos"
+                },
+                {
+                  "emoji": "↔️",
+                  "title": "Keiskite uodegų kryptį",
+                  "description": "Jei pirmame sluoksnyje uodegos rodo į kairę, kitame turi rodyti į dešinę"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Kartokite raštą",
+                  "description": "Tęskite kaitaliodami kryptį su kiekvienu nauju 3 filė sluoksniu"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Pilna dėžė paruošta",
+                  "description": "Kai dėžė pilna, perkelkite ją prie ženklinimo stoties"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Kaitaliojimo raštas būtinas tinkamam svorio paskirstymui ir prezentacijai. Pirmas sluoksnis uodegos kairėn → kitas dešinėn → kartoti."
+            }
+          ]
+        },
+        {
+          "id": "etiquetador-station",
+          "title": "Ženklinimas (Etiquetador)",
+          "icon": "🏷️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 darbuotojas šioje pozicijoje. Jūs esate paskutinis žingsnis prieš dėžei paliekant gamybos liniją. Tikslumas yra lemiamas."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Kaip ženklinti dėžes:",
+              "animatedSteps": [
+                {
+                  "emoji": "⚖️",
+                  "title": "Patikrinkite svorį",
+                  "description": "Dėžė turi pasiekti teisingą svorį pagal esamą užsakymą"
+                },
+                {
+                  "emoji": "⌨️",
+                  "title": "Paspauskite Enter",
+                  "description": "Kai svoris teisingas, paspauskite Enter mygtuką, kad atspausdintumėte etiketę"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Paimkite etiketę",
+                  "description": "Paimkite atspausdintą etiketę iš mašinos"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Priklijuokite ant dėžės",
+                  "description": "Tvarkingai priklijuokite etiketę ant dėžės"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Padėkite ant juostos",
+                  "description": "Padėkite pažymėtą dėžę ant konvejerio siuntimui"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Niekada neženklinkite dėžės, kuri nepasiekė teisingo svorio. Svorį nustato užsakymo specifikacija."
+            }
           ]
         }
       ]
     },
     {
-      "id": "infeed-line-1",
-      "title": "Infeed / Mašinų linija 1 – Pjovimo stotis",
-      "icon": "🔪",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Pjovimo stotis yra pirmoji pozicija gamybos linijoje. 4 darbuotojai (2 kiekvienoje pusėje) apdoroja kiekvieną lašišos filė, kai ji atvyksta."
-        },
-        {
-          "type": "info",
-          "title": "Pozicija 1 – Dešinės pusės operatorius:",
-          "items": [
-            "🔪 Pjauna apatinę dalį ir lašišos riebalus pusmėnulio forma",
-            "👀 Pašalina pagrindinius filė defektus ir netobulumus",
-            "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Pozicija 2 – Kairės pusės operatorius:",
-          "items": [
-            "🔪 Pjauna visą baltą šoninę juostą nuo filė",
-            "👀 Užtikrina švarų, tolygų kraštą",
-            "📋 Turi sekti dabartinio užsakymo trim specifikaciją"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Visada būsite informuoti, kokia Trim klasė vyksta gamyboje (A Trim iki E Trim). Visada laikykitės esamos specifikacijos!"
-        },
-        {
-          "type": "steps",
-          "title": "Trim lygiai – Žinokite specifikacijas:",
-          "steps": [
-            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Stuburas ir pilvo kaulai pašalinti" },
-            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Nugaros pelekas, apykaklė, pilvo atlankas" },
-            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Smeigtiniai kaulai pašalinti" },
-            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Visiškai apipjaustytas, membrana pašalinta" },
-            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Be odos (skinless)" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "success",
-          "text": "Visada atsargiai elkitės su peiliais. Pjaukite nuo savęs. Nedelsdami pakeiskite mėlynas pirštines, jei jos suplyšta."
-        }
-      ]
-    },
-    {
-      "id": "infeed-line-2",
-      "title": "Kaulų šalinimo stotis (Espinas)",
-      "icon": "🦴",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Kaulų šalinimo stotis yra viena iš labiausiai užimtų pozicijų. 6 darbuotojai (3 kiekvienoje pusėje, veidrodiškai) šalina smulkius kaulus iš lašišos filė."
-        },
-        {
-          "type": "info",
-          "title": "Prieš pradedant – BAADER 988 mašina:",
-          "items": [
-            "⚙️ Prieš filė pasiekiant jus, ji praeina per BAADER 988 mašiną",
-            "🦴 Ši mašina automatiškai pašalina daugumą smulkių kaulų",
-            "🔧 Jūsų darbas – rasti ir pašalinti likusius kaulus replėmis",
-            "🌐 Žiūrėkite mašiną veikiančią: https://www.baader.com/product/baader-988"
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Kaip paskirstomos filė:",
-          "items": [
-            "🐟 Trys lašišos nugarinės atvyksta ant juostos vienu metu",
-            "1️⃣ Apatinė nugarinė → Pozicija 1 (arčiausiai juostos)",
-            "2️⃣ Vidurinė nugarinė → Pozicija 2 (centre)",
-            "3️⃣ Viršutinė nugarinė → Pozicija 3 (toliausiai nuo juostos)"
-          ]
-        },
-        {
-          "type": "animated-steps",
-          "title": "Kaip šalinti kaulus – žingsnis po žingsnio:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Paimkite filė", "description": "Paimkite savo priskirtą nugarinę nuo juostos (apatinę, vidurinę ar viršutinę)" },
-            { "emoji": "🔍", "title": "Patikrinkite galvos zoną", "description": "Galvos zonoje VISADA yra daugiau nei 3 smulkūs kaulai. Raskite ir pašalinkite visus" },
-            { "emoji": "✋", "title": "Slinkite ranka per nugarinę", "description": "Praveskite ranką per visą filė ilgį, kad rastumėte likusius kaulus" },
-            { "emoji": "🦴", "title": "Pašalinkite visus rastus kaulus", "description": "Ištraukite kiekvieną rastą kaulą savo įrankiu. Būkite kruopštūs – neturi likti nė vieno" },
-            { "emoji": "✅", "title": "Patikrinkite ir paleiskite", "description": "Tik kai esate tikri, kad daugiau kaulų nėra, padėkite filė atgal ant juostos" },
-            { "emoji": "🔄", "title": "Kita filė", "description": "Nedelsiant pradėkite su kita atvykstančia filė" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "NIEKADA neskubėkite šiame žingsnyje. Kaulas filė yra kokybės defektas ir rizika vartotojui. Skirkite laiko kruopščiam patikrinimui."
-        },
-        {
-          "type": "info",
-          "title": "Svarbūs priminimai:",
-          "items": [
-            "⚠️ Galvos zonoje visada daugiausiai kaulų – pirmiausia atidžiai patikrinkite ją",
-            "✋ Naudokite ranką, kad apčiuoptumėte visą nugarinę – kaulai gali slėptis bet kur",
-            "🔄 Dirbkite pastoviu tempu – greitis ateina su praktika",
-            "🩹 Jei įsipjovėte, nedelsdami sustokite ir kreipkitės į komandos vadovą (žalia)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filet-line-1",
-      "title": "Priežiūra – Odos šalinimo mašinos maitinimas",
-      "icon": "👀",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Šioje pozicijoje dirba 1 darbuotojas. Jūsų darbas paprastas, bet labai svarbus: užtikrinti, kad kiekviena filė teisingai patektų į odos šalinimo mašiną."
-        },
-        {
-          "type": "info",
-          "title": "Ką turite daryti:",
-          "items": [
-            "🐟 Padėkite kiekvieną filė uodega konvejerio judėjimo kryptimi",
-            "↔️ Filė turi eiti tiesiai – negali patekti šonu ar kampu",
-            "⚙️ Jei filė patenka kreivai, odos šalinimo mašina užstringa",
-            "🔄 Dirbkite nuolat – kiekviena filė turi būti patikrinta ir išlyginta"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Užstrigusi mašina sustabdo visą liniją. Visada įsitikinkite, kad uodega rodo judėjimo kryptimi ir filė yra tiesi."
-        }
-      ]
-    },
-    {
-      "id": "filet-line-2",
-      "title": "Galutinis pjovimas (Acabado Corte)",
-      "icon": "🔪",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Tai viena iš reikliausių pozicijų. 2 darbuotojai (1 kiekvienoje pusėje). Filė be odos ateina iš mašinos ir turi būti išvalyta, apipjaustyta ir apversta greitai ir tiksliai."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Jūsų užduotys – žingsnis po žingsnio:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Priimkite filė", "description": "Filė be odos nukrenta nuo konvejerio po odos šalinimo mašinos" },
-            { "emoji": "🔪", "title": "Pašalinkite netobulumus", "description": "Nupjaukite likusią odą, tamsias dėmes, mėlynes ar pažeistas vietas" },
-            { "emoji": "🧈", "title": "Pašalinkite perteklinius riebalus", "description": "Nupjaukite riebalus, kurių neturi būti galutiniame produkte" },
-            { "emoji": "🔄", "title": "Apverskite filė", "description": "Apverskite filė, kad ji tęstų kelionę prezentacine puse į viršų" },
-            { "emoji": "✅", "title": "Paleiskite arba atmeskite", "description": "Jei filė atrodo gerai, padėkite ant juostos. Jei nepataisoma, dėkite į šonines dėžes" }
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Šoninės dėžės – atmestos filė:",
-          "items": [
-            "📦 Per daug pažeistos filė premium pardavimui dedamos į šonines dėžes",
-            "♻️ Jos NEIŠMETAMOS – panaudojamos kitose gamyklos dalyse",
-            "⚠️ Atmeskite filė tik jei ji tikrai negali būti pataisyta apipjaustymu"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Ši pozicija reikalauja puikių peilio įgūdžių ir greičio. Visada pjaukite nuo savęs. Tikslumas yra raktas – per daug apipjaustymo švaisto produktą, per mažai – kokybės defektas."
-        }
-      ]
-    },
-    {
-      "id": "porsjoner",
-      "title": "Trim – Apvalaus pjovimo mašina",
-      "icon": "⚙️",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Trim pozicija reikalauja įgūdžių ir praktikos. 2 darbuotojai (1 kiekvienoje pusėje). Valdote apvalią pjovimo mašiną, kuri pjauna centrinę filė liniją."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Kaip naudoti trim mašiną:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Padėkite filė", "description": "Padėkite filė ant mašinos platformos galvos galu į kairę" },
-            { "emoji": "📐", "title": "Pakreipkite mašiną ~30°", "description": "Laikykite mašiną pakreiptą maždaug 30 laipsnių – nespauskite plokščiai. Tai efektyviausias kampas" },
-            { "emoji": "➡️", "title": "Pjaukite iš kairės į dešinę", "description": "Veskite nuo galvos iki uodegos (kairė–dešinė). Rašytos taisyklės nėra, bet ši kryptis lengvesnė" },
-            { "emoji": "⚠️", "title": "Nespauskite mašinos žemyn", "description": "Pagrindinė technika: NEGRĄŽINKITE mašinos į filė. Laikykite lengvai ir kampu" },
-            { "emoji": "🪣", "title": "Nuopjovos į metalinę kubą", "description": "Nupjauta juostelė dedama į metalinę kubą šalia jūsų" }
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Svarbūs patarimai:",
-          "items": [
-            "📐 ~30° kampas efektyvesnis nei plokščias spaudimas",
-            "➡️ Nuo galvos iki uodegos (kairė–dešinė) duoda geriausią rezultatą",
-            "🪶 Lengvas prisilietimas – nespauskite mašinos į mėsą",
-            "🪣 Nuopjovos visada dedamos į metalinę kubą šalia",
-            "🔄 Praktika tobulina – greitis ateina su patirtimi"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Apvalus peilis yra itin aštrus. Visada laikykite rankas toli nuo pjovimo zonos. Dėmesys ir koncentracija yra būtini."
-        }
-      ]
-    },
-    {
-      "id": "cajas-station",
-      "title": "Dėžės (Cajas)",
-      "icon": "📦",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "1 darbuotojas šioje pozicijoje. Jūsų darbas – imti paruoštas filė nuo juostos ir dėti jas į dėžes pagal tam tikrą sluoksniavimo tvarką."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Kaip teisingai pakuoti dėžes:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Paimkite filė nuo juostos", "description": "Imkite paruoštas filė, kai jos atvyksta konvejeriu" },
-            { "emoji": "📦", "title": "Dėkite sluoksniais po 3", "description": "Kiekvienas sluoksnis dėžėje – 3 lašišos filė greta viena kitos" },
-            { "emoji": "↔️", "title": "Keiskite uodegų kryptį", "description": "Jei pirmame sluoksnyje uodegos rodo į kairę, kitame turi rodyti į dešinę" },
-            { "emoji": "🔄", "title": "Kartokite raštą", "description": "Tęskite kaitaliodami kryptį su kiekvienu nauju 3 filė sluoksniu" },
-            { "emoji": "✅", "title": "Pilna dėžė paruošta", "description": "Kai dėžė pilna, perkelkite ją prie ženklinimo stoties" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Kaitaliojimo raštas būtinas tinkamam svorio paskirstymui ir prezentacijai. Pirmas sluoksnis uodegos kairėn → kitas dešinėn → kartoti."
-        }
-      ]
-    },
-    {
-      "id": "etiquetador-station",
-      "title": "Ženklinimas (Etiquetador)",
-      "icon": "🏷️",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "1 darbuotojas šioje pozicijoje. Jūs esate paskutinis žingsnis prieš dėžei paliekant gamybos liniją. Tikslumas yra lemiamas."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Kaip ženklinti dėžes:",
-          "animatedSteps": [
-            { "emoji": "⚖️", "title": "Patikrinkite svorį", "description": "Dėžė turi pasiekti teisingą svorį pagal esamą užsakymą" },
-            { "emoji": "⌨️", "title": "Paspauskite Enter", "description": "Kai svoris teisingas, paspauskite Enter mygtuką, kad atspausdintumėte etiketę" },
-            { "emoji": "🏷️", "title": "Paimkite etiketę", "description": "Paimkite atspausdintą etiketę iš mašinos" },
-            { "emoji": "📦", "title": "Priklijuokite ant dėžės", "description": "Tvarkingai priklijuokite etiketę ant dėžės" },
-            { "emoji": "🔄", "title": "Padėkite ant juostos", "description": "Padėkite pažymėtą dėžę ant konvejerio siuntimui" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Niekada neženklinkite dėžės, kuri nepasiekė teisingo svorio. Svorį nustato užsakymo specifikacija."
-        }
-      ]
+      "id": "line-2",
+      "title": "Linija 2",
+      "description": "Netrukus",
+      "lessons": []
     }
   ]
 }

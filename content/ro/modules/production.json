@@ -1,300 +1,446 @@
 {
   "title": "Productie",
   "description": "Statii de lucru si sarcini in productie",
-  "lessons": [
+  "lines": [
     {
-      "id": "line-overview",
-      "title": "Linia 1 – Prezentarea stațiilor",
-      "icon": "🗺️",
-      "sections": [
+      "id": "line-1",
+      "title": "Linia 1",
+      "description": "Linia principală de producție – procesare somon",
+      "lessons": [
         {
-          "type": "line-map",
-          "title": "Linia de producție 1 – Faceți clic pe o stație pentru instrucțiuni",
-          "items": ["TĂIERE", "OASE", "SUPV.", "TĂI. FIN.", "TRIM", "CUTII", "ETICH.", "INTRARE", "IEȘIRE", "LATURA A", "LATURA B", "BANDĂ TRANSPORTOARE", "Faceți clic pe o zonă pentru instrucțiuni ↓"]
+          "id": "line-overview",
+          "title": "Linia 1 – Prezentarea stațiilor",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map",
+              "title": "Linia de producție 1 – Faceți clic pe o stație pentru instrucțiuni",
+              "items": [
+                "TĂIERE",
+                "OASE",
+                "SUPV.",
+                "TĂI. FIN.",
+                "TRIM",
+                "CUTII",
+                "ETICH.",
+                "INTRARE",
+                "IEȘIRE",
+                "LATURA A",
+                "LATURA B",
+                "BANDĂ TRANSPORTOARE",
+                "Faceți clic pe o zonă pentru instrucțiuni ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stații (de la dreapta la stânga, urmând fluxul somonului):",
+              "items": [
+                "🔴 Tăiere (4p) – Tăierea inițială și eliminarea defectelor",
+                "🟡 Oase (6p) – Îndepărtarea oaselor",
+                "🟢 Supraveghere (1p) – Asigură că somonul intră corect în mașina de curățare",
+                "🔵 Tăiere finală (2p) – Tăierea finală",
+                "🟣 Trim (2p) – Curățare conform specificației",
+                "🔵 Cutii (1p) – Ambalare în cutii",
+                "🟣 Etichetare (1p) – Etichetare"
+              ]
+            }
+          ]
         },
         {
-          "type": "info",
-          "title": "Stații (de la dreapta la stânga, urmând fluxul somonului):",
-          "items": [
-            "🔴 Tăiere (4p) – Tăierea inițială și eliminarea defectelor",
-            "🟡 Oase (6p) – Îndepărtarea oaselor",
-            "🟢 Supraveghere (1p) – Asigură că somonul intră corect în mașina de curățare",
-            "🔵 Tăiere finală (2p) – Tăierea finală",
-            "🟣 Trim (2p) – Curățare conform specificației",
-            "🔵 Cutii (1p) – Ambalare în cutii",
-            "🟣 Etichetare (1p) – Etichetare"
+          "id": "infeed-line-1",
+          "title": "Infeed / Linia Mașină 1 – Stația de Tăiere",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Stația de tăiere este prima poziție pe linia de producție. 4 muncitori (2 pe fiecare parte) prelucrează fiecare fileu de somon la sosire."
+            },
+            {
+              "type": "info",
+              "title": "Poziția 1 – Operator partea dreaptă:",
+              "items": [
+                "🔪 Taie partea inferioară și grăsimea somonului în formă de semilună",
+                "👀 Îndepărtează defectele și imperfecțiunile principale ale fileului",
+                "📋 Trebuie să urmeze specificația trim a comenzii curente"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Poziția 2 – Operator partea stângă:",
+              "items": [
+                "🔪 Taie întreaga fâșie albă laterală de pe fileu",
+                "👀 Asigură o margine curată și uniformă",
+                "📋 Trebuie să urmeze specificația trim a comenzii curente"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Veți fi informați în orice moment ce clasă de Trim se produce (A Trim la E Trim). Urmați întotdeauna specificația curentă!"
+            },
+            {
+              "type": "steps",
+              "title": "Niveluri Trim – Cunoașteți specificațiile:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Coloana vertebrală și oasele ventrale îndepărtate"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Înotătoarea dorsală, gulerul, clapeta ventrală"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Oasele pin îndepărtate"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Complet curățat, membrana îndepărtată"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Fără piele (skinless)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Manevrați întotdeauna cuțitele cu atenție. Tăiați în direcție opusă corpului. Schimbați imediat mănușile albastre dacă se rup."
+            }
+          ]
+        },
+        {
+          "id": "infeed-line-2",
+          "title": "Stația de Îndepărtare a Oaselor (Espinas)",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Stația de oase este una dintre cele mai solicitate poziții. 6 muncitori (3 pe fiecare parte, în oglindă) îndepărtează oasele pin din fileurile de somon."
+            },
+            {
+              "type": "info",
+              "title": "Înainte de a începe – Mașina BAADER 988:",
+              "items": [
+                "⚙️ Înainte ca fileurile să ajungă la tine, trec prin mașina BAADER 988",
+                "🦴 Această mașină îndepărtează automat majoritatea oaselor pin",
+                "🔧 Treaba ta este să găsești și să îndepărtezi oasele rămase cu penseta",
+                "🌐 Vezi mașina în acțiune: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Cum se distribuie fileurile:",
+              "items": [
+                "🐟 Trei mușchiuleți de somon ajung pe bandă în același timp",
+                "1️⃣ Mușchiulețul de jos → Poziția 1 (cel mai aproape de bandă)",
+                "2️⃣ Mușchiulețul din mijloc → Poziția 2 (centru)",
+                "3️⃣ Mușchiulețul de sus → Poziția 3 (cel mai departe de bandă)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să îndepărtați oasele – pas cu pas:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Luați fileul",
+                  "description": "Luați mușchiulețul alocat de pe bandă (inferior, mijlociu sau superior)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Verificați zona capului",
+                  "description": "Zona capului conține ÎNTOTDEAUNA mai mult de 3 oase pin. Găsiți-le și scoateți-le pe toate"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Glisați mâna pe mușchiuleț",
+                  "description": "Treceți mâna pe toată lungimea fileului pentru a găsi oasele rămase"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Îndepărtați toate oasele găsite",
+                  "description": "Extrageți fiecare os cu unealta. Fiți minuțioși – niciun os nu trebuie să rămână"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Verificați și eliberați",
+                  "description": "Doar când sunteți siguri că nu mai sunt oase, puneți fileul înapoi pe bandă"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Următorul fileu",
+                  "description": "Începeți imediat cu următorul fileu"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "NU grăbiți NICIODATĂ acest pas. Un os rămas în fileu este un defect de calitate și un risc pentru consumator. Acordați timpul necesar verificării."
+            },
+            {
+              "type": "info",
+              "title": "Amintiri cheie:",
+              "items": [
+                "⚠️ Zona capului are întotdeauna cele mai multe oase – verificați-o prima cu atenție",
+                "✋ Folosiți mâna pentru a palpa tot mușchiulețul – oasele se pot ascunde oriunde",
+                "🔄 Lucrați într-un ritm constant – viteza vine cu practica",
+                "🩹 Dacă vă tăiați, opriți-vă imediat și contactați un lider de echipă (verde)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "filet-line-1",
+          "title": "Supraveghere – Alimentare mașină de curățare",
+          "icon": "👀",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Această poziție are 1 muncitor. Treaba ta este simplă dar critică: asigură-te că fiecare fileu intră corect în mașina de curățat pielea."
+            },
+            {
+              "type": "info",
+              "title": "Ce trebuie să faci:",
+              "items": [
+                "🐟 Poziționează fiecare fileu cu coada în direcția benzii transportoare",
+                "↔️ Fileurile trebuie să intre drept – nu pot intra lateral sau în unghi",
+                "⚙️ Dacă un fileu intră strâmb, mașina de curățat se blochează",
+                "🔄 Lucrează continuu – fiecare fileu trebuie verificat și aliniat"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "O mașină blocată oprește întreaga linie. Asigură-te mereu că coada indică direcția de mers și fileul este drept."
+            }
+          ]
+        },
+        {
+          "id": "filet-line-2",
+          "title": "Tăiere finală (Acabado Corte)",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Aceasta este una dintre cele mai solicitante poziții. 2 muncitori (1 pe fiecare parte). Fileurile fără piele vin de la mașină și trebuie curățate, tăiate și întoarse cu rapiditate și precizie."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Sarcinile tale – pas cu pas:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Primește fileul",
+                  "description": "Fileurile fără piele cad de pe bandă după mașina de curățat"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Îndepărtează imperfecțiunile",
+                  "description": "Taie resturile de piele, petele întunecate, vânătăile sau zonele deteriorate"
+                },
+                {
+                  "emoji": "🧈",
+                  "title": "Îndepărtează grăsimea în exces",
+                  "description": "Curăță grăsimea care nu trebuie să fie pe produsul final"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Întoarce fileul",
+                  "description": "Întoarce fileul pentru a continua cu partea de prezentare în sus"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Eliberează sau respinge",
+                  "description": "Dacă fileul arată bine, pune-l pe bandă. Dacă e ireparabil, pune-l în cutiile laterale"
+                }
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Cutii laterale – fileuri respinse:",
+              "items": [
+                "📦 Fileurile prea deteriorate pentru vânzare premium merg în cutiile laterale",
+                "♻️ NU sunt aruncate – sunt reutilizate în alte părți ale fabricii",
+                "⚠️ Respingeți un fileu doar dacă nu poate fi reparat prin tăiere"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Această poziție necesită abilități excelente cu cuțitul și rapiditate. Tăiați întotdeauna în direcție opusă corpului. Precizia este cheia – prea multă tăiere risipește produsul, prea puțină înseamnă defect de calitate."
+            }
+          ]
+        },
+        {
+          "id": "porsjoner",
+          "title": "Trim – Mașina de tăiere circulară",
+          "icon": "⚙️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Poziția Trim necesită îndemânare și practică. 2 muncitori (1 pe fiecare parte). Operezi o mașină de tăiere circulară care taie de-a lungul liniei centrale a fileului."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să folosești mașina de trim:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Poziționează fileul",
+                  "description": "Pune fileul pe platforma mașinii cu capul în stânga"
+                },
+                {
+                  "emoji": "📐",
+                  "title": "Înclină mașina ~30°",
+                  "description": "Ține mașina înclinată la aproximativ 30 de grade – nu o apăsa plat. Este cel mai eficient unghi"
+                },
+                {
+                  "emoji": "➡️",
+                  "title": "Taie de la stânga la dreapta",
+                  "description": "Ghidează de la cap la coadă (stânga–dreapta). Nu e regulă scrisă, dar direcția asta e mai ușoară"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Nu apăsa mașina în jos",
+                  "description": "Tehnica cheie: NU afunda mașina în fileu. Ține-o ușor și în unghi pentru o tăietură netedă"
+                },
+                {
+                  "emoji": "🪣",
+                  "title": "Resturile în cuva metalică",
+                  "description": "Fâșia tăiată merge în cuva metalică de lângă tine"
+                }
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Sfaturi cheie:",
+              "items": [
+                "📐 ~30° unghi e mai eficient decât presarea plată",
+                "➡️ De la cap la coadă (stânga–dreapta) dă cel mai bun rezultat",
+                "🪶 Atingere ușoară – nu forța mașina în carne",
+                "🪣 Resturile merg întotdeauna în cuva metalică",
+                "🔄 Practica face perfectă – viteza vine cu experiența"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Lama circulară este extrem de ascuțită. Ține mâinile departe de zona de tăiere în orice moment. Concentrarea este esențială."
+            }
+          ]
+        },
+        {
+          "id": "cajas-station",
+          "title": "Cutii (Cajas)",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 muncitor la această poziție. Treaba ta este să iei fileurile finite de pe bandă și să le pui în cutii urmând un model specific de straturi."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să ambalezi cutiile corect:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Ia fileurile de pe bandă",
+                  "description": "Preia fileurile finite pe măsură ce ajung pe conveior"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Pune în straturi de 3",
+                  "description": "Fiecare strat din cutie constă din 3 fileuri de somon una lângă alta"
+                },
+                {
+                  "emoji": "↔️",
+                  "title": "Alternează direcția cozilor",
+                  "description": "Dacă primul strat are cozile spre stânga, următorul trebuie să le aibă spre dreapta"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Repetă modelul",
+                  "description": "Continuă să alternezi direcția cu fiecare strat nou de 3 fileuri"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Cutie plină gata",
+                  "description": "Când cutia e plină, mută-o la stația de etichetare"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Modelul alternant este esențial pentru distribuția corectă a greutății și prezentare. Primul strat cozi stânga → următorul cozi dreapta → repetă."
+            }
+          ]
+        },
+        {
+          "id": "etiquetador-station",
+          "title": "Etichetare (Etiquetador)",
+          "icon": "🏷️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 muncitor la această poziție. Ești ultimul pas înainte ca cutia să părăsească linia de producție. Precizia este critică."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să etichetezi cutiile:",
+              "animatedSteps": [
+                {
+                  "emoji": "⚖️",
+                  "title": "Verifică greutatea",
+                  "description": "Cutia trebuie să atingă greutatea corectă conform comenzii curente"
+                },
+                {
+                  "emoji": "⌨️",
+                  "title": "Apasă Enter",
+                  "description": "Când greutatea e corectă, apasă tasta Enter pentru a imprima eticheta"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Ia eticheta",
+                  "description": "Ridică eticheta tipărită de la mașină"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Lipește-o pe cutie",
+                  "description": "Aplică eticheta ordonat pe cutie"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Pune pe bandă",
+                  "description": "Pune cutia etichetată pe banda transportoare pentru expediere"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Nu eticheta niciodată o cutie care nu a atins greutatea corectă. Greutatea este determinată de specificația comenzii."
+            }
           ]
         }
       ]
     },
     {
-      "id": "infeed-line-1",
-      "title": "Infeed / Linia Mașină 1 – Stația de Tăiere",
-      "icon": "🔪",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Stația de tăiere este prima poziție pe linia de producție. 4 muncitori (2 pe fiecare parte) prelucrează fiecare fileu de somon la sosire."
-        },
-        {
-          "type": "info",
-          "title": "Poziția 1 – Operator partea dreaptă:",
-          "items": [
-            "🔪 Taie partea inferioară și grăsimea somonului în formă de semilună",
-            "👀 Îndepărtează defectele și imperfecțiunile principale ale fileului",
-            "📋 Trebuie să urmeze specificația trim a comenzii curente"
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Poziția 2 – Operator partea stângă:",
-          "items": [
-            "🔪 Taie întreaga fâșie albă laterală de pe fileu",
-            "👀 Asigură o margine curată și uniformă",
-            "📋 Trebuie să urmeze specificația trim a comenzii curente"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Veți fi informați în orice moment ce clasă de Trim se produce (A Trim la E Trim). Urmați întotdeauna specificația curentă!"
-        },
-        {
-          "type": "steps",
-          "title": "Niveluri Trim – Cunoașteți specificațiile:",
-          "steps": [
-            { "icon": "/icons/salmon-trim-a.svg", "label": "Trim A: Coloana vertebrală și oasele ventrale îndepărtate" },
-            { "icon": "/icons/salmon-trim-b.svg", "label": "Trim B: + Înotătoarea dorsală, gulerul, clapeta ventrală" },
-            { "icon": "/icons/salmon-trim-c.svg", "label": "Trim C: + Oasele pin îndepărtate" },
-            { "icon": "/icons/salmon-trim-d.svg", "label": "Trim D: Complet curățat, membrana îndepărtată" },
-            { "icon": "/icons/salmon-trim-e.svg", "label": "Trim E: Fără piele (skinless)" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "success",
-          "text": "Manevrați întotdeauna cuțitele cu atenție. Tăiați în direcție opusă corpului. Schimbați imediat mănușile albastre dacă se rup."
-        }
-      ]
-    },
-    {
-      "id": "infeed-line-2",
-      "title": "Stația de Îndepărtare a Oaselor (Espinas)",
-      "icon": "🦴",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Stația de oase este una dintre cele mai solicitate poziții. 6 muncitori (3 pe fiecare parte, în oglindă) îndepărtează oasele pin din fileurile de somon."
-        },
-        {
-          "type": "info",
-          "title": "Înainte de a începe – Mașina BAADER 988:",
-          "items": [
-            "⚙️ Înainte ca fileurile să ajungă la tine, trec prin mașina BAADER 988",
-            "🦴 Această mașină îndepărtează automat majoritatea oaselor pin",
-            "🔧 Treaba ta este să găsești și să îndepărtezi oasele rămase cu penseta",
-            "🌐 Vezi mașina în acțiune: https://www.baader.com/product/baader-988"
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Cum se distribuie fileurile:",
-          "items": [
-            "🐟 Trei mușchiuleți de somon ajung pe bandă în același timp",
-            "1️⃣ Mușchiulețul de jos → Poziția 1 (cel mai aproape de bandă)",
-            "2️⃣ Mușchiulețul din mijloc → Poziția 2 (centru)",
-            "3️⃣ Mușchiulețul de sus → Poziția 3 (cel mai departe de bandă)"
-          ]
-        },
-        {
-          "type": "animated-steps",
-          "title": "Cum să îndepărtați oasele – pas cu pas:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Luați fileul", "description": "Luați mușchiulețul alocat de pe bandă (inferior, mijlociu sau superior)" },
-            { "emoji": "🔍", "title": "Verificați zona capului", "description": "Zona capului conține ÎNTOTDEAUNA mai mult de 3 oase pin. Găsiți-le și scoateți-le pe toate" },
-            { "emoji": "✋", "title": "Glisați mâna pe mușchiuleț", "description": "Treceți mâna pe toată lungimea fileului pentru a găsi oasele rămase" },
-            { "emoji": "🦴", "title": "Îndepărtați toate oasele găsite", "description": "Extrageți fiecare os cu unealta. Fiți minuțioși – niciun os nu trebuie să rămână" },
-            { "emoji": "✅", "title": "Verificați și eliberați", "description": "Doar când sunteți siguri că nu mai sunt oase, puneți fileul înapoi pe bandă" },
-            { "emoji": "🔄", "title": "Următorul fileu", "description": "Începeți imediat cu următorul fileu" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "NU grăbiți NICIODATĂ acest pas. Un os rămas în fileu este un defect de calitate și un risc pentru consumator. Acordați timpul necesar verificării."
-        },
-        {
-          "type": "info",
-          "title": "Amintiri cheie:",
-          "items": [
-            "⚠️ Zona capului are întotdeauna cele mai multe oase – verificați-o prima cu atenție",
-            "✋ Folosiți mâna pentru a palpa tot mușchiulețul – oasele se pot ascunde oriunde",
-            "🔄 Lucrați într-un ritm constant – viteza vine cu practica",
-            "🩹 Dacă vă tăiați, opriți-vă imediat și contactați un lider de echipă (verde)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "filet-line-1",
-      "title": "Supraveghere – Alimentare mașină de curățare",
-      "icon": "👀",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Această poziție are 1 muncitor. Treaba ta este simplă dar critică: asigură-te că fiecare fileu intră corect în mașina de curățat pielea."
-        },
-        {
-          "type": "info",
-          "title": "Ce trebuie să faci:",
-          "items": [
-            "🐟 Poziționează fiecare fileu cu coada în direcția benzii transportoare",
-            "↔️ Fileurile trebuie să intre drept – nu pot intra lateral sau în unghi",
-            "⚙️ Dacă un fileu intră strâmb, mașina de curățat se blochează",
-            "🔄 Lucrează continuu – fiecare fileu trebuie verificat și aliniat"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "O mașină blocată oprește întreaga linie. Asigură-te mereu că coada indică direcția de mers și fileul este drept."
-        }
-      ]
-    },
-    {
-      "id": "filet-line-2",
-      "title": "Tăiere finală (Acabado Corte)",
-      "icon": "🔪",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Aceasta este una dintre cele mai solicitante poziții. 2 muncitori (1 pe fiecare parte). Fileurile fără piele vin de la mașină și trebuie curățate, tăiate și întoarse cu rapiditate și precizie."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Sarcinile tale – pas cu pas:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Primește fileul", "description": "Fileurile fără piele cad de pe bandă după mașina de curățat" },
-            { "emoji": "🔪", "title": "Îndepărtează imperfecțiunile", "description": "Taie resturile de piele, petele întunecate, vânătăile sau zonele deteriorate" },
-            { "emoji": "🧈", "title": "Îndepărtează grăsimea în exces", "description": "Curăță grăsimea care nu trebuie să fie pe produsul final" },
-            { "emoji": "🔄", "title": "Întoarce fileul", "description": "Întoarce fileul pentru a continua cu partea de prezentare în sus" },
-            { "emoji": "✅", "title": "Eliberează sau respinge", "description": "Dacă fileul arată bine, pune-l pe bandă. Dacă e ireparabil, pune-l în cutiile laterale" }
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Cutii laterale – fileuri respinse:",
-          "items": [
-            "📦 Fileurile prea deteriorate pentru vânzare premium merg în cutiile laterale",
-            "♻️ NU sunt aruncate – sunt reutilizate în alte părți ale fabricii",
-            "⚠️ Respingeți un fileu doar dacă nu poate fi reparat prin tăiere"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Această poziție necesită abilități excelente cu cuțitul și rapiditate. Tăiați întotdeauna în direcție opusă corpului. Precizia este cheia – prea multă tăiere risipește produsul, prea puțină înseamnă defect de calitate."
-        }
-      ]
-    },
-    {
-      "id": "porsjoner",
-      "title": "Trim – Mașina de tăiere circulară",
-      "icon": "⚙️",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "Poziția Trim necesită îndemânare și practică. 2 muncitori (1 pe fiecare parte). Operezi o mașină de tăiere circulară care taie de-a lungul liniei centrale a fileului."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Cum să folosești mașina de trim:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Poziționează fileul", "description": "Pune fileul pe platforma mașinii cu capul în stânga" },
-            { "emoji": "📐", "title": "Înclină mașina ~30°", "description": "Ține mașina înclinată la aproximativ 30 de grade – nu o apăsa plat. Este cel mai eficient unghi" },
-            { "emoji": "➡️", "title": "Taie de la stânga la dreapta", "description": "Ghidează de la cap la coadă (stânga–dreapta). Nu e regulă scrisă, dar direcția asta e mai ușoară" },
-            { "emoji": "⚠️", "title": "Nu apăsa mașina în jos", "description": "Tehnica cheie: NU afunda mașina în fileu. Ține-o ușor și în unghi pentru o tăietură netedă" },
-            { "emoji": "🪣", "title": "Resturile în cuva metalică", "description": "Fâșia tăiată merge în cuva metalică de lângă tine" }
-          ]
-        },
-        {
-          "type": "info",
-          "title": "Sfaturi cheie:",
-          "items": [
-            "📐 ~30° unghi e mai eficient decât presarea plată",
-            "➡️ De la cap la coadă (stânga–dreapta) dă cel mai bun rezultat",
-            "🪶 Atingere ușoară – nu forța mașina în carne",
-            "🪣 Resturile merg întotdeauna în cuva metalică",
-            "🔄 Practica face perfectă – viteza vine cu experiența"
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Lama circulară este extrem de ascuțită. Ține mâinile departe de zona de tăiere în orice moment. Concentrarea este esențială."
-        }
-      ]
-    },
-    {
-      "id": "cajas-station",
-      "title": "Cutii (Cajas)",
-      "icon": "📦",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "1 muncitor la această poziție. Treaba ta este să iei fileurile finite de pe bandă și să le pui în cutii urmând un model specific de straturi."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Cum să ambalezi cutiile corect:",
-          "animatedSteps": [
-            { "emoji": "🐟", "title": "Ia fileurile de pe bandă", "description": "Preia fileurile finite pe măsură ce ajung pe conveior" },
-            { "emoji": "📦", "title": "Pune în straturi de 3", "description": "Fiecare strat din cutie constă din 3 fileuri de somon una lângă alta" },
-            { "emoji": "↔️", "title": "Alternează direcția cozilor", "description": "Dacă primul strat are cozile spre stânga, următorul trebuie să le aibă spre dreapta" },
-            { "emoji": "🔄", "title": "Repetă modelul", "description": "Continuă să alternezi direcția cu fiecare strat nou de 3 fileuri" },
-            { "emoji": "✅", "title": "Cutie plină gata", "description": "Când cutia e plină, mută-o la stația de etichetare" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Modelul alternant este esențial pentru distribuția corectă a greutății și prezentare. Primul strat cozi stânga → următorul cozi dreapta → repetă."
-        }
-      ]
-    },
-    {
-      "id": "etiquetador-station",
-      "title": "Etichetare (Etiquetador)",
-      "icon": "🏷️",
-      "sections": [
-        {
-          "type": "alert",
-          "style": "warning",
-          "text": "1 muncitor la această poziție. Ești ultimul pas înainte ca cutia să părăsească linia de producție. Precizia este critică."
-        },
-        {
-          "type": "animated-steps",
-          "title": "Cum să etichetezi cutiile:",
-          "animatedSteps": [
-            { "emoji": "⚖️", "title": "Verifică greutatea", "description": "Cutia trebuie să atingă greutatea corectă conform comenzii curente" },
-            { "emoji": "⌨️", "title": "Apasă Enter", "description": "Când greutatea e corectă, apasă tasta Enter pentru a imprima eticheta" },
-            { "emoji": "🏷️", "title": "Ia eticheta", "description": "Ridică eticheta tipărită de la mașină" },
-            { "emoji": "📦", "title": "Lipește-o pe cutie", "description": "Aplică eticheta ordonat pe cutie" },
-            { "emoji": "🔄", "title": "Pune pe bandă", "description": "Pune cutia etichetată pe banda transportoare pentru expediere" }
-          ]
-        },
-        {
-          "type": "alert",
-          "style": "danger",
-          "text": "Nu eticheta niciodată o cutie care nu a atins greutatea corectă. Greutatea este determinată de specificația comenzii."
-        }
-      ]
+      "id": "line-2",
+      "title": "Linia 2",
+      "description": "În curând",
+      "lessons": []
     }
   ]
 }

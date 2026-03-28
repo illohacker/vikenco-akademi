@@ -33,10 +33,18 @@ type Lesson = {
   sections: Section[]
 }
 
+type Line = {
+  id: string
+  title: string
+  description?: string
+  lessons: Lesson[]
+}
+
 type ModuleContent = {
   title: string
   description: string
-  lessons: Lesson[]
+  lessons?: Lesson[]
+  lines?: Line[]
 }
 
 async function loadModuleContent(locale: string, slug: string): Promise<ModuleContent | null> {
@@ -107,24 +115,35 @@ function ModuleRenderer({ slug, mod, content }: { slug: string; mod: { icon: str
 
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 py-8 space-y-6">
-        {content && content.lessons.length > 0 ? (
-          content.lessons.map((lesson, lessonIndex) => (
-            <div key={lesson.id || lessonIndex} id={`lesson-${lesson.id}`} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-500">
-              {/* Lesson header */}
-              <div className="px-6 py-5 border-b border-gray-100 bg-gray-50/50">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">{lesson.icon}</span>
-                  <h2 className="text-xl font-bold text-gray-900">{lesson.title}</h2>
-                </div>
+        {content?.lines ? (
+          content.lines.map((line) => (
+            <div key={line.id} className="space-y-6">
+              {/* Line header */}
+              <div className="border-b-2 border-[var(--vikenco-blue)] pb-3 pt-4">
+                <h2 className="text-2xl font-bold text-[var(--vikenco-blue)]">{line.title}</h2>
+                {line.description && (
+                  <p className="text-gray-500 text-sm mt-1">{line.description}</p>
+                )}
               </div>
 
-              {/* Lesson sections */}
-              <div className="px-6 py-6 space-y-6">
-                {lesson.sections.map((section, secIndex) => (
-                  <SectionRenderer key={secIndex} section={section} />
-                ))}
-              </div>
+              {line.lessons.length > 0 ? (
+                line.lessons.map((lesson, lessonIndex) => (
+                  <LessonCard key={lesson.id || lessonIndex} lesson={lesson} />
+                ))
+              ) : (
+                <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
+                  <div className="text-center py-12 text-gray-400">
+                    <span className="text-6xl block mb-4">📝</span>
+                    <p className="text-lg">Innhold kommer snart / Content coming soon</p>
+                    <p className="text-sm mt-2">Dette modulet er under utvikling</p>
+                  </div>
+                </div>
+              )}
             </div>
+          ))
+        ) : content?.lessons && content.lessons.length > 0 ? (
+          content.lessons.map((lesson, lessonIndex) => (
+            <LessonCard key={lesson.id || lessonIndex} lesson={lesson} />
           ))
         ) : (
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
@@ -154,6 +173,24 @@ function ModuleRenderer({ slug, mod, content }: { slug: string; mod: { icon: str
             </svg>
           </Link>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function LessonCard({ lesson }: { lesson: Lesson }) {
+  return (
+    <div id={`lesson-${lesson.id}`} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-500">
+      <div className="px-6 py-5 border-b border-gray-100 bg-gray-50/50">
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">{lesson.icon}</span>
+          <h2 className="text-xl font-bold text-gray-900">{lesson.title}</h2>
+        </div>
+      </div>
+      <div className="px-6 py-6 space-y-6">
+        {lesson.sections.map((section, secIndex) => (
+          <SectionRenderer key={secIndex} section={section} />
+        ))}
       </div>
     </div>
   )
