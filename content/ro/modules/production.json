@@ -156,28 +156,38 @@
     },
     {
       "id": "filet-line-2",
-      "title": "Filet Line 2 (Linia de filetare 2)",
-      "icon": "4️⃣",
+      "title": "Tăiere finală (Acabado Corte)",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "A doua linie de filetare – aceleasi proceduri ca Filet Line 1."
+          "text": "Aceasta este una dintre cele mai solicitante poziții. 2 muncitori (1 pe fiecare parte). Fileurile fără piele vin de la mașină și trebuie curățate, tăiate și întoarse cu rapiditate și precizie."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Sarcinile tale – pas cu pas:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Primește fileul", "description": "Fileurile fără piele cad de pe bandă după mașina de curățat" },
+            { "emoji": "🔪", "title": "Îndepărtează imperfecțiunile", "description": "Taie resturile de piele, petele întunecate, vânătăile sau zonele deteriorate" },
+            { "emoji": "🧈", "title": "Îndepărtează grăsimea în exces", "description": "Curăță grăsimea care nu trebuie să fie pe produsul final" },
+            { "emoji": "🔄", "title": "Întoarce fileul", "description": "Întoarce fileul pentru a continua cu partea de prezentare în sus" },
+            { "emoji": "✅", "title": "Eliberează sau respinge", "description": "Dacă fileul arată bine, pune-l pe bandă. Dacă e ireparabil, pune-l în cutiile laterale" }
+          ]
         },
         {
           "type": "info",
-          "title": "Responsabilitati cheie:",
+          "title": "Cutii laterale – fileuri respinse:",
           "items": [
-            "🔪 Procesarea si tunderea fileurilor",
-            "👀 Controlul calitatii fiecarui fileu",
-            "⚖️ Sortarea dupa greutate si dimensiune",
-            "🔄 Coordonarea cu Filet Line 1"
+            "📦 Fileurile prea deteriorate pentru vânzare premium merg în cutiile laterale",
+            "♻️ NU sunt aruncate – sunt reutilizate în alte părți ale fabricii",
+            "⚠️ Respingeți un fileu doar dacă nu poate fi reparat prin tăiere"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "style": "danger",
+          "text": "Această poziție necesită abilități excelente cu cuțitul și rapiditate. Tăiați întotdeauna în direcție opusă corpului. Precizia este cheia – prea multă tăiere risipește produsul, prea puțină înseamnă defect de calitate."
         }
       ]
     },

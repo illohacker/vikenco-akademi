@@ -156,28 +156,38 @@
     },
     {
       "id": "filet-line-2",
-      "title": "Filet Line 2 (Linea de fileteado 2)",
-      "icon": "4️⃣",
+      "title": "Acabado Corte",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Segunda linea de fileteado - mismos procedimientos que la Filet Line 1."
+          "text": "Este es uno de los puestos más exigentes. 2 trabajadores (1 por lado). Los lomos llegan sin piel de la máquina y hay que limpiarlos, recortarlos y voltearlos con rapidez y precisión."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Tus tareas – paso a paso:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Recibe el filete", "description": "Los lomos sin piel caen de la cinta después de la máquina de piel" },
+            { "emoji": "🔪", "title": "Quita imperfecciones", "description": "Corta restos de piel, manchas oscuras, golpes o zonas dañadas" },
+            { "emoji": "🧈", "title": "Retira la grasa sobrante", "description": "Recorta la grasa que no debe estar en el producto final" },
+            { "emoji": "🔄", "title": "Voltea el filete", "description": "Dale la vuelta para que continúe con el lado de presentación hacia arriba" },
+            { "emoji": "✅", "title": "Suelta o rechaza", "description": "Si el filete está bien, ponlo en la cinta. Si es irreparable, échalo en las cajas laterales" }
+          ]
         },
         {
           "type": "info",
-          "title": "Responsabilidades clave:",
+          "title": "Cajas laterales – filetes rechazados:",
           "items": [
-            "🔪 Procesamiento y recorte de filetes",
-            "👀 Control de calidad de cada filete",
-            "⚖️ Clasificacion por peso y tamano",
-            "🔄 Coordinar con la Filet Line 1"
+            "📦 Los filetes demasiado dañados para vender como premium van a las cajas laterales",
+            "♻️ NO se desperdician – se aprovechan en otra parte de la planta",
+            "⚠️ Solo rechaza un filete si realmente no se puede reparar con el recorte"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "style": "danger",
+          "text": "Este puesto requiere destreza con el cuchillo y ligereza. Corta siempre alejándote del cuerpo. La precisión es clave – recortar de más desperdicia producto, de menos falla la calidad."
         }
       ]
     },

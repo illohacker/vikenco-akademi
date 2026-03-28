@@ -156,28 +156,38 @@
     },
     {
       "id": "filet-line-2",
-      "title": "Filet Line 2",
-      "icon": "4️⃣",
+      "title": "Finishing Cut (Acabado Corte)",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Second filleting line – same procedures as Filet Line 1."
+          "text": "This is one of the most demanding positions. 2 workers (1 per side). Skinless fillets arrive from the machine and must be cleaned, trimmed and flipped with speed and precision."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Your tasks – step by step:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Receive the fillet", "description": "Skinless fillets drop from the conveyor after the skinning machine" },
+            { "emoji": "🔪", "title": "Remove imperfections", "description": "Cut away any remaining skin, dark spots, bruises or damaged areas" },
+            { "emoji": "🧈", "title": "Remove excess fat", "description": "Trim any remaining fat that shouldn't be on the final product" },
+            { "emoji": "🔄", "title": "Flip the fillet", "description": "Turn the fillet over so it continues presentation-side up on the belt" },
+            { "emoji": "✅", "title": "Release or reject", "description": "If the fillet looks good, place it back on the belt. If it's beyond repair, put it in the side boxes" }
+          ]
         },
         {
           "type": "info",
-          "title": "Key responsibilities:",
+          "title": "Side boxes – rejected fillets:",
           "items": [
-            "🔪 Fillet processing and trimming",
-            "👀 Quality control of each fillet",
-            "⚖️ Weight and size sorting",
-            "🔄 Coordinate with Filet Line 1"
+            "📦 Fillets that are too damaged to sell as premium go into the side boxes",
+            "♻️ These are NOT wasted – they are reused in other parts of the plant",
+            "⚠️ Only reject a fillet if it truly cannot be repaired with trimming"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "style": "danger",
+          "text": "This position requires excellent knife skills and speed. Always cut away from your body. Precision is key – too much trimming wastes product, too little fails quality."
         }
       ]
     },

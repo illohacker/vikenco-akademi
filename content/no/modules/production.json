@@ -156,28 +156,38 @@
     },
     {
       "id": "filet-line-2",
-      "title": "Filet Line 2 (Filetlinje 2)",
-      "icon": "4️⃣",
+      "title": "Sluttskjæring (Acabado Corte)",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Andre filetlinje - samme prosedyrer som Filetlinje 1."
+          "text": "Dette er en av de mest krevende posisjonene. 2 arbeidere (1 per side). Skinnet filet kommer fra maskinen og må renses, trimmes og vendes med fart og presisjon."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Dine oppgaver – steg for steg:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Motta fileten", "description": "Skinnfrie fileter faller fra båndet etter skinnemaskinen" },
+            { "emoji": "🔪", "title": "Fjern ujevnheter", "description": "Skjær bort gjenværende skinn, mørke flekker, blåmerker eller skadede områder" },
+            { "emoji": "🧈", "title": "Fjern overflødig fett", "description": "Trim bort fett som ikke skal være på det ferdige produktet" },
+            { "emoji": "🔄", "title": "Vend fileten", "description": "Snu fileten slik at den fortsetter med presentasjonssiden opp på båndet" },
+            { "emoji": "✅", "title": "Slipp eller avvis", "description": "Ser fileten bra ut, legg den tilbake på båndet. Er den uopprettelig, legg den i sidekassene" }
+          ]
         },
         {
           "type": "info",
-          "title": "Hovedansvar:",
+          "title": "Sidekasser – avviste fileter:",
           "items": [
-            "🔪 Filetbearbeiding og trimming",
-            "👀 Kvalitetskontroll av hver filet",
-            "⚖️ Vekt- og storrelsessortering",
-            "🔄 Koordinere med Filetlinje 1"
+            "📦 Fileter som er for skadet til å selges som premium legges i sidekassene",
+            "♻️ Disse kastes IKKE – de gjenbrukes i andre deler av fabrikken",
+            "⚠️ Avvis kun en filet hvis den virkelig ikke kan repareres med trimming"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "style": "danger",
+          "text": "Denne posisjonen krever utmerkede knivferdigheter og hastighet. Kutt alltid bort fra kroppen. Presisjon er nøkkelen – for mye trimming sløser produkt, for lite svikter kvaliteten."
         }
       ]
     },

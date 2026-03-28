@@ -156,28 +156,38 @@
     },
     {
       "id": "filet-line-2",
-      "title": "Filet Line 2 (File linija 2)",
-      "icon": "4️⃣",
+      "title": "Galutinis pjovimas (Acabado Corte)",
+      "icon": "🔪",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Antroji fileavimo linija - tos pacios proceduros kaip Filet Line 1."
+          "text": "Tai viena iš reikliausių pozicijų. 2 darbuotojai (1 kiekvienoje pusėje). Filė be odos ateina iš mašinos ir turi būti išvalyta, apipjaustyta ir apversta greitai ir tiksliai."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Jūsų užduotys – žingsnis po žingsnio:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Priimkite filė", "description": "Filė be odos nukrenta nuo konvejerio po odos šalinimo mašinos" },
+            { "emoji": "🔪", "title": "Pašalinkite netobulumus", "description": "Nupjaukite likusią odą, tamsias dėmes, mėlynes ar pažeistas vietas" },
+            { "emoji": "🧈", "title": "Pašalinkite perteklinius riebalus", "description": "Nupjaukite riebalus, kurių neturi būti galutiniame produkte" },
+            { "emoji": "🔄", "title": "Apverskite filė", "description": "Apverskite filė, kad ji tęstų kelionę prezentacine puse į viršų" },
+            { "emoji": "✅", "title": "Paleiskite arba atmeskite", "description": "Jei filė atrodo gerai, padėkite ant juostos. Jei nepataisoma, dėkite į šonines dėžes" }
+          ]
         },
         {
           "type": "info",
-          "title": "Pagrindines atsakomybes:",
+          "title": "Šoninės dėžės – atmestos filė:",
           "items": [
-            "🔪 Files apdorojimas ir apipjaustymas",
-            "👀 Kiekvienos files kokybes kontrole",
-            "⚖️ Rusiavimas pagal svori ir dydi",
-            "🔄 Koordinuoti su Filet Line 1"
+            "📦 Per daug pažeistos filė premium pardavimui dedamos į šonines dėžes",
+            "♻️ Jos NEIŠMETAMOS – panaudojamos kitose gamyklos dalyse",
+            "⚠️ Atmeskite filė tik jei ji tikrai negali būti pataisyta apipjaustymu"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "style": "danger",
+          "text": "Ši pozicija reikalauja puikių peilio įgūdžių ir greičio. Visada pjaukite nuo savęs. Tikslumas yra raktas – per daug apipjaustymo švaisto produktą, per mažai – kokybės defektas."
         }
       ]
     },
