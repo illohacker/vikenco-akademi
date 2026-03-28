@@ -30,8 +30,11 @@ const initialItems: DragItem[] = [
   { id: 'espinas-b2', x: 620, y: 310, label: '○', color: '#eab308', type: 'person' },
   { id: 'espinas-b3', x: 680, y: 310, label: '○', color: '#eab308', type: 'person' },
 
+  // SUPERVISIÓN
+  { id: 'zone-supervision', x: 470, y: 100, label: 'SUPERVISIÓN', color: '#22c55e', type: 'zone', width: 50, height: 310 },
+
   // ACABADO - CORTE
-  { id: 'zone-acabado-corte', x: 400, y: 100, label: 'ACABADO\nCORTE', color: '#3b82f6', type: 'zone', width: 120, height: 310 },
+  { id: 'zone-acabado-corte', x: 350, y: 100, label: 'ACABADO\nCORTE', color: '#3b82f6', type: 'zone', width: 110, height: 310 },
   { id: 'acabado-corte-a', x: 445, y: 190, label: '○', color: '#3b82f6', type: 'person' },
   { id: 'acabado-corte-b', x: 445, y: 310, label: '○', color: '#3b82f6', type: 'person' },
 
@@ -127,6 +130,7 @@ export default function Line1Editor() {
         <span className="text-sm font-semibold text-gray-600 self-center mr-2">Añadir persona:</span>
         <button onClick={() => addPerson('#ef4444', '○')} className="px-3 py-1 bg-red-500 text-white rounded-full text-sm font-bold">+ Corte</button>
         <button onClick={() => addPerson('#eab308', '○')} className="px-3 py-1 bg-yellow-500 text-white rounded-full text-sm font-bold">+ Espinas</button>
+        <button onClick={() => addPerson('#22c55e', '○')} className="px-3 py-1 bg-green-500 text-white rounded-full text-sm font-bold">+ Supervisión</button>
         <button onClick={() => addPerson('#3b82f6', '○')} className="px-3 py-1 bg-blue-500 text-white rounded-full text-sm font-bold">+ Acabado Corte</button>
         <button onClick={() => addPerson('#6366f1', '○')} className="px-3 py-1 bg-indigo-500 text-white rounded-full text-sm font-bold">+ Trim</button>
         <button onClick={() => addPerson('#06b6d4', '○')} className="px-3 py-1 bg-cyan-500 text-white rounded-full text-sm font-bold">+ Cajas</button>
@@ -279,6 +283,7 @@ export default function Line1Editor() {
       <div className="mt-4 flex flex-wrap gap-3 text-sm">
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-red-500"></span> Corte (1p)</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-yellow-500"></span> Espinas (6p)</span>
+        <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-green-500"></span> Supervisión</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-blue-500"></span> Acabado Corte (2p)</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-indigo-500"></span> Trim (2p)</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-cyan-500"></span> Cajas (1p)</span>
