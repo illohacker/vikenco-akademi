@@ -83,33 +83,78 @@
     "title": "HSE & Hygiene",
     "questions": [
       {
-        "question": "What must you always wear in the production area?",
-        "options": ["Sunglasses", "Protective equipment and work clothes", "Your own clothes", "Nothing special"],
-        "correct": 1
-      },
-      {
-        "question": "When should you wash your hands?",
-        "options": ["Only at lunch", "Every time you enter production", "Only in the morning", "Only when visibly dirty"],
-        "correct": 1
-      },
-      {
-        "question": "What do you do if you spot a safety hazard?",
-        "options": ["Ignore it", "Notify the nearest supervisor immediately", "Wait until the next day", "Fix it yourself without telling anyone"],
-        "correct": 1
-      },
-      {
-        "question": "Is jewelry allowed in the production area?",
-        "options": ["Yes, always", "Only rings", "No, never", "Only necklaces"],
+        "question": "What is the emergency number in Norway?",
+        "options": ["110", "112", "113", "911"],
         "correct": 2
       },
       {
-        "question": "What does HSE stand for?",
-        "options": ["Health, Safety and Environment", "High Speed Equipment", "Head Safety Engineer", "Hygiene Standard Evaluation"],
-        "correct": 0
+        "question": "What should you do FIRST in an emergency?",
+        "options": ["Call 113", "Run to the exit", "Contact a team leader (green uniform)", "Call a colleague"],
+        "correct": 2
       },
       {
-        "question": "What do you do with your hair in the production area?",
-        "options": ["No protection needed", "Cover it with a hair net", "Use gel", "Cut it short"],
+        "question": "Who is allowed to use the AED defibrillator?",
+        "options": ["Anyone", "Only doctors", "Only trained personnel", "Only team leaders"],
+        "correct": 2
+      },
+      {
+        "question": "What must you do if you get injured during your shift?",
+        "options": ["Continue working until the break", "Leave production and treat the wound", "Tell a colleague and keep working", "Wait until the end of the shift"],
+        "correct": 1
+      },
+      {
+        "question": "How can you report an incident or near-miss anonymously?",
+        "options": ["Send an email to HR", "Use the Datakvalitet app or the anonymous box near the canteen", "Post it on social media", "Tell a friend"],
+        "correct": 1
+      },
+      {
+        "question": "What are the TWO main risks in production at Vikenco?",
+        "options": ["Fire and flooding", "Cuts from knives and hand injuries from machines", "Chemical exposure and noise", "Falling objects and electric shock"],
+        "correct": 1
+      },
+      {
+        "question": "What does LOTO stand for?",
+        "options": ["Look Out, Turn Off", "Lock Out / Tag Out", "Lights On, Tools Off", "Leave On, Take Off"],
+        "correct": 1
+      },
+      {
+        "question": "What should you do if your vinyl glove tears?",
+        "options": ["Tape it up", "Wait until the break to change it", "Change it immediately", "Continue without a glove"],
+        "correct": 2
+      },
+      {
+        "question": "Is hearing protection mandatory in the production area?",
+        "options": ["Only near loud machines", "Only during certain hours", "Yes, in ALL production areas", "No, it's optional"],
+        "correct": 2
+      },
+      {
+        "question": "What is the approximate temperature in the production area?",
+        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "correct": 2
+      },
+      {
+        "question": "How often are tasks rotated to prevent repetitive strain?",
+        "options": ["Every 30 minutes", "Every hour", "Every 2 hours", "Every 4 hours"],
+        "correct": 2
+      },
+      {
+        "question": "What happens when a metal detector gives a positive signal?",
+        "options": ["The product is thrown away immediately", "The conveyor belt stops and the positive is evaluated", "Nothing, it's usually a false alarm", "The entire line is shut down for the day"],
+        "correct": 1
+      },
+      {
+        "question": "Why must plasters used in production be blue?",
+        "options": ["They're more visible", "They contain metal and can be detected by metal detectors", "They're waterproof", "It's the company colour"],
+        "correct": 1
+      },
+      {
+        "question": "What background check must ALL employees obtain?",
+        "options": ["Police criminal record", "Aviation security background check from Luftfartstilsynet", "Medical fitness certificate", "Driving licence check"],
+        "correct": 1
+      },
+      {
+        "question": "If you see a colleague breaking safety rules, what should you do?",
+        "options": ["Ignore it", "Report to a team leader (green uniform)", "Handle it yourself", "Wait until the next meeting"],
         "correct": 1
       }
     ]

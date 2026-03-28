@@ -79,6 +79,86 @@
       }
     ]
   },
+  "hms": {
+    "title": "PRL e Higiene",
+    "questions": [
+      {
+        "question": "¿Cuál es el número de emergencia en Noruega?",
+        "options": ["110", "112", "113", "911"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué debes hacer PRIMERO en una emergencia?",
+        "options": ["Llamar al 113", "Correr a la salida", "Contactar a un team leader (uniforme verde)", "Llamar a un compañero"],
+        "correct": 2
+      },
+      {
+        "question": "¿Quién puede usar el desfibrilador (AED)?",
+        "options": ["Cualquiera", "Solo médicos", "Solo personal formado", "Solo team leaders"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué debes hacer si te lesionas durante el turno?",
+        "options": ["Seguir trabajando hasta la pausa", "Salir de producción y tratar la herida", "Avisar a un compañero y seguir", "Esperar al final del turno"],
+        "correct": 1
+      },
+      {
+        "question": "¿Cómo puedes reportar un incidente de forma anónima?",
+        "options": ["Enviar email a RRHH", "Usar la app Datakvalitet o el buzón anónimo junto a la cantina", "Publicarlo en redes sociales", "Contárselo a un amigo"],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuáles son los DOS principales riesgos en producción en Vikenco?",
+        "options": ["Incendio e inundación", "Cortes con cuchillo y lesiones con máquinas", "Exposición química y ruido", "Caída de objetos y electrocución"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué significa LOTO?",
+        "options": ["Look Out, Turn Off", "Lock Out / Tag Out (Bloqueo/Etiquetado)", "Lights On, Tools Off", "Leave On, Take Off"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hacer si se rompe tu guante de vinilo?",
+        "options": ["Ponerle cinta", "Esperar a la pausa para cambiarlo", "Cambiarlo inmediatamente", "Seguir sin guante"],
+        "correct": 2
+      },
+      {
+        "question": "¿Es obligatoria la protección auditiva en producción?",
+        "options": ["Solo cerca de máquinas ruidosas", "Solo en ciertos horarios", "Sí, en TODA la zona de producción", "No, es opcional"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuál es la temperatura aproximada en la zona de producción?",
+        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "correct": 2
+      },
+      {
+        "question": "¿Cada cuánto se rotan las tareas para prevenir lesiones?",
+        "options": ["Cada 30 minutos", "Cada hora", "Cada 2 horas", "Cada 4 horas"],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué pasa cuando un detector de metales da positivo?",
+        "options": ["Se tira el producto directamente", "Se para la cinta y se evalúa el positivo", "Nada, suele ser falsa alarma", "Se cierra toda la línea por el día"],
+        "correct": 1
+      },
+      {
+        "question": "¿Por qué las tiritas en producción deben ser azules?",
+        "options": ["Son más visibles", "Contienen metal y los detectores las detectan", "Son impermeables", "Es el color de la empresa"],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué certificado deben obtener TODOS los empleados?",
+        "options": ["Antecedentes penales", "Certificado de seguridad aérea de Luftfartstilsynet", "Certificado médico", "Verificación del carnet de conducir"],
+        "correct": 1
+      },
+      {
+        "question": "Si ves a un compañero incumpliendo normas de seguridad, ¿qué haces?",
+        "options": ["Ignorarlo", "Reportar a un team leader (uniforme verde)", "Solucionarlo tú mismo", "Esperar a la próxima reunión"],
+        "correct": 1
+      }
+    ]
+  },
   "conduct": {
     "title": "Conducta y Normas",
     "questions": [

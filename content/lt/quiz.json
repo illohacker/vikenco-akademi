@@ -79,6 +79,86 @@
       }
     ]
   },
+  "hms": {
+    "title": "DSS ir higiena",
+    "questions": [
+      {
+        "question": "Koks yra skubios pagalbos numeris Norvegijoje?",
+        "options": ["110", "112", "113", "911"],
+        "correct": 2
+      },
+      {
+        "question": "Ką reikia daryti PIRMIAUSIA avarinėje situacijoje?",
+        "options": ["Skambinti 113", "Bėgti prie išėjimo", "Susisiekti su komandos vadovu (žalia uniforma)", "Paskambinti kolegai"],
+        "correct": 2
+      },
+      {
+        "question": "Kas gali naudoti defibriliatorių (AED)?",
+        "options": ["Bet kas", "Tik gydytojai", "Tik apmokytas personalas", "Tik komandos vadovai"],
+        "correct": 2
+      },
+      {
+        "question": "Ką daryti, jei susiženiate darbo metu?",
+        "options": ["Dirbti toliau iki pertraukos", "Palikti gamybą ir apdoroti žaizdą", "Pasakyti kolegai ir dirbti toliau", "Laukti pamainos pabaigos"],
+        "correct": 1
+      },
+      {
+        "question": "Kaip anonimiškai pranešti apie incidentą?",
+        "options": ["Siųsti el. laišką HR", "Naudoti Datakvalitet programėlę arba anoniminę dėžutę prie valgyklos", "Paskelbti socialiniuose tinkluose", "Pasakyti draugui"],
+        "correct": 1
+      },
+      {
+        "question": "Kokios DVI pagrindinės rizikos gamyboje Vikenco?",
+        "options": ["Gaisras ir potvynis", "Įpjovimai peiliu ir rankų sužalojimai nuo mašinų", "Cheminė ekspozicija ir triukšmas", "Krintantys objektai ir elektros smūgis"],
+        "correct": 1
+      },
+      {
+        "question": "Ką reiškia LOTO?",
+        "options": ["Look Out, Turn Off", "Lock Out / Tag Out", "Lights On, Tools Off", "Leave On, Take Off"],
+        "correct": 1
+      },
+      {
+        "question": "Ką daryti, jei vinilinė pirštinė suplyšta?",
+        "options": ["Užklijuoti juostele", "Palaukti pertraukos ir pakeisti", "Pakeisti nedelsiant", "Dirbti be pirštinės"],
+        "correct": 2
+      },
+      {
+        "question": "Ar klausos apsauga privaloma gamybos zonoje?",
+        "options": ["Tik prie triukšmingų mašinų", "Tik tam tikromis valandomis", "Taip, VISOSE gamybos zonose", "Ne, tai neprivaloma"],
+        "correct": 2
+      },
+      {
+        "question": "Kokia apytikslė temperatūra gamybos zonoje?",
+        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "correct": 2
+      },
+      {
+        "question": "Kas kiek laiko keičiamos užduotys prevencijai?",
+        "options": ["Kas 30 minučių", "Kas valandą", "Kas 2 valandas", "Kas 4 valandas"],
+        "correct": 2
+      },
+      {
+        "question": "Kas nutinka, kai metalų detektorius duoda teigiamą signalą?",
+        "options": ["Produktas iškart išmetamas", "Konvejeris sustoja ir signalas vertinamas", "Nieko, paprastai tai klaidinga alarma", "Visa linija uždaroma dienai"],
+        "correct": 1
+      },
+      {
+        "question": "Kodėl gamyboje naudojami pleistrai turi būti mėlyni?",
+        "options": ["Jie labiau matomi", "Juose yra metalo ir metalų detektoriai juos aptinka", "Jie atsparūs vandeniui", "Tai įmonės spalva"],
+        "correct": 1
+      },
+      {
+        "question": "Kokį patikrinimą VISI darbuotojai turi gauti?",
+        "options": ["Policijos pažymą", "Aviacijos saugumo patikrinimą iš Luftfartstilsynet", "Medicininę pažymą", "Vairuotojo pažymėjimo patikrinimą"],
+        "correct": 1
+      },
+      {
+        "question": "Jei matote kolegą pažeidžiantį saugos taisykles, ką daryti?",
+        "options": ["Ignoruoti", "Pranešti komandos vadovui (žalia uniforma)", "Spręsti pačiam", "Laukti kito susitikimo"],
+        "correct": 1
+      }
+    ]
+  },
   "conduct": {
     "title": "Elgesys ir taisyklės",
     "questions": [

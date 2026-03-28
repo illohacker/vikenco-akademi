@@ -1,0 +1,206 @@
+{
+  "title": "SST – Salud, Seguridad y Medio Ambiente",
+  "description": "Procedimientos de emergencia, prevención de lesiones y seguridad laboral",
+  "lessons": [
+    {
+      "id": "emergency-procedures",
+      "title": "Procedimientos de emergencia",
+      "icon": "🚨",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "En caso de emergencia, contacta SIEMPRE a un líder de equipo (uniforme verde) primero. Número de emergencia: 113"
+        },
+        {
+          "type": "animated-steps",
+          "title": "¿Qué hacer en una emergencia?",
+          "animatedSteps": [
+            { "emoji": "🚨", "title": "Mantén la calma", "description": "Evalúa la situación antes de actuar" },
+            { "emoji": "👷", "title": "Avisa a un líder de equipo", "description": "Contacta a cualquier persona con uniforme verde inmediatamente" },
+            { "emoji": "📞", "title": "Llama al 113 si es necesario", "description": "Para lesiones graves o situaciones que pongan en riesgo la vida" },
+            { "emoji": "🚶", "title": "Evacúa si suena la alarma", "description": "Sigue las instrucciones de tu líder de equipo hasta el punto de encuentro" },
+            { "emoji": "📋", "title": "Reporta el incidente", "description": "Usa la app Datakvalitet o el buzón anónimo cerca de la cantina" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Importante recordar:",
+          "items": [
+            "🔔 Hay una señal de alarma – sigue las instrucciones del líder de equipo",
+            "📍 Hay puntos de encuentro designados para la evacuación (ver mapa)",
+            "🫀 Hay desfibriladores AED disponibles – solo personal capacitado debe usarlos",
+            "⚠️ Nunca intentes manejar una emergencia grave solo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injury-first-aid",
+      "title": "Lesiones y primeros auxilios",
+      "icon": "🩹",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Si te lesionas durante tu turno, debes abandonar el área de producción inmediatamente."
+        },
+        {
+          "type": "animated-steps",
+          "title": "¿Qué hacer si te lesionas?",
+          "animatedSteps": [
+            { "emoji": "🛑", "title": "Deja de trabajar", "description": "No continúes si estás lesionado" },
+            { "emoji": "👷", "title": "Contacta a un líder de equipo", "description": "Busca a alguien con uniforme verde – te ayudarán" },
+            { "emoji": "🩹", "title": "Trata la herida", "description": "Sal del área de producción y trata la herida correctamente" },
+            { "emoji": "🏥", "title": "Ve al médico si es necesario", "description": "Si no puedes seguir trabajando, busca evaluación médica" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Reportar lesiones y casi-accidentes:",
+          "items": [
+            "📱 Usa la app Datakvalitet (debe estar instalada en tu teléfono)",
+            "📮 Usa el buzón de reportes anónimos ubicado antes de la entrada a la cantina",
+            "👷 Reporta directamente a un líder de equipo, RRHH, o a quien necesites",
+            "⚠️ Los casi-accidentes también deben reportarse – ayudan a prevenir accidentes futuros"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-risks",
+      "title": "Principales riesgos en producción",
+      "icon": "⚠️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Los principales riesgos en Vikenco son cortes con cuchillos y lesiones en las manos por máquinas."
+        },
+        {
+          "type": "rules",
+          "title": "Riesgos más comunes:",
+          "items": [
+            "Cortes con cuchillos en la línea de producción",
+            "Lesiones en las manos por maquinaria – NUNCA metas la mano dentro de una máquina",
+            "Resbalones y caídas (usa siempre botas de seguridad)",
+            "Lesiones por esfuerzo repetitivo (la rotación de tareas cada 2 horas ayuda a prevenirlo)"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Medidas de prevención:",
+          "items": [
+            "🔒 LOTO (Lock Out / Tag Out) – las máquinas deben bloquearse antes del mantenimiento",
+            "🧤 Usa siempre guantes – cambia los guantes de vinilo inmediatamente si se rompen",
+            "🔪 Maneja los cuchillos con cuidado – corta siempre en dirección opuesta a tu cuerpo",
+            "🥾 Las botas de seguridad son obligatorias en todas las áreas de producción",
+            "🩹 Usa solo tiritas azules (detectables por detectores de metales)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hearing-conditions",
+      "title": "Protección auditiva y condiciones de trabajo",
+      "icon": "🎧",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Obligatorio en todas las áreas de producción:",
+          "gridItems": [
+            { "emoji": "🎧", "label": "Protección auditiva" },
+            { "emoji": "🥾", "label": "Botas de seguridad" },
+            { "emoji": "🧤", "label": "Guantes" },
+            { "emoji": "😷", "label": "Mascarilla" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Condiciones de trabajo:",
+          "items": [
+            "🌡️ El área de producción está a aproximadamente 22°C",
+            "🧥 Puedes usar una sudadera sin capucha si necesitas más abrigo",
+            "🔄 Rotación de tareas cada 2 horas para prevenir lesiones por esfuerzo repetitivo",
+            "⏰ Horario de descansos: 08:00 / 08:30 / 09:00 / 09:30 / 10:00 (30 min cada uno)",
+            "☕ Si tu descanso es a las 08:00, el siguiente es a las 10:30, luego a las 13:00"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco se enfoca en prevenir lesiones musculoesqueléticas mediante estaciones de trabajo ergonómicas y rotación regular de tareas."
+        }
+      ]
+    },
+    {
+      "id": "metal-detectors",
+      "title": "Detectores de metales y seguridad alimentaria",
+      "icon": "🔍",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Todos los productos pasan por detectores de metales. Esto es fundamental para la seguridad alimentaria."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cómo funciona la detección de metales:",
+          "animatedSteps": [
+            { "emoji": "📦", "title": "Productos en la línea", "description": "Todas las cajas pasan por el detector de metales" },
+            { "emoji": "🚨", "title": "El detector alerta", "description": "Si el detector da una señal positiva, la cinta transportadora se detiene" },
+            { "emoji": "🔍", "title": "Evaluación", "description": "Se evalúa la tolerancia del positivo – ¿es real o una falsa alarma?" },
+            { "emoji": "✅", "title": "Decisión", "description": "El producto se aprueba o se retira de la línea" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "¿Por qué tiritas azules?",
+          "items": [
+            "🩹 Las tiritas azules contienen trazas de metal",
+            "🔍 Si una tirita se cae, el detector de metales la detectará",
+            "🐟 Esto asegura que no lleguen objetos extraños al producto final",
+            "⚠️ NUNCA uses tiritas normales en producción – usa siempre las azules proporcionadas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "title": "Verificación de antecedentes e incorporación",
+      "icon": "📋",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "TODOS los empleados deben obtener un certificado de verificación de antecedentes de seguridad aérea. Esto es obligatorio."
+        },
+        {
+          "type": "info",
+          "title": "Cómo obtener tu verificación de antecedentes:",
+          "items": [
+            "🌐 Visita: https://www.luftfartstilsynet.no/aktorer/bakgrunnssjekk/",
+            "📝 Solicita el certificado en línea",
+            "⏳ El procesamiento puede tardar – solicítalo lo antes posible",
+            "📄 Entrega el certificado a RRHH cuando lo recibas"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Tu incorporación incluye:",
+          "items": [
+            "📚 Formación en SST para todos los nuevos empleados",
+            "🔄 Formación continua durante todo tu empleo",
+            "🧪 Formación práctica en tu área de trabajo específica",
+            "📱 Instala la app Datakvalitet para reportar incidentes"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco invierte en formación continua para asegurar que todos trabajen de forma segura y eficiente."
+        }
+      ]
+    }
+  ]
+}

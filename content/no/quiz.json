@@ -83,33 +83,78 @@
     "title": "HMS & Hygiene",
     "questions": [
       {
-        "question": "Hva må du alltid bruke i produksjonsområdet?",
-        "options": ["Solbriller", "Verneutstyr og arbeidstøy", "Egne klær", "Ingenting spesielt"],
-        "correct": 1
-      },
-      {
-        "question": "Når må du vaske hendene?",
-        "options": ["Bare ved lunsj", "Hver gang du går inn i produksjonen", "Bare om morgenen", "Bare når de er synlig skitne"],
-        "correct": 1
-      },
-      {
-        "question": "Hva gjør du hvis du ser en sikkerhetsfare?",
-        "options": ["Ignorerer det", "Varsler nærmeste leder umiddelbart", "Venter til neste dag", "Fikser det selv uten å si fra"],
-        "correct": 1
-      },
-      {
-        "question": "Er det lov å bruke smykker i produksjonen?",
-        "options": ["Ja, alltid", "Bare ringer", "Nei, aldri", "Bare halskjeder"],
+        "question": "Hva er nødnummeret i Norge?",
+        "options": ["110", "112", "113", "911"],
         "correct": 2
       },
       {
-        "question": "Hva er HMS?",
-        "options": ["Helse, Miljø og Sikkerhet", "Hurtig Mat Service", "Hovedkontorets Management System", "Hygiene Med Sertifisering"],
-        "correct": 0
+        "question": "Hva bør du gjøre FØRST i en nødsituasjon?",
+        "options": ["Ring 113", "Løp til utgangen", "Kontakt en teamleder (grønn uniform)", "Ring en kollega"],
+        "correct": 2
       },
       {
-        "question": "Hva gjør du med håret i produksjonsområdet?",
-        "options": ["Det trenger ingen beskyttelse", "Dekker det med hårnettet", "Bruker gel", "Klipper det kort"],
+        "question": "Hvem har lov til å bruke hjertestarter (AED)?",
+        "options": ["Alle", "Bare leger", "Bare opplært personell", "Bare teamledere"],
+        "correct": 2
+      },
+      {
+        "question": "Hva må du gjøre hvis du skader deg under skiftet?",
+        "options": ["Fortsett å jobbe til pausen", "Forlat produksjonen og behandle såret", "Si ifra til en kollega og jobb videre", "Vent til slutten av skiftet"],
+        "correct": 1
+      },
+      {
+        "question": "Hvordan kan du rapportere en hendelse eller nestenulykke anonymt?",
+        "options": ["Send e-post til HR", "Bruk Datakvalitet-appen eller den anonyme boksen ved kantina", "Legg det ut på sosiale medier", "Fortell en venn"],
+        "correct": 1
+      },
+      {
+        "question": "Hva er de TO hovedrisikoene i produksjonen hos Vikenco?",
+        "options": ["Brann og oversvømmelse", "Kutt fra kniver og håndskader fra maskiner", "Kjemisk eksponering og støy", "Fallende gjenstander og elektrisk støt"],
+        "correct": 1
+      },
+      {
+        "question": "Hva betyr LOTO?",
+        "options": ["Look Out, Turn Off", "Lock Out / Tag Out", "Lights On, Tools Off", "Leave On, Take Off"],
+        "correct": 1
+      },
+      {
+        "question": "Hva gjør du hvis vinylhansken din revner?",
+        "options": ["Teip den", "Vent til pausen med å bytte", "Bytt den umiddelbart", "Fortsett uten hanske"],
+        "correct": 2
+      },
+      {
+        "question": "Er hørselsvern obligatorisk i produksjonsområdet?",
+        "options": ["Bare nær bråkete maskiner", "Bare til bestemte tider", "Ja, i ALLE produksjonsområder", "Nei, det er valgfritt"],
+        "correct": 2
+      },
+      {
+        "question": "Hva er temperaturen omtrent i produksjonsområdet?",
+        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "correct": 2
+      },
+      {
+        "question": "Hvor ofte roteres arbeidsoppgavene for å forebygge belastningsskader?",
+        "options": ["Hver 30. minutt", "Hver time", "Hver 2. time", "Hver 4. time"],
+        "correct": 2
+      },
+      {
+        "question": "Hva skjer når metalldetektoren gir et positivt signal?",
+        "options": ["Produktet kastes umiddelbart", "Båndet stopper og det positive signalet evalueres", "Ingenting, det er vanligvis en falsk alarm", "Hele linjen stenges for dagen"],
+        "correct": 1
+      },
+      {
+        "question": "Hvorfor må plaster brukt i produksjonen være blått?",
+        "options": ["De er mer synlige", "De inneholder metall og oppdages av metalldetektorer", "De er vanntette", "Det er bedriftens farge"],
+        "correct": 1
+      },
+      {
+        "question": "Hvilken bakgrunnssjekk må ALLE ansatte ha?",
+        "options": ["Politiattest", "Bakgrunnssjekk for luftfartssikkerhet fra Luftfartstilsynet", "Medisinsk attest", "Førerkortsjekk"],
+        "correct": 1
+      },
+      {
+        "question": "Hvis du ser en kollega bryte sikkerhetsreglene, hva bør du gjøre?",
+        "options": ["Ignorer det", "Meld det til en teamleder (grønn uniform)", "Ordne det selv", "Vent til neste møte"],
         "correct": 1
       }
     ]

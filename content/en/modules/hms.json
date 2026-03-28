@@ -1,0 +1,206 @@
+{
+  "title": "HSE – Health, Safety & Environment",
+  "description": "Emergency procedures, injury prevention, and workplace safety",
+  "lessons": [
+    {
+      "id": "emergency-procedures",
+      "title": "Emergency Procedures",
+      "icon": "🚨",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "In case of emergency, ALWAYS contact a team leader (green uniform) first. Emergency number: 113"
+        },
+        {
+          "type": "animated-steps",
+          "title": "What to do in an emergency:",
+          "animatedSteps": [
+            { "emoji": "🚨", "title": "Stay calm", "description": "Assess the situation before acting" },
+            { "emoji": "👷", "title": "Alert a team leader", "description": "Contact anyone in green uniform immediately" },
+            { "emoji": "📞", "title": "Call 113 if needed", "description": "For serious injuries or life-threatening situations" },
+            { "emoji": "🚶", "title": "Evacuate if alarm sounds", "description": "Follow your team leader's instructions to the meeting point" },
+            { "emoji": "📋", "title": "Report the incident", "description": "Use Datakvalitet app or the anonymous box near the canteen" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Important to remember:",
+          "items": [
+            "🔔 There is one alarm signal – follow team leader instructions",
+            "📍 There are designated meeting points for evacuation (see map)",
+            "🫀 AED defibrillators are available – only trained personnel should use them",
+            "⚠️ Never try to handle a serious emergency alone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injury-first-aid",
+      "title": "Injury & First Aid",
+      "icon": "🩹",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "If you get injured during your shift, you must leave the production area immediately."
+        },
+        {
+          "type": "animated-steps",
+          "title": "What to do if you get injured:",
+          "animatedSteps": [
+            { "emoji": "🛑", "title": "Stop working", "description": "Do not continue if you are injured" },
+            { "emoji": "👷", "title": "Contact a team leader", "description": "Find anyone wearing green – they will help you" },
+            { "emoji": "🩹", "title": "Treat the wound", "description": "Leave the production area and treat the wound properly" },
+            { "emoji": "🏥", "title": "See a doctor if needed", "description": "If you cannot continue working, seek medical evaluation" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Reporting injuries and near-misses:",
+          "items": [
+            "📱 Use the Datakvalitet app (must be installed on your phone)",
+            "📮 Use the anonymous report box located before the canteen entrance",
+            "👷 Report directly to a team leader, HR, or whoever you need",
+            "⚠️ Near-misses should also be reported – they help prevent future accidents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-risks",
+      "title": "Main Risks in Production",
+      "icon": "⚠️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "The main risks at Vikenco are cuts from knives and hand injuries from machines."
+        },
+        {
+          "type": "rules",
+          "title": "Most common risks:",
+          "items": [
+            "Cuts from knives on the production line",
+            "Hand injuries from machinery – NEVER put your hand inside a machine",
+            "Slips and falls (always wear safety boots)",
+            "Repetitive strain injuries (task rotation every 2 hours helps prevent this)"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Prevention measures:",
+          "items": [
+            "🔒 LOTO (Lock Out / Tag Out) – machines must be locked before maintenance",
+            "🧤 Always wear gloves – change vinyl gloves immediately if torn",
+            "🔪 Handle knives carefully – always cut away from your body",
+            "🥾 Safety boots are mandatory in all production areas",
+            "🩹 Use blue plasters only (detectable by metal detectors)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hearing-conditions",
+      "title": "Hearing Protection & Working Conditions",
+      "icon": "🎧",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Required in all production areas:",
+          "gridItems": [
+            { "emoji": "🎧", "label": "Hearing protection" },
+            { "emoji": "🥾", "label": "Safety boots" },
+            { "emoji": "🧤", "label": "Gloves" },
+            { "emoji": "😷", "label": "Face mask" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Working conditions:",
+          "items": [
+            "🌡️ Production area is approximately 22°C",
+            "🧥 You may wear a hoodie without hood if needed for warmth",
+            "🔄 Task rotation every 2 hours to prevent repetitive strain",
+            "⏰ Break schedule: 08:00 / 08:30 / 09:00 / 09:30 / 10:00 (30 min each)",
+            "☕ If your break is at 08:00, next break at 10:30, then 13:00"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco focuses on preventing musculoskeletal injuries through ergonomic workstations and regular task rotation."
+        }
+      ]
+    },
+    {
+      "id": "metal-detectors",
+      "title": "Metal Detectors & Food Safety",
+      "icon": "🔍",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "All products pass through metal detectors. This is critical for food safety."
+        },
+        {
+          "type": "animated-steps",
+          "title": "How metal detection works:",
+          "animatedSteps": [
+            { "emoji": "📦", "title": "Products on the line", "description": "All boxes pass through the metal detector" },
+            { "emoji": "🚨", "title": "Detector alerts", "description": "If the detector gives a positive signal, the conveyor belt stops" },
+            { "emoji": "🔍", "title": "Evaluation", "description": "The tolerance of the positive is evaluated – is it real or a false alarm?" },
+            { "emoji": "✅", "title": "Decision", "description": "Product is approved or removed from the line" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Why blue plasters?",
+          "items": [
+            "🩹 Blue plasters contain metal traces",
+            "🔍 If a plaster falls off, the metal detector will catch it",
+            "🐟 This ensures no foreign objects end up in the final product",
+            "⚠️ NEVER use regular plasters in production – always use the blue ones provided"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "title": "Background Check & Onboarding",
+      "icon": "📋",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "ALL employees must obtain an aviation security background check certificate. This is mandatory."
+        },
+        {
+          "type": "info",
+          "title": "How to get your background check:",
+          "items": [
+            "🌐 Visit: https://www.luftfartstilsynet.no/aktorer/bakgrunnssjekk/",
+            "📝 Apply for the certificate online",
+            "⏳ Processing may take some time – apply as soon as possible",
+            "📄 Submit the certificate to HR when received"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Your onboarding includes:",
+          "items": [
+            "📚 HMS training for all new employees",
+            "🔄 Continuous training throughout your employment",
+            "🧪 Practical training in your specific work area",
+            "📱 Install the Datakvalitet app for incident reporting"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco invests in continuous training to ensure everyone works safely and efficiently."
+        }
+      ]
+    }
+  ]
+}

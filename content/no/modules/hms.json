@@ -1,0 +1,206 @@
+{
+  "title": "HMS – Helse, Miljø og Sikkerhet",
+  "description": "Nødprosedyrer, skadeforebygging og sikkerhet på arbeidsplassen",
+  "lessons": [
+    {
+      "id": "emergency-procedures",
+      "title": "Nødprosedyrer",
+      "icon": "🚨",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Ved nødsituasjon, kontakt ALLTID en teamleder (grønn uniform) først. Nødnummer: 113"
+        },
+        {
+          "type": "animated-steps",
+          "title": "Hva gjør du i en nødsituasjon?",
+          "animatedSteps": [
+            { "emoji": "🚨", "title": "Hold deg rolig", "description": "Vurder situasjonen før du handler" },
+            { "emoji": "👷", "title": "Varsle en teamleder", "description": "Kontakt hvem som helst i grønn uniform umiddelbart" },
+            { "emoji": "📞", "title": "Ring 113 ved behov", "description": "Ved alvorlige skader eller livstruende situasjoner" },
+            { "emoji": "🚶", "title": "Evakuer hvis alarmen går", "description": "Følg teamlederens instrukser til møtepunktet" },
+            { "emoji": "📋", "title": "Rapporter hendelsen", "description": "Bruk Datakvalitet-appen eller den anonyme boksen ved kantinen" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Viktig å huske:",
+          "items": [
+            "🔔 Det er ett alarmsignal – følg teamlederens instrukser",
+            "📍 Det finnes utpekte møtepunkter for evakuering (se kart)",
+            "🫀 Hjertestarteren (AED) er tilgjengelig – kun opplært personell skal bruke den",
+            "⚠️ Prøv aldri å håndtere en alvorlig nødsituasjon alene"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injury-first-aid",
+      "title": "Skader og førstehjelp",
+      "icon": "🩹",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Hvis du blir skadet under skiftet, må du forlate produksjonsområdet umiddelbart."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Hva gjør du ved skade?",
+          "animatedSteps": [
+            { "emoji": "🛑", "title": "Stopp arbeidet", "description": "Ikke fortsett å jobbe hvis du er skadet" },
+            { "emoji": "👷", "title": "Kontakt en teamleder", "description": "Finn noen i grønt – de vil hjelpe deg" },
+            { "emoji": "🩹", "title": "Behandle såret", "description": "Forlat produksjonsområdet og behandle såret skikkelig" },
+            { "emoji": "🏥", "title": "Oppsøk lege ved behov", "description": "Hvis du ikke kan fortsette å jobbe, oppsøk medisinsk vurdering" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Rapportering av skader og nestenulykker:",
+          "items": [
+            "📱 Bruk Datakvalitet-appen (må installeres på telefonen din)",
+            "📮 Bruk den anonyme rapportboksen ved kantineinngangen",
+            "👷 Rapporter direkte til en teamleder, HR, eller den du trenger",
+            "⚠️ Nestenulykker bør også rapporteres – de hjelper med å forhindre fremtidige ulykker"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-risks",
+      "title": "Hovedrisiko i produksjonen",
+      "icon": "⚠️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "De viktigste risikoene hos Vikenco er kutt fra kniver og håndskader fra maskiner."
+        },
+        {
+          "type": "rules",
+          "title": "Vanligste risikoer:",
+          "items": [
+            "Kutt fra kniver på produksjonslinjen",
+            "Håndskader fra maskiner – Putt ALDRI hånden inn i en maskin",
+            "Sklir og fall (bruk alltid vernesko)",
+            "Belastningsskader (oppgaverotasjon hver 2. time hjelper med å forebygge dette)"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Forebyggende tiltak:",
+          "items": [
+            "🔒 LOTO (Lock Out / Tag Out) – maskiner må låses før vedlikehold",
+            "🧤 Bruk alltid hansker – bytt vinylhansker umiddelbart hvis de revner",
+            "🔪 Håndter kniver forsiktig – kutt alltid bort fra kroppen",
+            "🥾 Vernesko er påbudt i alle produksjonsområder",
+            "🩹 Bruk kun blå plaster (kan oppdages av metalldetektorer)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hearing-conditions",
+      "title": "Hørselsvern og arbeidsforhold",
+      "icon": "🎧",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Påbudt i alle produksjonsområder:",
+          "gridItems": [
+            { "emoji": "🎧", "label": "Hørselsvern" },
+            { "emoji": "🥾", "label": "Vernesko" },
+            { "emoji": "🧤", "label": "Hansker" },
+            { "emoji": "😷", "label": "Munnbind" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Arbeidsforhold:",
+          "items": [
+            "🌡️ Produksjonsområdet er ca. 22°C",
+            "🧥 Du kan bruke hettegenser uten hette ved behov",
+            "🔄 Oppgaverotasjon hver 2. time for å forebygge belastningsskader",
+            "⏰ Pauseplan: 08:00 / 08:30 / 09:00 / 09:30 / 10:00 (30 min hver)",
+            "☕ Hvis pausen din er kl. 08:00, neste pause kl. 10:30, deretter 13:00"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco fokuserer på å forebygge muskel- og skjelettskader gjennom ergonomiske arbeidsstasjoner og jevnlig oppgaverotasjon."
+        }
+      ]
+    },
+    {
+      "id": "metal-detectors",
+      "title": "Metalldetektorer og mattrygghet",
+      "icon": "🔍",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Alle produkter passerer gjennom metalldetektorer. Dette er kritisk for mattryggheten."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Hvordan metalldeteksjon fungerer:",
+          "animatedSteps": [
+            { "emoji": "📦", "title": "Produkter på linjen", "description": "Alle bokser passerer gjennom metalldetektoren" },
+            { "emoji": "🚨", "title": "Detektoren varsler", "description": "Hvis detektoren gir et positivt signal, stopper transportbåndet" },
+            { "emoji": "🔍", "title": "Evaluering", "description": "Toleransen for det positive signalet vurderes – er det ekte eller falsk alarm?" },
+            { "emoji": "✅", "title": "Beslutning", "description": "Produktet godkjennes eller fjernes fra linjen" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Hvorfor blå plaster?",
+          "items": [
+            "🩹 Blå plaster inneholder metallspor",
+            "🔍 Hvis et plaster faller av, vil metalldetektoren fange det opp",
+            "🐟 Dette sikrer at ingen fremmedlegemer havner i sluttproduktet",
+            "⚠️ Bruk ALDRI vanlige plaster i produksjonen – bruk alltid de blå som er tilgjengelige"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "title": "Bakgrunnssjekk og onboarding",
+      "icon": "📋",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "ALLE ansatte må skaffe et sertifikat for bakgrunnssjekk for luftfartssikkerhet. Dette er obligatorisk."
+        },
+        {
+          "type": "info",
+          "title": "Slik får du bakgrunnssjekken:",
+          "items": [
+            "🌐 Besøk: https://www.luftfartstilsynet.no/aktorer/bakgrunnssjekk/",
+            "📝 Søk om sertifikatet på nett",
+            "⏳ Behandlingstiden kan ta litt tid – søk så snart som mulig",
+            "📄 Lever sertifikatet til HR når du mottar det"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Din onboarding inkluderer:",
+          "items": [
+            "📚 HMS-opplæring for alle nye ansatte",
+            "🔄 Kontinuerlig opplæring gjennom hele ansettelsesforholdet",
+            "🧪 Praktisk opplæring i ditt spesifikke arbeidsområde",
+            "📱 Installer Datakvalitet-appen for hendelsesrapportering"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco investerer i kontinuerlig opplæring for å sikre at alle jobber trygt og effektivt."
+        }
+      ]
+    }
+  ]
+}

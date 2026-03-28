@@ -1,0 +1,206 @@
+{
+  "title": "SSM – Sănătate, Securitate și Mediu",
+  "description": "Proceduri de urgență, prevenirea accidentărilor și securitatea la locul de muncă",
+  "lessons": [
+    {
+      "id": "emergency-procedures",
+      "title": "Proceduri de urgență",
+      "icon": "🚨",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "În caz de urgență, contactați ÎNTOTDEAUNA mai întâi un lider de echipă (uniformă verde). Număr de urgență: 113"
+        },
+        {
+          "type": "animated-steps",
+          "title": "Ce trebuie făcut în caz de urgență?",
+          "animatedSteps": [
+            { "emoji": "🚨", "title": "Păstrați-vă calmul", "description": "Evaluați situația înainte de a acționa" },
+            { "emoji": "👷", "title": "Alertați un lider de echipă", "description": "Contactați imediat pe oricine poartă uniformă verde" },
+            { "emoji": "📞", "title": "Sunați la 113 dacă este necesar", "description": "Pentru accidentări grave sau situații care pun viața în pericol" },
+            { "emoji": "🚶", "title": "Evacuați dacă sună alarma", "description": "Urmați instrucțiunile liderului de echipă către punctul de întâlnire" },
+            { "emoji": "📋", "title": "Raportați incidentul", "description": "Folosiți aplicația Datakvalitet sau cutia anonimă de lângă cantină" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Important de reținut:",
+          "items": [
+            "🔔 Există un singur semnal de alarmă – urmați instrucțiunile liderului de echipă",
+            "📍 Există puncte de întâlnire desemnate pentru evacuare (vezi harta)",
+            "🫀 Defibrilatoarele AED sunt disponibile – doar personalul instruit trebuie să le folosească",
+            "⚠️ Nu încercați niciodată să gestionați singur o urgență gravă"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injury-first-aid",
+      "title": "Accidentări și prim ajutor",
+      "icon": "🩹",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Dacă vă accidentați în timpul turei, trebuie să părăsiți imediat zona de producție."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Ce trebuie făcut în caz de accidentare?",
+          "animatedSteps": [
+            { "emoji": "🛑", "title": "Opriți-vă din lucru", "description": "Nu continuați dacă sunteți accidentat" },
+            { "emoji": "👷", "title": "Contactați un lider de echipă", "description": "Găsiți pe oricine poartă verde – vă vor ajuta" },
+            { "emoji": "🩹", "title": "Tratați rana", "description": "Părăsiți zona de producție și tratați rana corespunzător" },
+            { "emoji": "🏥", "title": "Mergeți la medic dacă este necesar", "description": "Dacă nu puteți continua munca, solicitați evaluare medicală" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Raportarea accidentărilor și a incidentelor evitate la limită:",
+          "items": [
+            "📱 Folosiți aplicația Datakvalitet (trebuie instalată pe telefonul dvs.)",
+            "📮 Folosiți cutia de raportare anonimă situată înainte de intrarea în cantină",
+            "👷 Raportați direct unui lider de echipă, departamentului HR sau cui aveți nevoie",
+            "⚠️ Incidentele evitate la limită trebuie de asemenea raportate – ajută la prevenirea accidentelor viitoare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-risks",
+      "title": "Principalele riscuri în producție",
+      "icon": "⚠️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Principalele riscuri la Vikenco sunt tăieturile de la cuțite și leziunile la mâini de la mașini."
+        },
+        {
+          "type": "rules",
+          "title": "Cele mai frecvente riscuri:",
+          "items": [
+            "Tăieturi de la cuțite pe linia de producție",
+            "Leziuni la mâini de la mașini – NU introduceți NICIODATĂ mâna într-o mașină",
+            "Alunecări și căderi (purtați întotdeauna bocanci de protecție)",
+            "Leziuni prin efort repetitiv (rotația sarcinilor la fiecare 2 ore ajută la prevenire)"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Măsuri de prevenire:",
+          "items": [
+            "🔒 LOTO (Lock Out / Tag Out) – mașinile trebuie blocate înainte de întreținere",
+            "🧤 Purtați întotdeauna mănuși – schimbați imediat mănușile de vinil dacă sunt rupte",
+            "🔪 Manevrați cuțitele cu atenție – tăiați întotdeauna în direcția opusă corpului",
+            "🥾 Bocancii de protecție sunt obligatorii în toate zonele de producție",
+            "🩹 Folosiți doar plasturi albaștri (detectabili de detectoarele de metale)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hearing-conditions",
+      "title": "Protecția auzului și condițiile de muncă",
+      "icon": "🎧",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Obligatoriu în toate zonele de producție:",
+          "gridItems": [
+            { "emoji": "🎧", "label": "Protecție auditivă" },
+            { "emoji": "🥾", "label": "Bocanci de protecție" },
+            { "emoji": "🧤", "label": "Mănuși" },
+            { "emoji": "😷", "label": "Mască de protecție" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Condiții de muncă:",
+          "items": [
+            "🌡️ Zona de producție are aproximativ 22°C",
+            "🧥 Puteți purta un hanorac fără glugă dacă aveți nevoie de căldură",
+            "🔄 Rotația sarcinilor la fiecare 2 ore pentru prevenirea efortului repetitiv",
+            "⏰ Programul pauzelor: 08:00 / 08:30 / 09:00 / 09:30 / 10:00 (câte 30 min fiecare)",
+            "☕ Dacă pauza dvs. este la 08:00, următoarea pauză la 10:30, apoi la 13:00"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco se concentrează pe prevenirea leziunilor musculo-scheletice prin stații de lucru ergonomice și rotația regulată a sarcinilor."
+        }
+      ]
+    },
+    {
+      "id": "metal-detectors",
+      "title": "Detectoare de metale și siguranța alimentară",
+      "icon": "🔍",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Toate produsele trec prin detectoare de metale. Acest lucru este esențial pentru siguranța alimentară."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cum funcționează detectarea metalelor:",
+          "animatedSteps": [
+            { "emoji": "📦", "title": "Produse pe linie", "description": "Toate cutiile trec prin detectorul de metale" },
+            { "emoji": "🚨", "title": "Detectorul alertează", "description": "Dacă detectorul dă un semnal pozitiv, banda transportoare se oprește" },
+            { "emoji": "🔍", "title": "Evaluare", "description": "Se evaluează toleranța pozitivului – este real sau o alarmă falsă?" },
+            { "emoji": "✅", "title": "Decizie", "description": "Produsul este aprobat sau scos de pe linie" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "De ce plasturi albaștri?",
+          "items": [
+            "🩹 Plasturii albaștri conțin urme de metal",
+            "🔍 Dacă un plasture cade, detectorul de metale îl va detecta",
+            "🐟 Acest lucru asigură că niciun obiect străin nu ajunge în produsul final",
+            "⚠️ NU folosiți NICIODATĂ plasturi obișnuiți în producție – folosiți întotdeauna pe cei albaștri furnizați"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "title": "Verificarea antecedentelor și integrarea",
+      "icon": "📋",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "TOȚI angajații trebuie să obțină un certificat de verificare a antecedentelor pentru securitatea aviației. Aceasta este obligatoriu."
+        },
+        {
+          "type": "info",
+          "title": "Cum obțineți verificarea antecedentelor:",
+          "items": [
+            "🌐 Vizitați: https://www.luftfartstilsynet.no/aktorer/bakgrunnssjekk/",
+            "📝 Aplicați online pentru certificat",
+            "⏳ Procesarea poate dura ceva timp – aplicați cât mai curând posibil",
+            "📄 Transmiteți certificatul departamentului HR când îl primiți"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Integrarea dvs. include:",
+          "items": [
+            "📚 Instruire SSM pentru toți angajații noi",
+            "🔄 Instruire continuă pe toată durata angajării",
+            "🧪 Instruire practică în zona dvs. specifică de lucru",
+            "📱 Instalați aplicația Datakvalitet pentru raportarea incidentelor"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco investește în instruire continuă pentru a se asigura că toată lumea lucrează în siguranță și eficient."
+        }
+      ]
+    }
+  ]
+}

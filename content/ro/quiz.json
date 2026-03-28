@@ -79,6 +79,86 @@
       }
     ]
   },
+  "hms": {
+    "title": "SSM & Igienă",
+    "questions": [
+      {
+        "question": "Care este numărul de urgență în Norvegia?",
+        "options": ["110", "112", "113", "911"],
+        "correct": 2
+      },
+      {
+        "question": "Ce trebuie să faceți PRIMUL în caz de urgență?",
+        "options": ["Sunați 113", "Fugiți la ieșire", "Contactați un lider de echipă (uniformă verde)", "Sunați un coleg"],
+        "correct": 2
+      },
+      {
+        "question": "Cine poate folosi defibrilatorul (AED)?",
+        "options": ["Oricine", "Doar medicii", "Doar personalul instruit", "Doar liderii de echipă"],
+        "correct": 2
+      },
+      {
+        "question": "Ce trebuie să faceți dacă vă răniți în timpul schimbului?",
+        "options": ["Continuați munca până la pauză", "Părăsiți producția și tratați rana", "Spuneți unui coleg și continuați", "Așteptați sfârșitul schimbului"],
+        "correct": 1
+      },
+      {
+        "question": "Cum puteți raporta anonim un incident?",
+        "options": ["Trimiteți email la HR", "Folosiți aplicația Datakvalitet sau cutia anonimă lângă cantină", "Publicați pe rețelele sociale", "Spuneți unui prieten"],
+        "correct": 1
+      },
+      {
+        "question": "Care sunt DOUĂ riscuri principale în producția Vikenco?",
+        "options": ["Incendiu și inundație", "Tăieturi de la cuțite și răni de la mașini", "Expunere chimică și zgomot", "Obiecte căzătoare și electrocutare"],
+        "correct": 1
+      },
+      {
+        "question": "Ce înseamnă LOTO?",
+        "options": ["Look Out, Turn Off", "Lock Out / Tag Out", "Lights On, Tools Off", "Leave On, Take Off"],
+        "correct": 1
+      },
+      {
+        "question": "Ce faceți dacă mănușa de vinil se rupe?",
+        "options": ["O lipiți cu bandă", "Așteptați pauza să o schimbați", "O schimbați imediat", "Continuați fără mănușă"],
+        "correct": 2
+      },
+      {
+        "question": "Este protecția auditivă obligatorie în zona de producție?",
+        "options": ["Doar lângă mașinile zgomotoase", "Doar la anumite ore", "Da, în TOATE zonele de producție", "Nu, este opțională"],
+        "correct": 2
+      },
+      {
+        "question": "Care este temperatura aproximativă în zona de producție?",
+        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "correct": 2
+      },
+      {
+        "question": "Cât de des se rotesc sarcinile pentru prevenire?",
+        "options": ["La fiecare 30 de minute", "La fiecare oră", "La fiecare 2 ore", "La fiecare 4 ore"],
+        "correct": 2
+      },
+      {
+        "question": "Ce se întâmplă când detectorul de metale dă un semnal pozitiv?",
+        "options": ["Produsul este aruncat imediat", "Banda se oprește și semnalul este evaluat", "Nimic, de obicei e o alarmă falsă", "Întreaga linie se închide pentru zi"],
+        "correct": 1
+      },
+      {
+        "question": "De ce plasturii din producție trebuie să fie albaștri?",
+        "options": ["Sunt mai vizibili", "Conțin metal și sunt detectați de detectoare", "Sunt rezistenți la apă", "E culoarea companiei"],
+        "correct": 1
+      },
+      {
+        "question": "Ce verificare trebuie să obțină TOȚI angajații?",
+        "options": ["Cazier judiciar", "Verificare de securitate aviație de la Luftfartstilsynet", "Certificat medical", "Verificarea permisului de conducere"],
+        "correct": 1
+      },
+      {
+        "question": "Dacă vedeți un coleg încălcând regulile de siguranță?",
+        "options": ["Ignorați", "Raportați liderului de echipă (uniformă verde)", "Rezolvați singur", "Așteptați următoarea ședință"],
+        "correct": 1
+      }
+    ]
+  },
   "conduct": {
     "title": "Comportament & Reguli",
     "questions": [

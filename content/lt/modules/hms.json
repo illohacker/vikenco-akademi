@@ -1,0 +1,206 @@
+{
+  "title": "DSA – Darbuotojų sauga ir aplinka",
+  "description": "Avarinės procedūros, traumų prevencija ir darbo vietos sauga",
+  "lessons": [
+    {
+      "id": "emergency-procedures",
+      "title": "Avarinės procedūros",
+      "icon": "🚨",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Nelaimės atveju VISADA pirmiausia susisiekite su komandos vadovu (žalia uniforma). Pagalbos numeris: 113"
+        },
+        {
+          "type": "animated-steps",
+          "title": "Ką daryti nelaimės atveju?",
+          "animatedSteps": [
+            { "emoji": "🚨", "title": "Išlikite ramūs", "description": "Įvertinkite situaciją prieš veikdami" },
+            { "emoji": "👷", "title": "Įspėkite komandos vadovą", "description": "Nedelsdami susisiekite su bet kuriuo žalia uniforma" },
+            { "emoji": "📞", "title": "Skambinkite 113, jei reikia", "description": "Esant sunkioms traumoms ar gyvybei pavojingoms situacijoms" },
+            { "emoji": "🚶", "title": "Evakuokitės, jei skamba alarmas", "description": "Vykdykite komandos vadovo nurodymus iki susirinkimo vietos" },
+            { "emoji": "📋", "title": "Praneškite apie incidentą", "description": "Naudokite Datakvalitet programėlę arba anoniminę dėžutę prie valgyklos" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Svarbu prisiminti:",
+          "items": [
+            "🔔 Yra vienas aliarmo signalas – vykdykite komandos vadovo nurodymus",
+            "📍 Yra paskirtos susirinkimo vietos evakuacijos metu (žr. žemėlapį)",
+            "🫀 AED defibriliatoriai yra prieinami – juos turėtų naudoti tik apmokytas personalas",
+            "⚠️ Niekada nebandykite vieni susidoroti su rimta nelaiminga situacija"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "injury-first-aid",
+      "title": "Traumos ir pirmoji pagalba",
+      "icon": "🩹",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Jei susitraumavote pamainos metu, turite nedelsdami palikti gamybos zoną."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Ką daryti susižeidus?",
+          "animatedSteps": [
+            { "emoji": "🛑", "title": "Nustokite dirbti", "description": "Netęskite darbo, jei esate sužeistas" },
+            { "emoji": "👷", "title": "Susisiekite su komandos vadovu", "description": "Raskite bet kurį žalia uniforma – jie jums padės" },
+            { "emoji": "🩹", "title": "Apdorokite žaizdą", "description": "Palikite gamybos zoną ir tinkamai apdorokite žaizdą" },
+            { "emoji": "🏥", "title": "Kreipkitės į gydytoją, jei reikia", "description": "Jei negalite tęsti darbo, kreipkitės dėl medicininio įvertinimo" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Traumų ir beveik įvykusių nelaimių pranešimas:",
+          "items": [
+            "📱 Naudokite Datakvalitet programėlę (turi būti įdiegta jūsų telefone)",
+            "📮 Naudokite anoniminę pranešimų dėžutę prie valgyklos įėjimo",
+            "👷 Praneškite tiesiogiai komandos vadovui, personalo skyriui arba kam reikia",
+            "⚠️ Beveik įvykusias nelaimes taip pat reikia pranešti – jos padeda išvengti ateities nelaimių"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main-risks",
+      "title": "Pagrindinės rizikos gamyboje",
+      "icon": "⚠️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Pagrindinės rizikos Vikenco yra pjūviai nuo peilių ir rankų traumos nuo mašinų."
+        },
+        {
+          "type": "rules",
+          "title": "Dažniausios rizikos:",
+          "items": [
+            "Pjūviai nuo peilių gamybos linijoje",
+            "Rankų traumos nuo mašinų – NIEKADA nekiškite rankos į mašiną",
+            "Paslydimai ir kritimai (visada avėkite apsauginius batus)",
+            "Pasikartojančio krūvio traumos (užduočių rotacija kas 2 valandas padeda to išvengti)"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Prevencinės priemonės:",
+          "items": [
+            "🔒 LOTO (Lock Out / Tag Out) – mašinos turi būti užrakintos prieš techninę priežiūrą",
+            "🧤 Visada mūvėkite pirštines – nedelsdami pakeiskite vinilo pirštines, jei jos suplyšo",
+            "🔪 Atsargiai elkitės su peiliais – visada pjaukite nuo savęs",
+            "🥾 Apsauginiai batai privalomi visose gamybos zonose",
+            "🩹 Naudokite tik mėlynus pleistrus (aptinkami metalo detektoriais)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hearing-conditions",
+      "title": "Klausos apsauga ir darbo sąlygos",
+      "icon": "🎧",
+      "sections": [
+        {
+          "type": "mandatory",
+          "title": "Privaloma visose gamybos zonose:",
+          "gridItems": [
+            { "emoji": "🎧", "label": "Klausos apsauga" },
+            { "emoji": "🥾", "label": "Apsauginiai batai" },
+            { "emoji": "🧤", "label": "Pirštinės" },
+            { "emoji": "😷", "label": "Veido kaukė" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Darbo sąlygos:",
+          "items": [
+            "🌡️ Gamybos zonoje yra maždaug 22°C",
+            "🧥 Galite dėvėti džemperį be gobtuvo, jei reikia šilumos",
+            "🔄 Užduočių rotacija kas 2 valandas, kad būtų išvengta pasikartojančio krūvio",
+            "⏰ Pertraukų grafikas: 08:00 / 08:30 / 09:00 / 09:30 / 10:00 (po 30 min)",
+            "☕ Jei jūsų pertrauka 08:00, kita pertrauka 10:30, tada 13:00"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco daugiausia dėmesio skiria raumenų ir skeleto traumų prevencijai, naudojant ergonomiškas darbo vietas ir reguliarią užduočių rotaciją."
+        }
+      ]
+    },
+    {
+      "id": "metal-detectors",
+      "title": "Metalo detektoriai ir maisto sauga",
+      "icon": "🔍",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Visi produktai praeina per metalo detektorius. Tai labai svarbu maisto saugai."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Kaip veikia metalo aptikimas:",
+          "animatedSteps": [
+            { "emoji": "📦", "title": "Produktai ant linijos", "description": "Visos dėžės praeina per metalo detektorių" },
+            { "emoji": "🚨", "title": "Detektorius signalizuoja", "description": "Jei detektorius duoda teigiamą signalą, konvejerio juosta sustoja" },
+            { "emoji": "🔍", "title": "Vertinimas", "description": "Įvertinama teigiamo signalo tolerancija – ar tai tikra, ar klaidingas aliarmas?" },
+            { "emoji": "✅", "title": "Sprendimas", "description": "Produktas patvirtinamas arba pašalinamas nuo linijos" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Kodėl mėlyni pleistrai?",
+          "items": [
+            "🩹 Mėlyni pleistrai turi metalo pėdsakų",
+            "🔍 Jei pleistras nukris, metalo detektorius jį aptiks",
+            "🐟 Tai užtikrina, kad galutiniame produkte neatsidurtų svetimkūnių",
+            "⚠️ NIEKADA nenaudokite įprastų pleistrų gamyboje – visada naudokite pateiktus mėlynus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "title": "Asmens patikra ir įdarbinimas",
+      "icon": "📋",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "VISI darbuotojai privalo gauti aviacijos saugumo patikros sertifikatą. Tai privaloma."
+        },
+        {
+          "type": "info",
+          "title": "Kaip gauti asmens patikrą:",
+          "items": [
+            "🌐 Apsilankykite: https://www.luftfartstilsynet.no/aktorer/bakgrunnssjekk/",
+            "📝 Pateikite paraišką sertifikatui internetu",
+            "⏳ Apdorojimas gali užtrukti – pateikite paraišką kuo greičiau",
+            "📄 Pateikite sertifikatą personalo skyriui, kai jį gausite"
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Jūsų įdarbinimo procesas apima:",
+          "items": [
+            "📚 DSA mokymus visiems naujiems darbuotojams",
+            "🔄 Nuolatinis mokymas per visą įdarbinimo laikotarpį",
+            "🧪 Praktinį mokymą jūsų konkrečioje darbo srityje",
+            "📱 Įdiekite Datakvalitet programėlę incidentų pranešimui"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Vikenco investuoja į nuolatinį mokymą, kad visi dirbtų saugiai ir efektyviai."
+        }
+      ]
+    }
+  ]
+}
