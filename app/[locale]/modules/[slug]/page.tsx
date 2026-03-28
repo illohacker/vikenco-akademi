@@ -158,6 +158,24 @@ function ModuleRenderer({ slug, mod, content }: { slug: string; mod: { icon: str
   )
 }
 
+function Linkify({ children }: { children: string }) {
+  const parts = children.split(/(https?:\/\/[^\s,)}\]]+)/g)
+  if (parts.length === 1) return <>{children}</>
+  return (
+    <>
+      {parts.map((part, i) =>
+        /^https?:\/\//.test(part) ? (
+          <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="underline break-all hover:opacity-80">
+            {part}
+          </a>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  )
+}
+
 function SectionRenderer({ section }: { section: Section }) {
   switch (section.type) {
     case 'alert': {
@@ -170,7 +188,7 @@ function SectionRenderer({ section }: { section: Section }) {
       return (
         <div className={`rounded-xl p-4 flex items-start gap-3 ${s.bg}`}>
           <span className="text-xl flex-shrink-0 mt-0.5">{s.icon}</span>
-          <p className={`font-semibold ${s.text}`}>{section.text}</p>
+          <p className={`font-semibold ${s.text}`}>{section.text ? <Linkify>{section.text}</Linkify> : null}</p>
         </div>
       )
     }
@@ -209,7 +227,7 @@ function SectionRenderer({ section }: { section: Section }) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </span>
-                <span className="font-medium">{item}</span>
+                <span className="font-medium"><Linkify>{item}</Linkify></span>
               </li>
             ))}
           </ul>
@@ -225,7 +243,7 @@ function SectionRenderer({ section }: { section: Section }) {
           <ul className="space-y-2">
             {section.items?.map((item, i) => (
               <li key={i} className="text-blue-800 font-medium text-base">
-                {item}
+                <Linkify>{item}</Linkify>
               </li>
             ))}
           </ul>
