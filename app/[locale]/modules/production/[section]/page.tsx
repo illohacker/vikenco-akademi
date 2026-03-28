@@ -3,9 +3,10 @@ import { Link } from '@/i18n/routing'
 import Image from 'next/image'
 import AnimatedSteps from '@/components/AnimatedSteps'
 import LineDiagram from '@/components/LineDiagram'
+import LineDiagram2 from '@/components/LineDiagram2'
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps' | 'line-map'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps' | 'line-map' | 'line-map-2'
   style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
@@ -224,6 +225,27 @@ function SectionRenderer({ section }: { section: Section }) {
             sideB: section.items?.[10] || 'SIDE B',
             belt: section.items?.[11] || 'CONVEYOR BELT',
             clickHint: section.items?.[12] || 'Click a zone to see instructions',
+          }}
+        />
+      )
+
+    case 'line-map-2':
+      return (
+        <LineDiagram2
+          title={section.title || ''}
+          labels={{
+            corte: section.items?.[0] || 'Corte',
+            espinas: section.items?.[1] || 'Espinas',
+            perfeccion: section.items?.[2] || 'Perfección',
+            caja: section.items?.[3] || 'Caja',
+            peso: section.items?.[4] || 'Peso',
+            noapto: section.items?.[5] || 'No apto',
+            entry: section.items?.[6] || 'ENTRY',
+            exit: section.items?.[7] || 'EXIT',
+            sideA: section.items?.[8] || 'SIDE A',
+            sideB: section.items?.[9] || 'SIDE B',
+            belt: section.items?.[10] || 'CONVEYOR BELT',
+            clickHint: section.items?.[11] || 'Click a zone to see instructions',
           }}
         />
       )

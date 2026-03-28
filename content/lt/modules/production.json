@@ -348,7 +348,45 @@
       "description": "Antrinė gamybos linija",
       "icon": "2️⃣",
       "color": "from-teal-500 to-teal-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "l2-overview",
+          "title": "Linija 2 – Stočių apžvalga",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-2",
+              "title": "Gamybos linija 2 – Spustelėkite stotį, kad pamatytumėte instrukcijas",
+              "items": [
+                "PJOVIMAS",
+                "KAULAI",
+                "TOBULUMAS",
+                "DĖŽĖ",
+                "SVORIS",
+                "NETINKAMAS",
+                "ĮĖJIMAS",
+                "IŠĖJIMAS",
+                "PUSĖ A",
+                "PUSĖ B",
+                "KONVEJERIS",
+                "Spustelėkite zoną, kad pamatytumėte instrukcijas ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stotys (iš dešinės į kairę, sekant lašišos srautą):",
+              "items": [
+                "🔴 Pjovimas (4p) – Pradinis pjovimas ir defektų šalinimas",
+                "🟡 Kaulai (6p) – Kaulų šalinimas",
+                "🟢 Tobulumas (1p) – Kokybės kontrolė ir galutinis sutvarkymas",
+                "🔵 Dėžė (2p) – Pakavimas į dėžes",
+                "🟣 Svoris (1p) – Svorio kontrolė",
+                "🟣 Netinkamas (1p) – Netinkamų produktų rūšiavimas"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "line-3",

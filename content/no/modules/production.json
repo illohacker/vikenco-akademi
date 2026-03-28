@@ -348,7 +348,45 @@
       "description": "Sekundær produksjonslinje",
       "icon": "2️⃣",
       "color": "from-teal-500 to-teal-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "l2-overview",
+          "title": "Linje 2 – Stasjonsoversikt",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-2",
+              "title": "Produksjonslinje 2 – Klikk på en stasjon for å se instruksjonene",
+              "items": [
+                "KUTT",
+                "BEIN",
+                "PERFEKSJON",
+                "KASSE",
+                "VEKT",
+                "IKKE GODKJENT",
+                "INNGANG",
+                "UTGANG",
+                "SIDE A",
+                "SIDE B",
+                "TRANSPORTBÅND",
+                "Klikk på en sone for å se instruksjonene ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stasjoner (høyre til venstre, følger laksestrømmen):",
+              "items": [
+                "🔴 Kutt (4p) – Første kutting og fjerning av defekter",
+                "🟡 Bein (6p) – Fjerning av bein",
+                "🟢 Perfeksjon (1p) – Kvalitetskontroll og siste finpuss",
+                "🔵 Kasse (2p) – Pakking i kasser",
+                "🟣 Vekt (1p) – Veiekontroll",
+                "🟣 Ikke godkjent (1p) – Sortering av ikke-godkjente produkter"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "line-3",

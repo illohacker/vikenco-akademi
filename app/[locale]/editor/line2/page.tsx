@@ -22,14 +22,15 @@ const initialItems: DragItem[] = [
   // Conveyor belt
   { id: 'belt', x: 50, y: 240, label: 'CINTA TRANSPORTADORA', color: '#475569', type: 'belt', width: 850, height: 30 },
 
-  // Start with same layout as Line 1 but editable names
-  { id: 'zone-1', x: 770, y: 100, label: 'ESTACIÓN 1', color: '#ef4444', type: 'zone', width: 120, height: 310 },
+  // CORTE (rightmost - entry point)
+  { id: 'zone-1', x: 770, y: 100, label: 'Corte', color: '#ef4444', type: 'zone', width: 120, height: 310 },
   { id: 'zone-1-a1', x: 810, y: 190, label: '○', color: '#ef4444', type: 'person' },
   { id: 'zone-1-a2', x: 863, y: 191, label: '○', color: '#ef4444', type: 'person' },
   { id: 'zone-1-b1', x: 812, y: 314, label: '○', color: '#ef4444', type: 'person' },
   { id: 'zone-1-b2', x: 869, y: 314, label: '○', color: '#ef4444', type: 'person' },
 
-  { id: 'zone-2', x: 530, y: 100, label: 'ESTACIÓN 2', color: '#eab308', type: 'zone', width: 230, height: 310 },
+  // ESPINAS
+  { id: 'zone-2', x: 530, y: 100, label: 'Espinas', color: '#eab308', type: 'zone', width: 230, height: 310 },
   { id: 'zone-2-a1', x: 560, y: 170, label: '○', color: '#eab308', type: 'person' },
   { id: 'zone-2-a2', x: 620, y: 170, label: '○', color: '#eab308', type: 'person' },
   { id: 'zone-2-a3', x: 680, y: 170, label: '○', color: '#eab308', type: 'person' },
@@ -37,22 +38,22 @@ const initialItems: DragItem[] = [
   { id: 'zone-2-b2', x: 620, y: 310, label: '○', color: '#eab308', type: 'person' },
   { id: 'zone-2-b3', x: 680, y: 310, label: '○', color: '#eab308', type: 'person' },
 
-  { id: 'zone-3', x: 475, y: 101, label: 'ESTACIÓN 3', color: '#22c55e', type: 'zone', width: 50, height: 310 },
+  // PERFECCIÓN
+  { id: 'zone-3', x: 475, y: 101, label: 'Perfección', color: '#22c55e', type: 'zone', width: 50, height: 310 },
   { id: 'zone-3-1', x: 499, y: 320, label: '○', color: '#22c55e', type: 'person' },
 
-  { id: 'zone-4', x: 365, y: 98, label: 'ESTACIÓN 4', color: '#3b82f6', type: 'zone', width: 110, height: 310 },
-  { id: 'zone-4-a', x: 420, y: 190, label: '○', color: '#3b82f6', type: 'person' },
+  // CAJA
+  { id: 'zone-4', x: 365, y: 98, label: 'Caja', color: '#3b82f6', type: 'zone', width: 110, height: 310 },
   { id: 'zone-4-b', x: 420, y: 310, label: '○', color: '#3b82f6', type: 'person' },
+  { id: 'zone-4-p1', x: 443, y: 360, label: '○', color: '#3b82f6', type: 'person' },
 
-  { id: 'zone-5', x: 261, y: 99, label: 'ESTACIÓN 5', color: '#6366f1', type: 'zone', width: 110, height: 310 },
-  { id: 'zone-5-a', x: 316, y: 190, label: '○', color: '#6366f1', type: 'person' },
-  { id: 'zone-5-b', x: 316, y: 310, label: '○', color: '#6366f1', type: 'person' },
+  // PESO
+  { id: 'zone-5', x: 250, y: 100, label: 'Peso', color: '#6366f1', type: 'zone', width: 110, height: 310 },
+  { id: 'zone-5-b', x: 304, y: 318, label: '○', color: '#6366f1', type: 'person' },
 
-  { id: 'zone-6', x: 170, y: 100, label: 'ESTACIÓN 6', color: '#06b6d4', type: 'zone', width: 90, height: 310 },
-  { id: 'zone-6-1', x: 215, y: 255, label: '○', color: '#06b6d4', type: 'person' },
-
-  { id: 'zone-7', x: 60, y: 100, label: 'ESTACIÓN 7', color: '#8b5cf6', type: 'zone', width: 110, height: 310 },
-  { id: 'zone-7-1', x: 115, y: 255, label: '○', color: '#8b5cf6', type: 'person' },
+  // NO APTO
+  { id: 'zone-7', x: 117, y: 98, label: 'No apto', color: '#8b5cf6', type: 'zone', width: 110, height: 310 },
+  { id: 'zone-7-1', x: 196, y: 215, label: '○', color: '#8b5cf6', type: 'person' },
 ]
 
 export default function Line2Editor() {

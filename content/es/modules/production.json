@@ -348,7 +348,45 @@
       "description": "Línea secundaria de producción",
       "icon": "2️⃣",
       "color": "from-teal-500 to-teal-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "l2-overview",
+          "title": "Línea 2 – Vista general de estaciones",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-2",
+              "title": "Línea de Producción 2 – Haz clic en una estación para ver sus instrucciones",
+              "items": [
+                "CORTE",
+                "ESPINAS",
+                "PERFECCIÓN",
+                "CAJA",
+                "PESO",
+                "NO APTO",
+                "ENTRADA",
+                "SALIDA",
+                "LADO A",
+                "LADO B",
+                "CINTA TRANSPORTADORA",
+                "Haz clic en una zona para ver sus instrucciones ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Estaciones (derecha a izquierda, siguiendo el flujo del salmón):",
+              "items": [
+                "🔴 Corte (4p) – Corte inicial y eliminación de defectos",
+                "🟡 Espinas (6p) – Retirada de espinas",
+                "🟢 Perfección (1p) – Control de calidad y últimos retoques",
+                "🔵 Caja (2p) – Empaquetado en cajas",
+                "🟣 Peso (1p) – Control de peso",
+                "🟣 No apto (1p) – Clasificación de productos no aprobados"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "line-3",

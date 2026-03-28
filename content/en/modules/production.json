@@ -348,7 +348,45 @@
       "description": "Secondary production line",
       "icon": "2️⃣",
       "color": "from-teal-500 to-teal-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "l2-overview",
+          "title": "Line 2 – Station Overview",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-2",
+              "title": "Production Line 2 – Click a station to see its instructions",
+              "items": [
+                "CUTTING",
+                "BONES",
+                "PERFECTION",
+                "BOX",
+                "WEIGHT",
+                "NOT APPROVED",
+                "ENTRY",
+                "EXIT",
+                "SIDE A",
+                "SIDE B",
+                "CONVEYOR BELT",
+                "Click a zone to see its instructions ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stations (right to left, following salmon flow):",
+              "items": [
+                "🔴 Cutting (4p) – Initial cutting and defect removal",
+                "🟡 Bones (6p) – Bone removal",
+                "🟢 Perfection (1p) – Quality control and final touch-up",
+                "🔵 Box (2p) – Packing into boxes",
+                "🟣 Weight (1p) – Weight control",
+                "🟣 Not Approved (1p) – Sorting non-approved products"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "line-3",

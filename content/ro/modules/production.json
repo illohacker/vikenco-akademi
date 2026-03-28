@@ -348,7 +348,45 @@
       "description": "Linia secundară de producție",
       "icon": "2️⃣",
       "color": "from-teal-500 to-teal-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "l2-overview",
+          "title": "Linia 2 – Prezentarea stațiilor",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-2",
+              "title": "Linia de producție 2 – Faceți clic pe o stație pentru instrucțiuni",
+              "items": [
+                "TĂIERE",
+                "OASE",
+                "PERFECȚIUNE",
+                "CUTIE",
+                "GREUTATE",
+                "NEAPROBAT",
+                "INTRARE",
+                "IEȘIRE",
+                "LATURA A",
+                "LATURA B",
+                "BANDĂ TRANSPORTOARE",
+                "Faceți clic pe o zonă pentru instrucțiuni ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Stații (de la dreapta la stânga, urmând fluxul somonului):",
+              "items": [
+                "🔴 Tăiere (4p) – Tăierea inițială și eliminarea defectelor",
+                "🟡 Oase (6p) – Îndepărtarea oaselor",
+                "🟢 Perfecțiune (1p) – Control calitate și finisare finală",
+                "🔵 Cutie (2p) – Ambalare în cutii",
+                "🟣 Greutate (1p) – Control greutate",
+                "🟣 Neaprobat (1p) – Sortarea produselor neaprobate"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "line-3",
