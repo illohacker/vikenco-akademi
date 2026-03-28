@@ -20,6 +20,9 @@ const initialItems: DragItem[] = [
   // CORTE (rightmost - entry point)
   { id: 'zone-corte', x: 770, y: 100, label: 'CORTE', color: '#ef4444', type: 'zone', width: 120, height: 310 },
   { id: 'corte-a1', x: 810, y: 190, label: '○', color: '#ef4444', type: 'person' },
+  { id: 'corte-a2', x: 863, y: 191, label: '○', color: '#ef4444', type: 'person' },
+  { id: 'corte-b1', x: 812, y: 314, label: '○', color: '#ef4444', type: 'person' },
+  { id: 'corte-b2', x: 869, y: 314, label: '○', color: '#ef4444', type: 'person' },
 
   // ESPINAS
   { id: 'zone-espinas', x: 530, y: 100, label: 'ESPINAS', color: '#eab308', type: 'zone', width: 230, height: 310 },
@@ -31,20 +34,21 @@ const initialItems: DragItem[] = [
   { id: 'espinas-b3', x: 680, y: 310, label: '○', color: '#eab308', type: 'person' },
 
   // SUPERVISIÓN
-  { id: 'zone-supervision', x: 470, y: 100, label: 'SUPERVISIÓN', color: '#22c55e', type: 'zone', width: 50, height: 310 },
+  { id: 'zone-supervision', x: 475, y: 101, label: 'SUPERVISIÓN', color: '#22c55e', type: 'zone', width: 50, height: 310 },
+  { id: 'supervision-1', x: 499, y: 320, label: '○', color: '#22c55e', type: 'person' },
 
   // ACABADO - CORTE
-  { id: 'zone-acabado-corte', x: 350, y: 100, label: 'ACABADO\nCORTE', color: '#3b82f6', type: 'zone', width: 110, height: 310 },
+  { id: 'zone-acabado-corte', x: 365, y: 98, label: 'ACABADO\nCORTE', color: '#3b82f6', type: 'zone', width: 110, height: 310 },
   { id: 'acabado-corte-a', x: 445, y: 190, label: '○', color: '#3b82f6', type: 'person' },
   { id: 'acabado-corte-b', x: 445, y: 310, label: '○', color: '#3b82f6', type: 'person' },
 
   // ACABADO - TRIM
-  { id: 'zone-acabado-trim', x: 280, y: 100, label: 'TRIM', color: '#6366f1', type: 'zone', width: 110, height: 310 },
+  { id: 'zone-acabado-trim', x: 261, y: 99, label: 'TRIM', color: '#6366f1', type: 'zone', width: 110, height: 310 },
   { id: 'trim-a', x: 320, y: 190, label: '○', color: '#6366f1', type: 'person' },
   { id: 'trim-b', x: 320, y: 310, label: '○', color: '#6366f1', type: 'person' },
 
   // ACABADO - CAJAS
-  { id: 'zone-cajas', x: 180, y: 100, label: 'CAJAS', color: '#06b6d4', type: 'zone', width: 90, height: 310 },
+  { id: 'zone-cajas', x: 170, y: 100, label: 'CAJAS', color: '#06b6d4', type: 'zone', width: 90, height: 310 },
   { id: 'cajas-1', x: 210, y: 250, label: '○', color: '#06b6d4', type: 'person' },
 
   // ETIQUETADOR
@@ -281,7 +285,7 @@ export default function Line1Editor() {
 
       {/* Legend */}
       <div className="mt-4 flex flex-wrap gap-3 text-sm">
-        <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-red-500"></span> Corte (1p)</span>
+        <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-red-500"></span> Corte (4p)</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-yellow-500"></span> Espinas (6p)</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-green-500"></span> Supervisión</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-blue-500"></span> Acabado Corte (2p)</span>
