@@ -80,28 +80,50 @@
     },
     {
       "id": "infeed-line-2",
-      "title": "Infeed / Machine Line 2 (Innmating / Maskinlinje 2)",
-      "icon": "2️⃣",
+      "title": "Beinfjerning (Espinas)",
+      "icon": "🦴",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Andre produksjonslinje - samme prosedyrer som Linje 1 med spesifikke justeringer."
+          "text": "Beinfjerningsstasjonen er en av de mest etterspurte posisjonene. 6 arbeidere (3 per side, speilet) fjerner pinnebein fra laksefiletene."
         },
         {
           "type": "info",
-          "title": "Hovedansvar:",
+          "title": "Slik fordeles filetene:",
           "items": [
-            "🐟 Motta og laste laks pa Linje 2",
-            "⚙️ Overvake maskindrift og flyt",
-            "👀 Kvalitetskontroll av innkommende fisk",
-            "🔄 Koordinere med Linje 1 for balansert produksjon"
+            "🐟 Tre lakseloin ankommer båndet samtidig",
+            "1️⃣ Nederste loin → Posisjon 1 (nærmest båndet)",
+            "2️⃣ Midterste loin → Posisjon 2 (midten)",
+            "3️⃣ Øverste loin → Posisjon 3 (lengst fra båndet)"
+          ]
+        },
+        {
+          "type": "animated-steps",
+          "title": "Slik fjerner du bein – steg for steg:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Ta opp fileten", "description": "Ta din tildelte loin fra båndet (nedre, midtre eller øvre)" },
+            { "emoji": "🔍", "title": "Sjekk hodeområdet", "description": "Hodeområdet inneholder ALLTID mer enn 3 pinnebein. Finn og fjern alle" },
+            { "emoji": "✋", "title": "Før hånden langs loinen", "description": "Kjør hånden langs hele fileten for å kjenne etter gjenværende bein" },
+            { "emoji": "🦴", "title": "Fjern alle bein du finner", "description": "Trekk ut hvert bein du kjenner med verktøyet. Vær grundig – ingen bein skal gjenstå" },
+            { "emoji": "✅", "title": "Kontroller og slipp", "description": "Bare når du er sikker på at det ikke er flere bein, legg fileten tilbake på båndet" },
+            { "emoji": "🔄", "title": "Neste filet", "description": "Start umiddelbart med neste innkommende filet" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "style": "danger",
+          "text": "Forhast ALDRI dette trinnet. Et bein igjen i fileten er en kvalitetsfeil og en risiko for forbrukeren. Ta deg tid til å sjekke grundig."
+        },
+        {
+          "type": "info",
+          "title": "Viktige påminnelser:",
+          "items": [
+            "⚠️ Hodeområdet har alltid flest bein – sjekk det nøye først",
+            "✋ Bruk hånden til å kjenne hele loinen – bein kan gjemme seg hvor som helst",
+            "🔄 Jobb i jevnt tempo – fart kommer med øvelse",
+            "🩹 Hvis du kutter deg, stopp umiddelbart og kontakt en teamleder (grønn)"
+          ]
         }
       ]
     },

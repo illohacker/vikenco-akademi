@@ -80,28 +80,50 @@
     },
     {
       "id": "infeed-line-2",
-      "title": "Infeed / Machine Line 2",
-      "icon": "2️⃣",
+      "title": "Bone Removal Station (Espinas)",
+      "icon": "🦴",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Second production line – same procedures as Line 1 with specific adjustments."
+          "text": "The bone removal station is one of the busiest positions. 6 workers (3 per side, mirrored) remove pin bones from the salmon fillets."
         },
         {
           "type": "info",
-          "title": "Key responsibilities:",
+          "title": "How the fillets are distributed:",
           "items": [
-            "🐟 Receive and load salmon onto Line 2",
-            "⚙️ Monitor machine operation and flow",
-            "👀 Quality check incoming fish",
-            "🔄 Coordinate with Line 1 for balanced production"
+            "🐟 Three salmon loins arrive on the belt at the same time",
+            "1️⃣ Bottom loin → Position 1 (closest to the belt)",
+            "2️⃣ Middle loin → Position 2 (center)",
+            "3️⃣ Top loin → Position 3 (furthest from the belt)"
+          ]
+        },
+        {
+          "type": "animated-steps",
+          "title": "How to remove bones – step by step:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Pick up the fillet", "description": "Take your assigned loin from the belt (bottom, middle, or top)" },
+            { "emoji": "🔍", "title": "Check the head area", "description": "The head area ALWAYS contains more than 3 pin bones. Find and remove them all" },
+            { "emoji": "✋", "title": "Slide your hand along the loin", "description": "Run your hand along the entire length of the fillet to feel for remaining bones" },
+            { "emoji": "🦴", "title": "Remove all bones found", "description": "Pull out each bone you feel with your tool. Be thorough – no bones should remain" },
+            { "emoji": "✅", "title": "Verify and release", "description": "Only when you are sure there are no more bones, place the fillet back on the conveyor belt" },
+            { "emoji": "🔄", "title": "Next fillet", "description": "Immediately start with the next incoming fillet" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "style": "danger",
+          "text": "NEVER rush this step. A bone left in the fillet is a quality failure and a risk for the consumer. Take the time needed to check thoroughly."
+        },
+        {
+          "type": "info",
+          "title": "Key reminders:",
+          "items": [
+            "⚠️ The head area always has the most bones – check it carefully first",
+            "✋ Use your hand to feel the entire loin – bones can hide anywhere",
+            "🔄 Work at a steady pace – speed comes with practice",
+            "🩹 If you cut yourself, stop immediately and contact a team leader (green)"
+          ]
         }
       ]
     },

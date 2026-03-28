@@ -80,28 +80,50 @@
     },
     {
       "id": "infeed-line-2",
-      "title": "Infeed / Machine Line 2 (Tiekimo / Masinu linija 2)",
-      "icon": "2️⃣",
+      "title": "Kaulų šalinimo stotis (Espinas)",
+      "icon": "🦴",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Antroji gamybos linija - tos pacios proceduros kaip Linija 1 su specifiniais pakeitimais."
+          "text": "Kaulų šalinimo stotis yra viena iš labiausiai užimtų pozicijų. 6 darbuotojai (3 kiekvienoje pusėje, veidrodiškai) šalina smulkius kaulus iš lašišos filė."
         },
         {
           "type": "info",
-          "title": "Pagrindines atsakomybes:",
+          "title": "Kaip paskirstomos filė:",
           "items": [
-            "🐟 Priimti ir pakrauti lasi ant Linijos 2",
-            "⚙️ Stebet masinos veikima ir srautus",
-            "👀 Ateinancio zuvu kokybes patikra",
-            "🔄 Koordinuoti su Linija 1 del subalansuotos gamybos"
+            "🐟 Trys lašišos nugarinės atvyksta ant juostos vienu metu",
+            "1️⃣ Apatinė nugarinė → Pozicija 1 (arčiausiai juostos)",
+            "2️⃣ Vidurinė nugarinė → Pozicija 2 (centre)",
+            "3️⃣ Viršutinė nugarinė → Pozicija 3 (toliausiai nuo juostos)"
+          ]
+        },
+        {
+          "type": "animated-steps",
+          "title": "Kaip šalinti kaulus – žingsnis po žingsnio:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Paimkite filė", "description": "Paimkite savo priskirtą nugarinę nuo juostos (apatinę, vidurinę ar viršutinę)" },
+            { "emoji": "🔍", "title": "Patikrinkite galvos zoną", "description": "Galvos zonoje VISADA yra daugiau nei 3 smulkūs kaulai. Raskite ir pašalinkite visus" },
+            { "emoji": "✋", "title": "Slinkite ranka per nugarinę", "description": "Praveskite ranką per visą filė ilgį, kad rastumėte likusius kaulus" },
+            { "emoji": "🦴", "title": "Pašalinkite visus rastus kaulus", "description": "Ištraukite kiekvieną rastą kaulą savo įrankiu. Būkite kruopštūs – neturi likti nė vieno" },
+            { "emoji": "✅", "title": "Patikrinkite ir paleiskite", "description": "Tik kai esate tikri, kad daugiau kaulų nėra, padėkite filė atgal ant juostos" },
+            { "emoji": "🔄", "title": "Kita filė", "description": "Nedelsiant pradėkite su kita atvykstančia filė" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "style": "danger",
+          "text": "NIEKADA neskubėkite šiame žingsnyje. Kaulas filė yra kokybės defektas ir rizika vartotojui. Skirkite laiko kruopščiam patikrinimui."
+        },
+        {
+          "type": "info",
+          "title": "Svarbūs priminimai:",
+          "items": [
+            "⚠️ Galvos zonoje visada daugiausiai kaulų – pirmiausia atidžiai patikrinkite ją",
+            "✋ Naudokite ranką, kad apčiuoptumėte visą nugarinę – kaulai gali slėptis bet kur",
+            "🔄 Dirbkite pastoviu tempu – greitis ateina su praktika",
+            "🩹 Jei įsipjovėte, nedelsdami sustokite ir kreipkitės į komandos vadovą (žalia)"
+          ]
         }
       ]
     },

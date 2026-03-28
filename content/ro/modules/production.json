@@ -80,28 +80,50 @@
     },
     {
       "id": "infeed-line-2",
-      "title": "Infeed / Machine Line 2 (Alimentare / Linia de masini 2)",
-      "icon": "2️⃣",
+      "title": "Stația de Îndepărtare a Oaselor (Espinas)",
+      "icon": "🦴",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "A doua linie de productie – aceleasi proceduri ca Linia 1 cu ajustari specifice."
+          "text": "Stația de oase este una dintre cele mai solicitate poziții. 6 muncitori (3 pe fiecare parte, în oglindă) îndepărtează oasele pin din fileurile de somon."
         },
         {
           "type": "info",
-          "title": "Responsabilitati cheie:",
+          "title": "Cum se distribuie fileurile:",
           "items": [
-            "🐟 Receptia si incarcarea somonului pe Linia 2",
-            "⚙️ Monitorizarea functionarii masinii si a fluxului",
-            "👀 Controlul calitatii pestelui primit",
-            "🔄 Coordonarea cu Linia 1 pentru o productie echilibrata"
+            "🐟 Trei mușchiuleți de somon ajung pe bandă în același timp",
+            "1️⃣ Mușchiulețul de jos → Poziția 1 (cel mai aproape de bandă)",
+            "2️⃣ Mușchiulețul din mijloc → Poziția 2 (centru)",
+            "3️⃣ Mușchiulețul de sus → Poziția 3 (cel mai departe de bandă)"
+          ]
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cum să îndepărtați oasele – pas cu pas:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Luați fileul", "description": "Luați mușchiulețul alocat de pe bandă (inferior, mijlociu sau superior)" },
+            { "emoji": "🔍", "title": "Verificați zona capului", "description": "Zona capului conține ÎNTOTDEAUNA mai mult de 3 oase pin. Găsiți-le și scoateți-le pe toate" },
+            { "emoji": "✋", "title": "Glisați mâna pe mușchiuleț", "description": "Treceți mâna pe toată lungimea fileului pentru a găsi oasele rămase" },
+            { "emoji": "🦴", "title": "Îndepărtați toate oasele găsite", "description": "Extrageți fiecare os cu unealta. Fiți minuțioși – niciun os nu trebuie să rămână" },
+            { "emoji": "✅", "title": "Verificați și eliberați", "description": "Doar când sunteți siguri că nu mai sunt oase, puneți fileul înapoi pe bandă" },
+            { "emoji": "🔄", "title": "Următorul fileu", "description": "Începeți imediat cu următorul fileu" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "style": "danger",
+          "text": "NU grăbiți NICIODATĂ acest pas. Un os rămas în fileu este un defect de calitate și un risc pentru consumator. Acordați timpul necesar verificării."
+        },
+        {
+          "type": "info",
+          "title": "Amintiri cheie:",
+          "items": [
+            "⚠️ Zona capului are întotdeauna cele mai multe oase – verificați-o prima cu atenție",
+            "✋ Folosiți mâna pentru a palpa tot mușchiulețul – oasele se pot ascunde oriunde",
+            "🔄 Lucrați într-un ritm constant – viteza vine cu practica",
+            "🩹 Dacă vă tăiați, opriți-vă imediat și contactați un lider de echipă (verde)"
+          ]
         }
       ]
     },

@@ -80,28 +80,50 @@
     },
     {
       "id": "infeed-line-2",
-      "title": "Infeed / Machine Line 2 (Alimentacion / Linea de maquinas 2)",
-      "icon": "2️⃣",
+      "title": "Estación de Espinas",
+      "icon": "🦴",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Segunda linea de produccion - mismos procedimientos que la Linea 1 con ajustes especificos."
+          "text": "La estación de espinas es uno de los puestos más demandados. 6 trabajadores (3 por lado, en espejo) retiran las espinas de los filetes de salmón."
         },
         {
           "type": "info",
-          "title": "Responsabilidades clave:",
+          "title": "Cómo se distribuyen los filetes:",
           "items": [
-            "🐟 Recibir y cargar salmon en la Linea 2",
-            "⚙️ Supervisar el funcionamiento de la maquina y el flujo",
-            "👀 Control de calidad del pescado entrante",
-            "🔄 Coordinar con la Linea 1 para una produccion equilibrada"
+            "🐟 Llegan tres lomos de salmón a la cinta al mismo tiempo",
+            "1️⃣ Lomo inferior → Puesto 1 (más cerca de la cinta)",
+            "2️⃣ Lomo del medio → Puesto 2 (centro)",
+            "3️⃣ Lomo superior → Puesto 3 (más lejos de la cinta)"
+          ]
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cómo quitar espinas – paso a paso:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Coge el filete", "description": "Toma tu lomo asignado de la cinta (inferior, medio o superior)" },
+            { "emoji": "🔍", "title": "Revisa la zona de la cabeza", "description": "La zona de la cabeza SIEMPRE tiene más de 3 espinas. Encuéntralas y retíralas todas" },
+            { "emoji": "✋", "title": "Desliza la mano por el lomo", "description": "Pasa la mano por toda la longitud del filete para encontrar espinas restantes" },
+            { "emoji": "🦴", "title": "Retira todas las espinas", "description": "Extrae cada espina que encuentres con tu herramienta. Sé minucioso – no debe quedar ninguna" },
+            { "emoji": "✅", "title": "Verifica y suelta", "description": "Solo cuando estés seguro de que no hay más espinas, deja el filete en la cinta transportadora" },
+            { "emoji": "🔄", "title": "Siguiente filete", "description": "Empieza inmediatamente con el siguiente filete que llega" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "style": "danger",
+          "text": "NUNCA te apresures en este paso. Una espina en el filete es un fallo de calidad y un riesgo para el consumidor. Tómate el tiempo necesario para revisar a fondo."
+        },
+        {
+          "type": "info",
+          "title": "Recordatorios clave:",
+          "items": [
+            "⚠️ La zona de la cabeza siempre tiene más espinas – revísala primero con cuidado",
+            "✋ Usa la mano para palpar todo el lomo – las espinas se esconden en cualquier sitio",
+            "🔄 Trabaja a un ritmo constante – la velocidad llega con la práctica",
+            "🩹 Si te cortas, para inmediatamente y contacta a un team leader (verde)"
+          ]
         }
       ]
     },
