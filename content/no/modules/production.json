@@ -129,28 +129,28 @@
     },
     {
       "id": "filet-line-1",
-      "title": "Filet Line 1 (Filetlinje 1)",
-      "icon": "3️⃣",
+      "title": "Tilsyn – Innmating til skinnemaskin",
+      "icon": "👀",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Filetlinje der laksen bearbeides til fileter."
+          "text": "Denne posisjonen har 1 arbeider. Jobben din er enkel men kritisk: sørg for at hver filet går riktig inn i skinnemaskinen."
         },
         {
           "type": "info",
-          "title": "Hovedansvar:",
+          "title": "Hva du må gjøre:",
           "items": [
-            "🔪 Filetbearbeiding og trimming",
-            "👀 Kvalitetskontroll av hver filet",
-            "⚖️ Vekt- og storrelsessortering",
-            "🧤 Opprettholde hygiene og knivsikkerhet"
+            "🐟 Plasser hver filet med halen pekende i retningen til transportbåndet",
+            "↔️ Filetene må gå rett inn – de kan ikke gå inn sidelengs eller på skrå",
+            "⚙️ Hvis en filet går inn skjevt, vil skinnemaskinen sette seg fast",
+            "🔄 Jobb kontinuerlig – hver filet må sjekkes og rettes opp"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "style": "danger",
+          "text": "En maskin som setter seg fast stopper hele linjen. Sørg alltid for at halen peker i kjøreretningen og at fileten er rett."
         }
       ]
     },

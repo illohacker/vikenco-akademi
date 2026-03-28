@@ -129,28 +129,28 @@
     },
     {
       "id": "filet-line-1",
-      "title": "Filet Line 1 (Linea de fileteado 1)",
-      "icon": "3️⃣",
+      "title": "Supervisión – Alimentación máquina de piel",
+      "icon": "👀",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Linea de fileteado donde el salmon se procesa en filetes."
+          "text": "Este puesto tiene 1 trabajador. Tu trabajo es sencillo pero crítico: asegurar que cada filete entre correctamente en la máquina que quita la piel."
         },
         {
           "type": "info",
-          "title": "Responsabilidades clave:",
+          "title": "Lo que debes hacer:",
           "items": [
-            "🔪 Procesamiento y recorte de filetes",
-            "👀 Control de calidad de cada filete",
-            "⚖️ Clasificacion por peso y tamano",
-            "🧤 Mantener la higiene y la seguridad con cuchillos"
+            "🐟 Coloca cada filete con la cola mirando en el sentido de la cinta transportadora",
+            "↔️ Los filetes deben entrar rectos – no pueden entrar ladeados ni en ángulo",
+            "⚙️ Si un filete entra torcido, la máquina se atasca",
+            "🔄 Trabaja de forma continua – cada filete debe ser revisado y alineado"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "style": "danger",
+          "text": "Una máquina atascada para toda la línea. Asegúrate siempre de que la cola apunte en la dirección de la cinta y el filete esté recto."
         }
       ]
     },

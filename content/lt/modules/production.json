@@ -129,28 +129,28 @@
     },
     {
       "id": "filet-line-1",
-      "title": "Filet Line 1 (File linija 1)",
-      "icon": "3️⃣",
+      "title": "Priežiūra – Odos šalinimo mašinos maitinimas",
+      "icon": "👀",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Fileavimo linija, kurioje lasis apdorojamas i file."
+          "text": "Šioje pozicijoje dirba 1 darbuotojas. Jūsų darbas paprastas, bet labai svarbus: užtikrinti, kad kiekviena filė teisingai patektų į odos šalinimo mašiną."
         },
         {
           "type": "info",
-          "title": "Pagrindines atsakomybes:",
+          "title": "Ką turite daryti:",
           "items": [
-            "🔪 Files apdorojimas ir apipjaustymas",
-            "👀 Kiekvienos files kokybes kontrole",
-            "⚖️ Rusiavimas pagal svori ir dydi",
-            "🧤 Palaikyti higiena ir peiliu sauguma"
+            "🐟 Padėkite kiekvieną filė uodega konvejerio judėjimo kryptimi",
+            "↔️ Filė turi eiti tiesiai – negali patekti šonu ar kampu",
+            "⚙️ Jei filė patenka kreivai, odos šalinimo mašina užstringa",
+            "🔄 Dirbkite nuolat – kiekviena filė turi būti patikrinta ir išlyginta"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "style": "danger",
+          "text": "Užstrigusi mašina sustabdo visą liniją. Visada įsitikinkite, kad uodega rodo judėjimo kryptimi ir filė yra tiesi."
         }
       ]
     },

@@ -129,28 +129,28 @@
     },
     {
       "id": "filet-line-1",
-      "title": "Filet Line 1",
-      "icon": "3️⃣",
+      "title": "Supervision – Skinning Machine Feed",
+      "icon": "👀",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Filleting line where salmon is processed into fillets."
+          "text": "This position has 1 worker. Your job is simple but critical: ensure every fillet enters the skinning machine in the correct orientation."
         },
         {
           "type": "info",
-          "title": "Key responsibilities:",
+          "title": "What you must do:",
           "items": [
-            "🔪 Fillet processing and trimming",
-            "👀 Quality control of each fillet",
-            "⚖️ Weight and size sorting",
-            "🧤 Maintain hygiene and knife safety"
+            "🐟 Position every fillet with the tail facing the direction of the conveyor belt",
+            "↔️ Fillets must go straight – they cannot enter sideways or at an angle",
+            "⚙️ If a fillet enters crooked, the skinning machine will jam",
+            "🔄 Work continuously – every fillet must be checked and aligned"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "style": "danger",
+          "text": "A jammed machine stops the entire line. Always make sure the tail points in the direction of travel and the fillet is straight."
         }
       ]
     },

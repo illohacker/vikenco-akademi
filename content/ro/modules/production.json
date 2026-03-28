@@ -129,28 +129,28 @@
     },
     {
       "id": "filet-line-1",
-      "title": "Filet Line 1 (Linia de filetare 1)",
-      "icon": "3️⃣",
+      "title": "Supraveghere – Alimentare mașină de curățare",
+      "icon": "👀",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Linia de filetare unde somonul este procesat in fileuri."
+          "text": "Această poziție are 1 muncitor. Treaba ta este simplă dar critică: asigură-te că fiecare fileu intră corect în mașina de curățat pielea."
         },
         {
           "type": "info",
-          "title": "Responsabilitati cheie:",
+          "title": "Ce trebuie să faci:",
           "items": [
-            "🔪 Procesarea si tunderea fileurilor",
-            "👀 Controlul calitatii fiecarui fileu",
-            "⚖️ Sortarea dupa greutate si dimensiune",
-            "🧤 Mentinerea igienei si sigurantei cu cutitele"
+            "🐟 Poziționează fiecare fileu cu coada în direcția benzii transportoare",
+            "↔️ Fileurile trebuie să intre drept – nu pot intra lateral sau în unghi",
+            "⚙️ Dacă un fileu intră strâmb, mașina de curățat se blochează",
+            "🔄 Lucrează continuu – fiecare fileu trebuie verificat și aliniat"
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "style": "danger",
+          "text": "O mașină blocată oprește întreaga linie. Asigură-te mereu că coada indică direcția de mers și fileul este drept."
         }
       ]
     },
