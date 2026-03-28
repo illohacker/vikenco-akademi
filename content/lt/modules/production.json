@@ -787,7 +787,162 @@
       "description": "Šalutinių produktų apdorojimas",
       "icon": "🧊",
       "color": "from-purple-500 to-purple-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "dryice-station",
+          "title": "Dryice – Ledas ir dangčiai",
+          "icon": "🧊",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 darbuotojai šioje pozicijoje. Dirbate kartu visą dieną. Vienas deda ledą ir jelly, kitas uždeda dangčius."
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 1 – Ledas ir Jelly:",
+              "items": [
+                "🧊 Deda ledą į dėžes temperatūrai palaikyti",
+                "💊 Deda jelly (plastikines pagalvėles temperatūros kontrolei)",
+                "🔄 Nuolat papildo ledą ir jelly – niekada neleiskite baigtis"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 2 – Dangčiai:",
+              "items": [
+                "📦 Uždeda dangčius – kamštinius arba kartoninius",
+                "🔄 Visada užtikrina pakankamai dangčių",
+                "⚠️ Patikrina dangčio tipą pagal užsakymą"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Jūs atsakingi už nuolatinį papildymą – ledas, jelly ir dangčiai. Niekada neleiskite medžiagoms baigtis."
+            }
+          ]
+        },
+        {
+          "id": "belly-station",
+          "title": "Belly – Pilvo atlankas",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Belly yra labai vertingas pjūvis, ypač Azijos rinkoje. Tai siaura, pailga lašišos dalis."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Kaip pakuoti belly:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Priimkite belly",
+                  "description": "Belly atvyksta iš gamybos linijos – siauros, pailgos dalys"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Pakuokite 17 kg dėžėse",
+                  "description": "Dėkite belly į dėžes, kurios turi sverti 17 kg"
+                },
+                {
+                  "emoji": "🔵",
+                  "title": "Plastikinis skirtukas ties ~10 kg",
+                  "description": "Kai dėžėje apie 10 kg, įdėkite plastikinį skirtuvą"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Spausdinkite etiketę",
+                  "description": "Naudokite bendrą spausdintuvą"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Saugokite etiketę",
+                  "description": "Dalijatės spausdintuvu – būkite atidūs, kad etiketė nenukristų"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Naudojate TĄ PATĮ spausdintuvą. Būkite atidūs ir koordinuokite su kolega."
+            }
+          ]
+        },
+        {
+          "id": "backbone-station",
+          "title": "Backbone – Stuburas",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Tai reikliausia pozicija. Žuvų stubuurai krenta į talpą ir turite pripildyti dėžes po 18 kg. Apie 45 dėžes per 30 min!"
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 1 – Pildytojas:",
+              "items": [
+                "🦴 Ima žuvų stuburus iš talpos",
+                "📦 Pildo dėžes iki 18 kg",
+                "⚡ Dirba greitai – apie 45 dėžių per 30 min"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 2 – Ruošėjas:",
+              "items": [
+                "📦 Ruošia tuščias dėžes ir dangčius",
+                "🔄 Užtikrina, kad pildytojas niekada nelauktų",
+                "⚖️ Padeda tikrinti svorį ir uždaryti dėžes"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Tempas yra raktas. 45 dėžių per 30 min – mažiau nei 40 sek. vienai dėžei."
+            }
+          ]
+        },
+        {
+          "id": "head-station",
+          "title": "Head – Galvos",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Tai ramiausias etapas ir vienintelis kartas, kai atsiskiriate nuo partnerio."
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 1 – Galvos (paprastai NE backbone):",
+              "items": [
+                "🐟 Deda lašišų galvas į 18 kg dėžes",
+                "📦 Dėžės eina BE dangčio",
+                "⚖️ Užtikrinkite teisingą svorį"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Asmuo 2 – Palaikymas ir valymas:",
+              "items": [
+                "🧹 Valo liniją kiek įmanoma",
+                "🗑️ Ištuština odos nuopjovų talpą",
+                "📦 Padeda kitoms stotims su dangčiais",
+                "🧼 Valo grindis ir sprendžia kolegų problemas"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Jei nesate prie galvų: jūsų darbas palaikyti visus kitus. Valymas, medžiagų papildymas ir problemų sprendimas."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

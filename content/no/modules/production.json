@@ -787,7 +787,162 @@
       "description": "Biproduktbehandling",
       "icon": "🧊",
       "color": "from-purple-500 to-purple-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "dryice-station",
+          "title": "Dryice – Is og lokk",
+          "icon": "🧊",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 arbeidere på denne posisjonen. Dere jobber sammen hele dagen. Én legger is og jelly, den andre setter på lokk."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Is og Jelly:",
+              "items": [
+                "🧊 Legger is i kassene for å holde temperaturen",
+                "💊 Legger jelly (plastputer som hjelper med temperaturkontroll) i kassene",
+                "🔄 Fyller på is og jelly fortløpende – aldri la det gå tomt"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Lokk:",
+              "items": [
+                "📦 Setter lokk på kassene – enten kork eller papp",
+                "🔄 Sørger alltid for å ha nok lokk tilgjengelig",
+                "⚠️ Sjekk at lokktypen stemmer med bestillingen"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Dere er ansvarlige for å alltid etterfylle det som brukes opp – is, jelly og lokk. Gå aldri tom for materialer."
+            }
+          ]
+        },
+        {
+          "id": "belly-station",
+          "title": "Belly – Buklapp",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Belly er et høyt verdsatt kutt, spesielt i det asiatiske markedet. Det er en smal, langstrakt del av laksen."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Slik pakker du belly:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Motta buklappene",
+                  "description": "Buklappene ankommer fra produksjonslinjen – smale, langstrakte stykker"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Pakk i 17 kg kasser",
+                  "description": "Legg buklappene i kasser som skal veie 17 kg"
+                },
+                {
+                  "emoji": "🔵",
+                  "title": "Plastseparator ved ~10 kg",
+                  "description": "Når kassen har ca. 10 kg, legg inn en plastseparator før du fortsetter å fylle"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Skriv ut etikett",
+                  "description": "Bruk den delte skriveren til å skrive ut etiketten"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Pass på etiketten",
+                  "description": "Dere deler skriver med kollegaen – vær oppmerksom så etiketten ikke faller på gulvet"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Dere bruker SAMME skriver. Vær oppmerksom og sørg for at etiketten ikke faller på gulvet. Koordiner med kollegaen."
+            }
+          ]
+        },
+        {
+          "id": "backbone-station",
+          "title": "Backbone – Ryggrad",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Dette er den mest krevende posisjonen. Fiskerygger faller i beholdere og dere må fylle kasser med 18 kg. Ca. 45 kasser på 30 minutter – hold tempoet!"
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Fyller:",
+              "items": [
+                "🦴 Tar fiskeryggene fra beholderen",
+                "📦 Fyller kassene til 18 kg",
+                "⚡ Jobber raskt – ca. 45 kasser per 30-minutters økt"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Klargjører:",
+              "items": [
+                "📦 Forbereder tomme kasser og lokk",
+                "🔄 Sørger for at fyller aldri venter på materialer",
+                "⚖️ Hjelper med å sjekke vekt og lukke kasser"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Tempo er nøkkelen. 45 kasser på 30 minutter betyr under 40 sekunder per kasse. Teamwork er avgjørende."
+            }
+          ]
+        },
+        {
+          "id": "head-station",
+          "title": "Head – Hoder",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Dette er den roligste etappen og den eneste gangen du skilles fra partneren din."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Hoder (vanligvis den som IKKE gjør backbone):",
+              "items": [
+                "🐟 Legger laksehoder i kasser på 18 kg",
+                "📦 Kassene går UTEN lokk",
+                "⚖️ Sørg for at vekten er korrekt"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Støtte og rengjøring:",
+              "items": [
+                "🧹 Rydder og rengjør linjen så mye som mulig",
+                "🗑️ Tømmer tanken for hudavskjær (skin offcut)",
+                "📦 Hjelper andre stasjoner med lokk og materialer",
+                "🧼 Rengjør gulvet og løser problemer for kollegene"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Hvis du ikke er på hodene: din jobb er å støtte alle andre. Rengjøring, etterfylling av materialer og problemløsning."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

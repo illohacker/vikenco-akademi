@@ -787,7 +787,162 @@
       "description": "Procesarea subproduselor",
       "icon": "🧊",
       "color": "from-purple-500 to-purple-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "dryice-station",
+          "title": "Dryice – Gheață și capace",
+          "icon": "🧊",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 muncitori la această poziție. Lucrați împreună toată ziua. Unul pune gheață și jelly, celălalt pune capacele."
+            },
+            {
+              "type": "info",
+              "title": "Persoana 1 – Gheață și Jelly:",
+              "items": [
+                "🧊 Pune gheață în cutii pentru temperatura",
+                "💊 Pune jelly (pernuțe din plastic pentru controlul temperaturii)",
+                "🔄 Reumple continuu – nu lăsa să se termine"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persoana 2 – Capace:",
+              "items": [
+                "📦 Pune capacele – din plută sau carton",
+                "🔄 Asigură mereu suficiente capace",
+                "⚠️ Verifică tipul capacului conform comenzii"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Sunteți responsabili să reumpleți MEREU – gheață, jelly și capace. Nu rămâneți fără materiale."
+            }
+          ]
+        },
+        {
+          "id": "belly-station",
+          "title": "Belly – Clapeta ventrală",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Belly este o bucată foarte apreciată, mai ales pe piața asiatică. Este o parte îngustă și alungită a somonului."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să ambalezi belly:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Primește belly",
+                  "description": "Belly ajung de pe linia de producție – piese înguste și alungite"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Ambalează în cutii de 17 kg",
+                  "description": "Pune belly în cutii de 17 kg"
+                },
+                {
+                  "emoji": "🔵",
+                  "title": "Separator plastic la ~10 kg",
+                  "description": "Când cutia are ~10 kg, pune un separator de plastic"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Tipărește eticheta",
+                  "description": "Folosește imprimanta comună"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Atenție la etichetă",
+                  "description": "Împărțiți imprimanta – fiți atenți să nu cadă eticheta"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Folosiți ACEEAȘI imprimantă. Fiți atenți și coordonați-vă cu colegul."
+            }
+          ]
+        },
+        {
+          "id": "backbone-station",
+          "title": "Backbone – Coloana vertebrală",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Cea mai solicitantă poziție. Spinările cad în container și trebuie să umpleți cutii de 18 kg. ~45 cutii în 30 minute!"
+            },
+            {
+              "type": "info",
+              "title": "Persoana 1 – Umplere:",
+              "items": [
+                "🦴 Ia spinările din container",
+                "📦 Umple cutiile la 18 kg",
+                "⚡ Lucrează rapid – ~45 cutii per 30 min"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persoana 2 – Pregătire:",
+              "items": [
+                "📦 Pregătește cutii goale și capace",
+                "🔄 Asigură că umplătorul nu așteaptă niciodată",
+                "⚖️ Ajută la verificarea greutății"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Ritmul este cheia. 45 cutii în 30 min = sub 40 secunde per cutie."
+            }
+          ]
+        },
+        {
+          "id": "head-station",
+          "title": "Head – Capete",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Cea mai liniștită etapă și singurul moment când te separi de partener."
+            },
+            {
+              "type": "info",
+              "title": "Persoana 1 – Capete (de obicei cel care NU face backbone):",
+              "items": [
+                "🐟 Pune capetele de somon în cutii de 18 kg",
+                "📦 Cutiile merg FĂRĂ capac",
+                "⚖️ Verifică greutatea"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persoana 2 – Suport și curățenie:",
+              "items": [
+                "🧹 Curăță linia cât de mult posibil",
+                "🗑️ Golește rezervorul de resturi de piele",
+                "📦 Ajută alte stații cu capace și materiale",
+                "🧼 Curăță podeaua și rezolvă problemele colegilor"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Dacă nu ești la capete: treaba ta e să-i ajuți pe toți ceilalți."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

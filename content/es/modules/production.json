@@ -787,7 +787,162 @@
       "description": "Procesamiento de subproductos",
       "icon": "🧊",
       "color": "from-purple-500 to-purple-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "dryice-station",
+          "title": "Dryice – Hielo y tapas",
+          "icon": "🧊",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 personas en este puesto. Trabajáis juntos todo el día. Uno echa hielo y jelly, el otro pone las tapas."
+            },
+            {
+              "type": "info",
+              "title": "Persona 1 – Hielo y Jelly:",
+              "items": [
+                "🧊 Echa hielo en las cajas para mantener la temperatura",
+                "💊 Coloca jelly (pastillas de plástico que ayudan al mantenimiento de temperatura) en las cajas",
+                "🔄 Repone hielo y jelly continuamente – nunca dejes que se acabe"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persona 2 – Tapas:",
+              "items": [
+                "📦 Pone las tapas a las cajas – ya sean de corcho o de cartón",
+                "🔄 Se asegura siempre de tener tapas suficientes disponibles",
+                "⚠️ Comprueba que el tipo de tapa coincida con el pedido"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Sois responsables de ir reponiendo SIEMPRE lo que se gasta – hielos, jelly y tapas. Nunca os quedéis sin material."
+            }
+          ]
+        },
+        {
+          "id": "belly-station",
+          "title": "Belly – Falda ventral",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "El belly es una pieza muy preciada en el mercado asiático. Es una parte concreta del salmón de corte estrecho y alargado."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cómo empaquetar belly:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Recibe los bellies",
+                  "description": "Los bellies llegan de la línea de producción – piezas estrechas y alargadas"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Empaqueta en cajas de 17 kg",
+                  "description": "Coloca los bellies en cajas que deben pesar 17 kg"
+                },
+                {
+                  "emoji": "🔵",
+                  "title": "Plástico separador a ~10 kg",
+                  "description": "Cuando la caja lleva aproximadamente 10 kg, coloca un plástico separador antes de seguir llenando"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Imprime etiqueta",
+                  "description": "Usa la impresora compartida para imprimir la etiqueta"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Cuidado con la etiqueta",
+                  "description": "Compartes impresora con tu compañero – estate atento para que no se caiga la etiqueta al suelo"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Usáis la MISMA impresora. Estate atento y que no se caiga la etiqueta al suelo. Coordínate con tu compañero."
+            }
+          ]
+        },
+        {
+          "id": "backbone-station",
+          "title": "Backbone – Espaldas",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Es la posición más exigente. Las espaldas de pescado caen al depósito y tienes que llenar las cajas con 18 kg. Unas 45 cajas en el turno de 30 minutos – ¡mantén el ritmo!"
+            },
+            {
+              "type": "info",
+              "title": "Persona 1 – Llenador:",
+              "items": [
+                "🦴 Coge las espaldas de pescado del depósito",
+                "📦 Llena las cajas hasta 18 kg",
+                "⚡ Trabaja rápido – unas 45 cajas por turno de 30 minutos"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persona 2 – Preparador:",
+              "items": [
+                "📦 Prepara las cajas vacías y las tapas",
+                "🔄 Se asegura de que el llenador nunca espere por material",
+                "⚖️ Ayuda a comprobar el peso y cerrar las cajas"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "El ritmo es clave. 45 cajas en 30 minutos significa menos de 40 segundos por caja. El trabajo en equipo es fundamental."
+            }
+          ]
+        },
+        {
+          "id": "head-station",
+          "title": "Head – Cabezas",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Es quizás la etapa más tranquila y el único momento en que te separas de tu compañero."
+            },
+            {
+              "type": "info",
+              "title": "Persona 1 – Cabezas (normalmente quien NO hace backbone):",
+              "items": [
+                "🐟 Mete las cabezas de salmón en cajas de 18 kg",
+                "📦 Las cajas van SIN tapa",
+                "⚖️ Asegúrate de que el peso sea correcto"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persona 2 – Apoyo y limpieza:",
+              "items": [
+                "🧹 Limpia la línea en la medida de lo posible",
+                "🗑️ Vacía el tanque del skin offcut (recortes de piel)",
+                "📦 Apoya al resto de puestos con tapas y materiales",
+                "🧼 Limpia el suelo y solventa problemas de los compañeros"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Si no eres el de las cabezas: tu trabajo es apoyar a todos los demás. Limpieza, reposición de materiales y resolver problemas."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

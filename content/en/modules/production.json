@@ -787,7 +787,162 @@
       "description": "By-product processing",
       "icon": "🧊",
       "color": "from-purple-500 to-purple-600",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "dryice-station",
+          "title": "Dryice – Ice & Lids",
+          "icon": "🧊",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 workers at this position. You work together all day. One adds ice and jelly, the other puts on lids."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Ice & Jelly:",
+              "items": [
+                "🧊 Adds ice to the boxes to maintain temperature",
+                "💊 Adds jelly (plastic pads that help with temperature control) to the boxes",
+                "🔄 Continuously replenishes ice and jelly – never let it run out"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Lids:",
+              "items": [
+                "📦 Puts lids on boxes – either cork or cardboard",
+                "🔄 Always ensures enough lids are available",
+                "⚠️ Check that the lid type matches the order"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "You are responsible for always replenishing what gets used up – ice, jelly and lids. Never run out of materials."
+            }
+          ]
+        },
+        {
+          "id": "belly-station",
+          "title": "Belly – Belly Flap",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Belly is a highly valued cut, especially in the Asian market. It is a narrow, elongated part of the salmon."
+            },
+            {
+              "type": "animated-steps",
+              "title": "How to pack belly:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Receive the belly flaps",
+                  "description": "Belly flaps arrive from the production line – narrow, elongated pieces"
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Pack in 17 kg boxes",
+                  "description": "Place the belly flaps in boxes that should weigh 17 kg"
+                },
+                {
+                  "emoji": "🔵",
+                  "title": "Plastic separator at ~10 kg",
+                  "description": "When the box reaches about 10 kg, insert a plastic separator before continuing to fill"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Print label",
+                  "description": "Use the shared printer to print the label"
+                },
+                {
+                  "emoji": "⚠️",
+                  "title": "Watch the label",
+                  "description": "You share the printer with your colleague – pay attention so the label doesn't fall on the floor"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "You use the SAME printer. Pay attention and make sure the label doesn't fall on the floor. Coordinate with your colleague."
+            }
+          ]
+        },
+        {
+          "id": "backbone-station",
+          "title": "Backbone",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "This is the most demanding position. Fish backbones fall into the bin and you must fill boxes with 18 kg. About 45 boxes in 30 minutes – keep the pace!"
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Filler:",
+              "items": [
+                "🦴 Takes fish backbones from the bin",
+                "📦 Fills boxes to 18 kg",
+                "⚡ Works fast – about 45 boxes per 30-minute session"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Preparer:",
+              "items": [
+                "📦 Prepares empty boxes and lids",
+                "🔄 Ensures the filler never waits for materials",
+                "⚖️ Helps check weight and close boxes"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Pace is key. 45 boxes in 30 minutes means under 40 seconds per box. Teamwork is essential."
+            }
+          ]
+        },
+        {
+          "id": "head-station",
+          "title": "Head",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This is perhaps the calmest stage and the only time you separate from your partner."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Heads (usually the one NOT doing backbone):",
+              "items": [
+                "🐟 Places salmon heads into 18 kg boxes",
+                "📦 Boxes go WITHOUT lids",
+                "⚖️ Make sure the weight is correct"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Support & Cleaning:",
+              "items": [
+                "🧹 Cleans and tidies the line as much as possible",
+                "🗑️ Empties the skin offcut tank",
+                "📦 Helps other stations with lids and materials",
+                "🧼 Cleans the floor and solves problems for colleagues"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "If you're not on heads: your job is to support everyone else. Cleaning, restocking materials and problem-solving."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
