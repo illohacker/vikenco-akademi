@@ -13,17 +13,26 @@ interface Zone {
   color: string
   hoverColor: string
   labelKey: string
+  moduleLink: string
+  emoji: string
+  inactive?: boolean
 }
 
 const zones: Zone[] = [
-  { id: 'reception', x: 50, y: 300, width: 150, height: 100, color: '#3b82f6', hoverColor: '#2563eb', labelKey: 'reception' },
-  { id: 'processing', x: 250, y: 200, width: 200, height: 180, color: '#06b6d4', hoverColor: '#0891b2', labelKey: 'processing' },
-  { id: 'packing', x: 500, y: 200, width: 160, height: 140, color: '#8b5cf6', hoverColor: '#7c3aed', labelKey: 'packing' },
-  { id: 'storage', x: 500, y: 370, width: 160, height: 100, color: '#64748b', hoverColor: '#475569', labelKey: 'storage' },
-  { id: 'shipping', x: 710, y: 300, width: 140, height: 100, color: '#f59e0b', hoverColor: '#d97706', labelKey: 'shipping' },
-  { id: 'cleaning', x: 250, y: 420, width: 200, height: 80, color: '#10b981', hoverColor: '#059669', labelKey: 'cleaning' },
-  { id: 'staff', x: 50, y: 100, width: 150, height: 150, color: '#ec4899', hoverColor: '#db2777', labelKey: 'staff' },
-  { id: 'office', x: 710, y: 100, width: 140, height: 150, color: '#6366f1', hoverColor: '#4f46e5', labelKey: 'office' },
+  // INFEED - bottom
+  { id: 'infeed', x: 30, y: 430, width: 840, height: 90, color: '#3b82f6', hoverColor: '#2563eb', labelKey: 'infeed', moduleLink: '/modules/production#infeed-line-1', emoji: '📥' },
+  // FILET LINE 1 - left column (wide)
+  { id: 'filet1', x: 30, y: 150, width: 220, height: 270, color: '#06b6d4', hoverColor: '#0891b2', labelKey: 'filet1', moduleLink: '/modules/production#filet-line-1', emoji: '🔪' },
+  // FILET LINE 2 - second column (wide)
+  { id: 'filet2', x: 260, y: 150, width: 220, height: 270, color: '#0891b2', hoverColor: '#0e7490', labelKey: 'filet2', moduleLink: '/modules/production#filet-line-2', emoji: '🔪' },
+  // BACKBONE / HEAD / DRYICE / BELLY
+  { id: 'backbone', x: 490, y: 150, width: 110, height: 270, color: '#8b5cf6', hoverColor: '#7c3aed', labelKey: 'backbone', moduleLink: '/modules/production#head-backbone-dryice-belly', emoji: '🦴' },
+  // L3 - inactive
+  { id: 'l3', x: 610, y: 150, width: 80, height: 270, color: '#94a3b8', hoverColor: '#94a3b8', labelKey: 'l3', moduleLink: '', emoji: '', inactive: true },
+  // PORSJONER - top full width above production + terminal
+  { id: 'porsjoner', x: 30, y: 30, width: 580, height: 110, color: '#f59e0b', hoverColor: '#d97706', labelKey: 'porsjoner', moduleLink: '/modules/production#porsjoner', emoji: '📦' },
+  // TERMINAL - right side
+  { id: 'terminal', x: 700, y: 30, width: 170, height: 390, color: '#10b981', hoverColor: '#059669', labelKey: 'terminal', moduleLink: '/modules/production', emoji: '🚛' },
 ]
 
 export default function MapsPage() {
@@ -36,76 +45,122 @@ export default function MapsPage() {
       <p className="text-gray-500 mb-8">{t('subtitle')}</p>
 
       {/* Interactive SVG Map */}
-      <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-6 overflow-hidden">
-        <svg viewBox="0 0 900 550" className="w-full h-auto" style={{ maxHeight: '500px' }}>
+      <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-4 sm:p-6 overflow-hidden">
+        <svg viewBox="0 0 900 550" className="w-full h-auto" style={{ maxHeight: '520px' }}>
           {/* Background */}
-          <rect x="20" y="70" width="860" height="460" rx="20" fill="#f1f5f9" stroke="#cbd5e1" strokeWidth="2" />
+          <rect x="15" y="15" width="870" height="520" rx="16" fill="#f8fafc" stroke="#e2e8f0" strokeWidth="2" />
 
           {/* Title */}
-          <text x="450" y="45" textAnchor="middle" className="text-lg font-bold" fill="#003366" fontSize="20">
-            Vikenco - Aukra
+          <text x="450" y="555" textAnchor="middle" fill="#94a3b8" fontSize="11" fontStyle="italic">
+            Vikenco Production Floor — Rindarøya, Aukra
           </text>
 
-          {/* Factory outline */}
-          <rect x="40" y="85" width="820" height="430" rx="12" fill="none" stroke="#94a3b8" strokeWidth="1" strokeDasharray="8 4" />
+          {/* Door between production and terminal */}
+          <rect x="688" y={260} width="24" height="50" rx="4" fill="#fbbf24" stroke="#f59e0b" strokeWidth="2" />
+          <text x="700" y="290" textAnchor="middle" fill="#92400e" fontSize="9" fontWeight="bold">🚪</text>
 
           {/* Flow arrows */}
           <defs>
-            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-              <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
+            <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+              <polygon points="0 0, 8 3, 0 6" fill="#cbd5e1" />
             </marker>
           </defs>
-          <line x1="200" y1="350" x2="240" y2="310" stroke="#94a3b8" strokeWidth="2" markerEnd="url(#arrowhead)" />
-          <line x1="450" y1="290" x2="490" y2="280" stroke="#94a3b8" strokeWidth="2" markerEnd="url(#arrowhead)" />
-          <line x1="660" y1="290" x2="700" y2="340" stroke="#94a3b8" strokeWidth="2" markerEnd="url(#arrowhead)" />
+          {/* Infeed -> Lines */}
+          <line x1="240" y1="425" x2="240" y2="425" stroke="none" />
+          <path d="M 240 425 L 240 390" stroke="#cbd5e1" strokeWidth="2" markerEnd="url(#arrow)" strokeDasharray="6 3" />
+          <path d="M 450 425 L 450 390" stroke="#cbd5e1" strokeWidth="2" markerEnd="url(#arrow)" strokeDasharray="6 3" />
+          {/* Lines -> Porsjoner */}
+          <path d="M 240 145 L 240 115" stroke="#cbd5e1" strokeWidth="2" markerEnd="url(#arrow)" strokeDasharray="6 3" />
+          <path d="M 370 145 L 370 115" stroke="#cbd5e1" strokeWidth="2" markerEnd="url(#arrow)" strokeDasharray="6 3" />
+          {/* Porsjoner -> Terminal */}
+          <path d="M 615 85 L 695 85" stroke="#cbd5e1" strokeWidth="2" markerEnd="url(#arrow)" strokeDasharray="6 3" />
 
           {/* Zones */}
-          {zones.map((zone) => (
-            <Link key={zone.id} href={`/maps/${zone.id}`}>
+          {zones.map((zone) => {
+            const isInactive = zone.inactive
+            const isHovered = hovered === zone.id
+            const opacity = isInactive ? 0.3 : (hovered && !isHovered ? 0.5 : 0.9)
+
+            const content = (
               <g
-                onMouseEnter={() => setHovered(zone.id)}
+                key={zone.id}
+                onMouseEnter={() => !isInactive && setHovered(zone.id)}
                 onMouseLeave={() => setHovered(null)}
-                className="cursor-pointer"
-                style={{ transition: 'all 0.2s' }}
+                className={isInactive ? 'cursor-not-allowed' : 'cursor-pointer'}
               >
                 <rect
                   x={zone.x}
                   y={zone.y}
                   width={zone.width}
                   height={zone.height}
-                  rx="12"
-                  fill={hovered === zone.id ? zone.hoverColor : zone.color}
-                  opacity={hovered && hovered !== zone.id ? 0.4 : 0.85}
+                  rx="10"
+                  fill={isHovered ? zone.hoverColor : zone.color}
+                  opacity={opacity}
                   className="transition-all duration-200"
                 />
+                {/* Emoji */}
+                {zone.emoji && (
+                  <text
+                    x={zone.x + zone.width / 2}
+                    y={zone.y + zone.height / 2 - (zone.height > 150 ? 15 : 8)}
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fontSize={zone.height > 150 ? "28" : "20"}
+                    className="pointer-events-none select-none"
+                  >
+                    {zone.emoji}
+                  </text>
+                )}
+                {/* Label */}
                 <text
                   x={zone.x + zone.width / 2}
-                  y={zone.y + zone.height / 2}
+                  y={zone.y + zone.height / 2 + (zone.height > 150 ? 18 : 10)}
                   textAnchor="middle"
                   dominantBaseline="central"
                   fill="white"
-                  fontSize="14"
+                  fontSize={zone.width < 120 ? "10" : "13"}
                   fontWeight="bold"
                   className="pointer-events-none select-none"
                 >
                   {t(zone.labelKey)}
                 </text>
+                {/* Inactive label */}
+                {isInactive && (
+                  <text
+                    x={zone.x + zone.width / 2}
+                    y={zone.y + zone.height / 2 + 25}
+                    textAnchor="middle"
+                    fill="white"
+                    fontSize="9"
+                    opacity="0.7"
+                    className="pointer-events-none select-none"
+                  >
+                    ({t('inactive')})
+                  </text>
+                )}
               </g>
-            </Link>
-          ))}
+            )
+
+            if (isInactive || !zone.moduleLink) return content
+            return (
+              <Link key={zone.id} href={zone.moduleLink}>
+                {content}
+              </Link>
+            )
+          })}
         </svg>
       </div>
 
       {/* Zone list for mobile */}
-      <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 md:hidden">
-        {zones.map((zone) => (
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {zones.filter(z => !z.inactive).map((zone) => (
           <Link
             key={zone.id}
-            href={`/maps/${zone.id}`}
+            href={zone.moduleLink}
             className="flex items-center gap-2 p-3 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all"
           >
             <div className="w-4 h-4 rounded" style={{ backgroundColor: zone.color }} />
-            <span className="text-sm font-medium text-gray-700">{t(zone.labelKey)}</span>
+            <span className="text-sm font-medium text-gray-700">{zone.emoji} {t(zone.labelKey)}</span>
           </Link>
         ))}
       </div>

@@ -55,16 +55,16 @@
     "yourScore": "Jūs atsakėte teisingai {score} iš {total}"
   },
   "maps": {
-    "title": "Gamyklos žemėlapis",
+    "title": "Gamybos plano žemėlapis",
     "subtitle": "Spustelėkite zoną, kad sužinotumėte daugiau",
-    "reception": "Priėmimas",
-    "processing": "Apdorojimas",
-    "packing": "Pakavimas",
-    "storage": "Sandėlis",
-    "shipping": "Siuntimas",
-    "cleaning": "Valymas",
-    "staff": "Persirengimo kambarys ir valgykla",
-    "office": "Biuras"
+    "infeed": "Infeed linijos 1-2",
+    "filet1": "Filė linija 1",
+    "filet2": "Filė linija 2",
+    "backbone": "Galva/Stuburas/Sausas ledas",
+    "l3": "Linija 3",
+    "porsjoner": "Porcijos",
+    "terminal": "Terminalas",
+    "inactive": "Neaktyvi"
   },
   "leaderboard": {
     "title": "Rezultatų lentelė",

@@ -55,16 +55,16 @@
     "yourScore": "Ați răspuns corect la {score} din {total}"
   },
   "maps": {
-    "title": "Harta fabricii",
+    "title": "Harta producției",
     "subtitle": "Faceți clic pe o zonă pentru a afla mai multe",
-    "reception": "Recepție",
-    "processing": "Procesare",
-    "packing": "Ambalare",
-    "storage": "Depozit",
-    "shipping": "Expediere",
-    "cleaning": "Curățenie",
-    "staff": "Vestiar & Cantină",
-    "office": "Birou"
+    "infeed": "Infeed Linii 1-2",
+    "filet1": "Linie Filet 1",
+    "filet2": "Linie Filet 2",
+    "backbone": "Cap/Coloană/Gheață uscată",
+    "l3": "Linia 3",
+    "porsjoner": "Porții",
+    "terminal": "Terminal",
+    "inactive": "Inactivă"
   },
   "leaderboard": {
     "title": "Clasament",

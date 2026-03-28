@@ -55,16 +55,16 @@
     "yourScore": "Du fikk {score} av {total} riktig"
   },
   "maps": {
-    "title": "Fabrikkart",
-    "subtitle": "Klikk på en sone for å lære mer",
-    "reception": "Mottak",
-    "processing": "Prosessering",
-    "packing": "Pakking",
-    "storage": "Lager",
-    "shipping": "Utsending",
-    "cleaning": "Renhold",
-    "staff": "Garderobe & Kantine",
-    "office": "Kontor"
+    "title": "Produksjonskart",
+    "subtitle": "Klikk på en sone for å lære mer om hver stasjon",
+    "infeed": "Infeed Linje 1-2",
+    "filet1": "Filetlinje 1",
+    "filet2": "Filetlinje 2",
+    "backbone": "Hode/Rygg/Tørris",
+    "l3": "Linje 3",
+    "porsjoner": "Porsjoner",
+    "terminal": "Terminal",
+    "inactive": "Ikke i bruk"
   },
   "leaderboard": {
     "title": "Resultattavle",

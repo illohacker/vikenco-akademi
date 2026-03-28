@@ -55,16 +55,16 @@
     "yourScore": "You got {score} of {total} correct"
   },
   "maps": {
-    "title": "Factory Map",
-    "subtitle": "Click on a zone to learn more",
-    "reception": "Reception",
-    "processing": "Processing",
-    "packing": "Packing",
-    "storage": "Storage",
-    "shipping": "Shipping",
-    "cleaning": "Cleaning",
-    "staff": "Locker Room & Canteen",
-    "office": "Office"
+    "title": "Production Floor Map",
+    "subtitle": "Click on a zone to learn more about each station",
+    "infeed": "Infeed Lines 1-2",
+    "filet1": "Filet Line 1",
+    "filet2": "Filet Line 2",
+    "backbone": "Head/Backbone/DryIce",
+    "l3": "Line 3",
+    "porsjoner": "Portions",
+    "terminal": "Terminal",
+    "inactive": "Inactive"
   },
   "leaderboard": {
     "title": "Leaderboard",

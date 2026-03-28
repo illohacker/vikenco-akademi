@@ -55,16 +55,16 @@
     "yourScore": "Has acertado {score} de {total}"
   },
   "maps": {
-    "title": "Mapa de la fábrica",
-    "subtitle": "Haz clic en una zona para saber más",
-    "reception": "Recepción",
-    "processing": "Procesado",
-    "packing": "Envasado",
-    "storage": "Almacén",
-    "shipping": "Expedición",
-    "cleaning": "Limpieza",
-    "staff": "Vestuario y Comedor",
-    "office": "Oficina"
+    "title": "Mapa de producción",
+    "subtitle": "Haz clic en una zona para saber más sobre cada puesto",
+    "infeed": "Infeed Líneas 1-2",
+    "filet1": "Línea Filete 1",
+    "filet2": "Línea Filete 2",
+    "backbone": "Cabeza/Espinazo/Hielo seco",
+    "l3": "Línea 3",
+    "porsjoner": "Porciones",
+    "terminal": "Terminal",
+    "inactive": "Inactiva"
   },
   "leaderboard": {
     "title": "Clasificación",
