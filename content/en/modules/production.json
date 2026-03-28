@@ -385,6 +385,277 @@
               ]
             }
           ]
+        },
+        {
+          "id": "l2-corte",
+          "title": "Infeed / Machine Line 1 – Cutting Station",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "The cutting station is the first position on the production line. 4 workers (2 per side) process each salmon fillet as it arrives."
+            },
+            {
+              "type": "info",
+              "title": "Position 1 – Right side operator:",
+              "items": [
+                "🔪 Cuts the lower part and fat of the salmon in a half-moon shape",
+                "👀 Removes the main defects and imperfections from the fillet",
+                "📋 Must follow the trim specification of the current order"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Position 2 – Left side operator:",
+              "items": [
+                "🔪 Cuts the entire white lateral strip from the fillet",
+                "👀 Ensures a clean, uniform edge",
+                "📋 Must follow the trim specification of the current order"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "You will be informed at all times which Trim class production is running (A Trim to E Trim). Always follow the current specification!"
+            },
+            {
+              "type": "steps",
+              "title": "Trim Levels – Know Your Specifications:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Backbone & bellybones off"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Backfin, collar, belly flap, tail off"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Pin bones removed"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Fully trimmed, membrane off"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Skinless (skin removed)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Always handle knives carefully. Cut away from your body. Change blue gloves immediately if torn."
+            }
+          ]
+        },
+        {
+          "id": "l2-espinas",
+          "title": "Bone Removal Station (Espinas)",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "The bone removal station is one of the busiest positions. 6 workers (3 per side, mirrored) remove pin bones from the salmon fillets."
+            },
+            {
+              "type": "info",
+              "title": "Before you start – The BAADER 988 machine:",
+              "items": [
+                "⚙️ Before the fillets reach you, they pass through the BAADER 988 machine",
+                "🦴 This machine automatically removes most of the pin bones",
+                "🔧 Your job is to find and remove the remaining bones using pliers",
+                "🌐 See the machine in action: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "How the fillets are distributed:",
+              "items": [
+                "🐟 Three salmon loins arrive on the belt at the same time",
+                "1️⃣ Bottom loin → Position 1 (closest to the belt)",
+                "2️⃣ Middle loin → Position 2 (center)",
+                "3️⃣ Top loin → Position 3 (furthest from the belt)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "How to remove bones – step by step:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Pick up the fillet",
+                  "description": "Take your assigned loin from the belt (bottom, middle, or top)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Check the head area",
+                  "description": "The head area ALWAYS contains more than 3 pin bones. Find and remove them all"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Slide your hand along the loin",
+                  "description": "Run your hand along the entire length of the fillet to feel for remaining bones"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Remove all bones found",
+                  "description": "Pull out each bone you feel with your tool. Be thorough – no bones should remain"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Verify and release",
+                  "description": "Only when you are sure there are no more bones, place the fillet back on the conveyor belt"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Next fillet",
+                  "description": "Immediately start with the next incoming fillet"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "NEVER rush this step. A bone left in the fillet is a quality failure and a risk for the consumer. Take the time needed to check thoroughly."
+            },
+            {
+              "type": "info",
+              "title": "Key reminders:",
+              "items": [
+                "⚠️ The head area always has the most bones – check it carefully first",
+                "✋ Use your hand to feel the entire loin – bones can hide anywhere",
+                "🔄 Work at a steady pace – speed comes with practice",
+                "🩹 If you cut yourself, stop immediately and contact a team leader (green)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l2-perfeccion",
+          "title": "Perfection – Quality Control",
+          "icon": "✨",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This position has 1 worker. Your job is to inspect each fillet and remove all imperfections with a knife."
+            },
+            {
+              "type": "animated-steps",
+              "title": "How to work – step by step:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Receive the fillet",
+                  "description": "Take the fillet arriving from the previous station"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Clean with knife",
+                  "description": "Remove all imperfections from the fillet using your knife"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Approved fillet",
+                  "description": "Place the fillet PERPENDICULAR to the conveyor belt – the next colleague will pick it up"
+                },
+                {
+                  "emoji": "❌",
+                  "title": "Not approved fillet",
+                  "description": "Place the fillet PARALLEL to the conveyor belt – it goes to sorting"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "The direction you place the fillet is critical: PERPENDICULAR = approved (colleague picks it up). PARALLEL = not approved (goes to sorting)."
+            }
+          ]
+        },
+        {
+          "id": "l2-caja",
+          "title": "Box – Packing",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 workers at this position. They work as a team: one packs, one ensures supplies."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Packer (on the line):",
+              "items": [
+                "🐟 Picks approved fillets from the belt (those placed perpendicular)",
+                "📦 Places fillets in the box according to the current order",
+                "⚖️ Follows order specification for quantity and weight",
+                "📋 When the box is full, pushes it to the weighing station"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Box supplier:",
+              "items": [
+                "📦 Ensures there are ALWAYS empty boxes available for the packer",
+                "🔄 Replaces full boxes with empty ones immediately",
+                "⚠️ The packer should never have to wait for an empty box – keep up the pace"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "The box supplier is key to keeping the line running. A packer without boxes stops all production."
+            }
+          ]
+        },
+        {
+          "id": "l2-peso",
+          "title": "Weight – Weight Control & Labelling",
+          "icon": "⚖️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 worker at this position. You are the last step before the box leaves the line."
+            },
+            {
+              "type": "animated-steps",
+              "title": "How to work – step by step:",
+              "animatedSteps": [
+                {
+                  "emoji": "📦",
+                  "title": "Collect the box",
+                  "description": "Take the full box from the packing station"
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Weigh the box",
+                  "description": "Place the box on the scale and verify the weight matches the order"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Label",
+                  "description": "If the weight is correct, print and attach the label to the box"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Send forward",
+                  "description": "Place the labelled box on the conveyor belt for shipping"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Never label a box that hasn't reached the correct weight. The weight is determined by the order specification."
+            }
+          ]
         }
       ]
     },

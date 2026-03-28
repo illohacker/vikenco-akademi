@@ -385,6 +385,277 @@
               ]
             }
           ]
+        },
+        {
+          "id": "l2-corte",
+          "title": "Infeed / Línea Máquina 1 – Estación de Corte",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "La estación de corte es la primera posición en la línea de producción. 4 trabajadores (2 por lado) procesan cada filete de salmón a su llegada."
+            },
+            {
+              "type": "info",
+              "title": "Posición 1 – Operario lado derecho:",
+              "items": [
+                "🔪 Corta la parte inferior y la grasa del salmón en forma de media luna",
+                "👀 Elimina los defectos e imperfecciones principales del filete",
+                "📋 Debe seguir la especificación de trim del pedido actual"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Posición 2 – Operario lado izquierdo:",
+              "items": [
+                "🔪 Corta toda la franja blanca lateral del filete",
+                "👀 Asegura un borde limpio y uniforme",
+                "📋 Debe seguir la especificación de trim del pedido actual"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Se te informará en todo momento qué clase de Trim está en producción (A Trim a E Trim). ¡Sigue siempre la especificación vigente!"
+            },
+            {
+              "type": "steps",
+              "title": "Niveles de Trim – Conoce las especificaciones:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Espinazo y huesos ventrales retirados"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Aleta dorsal, collar, falda ventral, cola"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Espinas pin retiradas"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Totalmente recortado, membrana retirada"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Sin piel (skinless)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Maneja siempre los cuchillos con cuidado. Corta alejándote del cuerpo. Cambia los guantes azules inmediatamente si se rompen."
+            }
+          ]
+        },
+        {
+          "id": "l2-espinas",
+          "title": "Estación de Espinas",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "La estación de espinas es uno de los puestos más demandados. 6 trabajadores (3 por lado, en espejo) retiran las espinas de los filetes de salmón."
+            },
+            {
+              "type": "info",
+              "title": "Antes de empezar – La máquina BAADER 988:",
+              "items": [
+                "⚙️ Antes de que los filetes lleguen a ti, pasan por la máquina BAADER 988",
+                "🦴 Esta máquina depila automáticamente la mayoría de las espinas",
+                "🔧 Tu trabajo es encontrar y retirar las espinas restantes con los alicates",
+                "🌐 Ver la máquina en acción: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Cómo se distribuyen los filetes:",
+              "items": [
+                "🐟 Llegan tres lomos de salmón a la cinta al mismo tiempo",
+                "1️⃣ Lomo inferior → Puesto 1 (más cerca de la cinta)",
+                "2️⃣ Lomo del medio → Puesto 2 (centro)",
+                "3️⃣ Lomo superior → Puesto 3 (más lejos de la cinta)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cómo quitar espinas – paso a paso:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Coge el filete",
+                  "description": "Toma tu lomo asignado de la cinta (inferior, medio o superior)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Revisa la zona de la cabeza",
+                  "description": "La zona de la cabeza SIEMPRE tiene más de 3 espinas. Encuéntralas y retíralas todas"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Desliza la mano por el lomo",
+                  "description": "Pasa la mano por toda la longitud del filete para encontrar espinas restantes"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Retira todas las espinas",
+                  "description": "Extrae cada espina que encuentres con tu herramienta. Sé minucioso – no debe quedar ninguna"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Verifica y suelta",
+                  "description": "Solo cuando estés seguro de que no hay más espinas, deja el filete en la cinta transportadora"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Siguiente filete",
+                  "description": "Empieza inmediatamente con el siguiente filete que llega"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "NUNCA te apresures en este paso. Una espina en el filete es un fallo de calidad y un riesgo para el consumidor. Tómate el tiempo necesario para revisar a fondo."
+            },
+            {
+              "type": "info",
+              "title": "Recordatorios clave:",
+              "items": [
+                "⚠️ La zona de la cabeza siempre tiene más espinas – revísala primero con cuidado",
+                "✋ Usa la mano para palpar todo el lomo – las espinas se esconden en cualquier sitio",
+                "🔄 Trabaja a un ritmo constante – la velocidad llega con la práctica",
+                "🩹 Si te cortas, para inmediatamente y contacta a un team leader (verde)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l2-perfeccion",
+          "title": "Perfección – Control de calidad",
+          "icon": "✨",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 persona en este puesto. Tu trabajo es inspeccionar cada filete y eliminar todas las imperfecciones con un cuchillo."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cómo trabajar – paso a paso:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Recibe el filete",
+                  "description": "Toma el filete que llega de la estación anterior"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Limpia con cuchillo",
+                  "description": "Elimina todas las imperfecciones del filete con el cuchillo"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Filete apto",
+                  "description": "Coloca el filete PERPENDICULAR a la cinta – el siguiente compañero lo va a coger"
+                },
+                {
+                  "emoji": "❌",
+                  "title": "Filete no apto",
+                  "description": "Coloca el filete PARALELO a la cinta – va a clasificación"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "La dirección en que colocas el filete es clave: PERPENDICULAR = apto (el compañero lo recoge). PARALELO = no apto (va a clasificación)."
+            }
+          ]
+        },
+        {
+          "id": "l2-caja",
+          "title": "Caja – Empaquetado",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 personas en este puesto. Trabajan en equipo: uno empaqueta, el otro se encarga de las cajas."
+            },
+            {
+              "type": "info",
+              "title": "Persona 1 – Empaquetador (en la línea):",
+              "items": [
+                "🐟 Recoge los filetes aptos de la cinta (los que están perpendiculares)",
+                "📦 Coloca los filetes en la caja según el pedido actual",
+                "⚖️ Sigue la especificación del pedido en cantidad y peso",
+                "📋 Cuando la caja está llena, la pasa a la estación de peso"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persona 2 – Proveedor de cajas:",
+              "items": [
+                "📦 Se asegura de que SIEMPRE haya cajas vacías disponibles para el empaquetador",
+                "🔄 Reemplaza las cajas llenas por vacías inmediatamente",
+                "⚠️ El empaquetador nunca debe esperar por una caja vacía – mantén el ritmo"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "El proveedor de cajas es clave para mantener la línea en marcha. Un empaquetador sin cajas para toda la producción."
+            }
+          ]
+        },
+        {
+          "id": "l2-peso",
+          "title": "Peso – Control de peso y etiquetado",
+          "icon": "⚖️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 persona en este puesto. Eres el último paso antes de que la caja salga de la línea."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cómo trabajar – paso a paso:",
+              "animatedSteps": [
+                {
+                  "emoji": "📦",
+                  "title": "Recoge la caja",
+                  "description": "Toma la caja llena del compañero empaquetador"
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Pesa la caja",
+                  "description": "Coloca la caja en la báscula y comprueba que el peso sea correcto según el pedido"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Etiqueta",
+                  "description": "Si el peso es correcto, imprime y pega la etiqueta en la caja"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Envía",
+                  "description": "Coloca la caja etiquetada en la cinta transportadora para envío"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Nunca etiquetes una caja que no haya alcanzado el peso correcto. El peso lo determina la especificación del pedido."
+            }
+          ]
         }
       ]
     },

@@ -385,6 +385,277 @@
               ]
             }
           ]
+        },
+        {
+          "id": "l2-corte",
+          "title": "Infeed / Maskinlinje 1 – Kuttestasjon",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Kuttestasjonen er den første posisjonen på produksjonslinjen. 4 arbeidere (2 per side) bearbeider hver laksefilet når den ankommer."
+            },
+            {
+              "type": "info",
+              "title": "Posisjon 1 – Operatør høyre side:",
+              "items": [
+                "🔪 Kutter den nedre delen og fettet på laksen i en halvmåneform",
+                "👀 Fjerner de viktigste defektene og ujevnhetene fra fileten",
+                "📋 Må følge trimspesifikasjonen for den aktuelle bestillingen"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Posisjon 2 – Operatør venstre side:",
+              "items": [
+                "🔪 Kutter hele den hvite laterale stripen fra fileten",
+                "👀 Sikrer en ren, jevn kant",
+                "📋 Må følge trimspesifikasjonen for den aktuelle bestillingen"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Du vil til enhver tid bli informert om hvilken Trim-klasse produksjonen kjører (A Trim til E Trim). Følg alltid gjeldende spesifikasjon!"
+            },
+            {
+              "type": "steps",
+              "title": "Trim-nivåer – Kjenn spesifikasjonene:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Ryggbein og bukbein fjernet"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Ryggfinne, krageben, buklapp, hale fjernet"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Pinnebein fjernet"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Fullt trimmet, bukhinne fjernet"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Skinnet fjernet (skinless)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Håndter alltid kniver forsiktig. Kutt bort fra kroppen. Bytt blå hansker umiddelbart hvis de revner."
+            }
+          ]
+        },
+        {
+          "id": "l2-espinas",
+          "title": "Beinfjerning (Espinas)",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Beinfjerningsstasjonen er en av de mest etterspurte posisjonene. 6 arbeidere (3 per side, speilet) fjerner pinnebein fra laksefiletene."
+            },
+            {
+              "type": "info",
+              "title": "Før du starter – BAADER 988-maskinen:",
+              "items": [
+                "⚙️ Før filetene når deg, passerer de gjennom BAADER 988-maskinen",
+                "🦴 Denne maskinen fjerner automatisk de fleste pinnebeinene",
+                "🔧 Din jobb er å finne og fjerne de gjenværende beinene med pinsett",
+                "🌐 Se maskinen i aksjon: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Slik fordeles filetene:",
+              "items": [
+                "🐟 Tre lakseloin ankommer båndet samtidig",
+                "1️⃣ Nederste loin → Posisjon 1 (nærmest båndet)",
+                "2️⃣ Midterste loin → Posisjon 2 (midten)",
+                "3️⃣ Øverste loin → Posisjon 3 (lengst fra båndet)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "Slik fjerner du bein – steg for steg:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Ta opp fileten",
+                  "description": "Ta din tildelte loin fra båndet (nedre, midtre eller øvre)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Sjekk hodeområdet",
+                  "description": "Hodeområdet inneholder ALLTID mer enn 3 pinnebein. Finn og fjern alle"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Før hånden langs loinen",
+                  "description": "Kjør hånden langs hele fileten for å kjenne etter gjenværende bein"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Fjern alle bein du finner",
+                  "description": "Trekk ut hvert bein du kjenner med verktøyet. Vær grundig – ingen bein skal gjenstå"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Kontroller og slipp",
+                  "description": "Bare når du er sikker på at det ikke er flere bein, legg fileten tilbake på båndet"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Neste filet",
+                  "description": "Start umiddelbart med neste innkommende filet"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Forhast ALDRI dette trinnet. Et bein igjen i fileten er en kvalitetsfeil og en risiko for forbrukeren. Ta deg tid til å sjekke grundig."
+            },
+            {
+              "type": "info",
+              "title": "Viktige påminnelser:",
+              "items": [
+                "⚠️ Hodeområdet har alltid flest bein – sjekk det nøye først",
+                "✋ Bruk hånden til å kjenne hele loinen – bein kan gjemme seg hvor som helst",
+                "🔄 Jobb i jevnt tempo – fart kommer med øvelse",
+                "🩹 Hvis du kutter deg, stopp umiddelbart og kontakt en teamleder (grønn)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l2-perfeccion",
+          "title": "Perfeksjon – Kvalitetskontroll",
+          "icon": "✨",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Denne posisjonen har 1 arbeider. Jobben din er å inspisere hver filet og fjerne alle ufullkommenheter med kniv."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Slik jobber du – steg for steg:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Motta fileten",
+                  "description": "Ta fileten som ankommer fra forrige stasjon"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Rens med kniv",
+                  "description": "Fjern alle ufullkommenheter fra fileten med kniven"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Godkjent filet",
+                  "description": "Legg fileten VINKELRETT på transportbåndet – neste kollega skal plukke den opp"
+                },
+                {
+                  "emoji": "❌",
+                  "title": "Ikke godkjent filet",
+                  "description": "Legg fileten PARALLELT med transportbåndet – den går videre til sortering"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Retningen du legger fileten er avgjørende: VINKELRETT = godkjent (kollegaen tar den). PARALLELT = ikke godkjent (går til sortering)."
+            }
+          ]
+        },
+        {
+          "id": "l2-caja",
+          "title": "Kasse – Pakking",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 arbeidere på denne posisjonen. De jobber som et team: én pakker, én sørger for forsyninger."
+            },
+            {
+              "type": "info",
+              "title": "Person 1 – Pakker (på linjen):",
+              "items": [
+                "🐟 Plukker godkjente fileter fra båndet (de som ligger vinkelrett)",
+                "📦 Legger filetene i kassen i henhold til gjeldende bestilling",
+                "⚖️ Følger bestillingsspesifikasjonen for antall og vekt",
+                "📋 Når kassen er full, skyver den videre til veiestasjon"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Person 2 – Kasseforsyner:",
+              "items": [
+                "📦 Sørger for at det ALLTID er tomme kasser tilgjengelig for pakkeren",
+                "🔄 Erstatter fulle kasser med tomme umiddelbart",
+                "⚠️ Pakkeren skal aldri måtte vente på en tom kasse – hold tempoet oppe"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Kasseforsyneren er nøkkelen til å holde linjen i gang. En pakker uten kasser stopper hele produksjonen."
+            }
+          ]
+        },
+        {
+          "id": "l2-peso",
+          "title": "Vekt – Veiekontroll og etikettering",
+          "icon": "⚖️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 arbeider på denne posisjonen. Du er det siste trinnet før kassen forlater linjen."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Slik jobber du – steg for steg:",
+              "animatedSteps": [
+                {
+                  "emoji": "📦",
+                  "title": "Hent kassen",
+                  "description": "Ta den fulle kassen fra pakkestasjonen"
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Vei kassen",
+                  "description": "Plasser kassen på vekten og sjekk at vekten er korrekt i henhold til bestillingen"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Etikett",
+                  "description": "Hvis vekten er riktig, skriv ut og fest etiketten på kassen"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Send videre",
+                  "description": "Sett den merkede kassen på transportbåndet for utsending"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Merk aldri en kasse som ikke har nådd riktig vekt. Vekten bestemmes av bestillingsspesifikasjonen."
+            }
+          ]
         }
       ]
     },

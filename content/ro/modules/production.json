@@ -385,6 +385,277 @@
               ]
             }
           ]
+        },
+        {
+          "id": "l2-corte",
+          "title": "Infeed / Linia Mașină 1 – Stația de Tăiere",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Stația de tăiere este prima poziție pe linia de producție. 4 muncitori (2 pe fiecare parte) prelucrează fiecare fileu de somon la sosire."
+            },
+            {
+              "type": "info",
+              "title": "Poziția 1 – Operator partea dreaptă:",
+              "items": [
+                "🔪 Taie partea inferioară și grăsimea somonului în formă de semilună",
+                "👀 Îndepărtează defectele și imperfecțiunile principale ale fileului",
+                "📋 Trebuie să urmeze specificația trim a comenzii curente"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Poziția 2 – Operator partea stângă:",
+              "items": [
+                "🔪 Taie întreaga fâșie albă laterală de pe fileu",
+                "👀 Asigură o margine curată și uniformă",
+                "📋 Trebuie să urmeze specificația trim a comenzii curente"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Veți fi informați în orice moment ce clasă de Trim se produce (A Trim la E Trim). Urmați întotdeauna specificația curentă!"
+            },
+            {
+              "type": "steps",
+              "title": "Niveluri Trim – Cunoașteți specificațiile:",
+              "steps": [
+                {
+                  "icon": "/icons/salmon-trim-a.svg",
+                  "label": "Trim A: Coloana vertebrală și oasele ventrale îndepărtate"
+                },
+                {
+                  "icon": "/icons/salmon-trim-b.svg",
+                  "label": "Trim B: + Înotătoarea dorsală, gulerul, clapeta ventrală"
+                },
+                {
+                  "icon": "/icons/salmon-trim-c.svg",
+                  "label": "Trim C: + Oasele pin îndepărtate"
+                },
+                {
+                  "icon": "/icons/salmon-trim-d.svg",
+                  "label": "Trim D: Complet curățat, membrana îndepărtată"
+                },
+                {
+                  "icon": "/icons/salmon-trim-e.svg",
+                  "label": "Trim E: Fără piele (skinless)"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "success",
+              "text": "Manevrați întotdeauna cuțitele cu atenție. Tăiați în direcție opusă corpului. Schimbați imediat mănușile albastre dacă se rup."
+            }
+          ]
+        },
+        {
+          "id": "l2-espinas",
+          "title": "Stația de Îndepărtare a Oaselor (Espinas)",
+          "icon": "🦴",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Stația de oase este una dintre cele mai solicitate poziții. 6 muncitori (3 pe fiecare parte, în oglindă) îndepărtează oasele pin din fileurile de somon."
+            },
+            {
+              "type": "info",
+              "title": "Înainte de a începe – Mașina BAADER 988:",
+              "items": [
+                "⚙️ Înainte ca fileurile să ajungă la tine, trec prin mașina BAADER 988",
+                "🦴 Această mașină îndepărtează automat majoritatea oaselor pin",
+                "🔧 Treaba ta este să găsești și să îndepărtezi oasele rămase cu penseta",
+                "🌐 Vezi mașina în acțiune: https://www.baader.com/product/baader-988"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Cum se distribuie fileurile:",
+              "items": [
+                "🐟 Trei mușchiuleți de somon ajung pe bandă în același timp",
+                "1️⃣ Mușchiulețul de jos → Poziția 1 (cel mai aproape de bandă)",
+                "2️⃣ Mușchiulețul din mijloc → Poziția 2 (centru)",
+                "3️⃣ Mușchiulețul de sus → Poziția 3 (cel mai departe de bandă)"
+              ]
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să îndepărtați oasele – pas cu pas:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Luați fileul",
+                  "description": "Luați mușchiulețul alocat de pe bandă (inferior, mijlociu sau superior)"
+                },
+                {
+                  "emoji": "🔍",
+                  "title": "Verificați zona capului",
+                  "description": "Zona capului conține ÎNTOTDEAUNA mai mult de 3 oase pin. Găsiți-le și scoateți-le pe toate"
+                },
+                {
+                  "emoji": "✋",
+                  "title": "Glisați mâna pe mușchiuleț",
+                  "description": "Treceți mâna pe toată lungimea fileului pentru a găsi oasele rămase"
+                },
+                {
+                  "emoji": "🦴",
+                  "title": "Îndepărtați toate oasele găsite",
+                  "description": "Extrageți fiecare os cu unealta. Fiți minuțioși – niciun os nu trebuie să rămână"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Verificați și eliberați",
+                  "description": "Doar când sunteți siguri că nu mai sunt oase, puneți fileul înapoi pe bandă"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Următorul fileu",
+                  "description": "Începeți imediat cu următorul fileu"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "NU grăbiți NICIODATĂ acest pas. Un os rămas în fileu este un defect de calitate și un risc pentru consumator. Acordați timpul necesar verificării."
+            },
+            {
+              "type": "info",
+              "title": "Amintiri cheie:",
+              "items": [
+                "⚠️ Zona capului are întotdeauna cele mai multe oase – verificați-o prima cu atenție",
+                "✋ Folosiți mâna pentru a palpa tot mușchiulețul – oasele se pot ascunde oriunde",
+                "🔄 Lucrați într-un ritm constant – viteza vine cu practica",
+                "🩹 Dacă vă tăiați, opriți-vă imediat și contactați un lider de echipă (verde)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l2-perfeccion",
+          "title": "Perfecțiune – Control calitate",
+          "icon": "✨",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 muncitor la această poziție. Treaba ta este să inspectezi fiecare fileu și să îndepărtezi toate imperfecțiunile cu cuțitul."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să lucrezi – pas cu pas:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Primește fileul",
+                  "description": "Ia fileul care vine de la stația anterioară"
+                },
+                {
+                  "emoji": "🔪",
+                  "title": "Curăță cu cuțitul",
+                  "description": "Îndepărtează toate imperfecțiunile de pe fileu cu cuțitul"
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Fileu aprobat",
+                  "description": "Pune fileul PERPENDICULAR pe bandă – următorul coleg îl va lua"
+                },
+                {
+                  "emoji": "❌",
+                  "title": "Fileu neaprobat",
+                  "description": "Pune fileul PARALEL cu banda – merge la sortare"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Direcția în care pui fileul este critică: PERPENDICULAR = aprobat (colegul îl ia). PARALEL = neaprobat (merge la sortare)."
+            }
+          ]
+        },
+        {
+          "id": "l2-caja",
+          "title": "Cutie – Ambalare",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "2 muncitori la această poziție. Lucrează în echipă: unul ambalează, celălalt asigură aprovizionarea."
+            },
+            {
+              "type": "info",
+              "title": "Persoana 1 – Ambalatorul (pe linie):",
+              "items": [
+                "🐟 Ia fileurile aprobate de pe bandă (cele puse perpendicular)",
+                "📦 Pune fileurile în cutie conform comenzii curente",
+                "⚖️ Urmează specificația comenzii pentru cantitate și greutate",
+                "📋 Când cutia e plină, o împinge spre stația de cântărire"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Persoana 2 – Furnizor cutii:",
+              "items": [
+                "📦 Se asigură că ÎNTOTDEAUNA sunt cutii goale disponibile",
+                "🔄 Înlocuiește imediat cutiile pline cu cele goale",
+                "⚠️ Ambalatorul nu trebuie să aștepte niciodată o cutie goală"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Furnizorul de cutii este cheia menținerii liniei. Un ambalator fără cutii oprește toată producția."
+            }
+          ]
+        },
+        {
+          "id": "l2-peso",
+          "title": "Greutate – Control greutate și etichetare",
+          "icon": "⚖️",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 muncitor la această poziție. Ești ultimul pas înainte ca cutia să părăsească linia."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Cum să lucrezi – pas cu pas:",
+              "animatedSteps": [
+                {
+                  "emoji": "📦",
+                  "title": "Ia cutia",
+                  "description": "Preia cutia plină de la stația de ambalare"
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Cântărește cutia",
+                  "description": "Pune cutia pe cântar și verifică greutatea conform comenzii"
+                },
+                {
+                  "emoji": "🏷️",
+                  "title": "Etichetă",
+                  "description": "Dacă greutatea e corectă, tipărește și aplică eticheta pe cutie"
+                },
+                {
+                  "emoji": "🔄",
+                  "title": "Trimite mai departe",
+                  "description": "Pune cutia etichetată pe bandă pentru expediere"
+                }
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Nu eticheta niciodată o cutie care nu a atins greutatea corectă. Greutatea e determinată de specificația comenzii."
+            }
+          ]
         }
       ]
     },
