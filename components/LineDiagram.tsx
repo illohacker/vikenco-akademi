@@ -45,12 +45,12 @@ const zones: ZoneData[] = [
   },
   {
     id: 'cajas', x: 170, y: 100, width: 90, height: 310,
-    labelKey: 'cajas', color: '#06b6d4', lessonId: 'porsjoner',
+    labelKey: 'cajas', color: '#06b6d4', lessonId: 'cajas-station',
     people: [{ x: 215, y: 255 }]
   },
   {
     id: 'etiq', x: 60, y: 100, width: 110, height: 310,
-    labelKey: 'etiq', color: '#8b5cf6', lessonId: 'head-backbone-dryice-belly',
+    labelKey: 'etiq', color: '#8b5cf6', lessonId: 'etiquetador-station',
     people: [{ x: 115, y: 255 }]
   },
 ]

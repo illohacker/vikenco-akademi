@@ -231,29 +231,58 @@
       ]
     },
     {
-      "id": "head-backbone-dryice-belly",
-      "title": "Head / Backbone / Dry Ice / Belly (Cap / Coloana vertebrala / Gheata carbonica / Burta)",
-      "icon": "6️⃣",
+      "id": "cajas-station",
+      "title": "Cutii (Cajas)",
+      "icon": "📦",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Statia de procesare a subproduselor – maximizarea valorii din fiecare parte a somonului."
+          "text": "1 muncitor la această poziție. Treaba ta este să iei fileurile finite de pe bandă și să le pui în cutii urmând un model specific de straturi."
         },
         {
-          "type": "info",
-          "title": "Responsabilitati cheie:",
-          "items": [
-            "🐟 Procesarea capetelor, coloanelor vertebrale si burtilor de somon",
-            "🧊 Ambalarea cu gheata carbonica pentru produse specifice",
-            "♻️ Asigurarea utilizarii maxime a materiilor prime (obiectiv 95%)",
-            "📦 Sortarea si ambalarea subproduselor pentru piete diferite"
+          "type": "animated-steps",
+          "title": "Cum să ambalezi cutiile corect:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Ia fileurile de pe bandă", "description": "Preia fileurile finite pe măsură ce ajung pe conveior" },
+            { "emoji": "📦", "title": "Pune în straturi de 3", "description": "Fiecare strat din cutie constă din 3 fileuri de somon una lângă alta" },
+            { "emoji": "↔️", "title": "Alternează direcția cozilor", "description": "Dacă primul strat are cozile spre stânga, următorul trebuie să le aibă spre dreapta" },
+            { "emoji": "🔄", "title": "Repetă modelul", "description": "Continuă să alternezi direcția cu fiecare strat nou de 3 fileuri" },
+            { "emoji": "✅", "title": "Cutie plină gata", "description": "Când cutia e plină, mută-o la stația de etichetare" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+          "style": "danger",
+          "text": "Modelul alternant este esențial pentru distribuția corectă a greutății și prezentare. Primul strat cozi stânga → următorul cozi dreapta → repetă."
+        }
+      ]
+    },
+    {
+      "id": "etiquetador-station",
+      "title": "Etichetare (Etiquetador)",
+      "icon": "🏷️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "1 muncitor la această poziție. Ești ultimul pas înainte ca cutia să părăsească linia de producție. Precizia este critică."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cum să etichetezi cutiile:",
+          "animatedSteps": [
+            { "emoji": "⚖️", "title": "Verifică greutatea", "description": "Cutia trebuie să atingă greutatea corectă conform comenzii curente" },
+            { "emoji": "⌨️", "title": "Apasă Enter", "description": "Când greutatea e corectă, apasă tasta Enter pentru a imprima eticheta" },
+            { "emoji": "🏷️", "title": "Ia eticheta", "description": "Ridică eticheta tipărită de la mașină" },
+            { "emoji": "📦", "title": "Lipește-o pe cutie", "description": "Aplică eticheta ordonat pe cutie" },
+            { "emoji": "🔄", "title": "Pune pe bandă", "description": "Pune cutia etichetată pe banda transportoare pentru expediere" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Nu eticheta niciodată o cutie care nu a atins greutatea corectă. Greutatea este determinată de specificația comenzii."
         }
       ]
     }

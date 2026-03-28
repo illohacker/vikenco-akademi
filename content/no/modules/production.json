@@ -231,29 +231,58 @@
       ]
     },
     {
-      "id": "head-backbone-dryice-belly",
-      "title": "Head / Backbone / Dry Ice / Belly (Hode / Ryggbein / Torris / Buk)",
-      "icon": "6️⃣",
+      "id": "cajas-station",
+      "title": "Kasser (Cajas)",
+      "icon": "📦",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Biprodukt-bearbeidingsstasjon - maksimerer verdien av hver del av laksen."
+          "text": "1 arbeider på denne posisjonen. Jobben din er å ta de ferdige filetene fra båndet og pakke dem i kasser etter et bestemt lagmønster."
         },
         {
-          "type": "info",
-          "title": "Hovedansvar:",
-          "items": [
-            "🐟 Bearbeide laksehoder, ryggbein og buker",
-            "🧊 Torrispakking for spesifikke produkter",
-            "♻️ Sikre maksimal utnyttelse av ravarene (95 % mal)",
-            "📦 Sortere og pakke biprodukter for ulike markeder"
+          "type": "animated-steps",
+          "title": "Slik pakker du kasser riktig:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Plukk fileter fra båndet", "description": "Ta de ferdige filetene når de ankommer transportbåndet" },
+            { "emoji": "📦", "title": "Legg i lag med 3", "description": "Hvert lag i kassen består av 3 laksefileter side om side" },
+            { "emoji": "↔️", "title": "Veksle haleretning", "description": "Hvis første lag har halene mot venstre, må neste lag ha halene mot høyre" },
+            { "emoji": "🔄", "title": "Gjenta mønsteret", "description": "Fortsett å veksle retning med hvert nytt lag med 3 fileter" },
+            { "emoji": "✅", "title": "Full kasse klar", "description": "Når kassen er full, flytt den til etiketteringsstasjonen" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+          "style": "danger",
+          "text": "Det vekslende mønsteret er viktig for riktig vektfordeling og presentasjon. Første lag haler til venstre → neste lag haler til høyre → gjenta."
+        }
+      ]
+    },
+    {
+      "id": "etiquetador-station",
+      "title": "Etikettering (Etiquetador)",
+      "icon": "🏷️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "1 arbeider på denne posisjonen. Du er det siste trinnet før kassen forlater produksjonslinjen. Nøyaktighet er avgjørende."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Slik merker du kasser:",
+          "animatedSteps": [
+            { "emoji": "⚖️", "title": "Sjekk vekten", "description": "Kassen må nå riktig vekt som spesifisert av gjeldende bestilling" },
+            { "emoji": "⌨️", "title": "Trykk Enter", "description": "Når vekten er riktig, trykk Enter-tasten på maskinen for å skrive ut etiketten" },
+            { "emoji": "🏷️", "title": "Hent etiketten", "description": "Plukk opp den trykte etiketten fra maskinen" },
+            { "emoji": "📦", "title": "Lim den på kassen", "description": "Fest etiketten pent på kassen" },
+            { "emoji": "🔄", "title": "Sett på båndet", "description": "Sett den merkede kassen på transportbåndet for utsending" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Merk aldri en kasse som ikke har nådd riktig vekt. Vekten bestemmes av bestillingsspesifikasjonen."
         }
       ]
     }

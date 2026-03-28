@@ -231,29 +231,58 @@
       ]
     },
     {
-      "id": "head-backbone-dryice-belly",
-      "title": "Head / Backbone / Dry Ice / Belly",
-      "icon": "6️⃣",
+      "id": "cajas-station",
+      "title": "Boxes (Cajas)",
+      "icon": "📦",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "By-product processing station – maximizing value from every part of the salmon."
+          "text": "1 worker at this position. Your job is to take the finished fillets from the belt and pack them into boxes following a specific layering pattern."
         },
         {
-          "type": "info",
-          "title": "Key responsibilities:",
-          "items": [
-            "🐟 Process salmon heads, backbones, and bellies",
-            "🧊 Dry ice packing for specific products",
-            "♻️ Ensure maximum utilization of raw materials (95% target)",
-            "📦 Sort and pack by-products for different markets"
+          "type": "animated-steps",
+          "title": "How to pack boxes correctly:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Pick up fillets from the belt", "description": "Take the finished fillets as they arrive on the conveyor" },
+            { "emoji": "📦", "title": "Place in layers of 3", "description": "Each layer in the box consists of 3 salmon fillets side by side" },
+            { "emoji": "↔️", "title": "Alternate tail direction", "description": "If the first layer has tails pointing left, the next layer must have tails pointing right" },
+            { "emoji": "🔄", "title": "Repeat the pattern", "description": "Continue alternating direction with each new layer of 3 fillets" },
+            { "emoji": "✅", "title": "Full box ready", "description": "When the box is full, move it to the labelling station" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detailed task instructions for each position will be added here."
+          "style": "danger",
+          "text": "The alternating pattern is essential for proper weight distribution and presentation. First layer tails left → next layer tails right → repeat."
+        }
+      ]
+    },
+    {
+      "id": "etiquetador-station",
+      "title": "Labelling (Etiquetador)",
+      "icon": "🏷️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "1 worker at this position. You are the last step before the box leaves the production line. Accuracy is critical."
+        },
+        {
+          "type": "animated-steps",
+          "title": "How to label boxes:",
+          "animatedSteps": [
+            { "emoji": "⚖️", "title": "Check the weight", "description": "The box must reach the correct weight as specified by the current order" },
+            { "emoji": "⌨️", "title": "Press Enter", "description": "Once the weight is correct, press the Enter key on the machine to print the label" },
+            { "emoji": "🏷️", "title": "Collect the label", "description": "Pick up the printed label from the machine" },
+            { "emoji": "📦", "title": "Stick it on the box", "description": "Apply the label neatly onto the box" },
+            { "emoji": "🔄", "title": "Place on the belt", "description": "Put the labelled box on the conveyor belt for shipping" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Never label a box that hasn't reached the correct weight. The weight is determined by the order specification."
         }
       ]
     }

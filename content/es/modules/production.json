@@ -231,29 +231,58 @@
       ]
     },
     {
-      "id": "head-backbone-dryice-belly",
-      "title": "Head / Backbone / Dry Ice / Belly (Cabeza / Espina dorsal / Hielo seco / Barriga)",
-      "icon": "6️⃣",
+      "id": "cajas-station",
+      "title": "Cajas",
+      "icon": "📦",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Estacion de procesamiento de subproductos - maximizando el valor de cada parte del salmon."
+          "text": "1 persona en este puesto. Tu trabajo es coger los filetes terminados de la cinta y meterlos en las cajas siguiendo un patrón de capas específico."
         },
         {
-          "type": "info",
-          "title": "Responsabilidades clave:",
-          "items": [
-            "🐟 Procesar cabezas, espinas dorsales y barrigas de salmon",
-            "🧊 Empaque con hielo seco para productos especificos",
-            "♻️ Asegurar la maxima utilizacion de materias primas (objetivo del 95%)",
-            "📦 Clasificar y empacar subproductos para diferentes mercados"
+          "type": "animated-steps",
+          "title": "Cómo llenar las cajas correctamente:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Coge filetes de la cinta", "description": "Toma los filetes terminados a medida que llegan por la cinta" },
+            { "emoji": "📦", "title": "Coloca en capas de 3", "description": "Cada capa en la caja consiste en 3 filetes de salmón uno al lado del otro" },
+            { "emoji": "↔️", "title": "Alterna la dirección de las colas", "description": "Si la primera capa tiene las colas hacia un lado, la siguiente debe tenerlas hacia el lado contrario" },
+            { "emoji": "🔄", "title": "Repite el patrón", "description": "Continúa alternando la dirección con cada nueva capa de 3 filetes" },
+            { "emoji": "✅", "title": "Caja llena lista", "description": "Cuando la caja esté llena, pásala al etiquetador" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+          "style": "danger",
+          "text": "El patrón alternado es esencial para una correcta distribución del peso y presentación. Primera capa colas a un lado → siguiente capa colas al otro → repetir."
+        }
+      ]
+    },
+    {
+      "id": "etiquetador-station",
+      "title": "Etiquetador",
+      "icon": "🏷️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "1 persona en este puesto. Eres el último paso antes de que la caja salga de la línea de producción. La precisión es fundamental."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Cómo etiquetar cajas:",
+          "animatedSteps": [
+            { "emoji": "⚖️", "title": "Comprueba el peso", "description": "La caja debe alcanzar el peso correcto según el pedido actual" },
+            { "emoji": "⌨️", "title": "Pulsa Enter", "description": "Una vez que el peso es correcto, pulsa la tecla Enter para imprimir la etiqueta" },
+            { "emoji": "🏷️", "title": "Recoge la etiqueta", "description": "Coge la etiqueta impresa de la máquina" },
+            { "emoji": "📦", "title": "Pégala en la caja", "description": "Pega la etiqueta correctamente en la caja" },
+            { "emoji": "🔄", "title": "Pon en la cinta", "description": "Coloca la caja etiquetada en la cinta transportadora para envío" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Nunca etiquetes una caja que no haya alcanzado el peso correcto. El peso lo determina la especificación del pedido."
         }
       ]
     }

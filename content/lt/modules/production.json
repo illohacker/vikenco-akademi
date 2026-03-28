@@ -231,29 +231,58 @@
       ]
     },
     {
-      "id": "head-backbone-dryice-belly",
-      "title": "Head / Backbone / Dry Ice / Belly (Galva / Stuburas / Sausas ledas / Pilvas)",
-      "icon": "6️⃣",
+      "id": "cajas-station",
+      "title": "Dėžės (Cajas)",
+      "icon": "📦",
       "sections": [
         {
           "type": "alert",
           "style": "warning",
-          "text": "Salutinio produkto apdorojimo stotis - maksimaliai isnaudojant kiekviena lasiso dali."
+          "text": "1 darbuotojas šioje pozicijoje. Jūsų darbas – imti paruoštas filė nuo juostos ir dėti jas į dėžes pagal tam tikrą sluoksniavimo tvarką."
         },
         {
-          "type": "info",
-          "title": "Pagrindines atsakomybes:",
-          "items": [
-            "🐟 Apdoroti lasiso galvas, stuburus ir pilvus",
-            "🧊 Sauso ledo pakavimas specifiniams produktams",
-            "♻️ Uztikrinti maksimalu zaliavu panaudojima (95% tikslas)",
-            "📦 Rusiuoti ir pakuoti salutinius produktus skirtingoms rinkoms"
+          "type": "animated-steps",
+          "title": "Kaip teisingai pakuoti dėžes:",
+          "animatedSteps": [
+            { "emoji": "🐟", "title": "Paimkite filė nuo juostos", "description": "Imkite paruoštas filė, kai jos atvyksta konvejeriu" },
+            { "emoji": "📦", "title": "Dėkite sluoksniais po 3", "description": "Kiekvienas sluoksnis dėžėje – 3 lašišos filė greta viena kitos" },
+            { "emoji": "↔️", "title": "Keiskite uodegų kryptį", "description": "Jei pirmame sluoksnyje uodegos rodo į kairę, kitame turi rodyti į dešinę" },
+            { "emoji": "🔄", "title": "Kartokite raštą", "description": "Tęskite kaitaliodami kryptį su kiekvienu nauju 3 filė sluoksniu" },
+            { "emoji": "✅", "title": "Pilna dėžė paruošta", "description": "Kai dėžė pilna, perkelkite ją prie ženklinimo stoties" }
           ]
         },
         {
           "type": "alert",
-          "style": "success",
-          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+          "style": "danger",
+          "text": "Kaitaliojimo raštas būtinas tinkamam svorio paskirstymui ir prezentacijai. Pirmas sluoksnis uodegos kairėn → kitas dešinėn → kartoti."
+        }
+      ]
+    },
+    {
+      "id": "etiquetador-station",
+      "title": "Ženklinimas (Etiquetador)",
+      "icon": "🏷️",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "1 darbuotojas šioje pozicijoje. Jūs esate paskutinis žingsnis prieš dėžei paliekant gamybos liniją. Tikslumas yra lemiamas."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Kaip ženklinti dėžes:",
+          "animatedSteps": [
+            { "emoji": "⚖️", "title": "Patikrinkite svorį", "description": "Dėžė turi pasiekti teisingą svorį pagal esamą užsakymą" },
+            { "emoji": "⌨️", "title": "Paspauskite Enter", "description": "Kai svoris teisingas, paspauskite Enter mygtuką, kad atspausdintumėte etiketę" },
+            { "emoji": "🏷️", "title": "Paimkite etiketę", "description": "Paimkite atspausdintą etiketę iš mašinos" },
+            { "emoji": "📦", "title": "Priklijuokite ant dėžės", "description": "Tvarkingai priklijuokite etiketę ant dėžės" },
+            { "emoji": "🔄", "title": "Padėkite ant juostos", "description": "Padėkite pažymėtą dėžę ant konvejerio siuntimui" }
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Niekada neženklinkite dėžės, kuri nepasiekė teisingo svorio. Svorį nustato užsakymo specifikacija."
         }
       ]
     }
