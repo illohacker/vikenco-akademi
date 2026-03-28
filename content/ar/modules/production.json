@@ -1,11 +1,13 @@
 {
   "title": "الإنتاج",
   "description": "محطات العمل والمهام في الإنتاج",
-  "lines": [
+  "sections": [
     {
       "id": "line-1",
       "title": "الخط 1",
-      "description": "خط الإنتاج الرئيسي – معالجة السلمون",
+      "description": "خط الإنتاج الرئيسي",
+      "icon": "1️⃣",
+      "color": "from-cyan-500 to-cyan-600",
       "lessons": [
         {
           "id": "line-overview",
@@ -337,7 +339,33 @@
               "text": "الشفرة الدائرية حادة للغاية. أبقِ يديك بعيدتين عن منطقة القطع في جميع الأوقات. التركيز والانتباه ضروريان."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "title": "الخط 2",
+      "description": "خط الإنتاج الثانوي",
+      "icon": "2️⃣",
+      "color": "from-teal-500 to-teal-600",
+      "lessons": []
+    },
+    {
+      "id": "line-3",
+      "title": "الخط 3",
+      "description": "غير مستخدم",
+      "icon": "3️⃣",
+      "color": "from-gray-400 to-gray-500",
+      "inactive": true,
+      "lessons": []
+    },
+    {
+      "id": "cajas",
+      "title": "الصناديق والملصقات",
+      "description": "تعبئة المنتجات النهائية",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
         {
           "id": "cajas-station",
           "title": "الصناديق (Cajas)",
@@ -437,9 +465,19 @@
       ]
     },
     {
-      "id": "line-2",
-      "title": "الخط 2",
-      "description": "قريباً",
+      "id": "infeed",
+      "title": "Infeed",
+      "description": "استقبال المواد الخام",
+      "icon": "📥",
+      "color": "from-blue-500 to-blue-600",
+      "lessons": []
+    },
+    {
+      "id": "dryice",
+      "title": "Dryice / Backbone / Belly / Head",
+      "description": "معالجة المنتجات الثانوية",
+      "icon": "🧊",
+      "color": "from-purple-500 to-purple-600",
       "lessons": []
     }
   ]

@@ -1,11 +1,13 @@
 {
   "title": "Gamyba",
   "description": "Darbo stotys ir uzduotys gamyboje",
-  "lines": [
+  "sections": [
     {
       "id": "line-1",
       "title": "Linija 1",
-      "description": "Pagrindinė gamybos linija – lašišos apdorojimas",
+      "description": "Pagrindinė gamybos linija",
+      "icon": "1️⃣",
+      "color": "from-cyan-500 to-cyan-600",
       "lessons": [
         {
           "id": "line-overview",
@@ -337,7 +339,33 @@
               "text": "Apvalus peilis yra itin aštrus. Visada laikykite rankas toli nuo pjovimo zonos. Dėmesys ir koncentracija yra būtini."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "title": "Linija 2",
+      "description": "Antrinė gamybos linija",
+      "icon": "2️⃣",
+      "color": "from-teal-500 to-teal-600",
+      "lessons": []
+    },
+    {
+      "id": "line-3",
+      "title": "Linija 3",
+      "description": "Nenaudojama",
+      "icon": "3️⃣",
+      "color": "from-gray-400 to-gray-500",
+      "inactive": true,
+      "lessons": []
+    },
+    {
+      "id": "cajas",
+      "title": "Dėžės ir ženklinimas",
+      "description": "Gatavų produktų pakavimas",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
         {
           "id": "cajas-station",
           "title": "Dėžės (Cajas)",
@@ -437,9 +465,19 @@
       ]
     },
     {
-      "id": "line-2",
-      "title": "Linija 2",
-      "description": "Netrukus",
+      "id": "infeed",
+      "title": "Infeed",
+      "description": "Žaliavų priėmimas",
+      "icon": "📥",
+      "color": "from-blue-500 to-blue-600",
+      "lessons": []
+    },
+    {
+      "id": "dryice",
+      "title": "Dryice / Backbone / Belly / Head",
+      "description": "Šalutinių produktų apdorojimas",
+      "icon": "🧊",
+      "color": "from-purple-500 to-purple-600",
       "lessons": []
     }
   ]

@@ -1,11 +1,13 @@
 {
   "title": "Productie",
   "description": "Statii de lucru si sarcini in productie",
-  "lines": [
+  "sections": [
     {
       "id": "line-1",
       "title": "Linia 1",
-      "description": "Linia principală de producție – procesare somon",
+      "description": "Linia principală de producție",
+      "icon": "1️⃣",
+      "color": "from-cyan-500 to-cyan-600",
       "lessons": [
         {
           "id": "line-overview",
@@ -337,7 +339,33 @@
               "text": "Lama circulară este extrem de ascuțită. Ține mâinile departe de zona de tăiere în orice moment. Concentrarea este esențială."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "title": "Linia 2",
+      "description": "Linia secundară de producție",
+      "icon": "2️⃣",
+      "color": "from-teal-500 to-teal-600",
+      "lessons": []
+    },
+    {
+      "id": "line-3",
+      "title": "Linia 3",
+      "description": "Neutilizată",
+      "icon": "3️⃣",
+      "color": "from-gray-400 to-gray-500",
+      "inactive": true,
+      "lessons": []
+    },
+    {
+      "id": "cajas",
+      "title": "Cutii și etichetare",
+      "description": "Ambalarea produselor finite",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
         {
           "id": "cajas-station",
           "title": "Cutii (Cajas)",
@@ -437,9 +465,19 @@
       ]
     },
     {
-      "id": "line-2",
-      "title": "Linia 2",
-      "description": "În curând",
+      "id": "infeed",
+      "title": "Infeed",
+      "description": "Recepția materiei prime",
+      "icon": "📥",
+      "color": "from-blue-500 to-blue-600",
+      "lessons": []
+    },
+    {
+      "id": "dryice",
+      "title": "Dryice / Backbone / Belly / Head",
+      "description": "Procesarea subproduselor",
+      "icon": "🧊",
+      "color": "from-purple-500 to-purple-600",
       "lessons": []
     }
   ]

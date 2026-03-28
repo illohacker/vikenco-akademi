@@ -1,11 +1,13 @@
 {
   "title": "Виробництво",
   "description": "Робочі станції та завдання на виробництві",
-  "lines": [
+  "sections": [
     {
       "id": "line-1",
       "title": "Лінія 1",
-      "description": "Основна виробнича лінія – обробка лосося",
+      "description": "Основна виробнича лінія",
+      "icon": "1️⃣",
+      "color": "from-cyan-500 to-cyan-600",
       "lessons": [
         {
           "id": "line-overview",
@@ -337,7 +339,33 @@
               "text": "Дисковий ніж надзвичайно гострий. Тримайте руки подалі від зони різання. Зосередженість та концентрація необхідні."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "title": "Лінія 2",
+      "description": "Вторинна виробнича лінія",
+      "icon": "2️⃣",
+      "color": "from-teal-500 to-teal-600",
+      "lessons": []
+    },
+    {
+      "id": "line-3",
+      "title": "Лінія 3",
+      "description": "Не використовується",
+      "icon": "3️⃣",
+      "color": "from-gray-400 to-gray-500",
+      "inactive": true,
+      "lessons": []
+    },
+    {
+      "id": "cajas",
+      "title": "Коробки та маркування",
+      "description": "Пакування готової продукції",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
         {
           "id": "cajas-station",
           "title": "Коробки (Cajas)",
@@ -437,9 +465,19 @@
       ]
     },
     {
-      "id": "line-2",
-      "title": "Лінія 2",
-      "description": "Незабаром",
+      "id": "infeed",
+      "title": "Infeed",
+      "description": "Приймання сировини",
+      "icon": "📥",
+      "color": "from-blue-500 to-blue-600",
+      "lessons": []
+    },
+    {
+      "id": "dryice",
+      "title": "Dryice / Backbone / Belly / Head",
+      "description": "Обробка побічних продуктів",
+      "icon": "🧊",
+      "color": "from-purple-500 to-purple-600",
       "lessons": []
     }
   ]

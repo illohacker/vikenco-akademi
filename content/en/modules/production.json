@@ -1,11 +1,13 @@
 {
   "title": "Production",
   "description": "Work stations and tasks in production",
-  "lines": [
+  "sections": [
     {
       "id": "line-1",
       "title": "Line 1",
-      "description": "Main production line – salmon processing",
+      "description": "Main production line",
+      "icon": "1️⃣",
+      "color": "from-cyan-500 to-cyan-600",
       "lessons": [
         {
           "id": "line-overview",
@@ -337,7 +339,33 @@
               "text": "The circular blade is extremely sharp. Keep your hands clear of the cutting area at all times. Focus and concentration are essential."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "title": "Line 2",
+      "description": "Secondary production line",
+      "icon": "2️⃣",
+      "color": "from-teal-500 to-teal-600",
+      "lessons": []
+    },
+    {
+      "id": "line-3",
+      "title": "Line 3",
+      "description": "Not in use",
+      "icon": "3️⃣",
+      "color": "from-gray-400 to-gray-500",
+      "inactive": true,
+      "lessons": []
+    },
+    {
+      "id": "cajas",
+      "title": "Boxes & Labelling",
+      "description": "Packing and labelling finished products",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
         {
           "id": "cajas-station",
           "title": "Boxes (Cajas)",
@@ -437,9 +465,19 @@
       ]
     },
     {
-      "id": "line-2",
-      "title": "Line 2",
-      "description": "Coming soon",
+      "id": "infeed",
+      "title": "Infeed",
+      "description": "Raw material intake and feeding",
+      "icon": "📥",
+      "color": "from-blue-500 to-blue-600",
+      "lessons": []
+    },
+    {
+      "id": "dryice",
+      "title": "Dryice / Backbone / Belly / Head",
+      "description": "By-product processing",
+      "icon": "🧊",
+      "color": "from-purple-500 to-purple-600",
       "lessons": []
     }
   ]
