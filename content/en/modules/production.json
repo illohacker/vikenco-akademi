@@ -90,6 +90,16 @@
         },
         {
           "type": "info",
+          "title": "Before you start – The BAADER 988 machine:",
+          "items": [
+            "⚙️ Before the fillets reach you, they pass through the BAADER 988 machine",
+            "🦴 This machine automatically removes most of the pin bones",
+            "🔧 Your job is to find and remove the remaining bones using pliers",
+            "🌐 See the machine in action: https://www.baader.com/product/baader-988"
+          ]
+        },
+        {
+          "type": "info",
           "title": "How the fillets are distributed:",
           "items": [
             "🐟 Three salmon loins arrive on the belt at the same time",

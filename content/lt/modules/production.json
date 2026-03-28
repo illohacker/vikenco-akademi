@@ -90,6 +90,16 @@
         },
         {
           "type": "info",
+          "title": "Prieš pradedant – BAADER 988 mašina:",
+          "items": [
+            "⚙️ Prieš filė pasiekiant jus, ji praeina per BAADER 988 mašiną",
+            "🦴 Ši mašina automatiškai pašalina daugumą smulkių kaulų",
+            "🔧 Jūsų darbas – rasti ir pašalinti likusius kaulus replėmis",
+            "🌐 Žiūrėkite mašiną veikiančią: https://www.baader.com/product/baader-988"
+          ]
+        },
+        {
+          "type": "info",
           "title": "Kaip paskirstomos filė:",
           "items": [
             "🐟 Trys lašišos nugarinės atvyksta ant juostos vienu metu",

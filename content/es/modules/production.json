@@ -90,6 +90,16 @@
         },
         {
           "type": "info",
+          "title": "Antes de empezar – La máquina BAADER 988:",
+          "items": [
+            "⚙️ Antes de que los filetes lleguen a ti, pasan por la máquina BAADER 988",
+            "🦴 Esta máquina depila automáticamente la mayoría de las espinas",
+            "🔧 Tu trabajo es encontrar y retirar las espinas restantes con los alicates",
+            "🌐 Ver la máquina en acción: https://www.baader.com/product/baader-988"
+          ]
+        },
+        {
+          "type": "info",
           "title": "Cómo se distribuyen los filetes:",
           "items": [
             "🐟 Llegan tres lomos de salmón a la cinta al mismo tiempo",

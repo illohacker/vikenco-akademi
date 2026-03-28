@@ -90,6 +90,16 @@
         },
         {
           "type": "info",
+          "title": "Înainte de a începe – Mașina BAADER 988:",
+          "items": [
+            "⚙️ Înainte ca fileurile să ajungă la tine, trec prin mașina BAADER 988",
+            "🦴 Această mașină îndepărtează automat majoritatea oaselor pin",
+            "🔧 Treaba ta este să găsești și să îndepărtezi oasele rămase cu penseta",
+            "🌐 Vezi mașina în acțiune: https://www.baader.com/product/baader-988"
+          ]
+        },
+        {
+          "type": "info",
           "title": "Cum se distribuie fileurile:",
           "items": [
             "🐟 Trei mușchiuleți de somon ajung pe bandă în același timp",

@@ -90,6 +90,16 @@
         },
         {
           "type": "info",
+          "title": "Før du starter – BAADER 988-maskinen:",
+          "items": [
+            "⚙️ Før filetene når deg, passerer de gjennom BAADER 988-maskinen",
+            "🦴 Denne maskinen fjerner automatisk de fleste pinnebeinene",
+            "🔧 Din jobb er å finne og fjerne de gjenværende beinene med pinsett",
+            "🌐 Se maskinen i aksjon: https://www.baader.com/product/baader-988"
+          ]
+        },
+        {
+          "type": "info",
           "title": "Slik fordeles filetene:",
           "items": [
             "🐟 Tre lakseloin ankommer båndet samtidig",
