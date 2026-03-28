@@ -3,6 +3,30 @@
   "description": "Work stations and tasks in production",
   "lessons": [
     {
+      "id": "line-overview",
+      "title": "Line 1 – Station Overview",
+      "icon": "🗺️",
+      "sections": [
+        {
+          "type": "line-map",
+          "title": "Production Line 1 – Click a station to see its instructions"
+        },
+        {
+          "type": "info",
+          "title": "Stations (right to left, following salmon flow):",
+          "items": [
+            "🔴 Corte (4p) – Initial cutting and defect removal",
+            "🟡 Espinas (6p) – Bone removal",
+            "🟢 Supervision (1p) – Quality oversight",
+            "🔵 Acabado Corte (2p) – Final cutting",
+            "🟣 Trim (2p) – Trimming to specification",
+            "🔵 Cajas (1p) – Boxing",
+            "🟣 Etiquetador (1p) – Labelling"
+          ]
+        }
+      ]
+    },
+    {
       "id": "infeed-line-1",
       "title": "Infeed / Machine Line 1 – Cutting Station",
       "icon": "🔪",

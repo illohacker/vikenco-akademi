@@ -3,6 +3,30 @@
   "description": "Statii de lucru si sarcini in productie",
   "lessons": [
     {
+      "id": "line-overview",
+      "title": "Linia 1 – Prezentarea stațiilor",
+      "icon": "🗺️",
+      "sections": [
+        {
+          "type": "line-map",
+          "title": "Linia de producție 1 – Faceți clic pe o stație pentru instrucțiuni"
+        },
+        {
+          "type": "info",
+          "title": "Stații (de la dreapta la stânga, urmând fluxul somonului):",
+          "items": [
+            "🔴 Tăiere (4p) – Tăierea inițială și eliminarea defectelor",
+            "🟡 Oase (6p) – Îndepărtarea oaselor",
+            "🟢 Supraveghere (1p) – Controlul calității",
+            "🔵 Tăiere finală (2p) – Tăierea finală",
+            "🟣 Trim (2p) – Curățare conform specificației",
+            "🔵 Cutii (1p) – Ambalare în cutii",
+            "🟣 Etichetare (1p) – Etichetare"
+          ]
+        }
+      ]
+    },
+    {
       "id": "infeed-line-1",
       "title": "Infeed / Linia Mașină 1 – Stația de Tăiere",
       "icon": "🔪",

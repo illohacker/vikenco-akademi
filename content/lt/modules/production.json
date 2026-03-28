@@ -3,6 +3,30 @@
   "description": "Darbo stotys ir uzduotys gamyboje",
   "lessons": [
     {
+      "id": "line-overview",
+      "title": "Linija 1 – Stočių apžvalga",
+      "icon": "🗺️",
+      "sections": [
+        {
+          "type": "line-map",
+          "title": "Gamybos linija 1 – Spustelėkite stotį, kad pamatytumėte instrukcijas"
+        },
+        {
+          "type": "info",
+          "title": "Stotys (iš dešinės į kairę, sekant lašišos srautą):",
+          "items": [
+            "🔴 Pjovimas (4p) – Pradinis pjovimas ir defektų šalinimas",
+            "🟡 Kaulai (6p) – Kaulų šalinimas",
+            "🟢 Priežiūra (1p) – Kokybės kontrolė",
+            "🔵 Galutinis pjovimas (2p) – Galutinis pjovimas",
+            "🟣 Trim (2p) – Apipjaustymas pagal specifikaciją",
+            "🔵 Dėžės (1p) – Pakavimas į dėžes",
+            "🟣 Etiketė (1p) – Ženklinimas"
+          ]
+        }
+      ]
+    },
+    {
       "id": "infeed-line-1",
       "title": "Infeed / Mašinų linija 1 – Pjovimo stotis",
       "icon": "🔪",

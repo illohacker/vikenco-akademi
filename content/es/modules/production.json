@@ -3,6 +3,30 @@
   "description": "Estaciones de trabajo y tareas en produccion",
   "lessons": [
     {
+      "id": "line-overview",
+      "title": "Línea 1 – Vista general de estaciones",
+      "icon": "🗺️",
+      "sections": [
+        {
+          "type": "line-map",
+          "title": "Línea de Producción 1 – Haz clic en una estación para ver sus instrucciones"
+        },
+        {
+          "type": "info",
+          "title": "Estaciones (derecha a izquierda, siguiendo el flujo del salmón):",
+          "items": [
+            "🔴 Corte (4p) – Corte inicial y eliminación de defectos",
+            "🟡 Espinas (6p) – Retirada de espinas",
+            "🟢 Supervisión (1p) – Control de calidad",
+            "🔵 Acabado Corte (2p) – Corte final",
+            "🟣 Trim (2p) – Recorte según especificación",
+            "🔵 Cajas (1p) – Empaquetado en cajas",
+            "🟣 Etiquetador (1p) – Etiquetado"
+          ]
+        }
+      ]
+    },
+    {
       "id": "infeed-line-1",
       "title": "Infeed / Línea Máquina 1 – Estación de Corte",
       "icon": "🔪",

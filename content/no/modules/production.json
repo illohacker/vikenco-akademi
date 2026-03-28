@@ -3,6 +3,30 @@
   "description": "Arbeidsstasjoner og oppgaver i produksjonen",
   "lessons": [
     {
+      "id": "line-overview",
+      "title": "Linje 1 – Stasjonsoversikt",
+      "icon": "🗺️",
+      "sections": [
+        {
+          "type": "line-map",
+          "title": "Produksjonslinje 1 – Klikk på en stasjon for å se instruksjonene"
+        },
+        {
+          "type": "info",
+          "title": "Stasjoner (høyre til venstre, følger laksestrømmen):",
+          "items": [
+            "🔴 Kutt (4p) – Første kutting og fjerning av defekter",
+            "🟡 Bein (6p) – Fjerning av bein",
+            "🟢 Tilsyn (1p) – Kvalitetskontroll",
+            "🔵 Sluttskjæring (2p) – Endelig kutting",
+            "🟣 Trim (2p) – Trimming etter spesifikasjon",
+            "🔵 Kasser (1p) – Pakking i kasser",
+            "🟣 Etikett (1p) – Merking"
+          ]
+        }
+      ]
+    },
+    {
       "id": "infeed-line-1",
       "title": "Infeed / Maskinlinje 1 – Kuttestasjon",
       "icon": "🔪",

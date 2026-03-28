@@ -2,6 +2,7 @@ import { useTranslations, useLocale } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import Image from 'next/image'
 import AnimatedSteps from '@/components/AnimatedSteps'
+import LineDiagram from '@/components/LineDiagram'
 
 const moduleData: Record<string, { icon: string; color: string; titleKey: string }> = {
   welcome: { icon: '👋', color: 'from-blue-500 to-blue-600', titleKey: 'welcome' },
@@ -14,7 +15,7 @@ const moduleData: Record<string, { icon: string; color: string; titleKey: string
 }
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps' | 'line-map'
   style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
@@ -108,7 +109,7 @@ function ModuleRenderer({ slug, mod, content }: { slug: string; mod: { icon: str
       <div className="max-w-4xl mx-auto px-4 py-8 space-y-6">
         {content && content.lessons.length > 0 ? (
           content.lessons.map((lesson, lessonIndex) => (
-            <div key={lesson.id || lessonIndex} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div key={lesson.id || lessonIndex} id={`lesson-${lesson.id}`} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-500">
               {/* Lesson header */}
               <div className="px-6 py-5 border-b border-gray-100 bg-gray-50/50">
                 <div className="flex items-center gap-3">
@@ -248,6 +249,11 @@ function SectionRenderer({ section }: { section: Section }) {
             ))}
           </ul>
         </div>
+      )
+
+    case 'line-map':
+      return (
+        <LineDiagram title={section.title || ''} />
       )
 
     case 'steps':
