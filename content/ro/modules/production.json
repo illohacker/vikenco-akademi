@@ -1,0 +1,168 @@
+{
+  "title": "Productie",
+  "description": "Statii de lucru si sarcini in productie",
+  "lessons": [
+    {
+      "id": "infeed-line-1",
+      "title": "Infeed / Machine Line 1 (Alimentare / Linia de masini 1)",
+      "icon": "1️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Aceasta este prima linie de productie unde somonul intra in sistemul de procesare."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🐟 Receptia si incarcarea somonului pe linia de productie",
+            "⚙️ Monitorizarea functionarii masinii si a fluxului",
+            "👀 Controlul calitatii pestelui primit",
+            "🛑 Oprirea liniei daca sunt detectate probleme"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    },
+    {
+      "id": "infeed-line-2",
+      "title": "Infeed / Machine Line 2 (Alimentare / Linia de masini 2)",
+      "icon": "2️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "A doua linie de productie – aceleasi proceduri ca Linia 1 cu ajustari specifice."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🐟 Receptia si incarcarea somonului pe Linia 2",
+            "⚙️ Monitorizarea functionarii masinii si a fluxului",
+            "👀 Controlul calitatii pestelui primit",
+            "🔄 Coordonarea cu Linia 1 pentru o productie echilibrata"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-1",
+      "title": "Filet Line 1 (Linia de filetare 1)",
+      "icon": "3️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Linia de filetare unde somonul este procesat in fileuri."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🔪 Procesarea si tunderea fileurilor",
+            "👀 Controlul calitatii fiecarui fileu",
+            "⚖️ Sortarea dupa greutate si dimensiune",
+            "🧤 Mentinerea igienei si sigurantei cu cutitele"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-2",
+      "title": "Filet Line 2 (Linia de filetare 2)",
+      "icon": "4️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "A doua linie de filetare – aceleasi proceduri ca Filet Line 1."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🔪 Procesarea si tunderea fileurilor",
+            "👀 Controlul calitatii fiecarui fileu",
+            "⚖️ Sortarea dupa greutate si dimensiune",
+            "🔄 Coordonarea cu Filet Line 1"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    },
+    {
+      "id": "porsjoner",
+      "title": "Porsjoner (Portii)",
+      "icon": "5️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Statia de portionare unde fileurile sunt taiate in portii gata pentru consumator."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🔪 Taierea fileurilor in portii specificate",
+            "⚖️ Asigurarea greutatii corecte per portie",
+            "📦 Pregatirea portiilor pentru ambalare",
+            "👀 Controlul calitatii fiecarei portii"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    },
+    {
+      "id": "head-backbone-dryice-belly",
+      "title": "Head / Backbone / Dry Ice / Belly (Cap / Coloana vertebrala / Gheata carbonica / Burta)",
+      "icon": "6️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Statia de procesare a subproduselor – maximizarea valorii din fiecare parte a somonului."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilitati cheie:",
+          "items": [
+            "🐟 Procesarea capetelor, coloanelor vertebrale si burtilor de somon",
+            "🧊 Ambalarea cu gheata carbonica pentru produse specifice",
+            "♻️ Asigurarea utilizarii maxime a materiilor prime (obiectiv 95%)",
+            "📦 Sortarea si ambalarea subproduselor pentru piete diferite"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Instructiunile detaliate pentru fiecare pozitie vor fi adaugate aici."
+        }
+      ]
+    }
+  ]
+}

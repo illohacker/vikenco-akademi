@@ -1,0 +1,168 @@
+{
+  "title": "Produccion",
+  "description": "Estaciones de trabajo y tareas en produccion",
+  "lessons": [
+    {
+      "id": "infeed-line-1",
+      "title": "Infeed / Machine Line 1 (Alimentacion / Linea de maquinas 1)",
+      "icon": "1️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Esta es la primera linea de produccion donde el salmon entra en el sistema de procesamiento."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🐟 Recibir y cargar salmon en la linea de produccion",
+            "⚙️ Supervisar el funcionamiento de la maquina y el flujo",
+            "👀 Control de calidad del pescado entrante",
+            "🛑 Detener la linea si se detectan problemas"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    },
+    {
+      "id": "infeed-line-2",
+      "title": "Infeed / Machine Line 2 (Alimentacion / Linea de maquinas 2)",
+      "icon": "2️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Segunda linea de produccion - mismos procedimientos que la Linea 1 con ajustes especificos."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🐟 Recibir y cargar salmon en la Linea 2",
+            "⚙️ Supervisar el funcionamiento de la maquina y el flujo",
+            "👀 Control de calidad del pescado entrante",
+            "🔄 Coordinar con la Linea 1 para una produccion equilibrada"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-1",
+      "title": "Filet Line 1 (Linea de fileteado 1)",
+      "icon": "3️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Linea de fileteado donde el salmon se procesa en filetes."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🔪 Procesamiento y recorte de filetes",
+            "👀 Control de calidad de cada filete",
+            "⚖️ Clasificacion por peso y tamano",
+            "🧤 Mantener la higiene y la seguridad con cuchillos"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-2",
+      "title": "Filet Line 2 (Linea de fileteado 2)",
+      "icon": "4️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Segunda linea de fileteado - mismos procedimientos que la Filet Line 1."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🔪 Procesamiento y recorte de filetes",
+            "👀 Control de calidad de cada filete",
+            "⚖️ Clasificacion por peso y tamano",
+            "🔄 Coordinar con la Filet Line 1"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    },
+    {
+      "id": "porsjoner",
+      "title": "Porsjoner (Porciones)",
+      "icon": "5️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Estacion de porcionado donde los filetes se cortan en porciones listas para el consumidor."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🔪 Cortar filetes en porciones especificadas",
+            "⚖️ Asegurar el peso correcto por porcion",
+            "📦 Preparar porciones para empaque",
+            "👀 Control de calidad de cada porcion"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    },
+    {
+      "id": "head-backbone-dryice-belly",
+      "title": "Head / Backbone / Dry Ice / Belly (Cabeza / Espina dorsal / Hielo seco / Barriga)",
+      "icon": "6️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Estacion de procesamiento de subproductos - maximizando el valor de cada parte del salmon."
+        },
+        {
+          "type": "info",
+          "title": "Responsabilidades clave:",
+          "items": [
+            "🐟 Procesar cabezas, espinas dorsales y barrigas de salmon",
+            "🧊 Empaque con hielo seco para productos especificos",
+            "♻️ Asegurar la maxima utilizacion de materias primas (objetivo del 95%)",
+            "📦 Clasificar y empacar subproductos para diferentes mercados"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Las instrucciones detalladas de tareas para cada posicion se agregaran aqui."
+        }
+      ]
+    }
+  ]
+}

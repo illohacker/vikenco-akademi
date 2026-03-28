@@ -1,0 +1,168 @@
+{
+  "title": "Gamyba",
+  "description": "Darbo stotys ir uzduotys gamyboje",
+  "lessons": [
+    {
+      "id": "infeed-line-1",
+      "title": "Infeed / Machine Line 1 (Tiekimo / Masinu linija 1)",
+      "icon": "1️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Tai pirmoji gamybos linija, kurioje lasis patenka i apdorojimo sistema."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🐟 Priimti ir pakrauti lasi ant gamybos linijos",
+            "⚙️ Stebet masinos veikima ir srautus",
+            "👀 Ateinancio zuvu kokybes patikra",
+            "🛑 Sustabdyti linija, jei aptinkamos problemos"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    },
+    {
+      "id": "infeed-line-2",
+      "title": "Infeed / Machine Line 2 (Tiekimo / Masinu linija 2)",
+      "icon": "2️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Antroji gamybos linija - tos pacios proceduros kaip Linija 1 su specifiniais pakeitimais."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🐟 Priimti ir pakrauti lasi ant Linijos 2",
+            "⚙️ Stebet masinos veikima ir srautus",
+            "👀 Ateinancio zuvu kokybes patikra",
+            "🔄 Koordinuoti su Linija 1 del subalansuotos gamybos"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-1",
+      "title": "Filet Line 1 (File linija 1)",
+      "icon": "3️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Fileavimo linija, kurioje lasis apdorojamas i file."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🔪 Files apdorojimas ir apipjaustymas",
+            "👀 Kiekvienos files kokybes kontrole",
+            "⚖️ Rusiavimas pagal svori ir dydi",
+            "🧤 Palaikyti higiena ir peiliu sauguma"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-2",
+      "title": "Filet Line 2 (File linija 2)",
+      "icon": "4️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Antroji fileavimo linija - tos pacios proceduros kaip Filet Line 1."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🔪 Files apdorojimas ir apipjaustymas",
+            "👀 Kiekvienos files kokybes kontrole",
+            "⚖️ Rusiavimas pagal svori ir dydi",
+            "🔄 Koordinuoti su Filet Line 1"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    },
+    {
+      "id": "porsjoner",
+      "title": "Porsjoner (Porcijos)",
+      "icon": "5️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Porcijavimo stotis, kurioje files pjaustomos i vartotojui paruostas porcijas."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🔪 Pjaustyti files i nurodytas porcijas",
+            "⚖️ Uztikrinti teisinga svori kiekvienai porcijai",
+            "📦 Paruosti porcijas pakavimui",
+            "👀 Kiekvienos porcijos kokybes patikra"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    },
+    {
+      "id": "head-backbone-dryice-belly",
+      "title": "Head / Backbone / Dry Ice / Belly (Galva / Stuburas / Sausas ledas / Pilvas)",
+      "icon": "6️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Salutinio produkto apdorojimo stotis - maksimaliai isnaudojant kiekviena lasiso dali."
+        },
+        {
+          "type": "info",
+          "title": "Pagrindines atsakomybes:",
+          "items": [
+            "🐟 Apdoroti lasiso galvas, stuburus ir pilvus",
+            "🧊 Sauso ledo pakavimas specifiniams produktams",
+            "♻️ Uztikrinti maksimalu zaliavu panaudojima (95% tikslas)",
+            "📦 Rusiuoti ir pakuoti salutinius produktus skirtingoms rinkoms"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detales uzduociu instrukcijos kiekvienai pozicijai bus pridetos cia."
+        }
+      ]
+    }
+  ]
+}

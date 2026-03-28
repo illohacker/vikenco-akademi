@@ -1,0 +1,168 @@
+{
+  "title": "Production",
+  "description": "Work stations and tasks in production",
+  "lessons": [
+    {
+      "id": "infeed-line-1",
+      "title": "Infeed / Machine Line 1",
+      "icon": "1️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "This is the first production line where salmon enters the processing system."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🐟 Receive and load salmon onto the production line",
+            "⚙️ Monitor machine operation and flow",
+            "👀 Quality check incoming fish",
+            "🛑 Stop the line if issues are detected"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    },
+    {
+      "id": "infeed-line-2",
+      "title": "Infeed / Machine Line 2",
+      "icon": "2️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Second production line – same procedures as Line 1 with specific adjustments."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🐟 Receive and load salmon onto Line 2",
+            "⚙️ Monitor machine operation and flow",
+            "👀 Quality check incoming fish",
+            "🔄 Coordinate with Line 1 for balanced production"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-1",
+      "title": "Filet Line 1",
+      "icon": "3️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Filleting line where salmon is processed into fillets."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🔪 Fillet processing and trimming",
+            "👀 Quality control of each fillet",
+            "⚖️ Weight and size sorting",
+            "🧤 Maintain hygiene and knife safety"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-2",
+      "title": "Filet Line 2",
+      "icon": "4️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Second filleting line – same procedures as Filet Line 1."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🔪 Fillet processing and trimming",
+            "👀 Quality control of each fillet",
+            "⚖️ Weight and size sorting",
+            "🔄 Coordinate with Filet Line 1"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    },
+    {
+      "id": "porsjoner",
+      "title": "Porsjoner (Portions)",
+      "icon": "5️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Portioning station where fillets are cut into consumer-ready portions."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🔪 Cut fillets into specified portions",
+            "⚖️ Ensure correct weight per portion",
+            "📦 Prepare portions for packaging",
+            "👀 Quality check each portion"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    },
+    {
+      "id": "head-backbone-dryice-belly",
+      "title": "Head / Backbone / Dry Ice / Belly",
+      "icon": "6️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "By-product processing station – maximizing value from every part of the salmon."
+        },
+        {
+          "type": "info",
+          "title": "Key responsibilities:",
+          "items": [
+            "🐟 Process salmon heads, backbones, and bellies",
+            "🧊 Dry ice packing for specific products",
+            "♻️ Ensure maximum utilization of raw materials (95% target)",
+            "📦 Sort and pack by-products for different markets"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detailed task instructions for each position will be added here."
+        }
+      ]
+    }
+  ]
+}

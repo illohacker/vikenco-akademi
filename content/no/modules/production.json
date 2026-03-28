@@ -1,0 +1,168 @@
+{
+  "title": "Produksjon",
+  "description": "Arbeidsstasjoner og oppgaver i produksjonen",
+  "lessons": [
+    {
+      "id": "infeed-line-1",
+      "title": "Infeed / Machine Line 1 (Innmating / Maskinlinje 1)",
+      "icon": "1️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Dette er den forste produksjonslinjen der laksen kommer inn i prosesseringssystemet."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🐟 Motta og laste laks pa produksjonslinjen",
+            "⚙️ Overvake maskindrift og flyt",
+            "👀 Kvalitetskontroll av innkommende fisk",
+            "🛑 Stopp linjen hvis problemer oppdages"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    },
+    {
+      "id": "infeed-line-2",
+      "title": "Infeed / Machine Line 2 (Innmating / Maskinlinje 2)",
+      "icon": "2️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Andre produksjonslinje - samme prosedyrer som Linje 1 med spesifikke justeringer."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🐟 Motta og laste laks pa Linje 2",
+            "⚙️ Overvake maskindrift og flyt",
+            "👀 Kvalitetskontroll av innkommende fisk",
+            "🔄 Koordinere med Linje 1 for balansert produksjon"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-1",
+      "title": "Filet Line 1 (Filetlinje 1)",
+      "icon": "3️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Filetlinje der laksen bearbeides til fileter."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🔪 Filetbearbeiding og trimming",
+            "👀 Kvalitetskontroll av hver filet",
+            "⚖️ Vekt- og storrelsessortering",
+            "🧤 Opprettholde hygiene og knivsikkerhet"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    },
+    {
+      "id": "filet-line-2",
+      "title": "Filet Line 2 (Filetlinje 2)",
+      "icon": "4️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Andre filetlinje - samme prosedyrer som Filetlinje 1."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🔪 Filetbearbeiding og trimming",
+            "👀 Kvalitetskontroll av hver filet",
+            "⚖️ Vekt- og storrelsessortering",
+            "🔄 Koordinere med Filetlinje 1"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    },
+    {
+      "id": "porsjoner",
+      "title": "Porsjoner",
+      "icon": "5️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Porsjoneringsstasjon der fileter kuttes i forbruksklare porsjoner."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🔪 Kutte fileter i spesifiserte porsjoner",
+            "⚖️ Sikre korrekt vekt per porsjon",
+            "📦 Klargjore porsjoner for pakking",
+            "👀 Kvalitetskontroll av hver porsjon"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    },
+    {
+      "id": "head-backbone-dryice-belly",
+      "title": "Head / Backbone / Dry Ice / Belly (Hode / Ryggbein / Torris / Buk)",
+      "icon": "6️⃣",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Biprodukt-bearbeidingsstasjon - maksimerer verdien av hver del av laksen."
+        },
+        {
+          "type": "info",
+          "title": "Hovedansvar:",
+          "items": [
+            "🐟 Bearbeide laksehoder, ryggbein og buker",
+            "🧊 Torrispakking for spesifikke produkter",
+            "♻️ Sikre maksimal utnyttelse av ravarene (95 % mal)",
+            "📦 Sortere og pakke biprodukter for ulike markeder"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "success",
+          "text": "Detaljerte oppgaveinstruksjoner for hver posisjon vil bli lagt til her."
+        }
+      ]
+    }
+  ]
+}
