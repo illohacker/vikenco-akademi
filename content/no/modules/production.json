@@ -660,6 +660,234 @@
       ]
     },
     {
+      "id": "porsjoner",
+      "title": "Porsjoner",
+      "description": "Porsjonering, vakuumpakking og skinnområde",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
+        {
+          "id": "porsjoner-overview",
+          "title": "Porsjoner – Oversikt",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-porsjoner",
+              "title": "Porsjonområde – Klikk for å se instruksjoner",
+              "items": [
+                "Vakuum 1",
+                "Vakuum 2",
+                "Porsjonering 1",
+                "Pakking",
+                "Porsjonering 2",
+                "Skinn",
+                "Klikk på et område for å se instruksjoner ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Arbeidsområder:",
+              "items": [
+                "🔴 Vakuum 1 (6p) – Vakuumpakking av hele fileter",
+                "🟢 Vakuum 2 (3p) – Vakuumpakking av porsjoner",
+                "🔵 Porsjonering 1 (3p) – Porsjonskuttemaskin",
+                "🟣 Pakking (1p) – Samler metallbeholdere og pakker etter type",
+                "🔵 Porsjonering 2 (4p) – Andre porsjoneringsmaskin",
+                "🟣 Skinn (1p) – Separerer skinn og kjøtt i 14kg esker"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-1",
+          "title": "Vakuum 1 – Vakuumpakking av hele fileter",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Dette området har 6 arbeidere og er ansvarlig for vakuumpakking av hele laksefileter."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Arbeidsposisjoner:",
+              "animatedSteps": [
+                {
+                  "emoji": "🟥",
+                  "title": "Brett",
+                  "description": "Må mate vakuummaskinen med brett til fisken."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Mater 1",
+                  "description": "Legger fisk i vakuumpakkemaskinen."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Mater 2",
+                  "description": "Legger fisk i vakuumpakkemaskinen."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Samler",
+                  "description": "Samler vakuumpakket fisk og legger den på vekten."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Veier",
+                  "description": "Veier og setter på etikett."
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Laster",
+                  "description": "Fyller esker og legger dem på pallen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-2",
+          "title": "Vakuum 2 – Vakuumpakking av porsjoner",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Dette området har 3 arbeidere."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Arbeidsposisjoner:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Porsjons mater",
+                  "description": "Legger ferdigkuttede laksebiter i maskinen."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Samler",
+                  "description": "Samler vakuumpakkede biter og legger dem i esker."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Veier",
+                  "description": "Veier, merker og sender til transportbåndet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-1",
+          "title": "Porsjonering 1 – Kuttemaskin",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Dette området har 3 arbeidere."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Arbeidsposisjoner:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Mater",
+                  "description": "Legger laksen på båndet, må kanskje kutte deler for riktig størrelse."
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Velger",
+                  "description": "Velger gode stykker og legger dem i esker."
+                },
+                {
+                  "emoji": "🤝",
+                  "title": "Hjelper (valgfri)",
+                  "description": "Valgfri person for plast eller ferdigstilling av esker."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "envasado",
+          "title": "Pakking – Innsamling og sortering",
+          "icon": "🏷️",
+          "sections": [
+            {
+              "type": "info",
+              "title": "Arbeidsplass:",
+              "items": [
+                "📦 Pakker (1p) – Samler alle metallbeholdere og pakker etter type i esker."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-2",
+          "title": "Porsjonering 2 – Andre maskin",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Dette området har 4 arbeidere."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Arbeidsposisjoner:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Mater",
+                  "description": "Mater fisk i maskinen i jevnt tempo."
+                },
+                {
+                  "emoji": "👐",
+                  "title": "Samler",
+                  "description": "Krever stor fingerferdighet og effektivitet."
+                },
+                {
+                  "emoji": "🧻",
+                  "title": "Assistent",
+                  "description": "Legger mellomplast i eskene."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Bærer",
+                  "description": "Legger esken på vekten, veier og sender videre."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pieles",
+          "title": "Skinn – Separering og pakking",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "1 arbeider som separerer skinn og kjøtt i 14kg esker."
+            },
+            {
+              "type": "info",
+              "title": "Instruksjoner:",
+              "items": [
+                "🐟 Skinn i esker UTEN blå poser og med gul etikettlokk",
+                "🥩 Kjøtt i esker MED plast og hvit etikettlokk",
+                "📋 Mangler du etiketter, spør teamlederen for porsjoner"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "line-3",
       "title": "Linje 3",
       "description": "Ikke i bruk",

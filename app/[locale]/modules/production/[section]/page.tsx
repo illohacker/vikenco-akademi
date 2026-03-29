@@ -4,9 +4,10 @@ import Image from 'next/image'
 import AnimatedSteps from '@/components/AnimatedSteps'
 import LineDiagram from '@/components/LineDiagram'
 import LineDiagram2 from '@/components/LineDiagram2'
+import LineDiagramPorsjoner from '@/components/LineDiagramPorsjoner'
 
 type Section = {
-  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps' | 'line-map' | 'line-map-2'
+  type: 'alert' | 'icon-row' | 'rules' | 'info' | 'steps' | 'mandatory' | 'prohibited' | 'animated-steps' | 'line-map' | 'line-map-2' | 'line-map-porsjoner'
   style?: 'warning' | 'danger' | 'success'
   text?: string
   title?: string
@@ -246,6 +247,22 @@ function SectionRenderer({ section }: { section: Section }) {
             sideB: section.items?.[9] || 'SIDE B',
             belt: section.items?.[10] || 'CONVEYOR BELT',
             clickHint: section.items?.[11] || 'Click a zone to see instructions',
+          }}
+        />
+      )
+
+    case 'line-map-porsjoner':
+      return (
+        <LineDiagramPorsjoner
+          title={section.title || ''}
+          labels={{
+            vacio1: section.items?.[0] || 'Vacío 1',
+            vacio2: section.items?.[1] || 'Vacío 2',
+            porcionado1: section.items?.[2] || 'Porcionado 1',
+            envasado: section.items?.[3] || 'Envasado',
+            porcionado2: section.items?.[4] || 'Porcionado 2',
+            pieles: section.items?.[5] || 'Pieles',
+            clickHint: section.items?.[6] || 'Click a zone to see instructions',
           }}
         />
       )

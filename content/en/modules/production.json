@@ -660,6 +660,234 @@
       ]
     },
     {
+      "id": "porsjoner",
+      "title": "Portions",
+      "description": "Portioning, vacuum packaging and skins area",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
+        {
+          "id": "porsjoner-overview",
+          "title": "Portions – Overview",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-porsjoner",
+              "title": "Portions Area – Click an area to see instructions",
+              "items": [
+                "Vacuum 1",
+                "Vacuum 2",
+                "Portioning 1",
+                "Packaging",
+                "Portioning 2",
+                "Skins",
+                "Click an area to see instructions ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Work areas:",
+              "items": [
+                "🔴 Vacuum 1 (6p) – Vacuum packing whole fillets: tray, feeders, collector, weigher, loader",
+                "🟢 Vacuum 2 (3p) – Vacuum packing portions: feeder, collector, weigher",
+                "🔵 Portioning 1 (3p) – Portion cutting machine: feeder, selector, helper",
+                "🟣 Packaging (1p) – Collects metal containers and packages by type",
+                "🔵 Portioning 2 (4p) – Second portioning machine: feeder, collector, assistant, carrier",
+                "🟣 Skins (1p) – Separating skins and meat into 14kg boxes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-1",
+          "title": "Vacuum 1 – Whole fillet vacuum packaging",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This area has 6 workers and is responsible for vacuum packaging whole salmon fillets."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Work positions (bottom to top):",
+              "animatedSteps": [
+                {
+                  "emoji": "🟥",
+                  "title": "Tray",
+                  "description": "Must feed the vacuum machine with trays for the fish."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Feeder 1",
+                  "description": "Places fish into the vacuum packaging machine."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Feeder 2",
+                  "description": "Places fish into the vacuum packaging machine."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Collector",
+                  "description": "Collects the vacuum-packed fish and places it on the scale for the colleague."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Weigher",
+                  "description": "This person must weigh it and put a label on it."
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Loader",
+                  "description": "Fills boxes and places them on the pallet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-2",
+          "title": "Vacuum 2 – Portion vacuum packaging",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This area has 3 workers and is responsible for vacuum packaging pre-cut salmon pieces."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Work positions:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Portion feeder",
+                  "description": "This person puts the pre-cut salmon pieces into the machine."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Collector",
+                  "description": "Collects the vacuum-packed pieces and puts them in boxes."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Weigher",
+                  "description": "This person weighs, labels and sends it to the conveyor belt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-1",
+          "title": "Portioning 1 – Cutting machine",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This area has 3 workers and is responsible for cutting salmon fillets into portions."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Work positions:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Feeder",
+                  "description": "This person puts the salmon on the belt, may need to cut part of the fillet to fit the size."
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Selector",
+                  "description": "This person selects the good pieces and puts them in boxes."
+                },
+                {
+                  "emoji": "🤝",
+                  "title": "Helper (optional)",
+                  "description": "This person is optional and only present when needed for plastics or finishing boxes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "envasado",
+          "title": "Packaging – Collection and sorting",
+          "icon": "🏷️",
+          "sections": [
+            {
+              "type": "info",
+              "title": "Work position:",
+              "items": [
+                "📦 Packager (1p) – Person responsible for collecting all metal containers and packaging by type into their boxes and placing them on the belt."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-2",
+          "title": "Portioning 2 – Second portioning machine",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This area has 4 workers and is the second portioning line."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Work positions:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Feeder",
+                  "description": "This person feeds fish into the machine at a constant pace and ensures supply doesn't run out."
+                },
+                {
+                  "emoji": "👐",
+                  "title": "Collector",
+                  "description": "A position requiring great manual dexterity and effectiveness in processing what is good or bad."
+                },
+                {
+                  "emoji": "🧻",
+                  "title": "Assistant",
+                  "description": "This person places intermediate plastics in the boxes."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Carrier",
+                  "description": "Person responsible for placing the box on the scale, weighing and passing to the production line."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pieles",
+          "title": "Skins – Separation and packaging",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This area has 1 worker responsible for separating skins and meat into 14kg boxes."
+            },
+            {
+              "type": "info",
+              "title": "Position instructions:",
+              "items": [
+                "🐟 Skins go in boxes WITHOUT blue bags and with a yellow label lid",
+                "🥩 Meat goes in boxes WITH plastic and with a white label lid",
+                "📋 If you run out of labels, ask the portions team leader"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "line-3",
       "title": "Line 3",
       "description": "Not in use",

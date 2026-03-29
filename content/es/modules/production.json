@@ -660,6 +660,234 @@
       ]
     },
     {
+      "id": "porsjoner",
+      "title": "Porciones",
+      "description": "Zona de porcionado, envasado al vacío y pieles",
+      "icon": "📦",
+      "color": "from-amber-500 to-amber-600",
+      "lessons": [
+        {
+          "id": "porsjoner-overview",
+          "title": "Porciones – Vista general",
+          "icon": "🗺️",
+          "sections": [
+            {
+              "type": "line-map-porsjoner",
+              "title": "Zona de Porciones – Haz clic en un área para ver sus instrucciones",
+              "items": [
+                "Vacío 1",
+                "Vacío 2",
+                "Porcionado 1",
+                "Envasado",
+                "Porcionado 2",
+                "Pieles",
+                "Haz clic en un área para ver sus instrucciones ↓"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "Áreas de trabajo:",
+              "items": [
+                "🔴 Vacío 1 (6p) – Envasado al vacío de filetes enteros: bandeja, alimentadores, recogedor, pesador, cargador",
+                "🟢 Vacío 2 (3p) – Envasado al vacío de porciones: alimentador, recolector, pesador",
+                "🔵 Porcionado 1 (3p) – Máquina de corte de porciones: alimentador, selector, ayudante",
+                "🟣 Envasado (1p) – Recoge cubas metálicas y envasa por género",
+                "🔵 Porcionado 2 (4p) – Segunda máquina de porciones: alimentador, recolector, asistente, porteador",
+                "🟣 Pieles (1p) – Separación de pieles y carne en cajas de 14kg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-1",
+          "title": "Vacío 1 – Envasado al vacío de filetes",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Esta área tiene 6 trabajadores y es la encargada de envasar al vacío los filetes enteros de salmón."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Puestos de trabajo (de abajo a arriba):",
+              "animatedSteps": [
+                {
+                  "emoji": "🟥",
+                  "title": "Bandeja",
+                  "description": "Debe alimentar la máquina de vacío de bandejas para el pescado."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Alimentador 1",
+                  "description": "Pone pescados en la máquina de envasado al vacío."
+                },
+                {
+                  "emoji": "🐟",
+                  "title": "Alimentador 2",
+                  "description": "Pone pescados en la máquina de envasado al vacío."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Recogedor",
+                  "description": "Recoge el pescado ya envasado al vacío y se lo pone en el peso al compañero."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Pesador",
+                  "description": "Esta persona debe pesarlo y ponerle una etiqueta."
+                },
+                {
+                  "emoji": "📦",
+                  "title": "Cargador",
+                  "description": "Rellena las cajas y las pone en el palet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vacio-2",
+          "title": "Vacío 2 – Envasado al vacío de porciones",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Esta área tiene 3 trabajadores y se encarga de envasar al vacío los trozos de salmón ya cortados."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Puestos de trabajo:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Alimentador de porciones",
+                  "description": "Esta persona mete los trozos de salmón ya cortados en la máquina."
+                },
+                {
+                  "emoji": "📥",
+                  "title": "Recolector",
+                  "description": "Recoge los trozos ya envasados al vacío y los mete en cajas."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Pesador",
+                  "description": "Esta persona pesa, pone la etiqueta y lo manda a la cinta transportadora."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-1",
+          "title": "Porcionado 1 – Máquina de corte",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Esta área tiene 3 trabajadores y se encarga de cortar los filetes de salmón en porciones."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Puestos de trabajo:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Alimentador",
+                  "description": "Esta persona mete el salmón en la cinta, puede tener que cortar parte del filete para que quede a la medida."
+                },
+                {
+                  "emoji": "✅",
+                  "title": "Selector",
+                  "description": "Esta persona selecciona los trozos buenos y los pone en cajas."
+                },
+                {
+                  "emoji": "🤝",
+                  "title": "Ayuda (opcional)",
+                  "description": "Esta persona es opcional y solo está si necesita poner plásticos o terminar las cajas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "envasado",
+          "title": "Envasado – Recogida y clasificación",
+          "icon": "🏷️",
+          "sections": [
+            {
+              "type": "info",
+              "title": "Puesto de trabajo:",
+              "items": [
+                "📦 Envasador (1p) – Persona encargada de ir recogiendo todas las cubas metálicas y envasar según género en sus cajas y ponerlas en la cinta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "porcionado-2",
+          "title": "Porcionado 2 – Segunda máquina de porciones",
+          "icon": "🔪",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Esta área tiene 4 trabajadores y es la segunda línea de porcionado."
+            },
+            {
+              "type": "animated-steps",
+              "title": "Puestos de trabajo:",
+              "animatedSteps": [
+                {
+                  "emoji": "🐟",
+                  "title": "Alimentador",
+                  "description": "Esta persona mete los pescados en la máquina a ritmo constante y es el encargado de que no le falte género."
+                },
+                {
+                  "emoji": "👐",
+                  "title": "Recolector",
+                  "description": "Puesto que requiere gran destreza con las manos y efectividad procesando qué está bien o mal."
+                },
+                {
+                  "emoji": "🧻",
+                  "title": "Asistente",
+                  "description": "Esta persona pone plásticos intermedios en las cajas."
+                },
+                {
+                  "emoji": "⚖️",
+                  "title": "Porteador",
+                  "description": "Persona encargada de poner la caja en la báscula, pesar y pasar a línea de producción."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pieles",
+          "title": "Pieles – Separación y empaquetado",
+          "icon": "🐟",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Esta área tiene 1 trabajador encargado de separar pieles y carne en cajas de 14kg."
+            },
+            {
+              "type": "info",
+              "title": "Instrucciones del puesto:",
+              "items": [
+                "🐟 Las pieles van en cajas SIN bolsas azules y con tapa de etiqueta color amarillo",
+                "🥩 La carne va en cajas CON plástico y tapa con etiqueta blanca",
+                "📋 Si no tienes etiquetas, debes pedirlas al teamleader de porciones"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "line-3",
       "title": "Línea 3",
       "description": "Fuera de uso",
