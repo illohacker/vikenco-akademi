@@ -685,6 +685,11 @@
               ]
             },
             {
+              "type": "alert",
+              "style": "danger",
+              "text": "Si no hay pescado (algo habitual a primera hora de la mañana), siempre hay trabajo. Hay que preparar las cajas que se van a usar durante el día. Es imposible que no tengas nada que hacer estando en porciones. Sé proactivo y adelántate a los problemas."
+            },
+            {
               "type": "info",
               "title": "Áreas de trabajo:",
               "items": [

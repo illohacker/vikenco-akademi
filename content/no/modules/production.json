@@ -685,6 +685,11 @@
               ]
             },
             {
+              "type": "alert",
+              "style": "danger",
+              "text": "Hvis det ikke er fisk (vanlig tidlig om morgenen), er det alltid arbeid å gjøre. Du må forberede eskene som skal brukes i løpet av dagen. Det er umulig å ikke ha noe å gjøre i porsjoner. Vær proaktiv og ligge i forkant av problemer."
+            },
+            {
               "type": "info",
               "title": "Arbeidsområder:",
               "items": [

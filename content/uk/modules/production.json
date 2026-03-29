@@ -685,6 +685,11 @@
               ]
             },
             {
+              "type": "alert",
+              "style": "danger",
+              "text": "If there is no fish (common first thing in the morning), there is always work to do. You need to prepare the boxes that will be used during the day. It is impossible to have nothing to do in portions. Be proactive and stay ahead of problems."
+            },
+            {
               "type": "info",
               "title": "Work areas:",
               "items": [
