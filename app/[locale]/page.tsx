@@ -2,13 +2,13 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 
 const modules = [
-  { slug: 'welcome', icon: '👋', color: 'from-blue-500 to-blue-600', titleKey: 'welcome', descKey: 'welcomeDesc' },
-  { slug: 'hms', icon: '🦺', color: 'from-red-500 to-red-600', titleKey: 'hms', descKey: 'hmsDesc' },
-  { slug: 'production', icon: '🐟', color: 'from-cyan-500 to-cyan-600', titleKey: 'production', descKey: 'productionDesc' },
-  { slug: 'factory', icon: '🏭', color: 'from-gray-500 to-gray-600', titleKey: 'factory', descKey: 'factoryDesc' },
-  { slug: 'conduct', icon: '📋', color: 'from-amber-500 to-amber-600', titleKey: 'conduct', descKey: 'conductDesc' },
-  { slug: 'equipment', icon: '🔧', color: 'from-emerald-500 to-emerald-600', titleKey: 'equipment', descKey: 'equipmentDesc' },
-  { slug: 'emergency', icon: '🚨', color: 'from-rose-500 to-rose-600', titleKey: 'emergency', descKey: 'emergencyDesc' },
+  { slug: 'welcome', href: '/modules/welcome', icon: '👋', color: 'from-blue-500 to-blue-600', titleKey: 'welcome', descKey: 'welcomeDesc' },
+  { slug: 'hms', href: '/modules/hms', icon: '🦺', color: 'from-red-500 to-red-600', titleKey: 'hms', descKey: 'hmsDesc' },
+  { slug: 'production', href: '/modules/production', icon: '🐟', color: 'from-cyan-500 to-cyan-600', titleKey: 'production', descKey: 'productionDesc' },
+  { slug: 'factory', href: '/maps', icon: '🏭', color: 'from-gray-500 to-gray-600', titleKey: 'factory', descKey: 'factoryDesc' },
+  { slug: 'conduct', href: '/modules/conduct', icon: '📋', color: 'from-amber-500 to-amber-600', titleKey: 'conduct', descKey: 'conductDesc' },
+  { slug: 'equipment', href: '/modules/equipment', icon: '🔧', color: 'from-emerald-500 to-emerald-600', titleKey: 'equipment', descKey: 'equipmentDesc' },
+  { slug: 'emergency', href: '/modules/emergency', icon: '🚨', color: 'from-rose-500 to-rose-600', titleKey: 'emergency', descKey: 'emergencyDesc' },
 ]
 
 export default function HomePage() {
@@ -47,7 +47,7 @@ export default function HomePage() {
           {modules.map((mod) => (
             <Link
               key={mod.slug}
-              href={`/modules/${mod.slug}`}
+              href={mod.href}
               className="group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-1"
             >
               <div className={`h-2 bg-gradient-to-r ${mod.color}`} />
