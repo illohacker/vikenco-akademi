@@ -38,7 +38,11 @@
     "equipment": "Equipment & Tools",
     "equipmentDesc": "All the equipment you need to know",
     "emergency": "Emergencies",
-    "emergencyDesc": "What to do in an emergency?"
+    "emergencyDesc": "What to do in an emergency?",
+    "porsjoner": "Portions",
+    "porsjonerDesc": "Portions",
+    "final": "Final Exam",
+    "finalDesc": "Final Exam"
   },
   "quiz": {
     "title": "Quiz",

@@ -38,7 +38,11 @@
     "equipment": "المعدات والأدوات",
     "equipmentDesc": "جميع المعدات التي تحتاج لمعرفتها",
     "emergency": "حالات الطوارئ",
-    "emergencyDesc": "ماذا تفعل في حالة الطوارئ؟"
+    "emergencyDesc": "ماذا تفعل في حالة الطوارئ؟",
+    "porsjoner": "الحصص",
+    "porsjonerDesc": "الحصص",
+    "final": "الامتحان النهائي",
+    "finalDesc": "الامتحان النهائي"
   },
   "quiz": {
     "title": "اختبار",

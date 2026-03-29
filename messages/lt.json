@@ -38,7 +38,11 @@
     "equipment": "Įranga ir įrankiai",
     "equipmentDesc": "Visa įranga, kurią reikia žinoti",
     "emergency": "Avarinės situacijos",
-    "emergencyDesc": "Ką daryti avarinėje situacijoje?"
+    "emergencyDesc": "Ką daryti avarinėje situacijoje?",
+    "porsjoner": "Porcijos",
+    "porsjonerDesc": "Porcijos",
+    "final": "Galutinis egzaminas",
+    "finalDesc": "Galutinis egzaminas"
   },
   "quiz": {
     "title": "Viktorina",

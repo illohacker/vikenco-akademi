@@ -4,77 +4,152 @@
     "questions": [
       {
         "question": "When was Vikenco originally founded?",
-        "options": ["1965", "1973", "1985", "2005"],
+        "options": [
+          "1965",
+          "1973",
+          "1985",
+          "2005"
+        ],
         "correct": 1
       },
       {
         "question": "Where is Vikenco located?",
-        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "options": [
+          "Oslo",
+          "Bergen",
+          "Rindarøya, Aukra",
+          "Trondheim"
+        ],
         "correct": 2
       },
       {
         "question": "What is Vikenco's vision?",
-        "options": ["Fish for everyone", "Quality from the sea", "The best salmon in the world", "Fresh every day"],
+        "options": [
+          "Fish for everyone",
+          "Quality from the sea",
+          "The best salmon in the world",
+          "Fresh every day"
+        ],
         "correct": 1
       },
       {
         "question": "What does Vikenco produce?",
-        "options": ["Cod and herring", "Salmon and trout", "Shrimp and crab", "All types of fish"],
+        "options": [
+          "Cod and herring",
+          "Salmon and trout",
+          "Shrimp and crab",
+          "All types of fish"
+        ],
         "correct": 1
       },
       {
         "question": "Who is the majority owner of Vikenco?",
-        "options": ["Mowi", "SalMar (51%)", "Lerøy", "The Norwegian government"],
+        "options": [
+          "Mowi",
+          "SalMar (51%)",
+          "Lerøy",
+          "The Norwegian government"
+        ],
         "correct": 1
       },
       {
         "question": "How many employees did Vikenco have in 2024?",
-        "options": ["150", "250", "341", "500"],
+        "options": [
+          "150",
+          "250",
+          "341",
+          "500"
+        ],
         "correct": 2
       },
       {
         "question": "What percentage of Vikenco's employees were women in 2024?",
-        "options": ["25%", "33%", "43%", "55%"],
+        "options": [
+          "25%",
+          "33%",
+          "43%",
+          "55%"
+        ],
         "correct": 2
       },
       {
         "question": "How many seafood meals does Vikenco deliver daily?",
-        "options": ["50,000", "100,000", "500,000+", "1,000,000"],
+        "options": [
+          "50,000",
+          "100,000",
+          "500,000+",
+          "1,000,000"
+        ],
         "correct": 2
       },
       {
         "question": "How much has Vikenco invested since 2019?",
-        "options": ["100 million NOK", "500 million NOK", "~1 billion NOK", "2 billion NOK"],
+        "options": [
+          "100 million NOK",
+          "500 million NOK",
+          "~1 billion NOK",
+          "2 billion NOK"
+        ],
         "correct": 2
       },
       {
         "question": "What capacity does the new slaughterhouse (2024) have?",
-        "options": ["50,000 tonnes/year", "80,000 tonnes/year", "120,000 tonnes/year", "200,000 tonnes/year"],
+        "options": [
+          "50,000 tonnes/year",
+          "80,000 tonnes/year",
+          "120,000 tonnes/year",
+          "200,000 tonnes/year"
+        ],
         "correct": 2
       },
       {
         "question": "What percentage of Vikenco's raw materials went to human consumption in 2024?",
-        "options": ["70%", "80%", "90%", "95%"],
+        "options": [
+          "70%",
+          "80%",
+          "90%",
+          "95%"
+        ],
         "correct": 3
       },
       {
         "question": "Who is the CEO of Vikenco?",
-        "options": ["Gustav Witzøe", "Per Olav Mevold", "SalMar CEO", "Kristofer Reiten"],
+        "options": [
+          "Gustav Witzøe",
+          "Per Olav Mevold",
+          "SalMar CEO",
+          "Kristofer Reiten"
+        ],
         "correct": 1
       },
       {
         "question": "What milestone did Vikenco celebrate in 2023?",
-        "options": ["25 years", "40 years", "50 years", "75 years"],
+        "options": [
+          "25 years",
+          "40 years",
+          "50 years",
+          "75 years"
+        ],
         "correct": 2
       },
       {
         "question": "How much does Vikenco contribute annually to the local community?",
-        "options": ["500,000 NOK", "1 million NOK", "1.5 million NOK", "3 million NOK"],
+        "options": [
+          "500,000 NOK",
+          "1 million NOK",
+          "1.5 million NOK",
+          "3 million NOK"
+        ],
         "correct": 2
       },
       {
         "question": "Which markets does Vikenco sell to?",
-        "options": ["Only Norway", "Norway and Sweden", "Norway, USA, Asia and Europe", "Only Asia"],
+        "options": [
+          "Only Norway",
+          "Norway and Sweden",
+          "Norway, USA, Asia and Europe",
+          "Only Asia"
+        ],
         "correct": 2
       }
     ]
@@ -84,77 +159,152 @@
     "questions": [
       {
         "question": "What is the emergency number in Norway?",
-        "options": ["110", "112", "113", "911"],
+        "options": [
+          "110",
+          "112",
+          "113",
+          "911"
+        ],
         "correct": 2
       },
       {
         "question": "What should you do FIRST in an emergency?",
-        "options": ["Call 113", "Run to the exit", "Contact a team leader (green uniform)", "Call a colleague"],
+        "options": [
+          "Call 113",
+          "Run to the exit",
+          "Contact a team leader (green uniform)",
+          "Call a colleague"
+        ],
         "correct": 2
       },
       {
         "question": "Who is allowed to use the AED defibrillator?",
-        "options": ["Anyone", "Only doctors", "Only trained personnel", "Only team leaders"],
+        "options": [
+          "Anyone",
+          "Only doctors",
+          "Only trained personnel",
+          "Only team leaders"
+        ],
         "correct": 2
       },
       {
         "question": "What must you do if you get injured during your shift?",
-        "options": ["Continue working until the break", "Leave production and treat the wound", "Tell a colleague and keep working", "Wait until the end of the shift"],
+        "options": [
+          "Continue working until the break",
+          "Leave production and treat the wound",
+          "Tell a colleague and keep working",
+          "Wait until the end of the shift"
+        ],
         "correct": 1
       },
       {
         "question": "How can you report an incident or near-miss anonymously?",
-        "options": ["Send an email to HR", "Use the Datakvalitet app or the anonymous box near the canteen", "Post it on social media", "Tell a friend"],
+        "options": [
+          "Send an email to HR",
+          "Use the Datakvalitet app or the anonymous box near the canteen",
+          "Post it on social media",
+          "Tell a friend"
+        ],
         "correct": 1
       },
       {
         "question": "What are the TWO main risks in production at Vikenco?",
-        "options": ["Fire and flooding", "Cuts from knives and hand injuries from machines", "Chemical exposure and noise", "Falling objects and electric shock"],
+        "options": [
+          "Fire and flooding",
+          "Cuts from knives and hand injuries from machines",
+          "Chemical exposure and noise",
+          "Falling objects and electric shock"
+        ],
         "correct": 1
       },
       {
         "question": "What does LOTO stand for?",
-        "options": ["Look Out, Turn Off", "Lock Out / Tag Out", "Lights On, Tools Off", "Leave On, Take Off"],
+        "options": [
+          "Look Out, Turn Off",
+          "Lock Out / Tag Out",
+          "Lights On, Tools Off",
+          "Leave On, Take Off"
+        ],
         "correct": 1
       },
       {
         "question": "What should you do if your vinyl glove tears?",
-        "options": ["Tape it up", "Wait until the break to change it", "Change it immediately", "Continue without a glove"],
+        "options": [
+          "Tape it up",
+          "Wait until the break to change it",
+          "Change it immediately",
+          "Continue without a glove"
+        ],
         "correct": 2
       },
       {
         "question": "Is hearing protection mandatory in the production area?",
-        "options": ["Only near loud machines", "Only during certain hours", "Yes, in ALL production areas", "No, it's optional"],
+        "options": [
+          "Only near loud machines",
+          "Only during certain hours",
+          "Yes, in ALL production areas",
+          "No, it's optional"
+        ],
         "correct": 2
       },
       {
         "question": "What is the approximate temperature in the production area?",
-        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "options": [
+          "5°C",
+          "12°C",
+          "22°C",
+          "30°C"
+        ],
         "correct": 2
       },
       {
         "question": "How often are tasks rotated to prevent repetitive strain?",
-        "options": ["Every 30 minutes", "Every hour", "Every 2 hours", "Every 4 hours"],
+        "options": [
+          "Every 30 minutes",
+          "Every hour",
+          "Every 2 hours",
+          "Every 4 hours"
+        ],
         "correct": 2
       },
       {
         "question": "What happens when a metal detector gives a positive signal?",
-        "options": ["The product is thrown away immediately", "The conveyor belt stops and the positive is evaluated", "Nothing, it's usually a false alarm", "The entire line is shut down for the day"],
+        "options": [
+          "The product is thrown away immediately",
+          "The conveyor belt stops and the positive is evaluated",
+          "Nothing, it's usually a false alarm",
+          "The entire line is shut down for the day"
+        ],
         "correct": 1
       },
       {
         "question": "Why must plasters used in production be blue?",
-        "options": ["They're more visible", "They contain metal and can be detected by metal detectors", "They're waterproof", "It's the company colour"],
+        "options": [
+          "They're more visible",
+          "They contain metal and can be detected by metal detectors",
+          "They're waterproof",
+          "It's the company colour"
+        ],
         "correct": 1
       },
       {
         "question": "What background check must ALL employees obtain?",
-        "options": ["Police criminal record", "Aviation security background check from Luftfartstilsynet", "Medical fitness certificate", "Driving licence check"],
+        "options": [
+          "Police criminal record",
+          "Aviation security background check from Luftfartstilsynet",
+          "Medical fitness certificate",
+          "Driving licence check"
+        ],
         "correct": 1
       },
       {
         "question": "If you see a colleague breaking safety rules, what should you do?",
-        "options": ["Ignore it", "Report to a team leader (green uniform)", "Handle it yourself", "Wait until the next meeting"],
+        "options": [
+          "Ignore it",
+          "Report to a team leader (green uniform)",
+          "Handle it yourself",
+          "Wait until the next meeting"
+        ],
         "correct": 1
       }
     ]
@@ -164,27 +314,52 @@
     "questions": [
       {
         "question": "What is the first step in production?",
-        "options": ["Packing", "Receiving raw materials", "Shipping", "Filleting"],
+        "options": [
+          "Packing",
+          "Receiving raw materials",
+          "Shipping",
+          "Filleting"
+        ],
         "correct": 1
       },
       {
         "question": "Why is temperature control important?",
-        "options": ["To save electricity", "For food safety and quality", "To make it colder inside", "It's not important"],
+        "options": [
+          "To save electricity",
+          "For food safety and quality",
+          "To make it colder inside",
+          "It's not important"
+        ],
         "correct": 1
       },
       {
         "question": "What happens after filleting?",
-        "options": ["The salmon is thrown away", "Packing and labeling", "It goes back to the sea", "Nothing"],
+        "options": [
+          "The salmon is thrown away",
+          "Packing and labeling",
+          "It goes back to the sea",
+          "Nothing"
+        ],
         "correct": 1
       },
       {
         "question": "What is the FIFO principle?",
-        "options": ["First In, First Out", "Final Inspection, First Order", "Fish In, Fish Out", "Fast Information Flow Online"],
+        "options": [
+          "First In, First Out",
+          "Final Inspection, First Order",
+          "Fish In, Fish Out",
+          "Fast Information Flow Online"
+        ],
         "correct": 0
       },
       {
         "question": "What temperature should the cold storage be?",
-        "options": ["10-15°C", "0-4°C", "20-25°C", "-20°C"],
+        "options": [
+          "10-15°C",
+          "0-4°C",
+          "20-25°C",
+          "-20°C"
+        ],
         "correct": 1
       }
     ]
@@ -194,78 +369,668 @@
     "questions": [
       {
         "question": "What is the correct order in the hygiene sluice?",
-        "options": ["Soap → dry → disinfect", "Water → soap → water → dry → disinfect", "Disinfect → soap → dry", "Soap → disinfect → dry"],
+        "options": [
+          "Soap → dry → disinfect",
+          "Water → soap → water → dry → disinfect",
+          "Disinfect → soap → dry",
+          "Soap → disinfect → dry"
+        ],
         "correct": 1
       },
       {
         "question": "Why must plasters used in production be blue?",
-        "options": ["Because it's the company colour", "Because they contain metal traces and can be detected by metal detectors", "Because they're cheaper", "Because they're more visible"],
+        "options": [
+          "Because it's the company colour",
+          "Because they contain metal traces and can be detected by metal detectors",
+          "Because they're cheaper",
+          "Because they're more visible"
+        ],
         "correct": 1
       },
       {
         "question": "When must you change your cloth gloves?",
-        "options": ["Every hour", "Every time you return from a break", "Only at the end of the shift", "Only when they smell"],
+        "options": [
+          "Every hour",
+          "Every time you return from a break",
+          "Only at the end of the shift",
+          "Only when they smell"
+        ],
         "correct": 1
       },
       {
         "question": "What should you do if your vinyl glove tears during production?",
-        "options": ["Wait until the break", "Change it immediately", "Tape it up", "Continue working"],
+        "options": [
+          "Wait until the break",
+          "Change it immediately",
+          "Tape it up",
+          "Continue working"
+        ],
         "correct": 1
       },
       {
         "question": "Is chewing gum allowed in the production area?",
-        "options": ["Yes, if it has no sugar", "Only during breaks", "No, never", "Only mint flavoured"],
+        "options": [
+          "Yes, if it has no sugar",
+          "Only during breaks",
+          "No, never",
+          "Only mint flavoured"
+        ],
         "correct": 2
       },
       {
         "question": "What colour do production workers wear?",
-        "options": ["Green", "Red", "Blue", "White"],
+        "options": [
+          "Green",
+          "Red",
+          "Blue",
+          "White"
+        ],
         "correct": 2
       },
       {
         "question": "What colour do team leaders wear?",
-        "options": ["Blue", "Red", "White", "Green"],
+        "options": [
+          "Blue",
+          "Red",
+          "White",
+          "Green"
+        ],
         "correct": 3
       },
       {
         "question": "Can you lend your key tag to a colleague?",
-        "options": ["Yes, if they forgot theirs", "Yes, during the same shift", "No, it is strictly personal", "Yes, with permission from a team leader"],
+        "options": [
+          "Yes, if they forgot theirs",
+          "Yes, during the same shift",
+          "No, it is strictly personal",
+          "Yes, with permission from a team leader"
+        ],
         "correct": 2
       },
       {
         "question": "Where is the only place you are allowed to smoke on site?",
-        "options": ["At the main entrance", "In the parking lot", "In the designated smoking area", "Anywhere outside the building"],
+        "options": [
+          "At the main entrance",
+          "In the parking lot",
+          "In the designated smoking area",
+          "Anywhere outside the building"
+        ],
         "correct": 2
       },
       {
         "question": "Who should you contact if you lose your key tag?",
-        "options": ["Any colleague", "Andreea", "The police", "Nobody, just wait"],
+        "options": [
+          "Any colleague",
+          "Andreea",
+          "The police",
+          "Nobody, just wait"
+        ],
         "correct": 1
       },
       {
         "question": "Can you drink water inside the production area?",
-        "options": ["Yes, from a bottle", "Yes, from the tap", "No, only in the canteen", "Yes, during breaks"],
+        "options": [
+          "Yes, from a bottle",
+          "Yes, from the tap",
+          "No, only in the canteen",
+          "Yes, during breaks"
+        ],
         "correct": 2
       },
       {
         "question": "What should you do if you see a colleague breaking the rules?",
-        "options": ["Ignore it", "Report it to a team leader (green uniform)", "Post about it online", "Handle it yourself"],
+        "options": [
+          "Ignore it",
+          "Report it to a team leader (green uniform)",
+          "Post about it online",
+          "Handle it yourself"
+        ],
         "correct": 1
       },
       {
         "question": "When can you eat hot food in the canteen?",
-        "options": ["Anytime", "Only between 08:00 and 14:00", "Only after 14:00", "Only during night shifts"],
+        "options": [
+          "Anytime",
+          "Only between 08:00 and 14:00",
+          "Only after 14:00",
+          "Only during night shifts"
+        ],
         "correct": 1
       },
       {
         "question": "Why does Vikenco ask employees to drive carefully near Rindarøya?",
-        "options": ["Because of speed cameras", "Because there is no pavement and children walk on the road", "Because the road is private", "Because of toll gates"],
+        "options": [
+          "Because of speed cameras",
+          "Because there is no pavement and children walk on the road",
+          "Because the road is private",
+          "Because of toll gates"
+        ],
         "correct": 1
       },
       {
         "question": "Are prescription glasses allowed in the production area?",
-        "options": ["No, never", "Only with special straps", "Yes, without any special requirements", "Only contact lenses"],
+        "options": [
+          "No, never",
+          "Only with special straps",
+          "Yes, without any special requirements",
+          "Only contact lenses"
+        ],
         "correct": 2
+      }
+    ]
+  },
+  "equipment": {
+    "title": "Equipment & Tools",
+    "questions": [
+      {
+        "question": "What's the first thing you must do when arriving at the factory?",
+        "options": [
+          "Go to the canteen",
+          "Leave your shoes and put on indoor footwear",
+          "Put on work overalls",
+          "Log in with your key"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who provides the indoor footwear?",
+        "options": [
+          "You bring your own",
+          "The company",
+          "The union",
+          "It's shared between colleagues"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What must you do BEFORE putting on your work overalls?",
+        "options": [
+          "Have breakfast",
+          "Wash your hands following protocol",
+          "Log in with your key",
+          "Put on rubber boots"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What equipment do you put on at the production access?",
+        "options": [
+          "Only overalls",
+          "Overalls, hair net and beard net if needed",
+          "Rubber boots and apron",
+          "Gloves and knife"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How do you log in before going down to production?",
+        "options": [
+          "With your ID",
+          "With your personal key",
+          "With fingerprint",
+          "With a password"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What color are the production safety boots?",
+        "options": [
+          "Black",
+          "Green",
+          "Blue",
+          "White"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many times must you wash your hands before entering production?",
+        "options": [
+          "Once",
+          "Twice (access and pre-access)",
+          "Three times",
+          "Not necessary"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What do you put on in the pre-production access?",
+        "options": [
+          "Only gloves",
+          "Blue boots, apron, sleeve covers and gloves",
+          "Only the apron",
+          "Only the boots"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What material is the production apron made of?",
+        "options": [
+          "Cloth",
+          "Leather",
+          "Plastic",
+          "Rubber"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Can tools (knife and tweezers) be moved from their station?",
+        "options": [
+          "Yes, always",
+          "Only with permission",
+          "No, tools stay at their station",
+          "Only between shifts"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What tools are provided at your work station?",
+        "options": [
+          "Hammer and screwdriver",
+          "Knife and tweezers",
+          "Scissors and saw",
+          "Only a knife"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What should you do with hearing protection if you need it?",
+        "options": [
+          "Pick it up in production",
+          "Bring it down with you to pre-access",
+          "Ask the team leader",
+          "It's not needed"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "When must you wear a beard net?",
+        "options": [
+          "Always",
+          "Only if you have a beard",
+          "Only men",
+          "Never"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who moves: you or the tools?",
+        "options": [
+          "The tools",
+          "Both",
+          "You move, the tools don't",
+          "Nobody moves"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Where do you change from indoor shoes to production boots?",
+        "options": [
+          "In the changing room",
+          "In the pre-production access",
+          "In the canteen",
+          "At the main entrance"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "porsjoner": {
+    "title": "Portions",
+    "questions": [
+      {
+        "question": "How many work areas are there in Portions?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many workers does Vacuum 1 have?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What does the 'Tray' worker do in Vacuum 1?",
+        "options": [
+          "Weighs the fish",
+          "Feeds the vacuum machine with trays",
+          "Collects packaged fish",
+          "Puts labels"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What does the 'Collector' do in Vacuum 1?",
+        "options": [
+          "Feeds the machine",
+          "Collects vacuum-packed fish and places it on the scale",
+          "Fills boxes",
+          "Puts labels"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How many workers does Vacuum 2 have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What does the weigher do in Vacuum 2?",
+        "options": [
+          "Feeds the machine",
+          "Weighs, labels and sends to conveyor belt",
+          "Only weighs",
+          "Collects fish"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "In Portioning 1, what may the Feeder need to do?",
+        "options": [
+          "Just feed salmon",
+          "Cut part of the fillet to fit the size",
+          "Weigh the product",
+          "Put labels"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Is the 'Helper' position in Portioning 1 mandatory?",
+        "options": [
+          "Yes, always",
+          "No, it's optional",
+          "Only night shift",
+          "Only Mondays"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What does the Packager do?",
+        "options": [
+          "Cuts portions",
+          "Collects metal containers and packages by type",
+          "Weighs boxes",
+          "Cleans the area"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What quality is especially needed for the Collector in Portioning 2?",
+        "options": [
+          "Physical strength",
+          "Great manual dexterity",
+          "Language skills",
+          "Previous experience"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What does the Assistant do in Portioning 2?",
+        "options": [
+          "Feeds the machine",
+          "Places intermediate plastics in boxes",
+          "Weighs boxes",
+          "Supervises the line"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How heavy are the skin boxes?",
+        "options": [
+          "7 kg",
+          "10 kg",
+          "14 kg",
+          "20 kg"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What color is the label on skin box lids?",
+        "options": [
+          "White",
+          "Blue",
+          "Yellow",
+          "Green"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Do skin boxes have blue bags?",
+        "options": [
+          "Yes",
+          "No",
+          "Only large ones",
+          "Depends on shift"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "If there's no fish first thing in the morning, what should you do?",
+        "options": [
+          "Wait sitting",
+          "Prepare the day's boxes and be proactive",
+          "Go to canteen",
+          "Go to another area"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "final": {
+    "title": "Vikenco Final Exam",
+    "questions": [
+      {
+        "question": "Where is Vikenco located?",
+        "options": [
+          "Oslo",
+          "Bergen",
+          "Rindarøya, Aukra",
+          "Trondheim"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is the emergency number in Norway?",
+        "options": [
+          "110",
+          "112",
+          "113",
+          "911"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What's the first thing you do at the factory?",
+        "options": [
+          "Go to canteen",
+          "Leave shoes and put on indoor footwear",
+          "Put on overalls",
+          "Log in"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Is chewing gum allowed in production?",
+        "options": [
+          "Yes",
+          "Only sugar-free",
+          "No, never",
+          "Only during breaks"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many times do you wash hands before production?",
+        "options": [
+          "Once",
+          "Twice (access and pre-access)",
+          "Three times",
+          "None"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What color are the production boots?",
+        "options": [
+          "Black",
+          "Green",
+          "Blue",
+          "White"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Can tools be moved from their station?",
+        "options": [
+          "Yes",
+          "Only with permission",
+          "No, never",
+          "Only between shifts"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What does LOTO mean?",
+        "options": [
+          "Look Out Turn Off",
+          "Lock Out / Tag Out",
+          "Lights On Tools Off",
+          "Leave On Take Off"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What color do team leaders wear?",
+        "options": [
+          "Blue",
+          "Red",
+          "White",
+          "Green"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "How many work areas does Portions have?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Can you lend your NFC key to a colleague?",
+        "options": [
+          "Yes",
+          "Only in emergencies",
+          "No, it's personal",
+          "Yes, with permission"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "If there's no fish early morning, what do you do?",
+        "options": [
+          "Wait",
+          "Prepare boxes and be proactive",
+          "Go to canteen",
+          "Go home"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What color is the label on skin boxes?",
+        "options": [
+          "White",
+          "Blue",
+          "Yellow",
+          "Red"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many workers does Vacuum 1 have?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Why must plasters be blue?",
+        "options": [
+          "More visible",
+          "They contain metal and detectors catch them",
+          "They're waterproof",
+          "Company color"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What certificate do ALL employees need?",
+        "options": [
+          "Criminal record",
+          "Luftfartstilsynet certificate",
+          "Medical certificate",
+          "Driving license"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Where is the only place to smoke?",
+        "options": [
+          "Main entrance",
+          "Parking",
+          "Designated smoking area",
+          "Any outdoor area"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What should you do if you see a safety violation?",
+        "options": [
+          "Ignore it",
+          "Report to team leader",
+          "Fix it yourself",
+          "Wait for meeting"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What does the Carrier do in Portioning 2?",
+        "options": [
+          "Feeds the machine",
+          "Places plastics",
+          "Weighs box and passes to production",
+          "Supervises"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is Vikenco's vision?",
+        "options": [
+          "Fish for everyone",
+          "Quality from the sea",
+          "Best salmon",
+          "Fresh every day"
+        ],
+        "correct": 1
       }
     ]
   }

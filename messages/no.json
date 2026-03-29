@@ -38,7 +38,11 @@
     "equipment": "Utstyr & Verktøy",
     "equipmentDesc": "Alt utstyret du trenger å kjenne til",
     "emergency": "Nødsituasjoner",
-    "emergencyDesc": "Hva gjør du i en nødsituasjon?"
+    "emergencyDesc": "Hva gjør du i en nødsituasjon?",
+    "porsjoner": "Porsjoner",
+    "porsjonerDesc": "Porsjoner",
+    "final": "Slutteksamen",
+    "finalDesc": "Slutteksamen"
   },
   "quiz": {
     "title": "Quiz",

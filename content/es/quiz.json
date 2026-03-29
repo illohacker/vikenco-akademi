@@ -4,77 +4,152 @@
     "questions": [
       {
         "question": "¿Cuándo se fundó Vikenco originalmente?",
-        "options": ["1965", "1973", "1985", "2005"],
+        "options": [
+          "1965",
+          "1973",
+          "1985",
+          "2005"
+        ],
         "correct": 1
       },
       {
         "question": "¿Dónde está ubicado Vikenco?",
-        "options": ["Oslo", "Bergen", "Rindarøya, Aukra", "Trondheim"],
+        "options": [
+          "Oslo",
+          "Bergen",
+          "Rindarøya, Aukra",
+          "Trondheim"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cuál es la visión de Vikenco?",
-        "options": ["Pescado para todos", "Quality from the sea", "El mejor salmón del mundo", "Fresco cada día"],
+        "options": [
+          "Pescado para todos",
+          "Quality from the sea",
+          "El mejor salmón del mundo",
+          "Fresco cada día"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué produce Vikenco?",
-        "options": ["Bacalao y arenque", "Salmón y trucha", "Gambas y cangrejo", "Todo tipo de pescado"],
+        "options": [
+          "Bacalao y arenque",
+          "Salmón y trucha",
+          "Gambas y cangrejo",
+          "Todo tipo de pescado"
+        ],
         "correct": 1
       },
       {
         "question": "¿Quién es el accionista mayoritario de Vikenco?",
-        "options": ["Mowi", "SalMar (51%)", "Lerøy", "El gobierno noruego"],
+        "options": [
+          "Mowi",
+          "SalMar (51%)",
+          "Lerøy",
+          "El gobierno noruego"
+        ],
         "correct": 1
       },
       {
         "question": "¿Cuántos empleados tenía Vikenco en 2024?",
-        "options": ["150", "250", "341", "500"],
+        "options": [
+          "150",
+          "250",
+          "341",
+          "500"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué porcentaje de empleados de Vikenco eran mujeres en 2024?",
-        "options": ["25%", "33%", "43%", "55%"],
+        "options": [
+          "25%",
+          "33%",
+          "43%",
+          "55%"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cuántas comidas de marisco entrega Vikenco al día?",
-        "options": ["50.000", "100.000", "Más de 500.000", "1.000.000"],
+        "options": [
+          "50.000",
+          "100.000",
+          "Más de 500.000",
+          "1.000.000"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cuánto ha invertido Vikenco desde 2019?",
-        "options": ["100 millones NOK", "500 millones NOK", "~1.000 millones NOK", "2.000 millones NOK"],
+        "options": [
+          "100 millones NOK",
+          "500 millones NOK",
+          "~1.000 millones NOK",
+          "2.000 millones NOK"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué capacidad tiene el nuevo matadero (2024)?",
-        "options": ["50.000 ton/año", "80.000 ton/año", "120.000 ton/año", "200.000 ton/año"],
+        "options": [
+          "50.000 ton/año",
+          "80.000 ton/año",
+          "120.000 ton/año",
+          "200.000 ton/año"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué porcentaje de materias primas de Vikenco fue a consumo humano en 2024?",
-        "options": ["70%", "80%", "90%", "95%"],
+        "options": [
+          "70%",
+          "80%",
+          "90%",
+          "95%"
+        ],
         "correct": 3
       },
       {
         "question": "¿Quién es el CEO de Vikenco?",
-        "options": ["Gustav Witzøe", "Per Olav Mevold", "El CEO de SalMar", "Kristofer Reiten"],
+        "options": [
+          "Gustav Witzøe",
+          "Per Olav Mevold",
+          "El CEO de SalMar",
+          "Kristofer Reiten"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué hito celebró Vikenco en 2023?",
-        "options": ["25 años", "40 años", "50 años", "75 años"],
+        "options": [
+          "25 años",
+          "40 años",
+          "50 años",
+          "75 años"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cuánto contribuye Vikenco anualmente a la comunidad local?",
-        "options": ["500.000 NOK", "1 millón NOK", "1,5 millones NOK", "3 millones NOK"],
+        "options": [
+          "500.000 NOK",
+          "1 millón NOK",
+          "1,5 millones NOK",
+          "3 millones NOK"
+        ],
         "correct": 2
       },
       {
         "question": "¿A qué mercados vende Vikenco?",
-        "options": ["Solo Noruega", "Noruega y Suecia", "Noruega, EEUU, Asia y Europa", "Solo Asia"],
+        "options": [
+          "Solo Noruega",
+          "Noruega y Suecia",
+          "Noruega, EEUU, Asia y Europa",
+          "Solo Asia"
+        ],
         "correct": 2
       }
     ]
@@ -84,77 +159,152 @@
     "questions": [
       {
         "question": "¿Cuál es el número de emergencia en Noruega?",
-        "options": ["110", "112", "113", "911"],
+        "options": [
+          "110",
+          "112",
+          "113",
+          "911"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué debes hacer PRIMERO en una emergencia?",
-        "options": ["Llamar al 113", "Correr a la salida", "Contactar a un team leader (uniforme verde)", "Llamar a un compañero"],
+        "options": [
+          "Llamar al 113",
+          "Correr a la salida",
+          "Contactar a un team leader (uniforme verde)",
+          "Llamar a un compañero"
+        ],
         "correct": 2
       },
       {
         "question": "¿Quién puede usar el desfibrilador (AED)?",
-        "options": ["Cualquiera", "Solo médicos", "Solo personal formado", "Solo team leaders"],
+        "options": [
+          "Cualquiera",
+          "Solo médicos",
+          "Solo personal formado",
+          "Solo team leaders"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué debes hacer si te lesionas durante el turno?",
-        "options": ["Seguir trabajando hasta la pausa", "Salir de producción y tratar la herida", "Avisar a un compañero y seguir", "Esperar al final del turno"],
+        "options": [
+          "Seguir trabajando hasta la pausa",
+          "Salir de producción y tratar la herida",
+          "Avisar a un compañero y seguir",
+          "Esperar al final del turno"
+        ],
         "correct": 1
       },
       {
         "question": "¿Cómo puedes reportar un incidente de forma anónima?",
-        "options": ["Enviar email a RRHH", "Usar la app Datakvalitet o el buzón anónimo junto a la cantina", "Publicarlo en redes sociales", "Contárselo a un amigo"],
+        "options": [
+          "Enviar email a RRHH",
+          "Usar la app Datakvalitet o el buzón anónimo junto a la cantina",
+          "Publicarlo en redes sociales",
+          "Contárselo a un amigo"
+        ],
         "correct": 1
       },
       {
         "question": "¿Cuáles son los DOS principales riesgos en producción en Vikenco?",
-        "options": ["Incendio e inundación", "Cortes con cuchillo y lesiones con máquinas", "Exposición química y ruido", "Caída de objetos y electrocución"],
+        "options": [
+          "Incendio e inundación",
+          "Cortes con cuchillo y lesiones con máquinas",
+          "Exposición química y ruido",
+          "Caída de objetos y electrocución"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué significa LOTO?",
-        "options": ["Look Out, Turn Off", "Lock Out / Tag Out (Bloqueo/Etiquetado)", "Lights On, Tools Off", "Leave On, Take Off"],
+        "options": [
+          "Look Out, Turn Off",
+          "Lock Out / Tag Out (Bloqueo/Etiquetado)",
+          "Lights On, Tools Off",
+          "Leave On, Take Off"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué hacer si se rompe tu guante de vinilo?",
-        "options": ["Ponerle cinta", "Esperar a la pausa para cambiarlo", "Cambiarlo inmediatamente", "Seguir sin guante"],
+        "options": [
+          "Ponerle cinta",
+          "Esperar a la pausa para cambiarlo",
+          "Cambiarlo inmediatamente",
+          "Seguir sin guante"
+        ],
         "correct": 2
       },
       {
         "question": "¿Es obligatoria la protección auditiva en producción?",
-        "options": ["Solo cerca de máquinas ruidosas", "Solo en ciertos horarios", "Sí, en TODA la zona de producción", "No, es opcional"],
+        "options": [
+          "Solo cerca de máquinas ruidosas",
+          "Solo en ciertos horarios",
+          "Sí, en TODA la zona de producción",
+          "No, es opcional"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cuál es la temperatura aproximada en la zona de producción?",
-        "options": ["5°C", "12°C", "22°C", "30°C"],
+        "options": [
+          "5°C",
+          "12°C",
+          "22°C",
+          "30°C"
+        ],
         "correct": 2
       },
       {
         "question": "¿Cada cuánto se rotan las tareas para prevenir lesiones?",
-        "options": ["Cada 30 minutos", "Cada hora", "Cada 2 horas", "Cada 4 horas"],
+        "options": [
+          "Cada 30 minutos",
+          "Cada hora",
+          "Cada 2 horas",
+          "Cada 4 horas"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué pasa cuando un detector de metales da positivo?",
-        "options": ["Se tira el producto directamente", "Se para la cinta y se evalúa el positivo", "Nada, suele ser falsa alarma", "Se cierra toda la línea por el día"],
+        "options": [
+          "Se tira el producto directamente",
+          "Se para la cinta y se evalúa el positivo",
+          "Nada, suele ser falsa alarma",
+          "Se cierra toda la línea por el día"
+        ],
         "correct": 1
       },
       {
         "question": "¿Por qué las tiritas en producción deben ser azules?",
-        "options": ["Son más visibles", "Contienen metal y los detectores las detectan", "Son impermeables", "Es el color de la empresa"],
+        "options": [
+          "Son más visibles",
+          "Contienen metal y los detectores las detectan",
+          "Son impermeables",
+          "Es el color de la empresa"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué certificado deben obtener TODOS los empleados?",
-        "options": ["Antecedentes penales", "Certificado de seguridad aérea de Luftfartstilsynet", "Certificado médico", "Verificación del carnet de conducir"],
+        "options": [
+          "Antecedentes penales",
+          "Certificado de seguridad aérea de Luftfartstilsynet",
+          "Certificado médico",
+          "Verificación del carnet de conducir"
+        ],
         "correct": 1
       },
       {
         "question": "Si ves a un compañero incumpliendo normas de seguridad, ¿qué haces?",
-        "options": ["Ignorarlo", "Reportar a un team leader (uniforme verde)", "Solucionarlo tú mismo", "Esperar a la próxima reunión"],
+        "options": [
+          "Ignorarlo",
+          "Reportar a un team leader (uniforme verde)",
+          "Solucionarlo tú mismo",
+          "Esperar a la próxima reunión"
+        ],
         "correct": 1
       }
     ]
@@ -164,78 +314,668 @@
     "questions": [
       {
         "question": "¿Cuál es el orden correcto en la esclusa de higiene?",
-        "options": ["Jabón → secar → desinfectar", "Agua → jabón → agua → secar → desinfectar", "Desinfectar → jabón → secar", "Jabón → desinfectar → secar"],
+        "options": [
+          "Jabón → secar → desinfectar",
+          "Agua → jabón → agua → secar → desinfectar",
+          "Desinfectar → jabón → secar",
+          "Jabón → desinfectar → secar"
+        ],
         "correct": 1
       },
       {
         "question": "¿Por qué las tiritas en producción deben ser azules?",
-        "options": ["Porque es el color de la empresa", "Porque contienen trazas metálicas y los detectores de metales las detectan", "Porque son más baratas", "Porque son más visibles"],
+        "options": [
+          "Porque es el color de la empresa",
+          "Porque contienen trazas metálicas y los detectores de metales las detectan",
+          "Porque son más baratas",
+          "Porque son más visibles"
+        ],
         "correct": 1
       },
       {
         "question": "¿Cuándo debes cambiar los guantes de tela?",
-        "options": ["Cada hora", "Cada vez que vuelves de la pausa", "Solo al final del turno", "Solo cuando huelan"],
+        "options": [
+          "Cada hora",
+          "Cada vez que vuelves de la pausa",
+          "Solo al final del turno",
+          "Solo cuando huelan"
+        ],
         "correct": 1
       },
       {
         "question": "¿Qué hacer si se rompe tu guante de vinilo durante la producción?",
-        "options": ["Esperar a la pausa", "Cambiarlo inmediatamente", "Ponerle cinta", "Seguir trabajando"],
+        "options": [
+          "Esperar a la pausa",
+          "Cambiarlo inmediatamente",
+          "Ponerle cinta",
+          "Seguir trabajando"
+        ],
         "correct": 1
       },
       {
         "question": "¿Está permitido el chicle en la zona de producción?",
-        "options": ["Sí, si es sin azúcar", "Solo en las pausas", "No, nunca", "Solo de menta"],
+        "options": [
+          "Sí, si es sin azúcar",
+          "Solo en las pausas",
+          "No, nunca",
+          "Solo de menta"
+        ],
         "correct": 2
       },
       {
         "question": "¿De qué color es la ropa de los trabajadores de producción?",
-        "options": ["Verde", "Rojo", "Azul", "Blanco"],
+        "options": [
+          "Verde",
+          "Rojo",
+          "Azul",
+          "Blanco"
+        ],
         "correct": 2
       },
       {
         "question": "¿De qué color es la ropa de los team leaders?",
-        "options": ["Azul", "Rojo", "Blanco", "Verde"],
+        "options": [
+          "Azul",
+          "Rojo",
+          "Blanco",
+          "Verde"
+        ],
         "correct": 3
       },
       {
         "question": "¿Puedes prestar tu llavero NFC a un compañero?",
-        "options": ["Sí, si olvidó el suyo", "Sí, en el mismo turno", "No, es estrictamente personal", "Sí, con permiso del team leader"],
+        "options": [
+          "Sí, si olvidó el suyo",
+          "Sí, en el mismo turno",
+          "No, es estrictamente personal",
+          "Sí, con permiso del team leader"
+        ],
         "correct": 2
       },
       {
         "question": "¿Dónde es el único lugar donde se puede fumar en el recinto?",
-        "options": ["En la entrada principal", "En el parking", "En la zona de fumadores designada", "En cualquier lugar exterior"],
+        "options": [
+          "En la entrada principal",
+          "En el parking",
+          "En la zona de fumadores designada",
+          "En cualquier lugar exterior"
+        ],
         "correct": 2
       },
       {
         "question": "¿A quién debes contactar si pierdes tu llavero?",
-        "options": ["A cualquier compañero", "A Andreea", "A la policía", "A nadie, solo espera"],
+        "options": [
+          "A cualquier compañero",
+          "A Andreea",
+          "A la policía",
+          "A nadie, solo espera"
+        ],
         "correct": 1
       },
       {
         "question": "¿Se puede beber agua dentro de la zona de producción?",
-        "options": ["Sí, de una botella", "Sí, del grifo", "No, solo en la cantina", "Sí, en las pausas"],
+        "options": [
+          "Sí, de una botella",
+          "Sí, del grifo",
+          "No, solo en la cantina",
+          "Sí, en las pausas"
+        ],
         "correct": 2
       },
       {
         "question": "¿Qué hacer si ves a un compañero incumpliendo una norma?",
-        "options": ["Ignorarlo", "Reportarlo a un team leader (uniforme verde)", "Publicarlo en redes", "Solucionarlo tú mismo"],
+        "options": [
+          "Ignorarlo",
+          "Reportarlo a un team leader (uniforme verde)",
+          "Publicarlo en redes",
+          "Solucionarlo tú mismo"
+        ],
         "correct": 1
       },
       {
         "question": "¿Cuándo se puede comer comida caliente en la cantina?",
-        "options": ["En cualquier momento", "Solo entre las 08:00 y las 14:00", "Solo después de las 14:00", "Solo en turno de noche"],
+        "options": [
+          "En cualquier momento",
+          "Solo entre las 08:00 y las 14:00",
+          "Solo después de las 14:00",
+          "Solo en turno de noche"
+        ],
         "correct": 1
       },
       {
         "question": "¿Por qué Vikenco pide conducir con cuidado cerca de Rindarøya?",
-        "options": ["Por los radares", "Porque no hay acera y los niños caminan por la carretera", "Porque la carretera es privada", "Por los peajes"],
+        "options": [
+          "Por los radares",
+          "Porque no hay acera y los niños caminan por la carretera",
+          "Porque la carretera es privada",
+          "Por los peajes"
+        ],
         "correct": 1
       },
       {
         "question": "¿Se permiten gafas graduadas en la zona de producción?",
-        "options": ["No, nunca", "Solo con sujeción especial", "Sí, sin requisitos especiales", "Solo lentillas"],
+        "options": [
+          "No, nunca",
+          "Solo con sujeción especial",
+          "Sí, sin requisitos especiales",
+          "Solo lentillas"
+        ],
         "correct": 2
+      }
+    ]
+  },
+  "equipment": {
+    "title": "Equipamiento y Herramientas",
+    "questions": [
+      {
+        "question": "¿Qué es lo primero que debes hacer al llegar a la fábrica?",
+        "options": [
+          "Ir a la cantina",
+          "Dejar tus zapatos y ponerte el calzado de interior",
+          "Ponerte el mono de trabajo",
+          "Hacer login con tu llave"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Quién proporciona el calzado de interior?",
+        "options": [
+          "Tú mismo",
+          "La empresa",
+          "El sindicato",
+          "Se comparte entre compañeros"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué debes hacer ANTES de ponerte el mono de trabajo?",
+        "options": [
+          "Desayunar",
+          "Lavarte las manos siguiendo el protocolo",
+          "Hacer login con la llave",
+          "Ponerte las botas de agua"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué equipamiento te pones en el acceso a producción?",
+        "options": [
+          "Solo el mono",
+          "Mono, red de pelo y red de barba si aplica",
+          "Botas de agua y delantal",
+          "Guantes y cuchillo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Con qué haces login antes de bajar a producción?",
+        "options": [
+          "Con tu DNI",
+          "Con tu llave personal",
+          "Con huella dactilar",
+          "Con contraseña"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De qué color son las botas de seguridad de producción?",
+        "options": [
+          "Negras",
+          "Verdes",
+          "Azules",
+          "Blancas"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuántas veces debes lavarte las manos antes de entrar a producción?",
+        "options": [
+          "Una vez",
+          "Dos veces (acceso y preacceso)",
+          "Tres veces",
+          "No es necesario"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué te pones en el preacceso a producción?",
+        "options": [
+          "Solo guantes",
+          "Botas azules, delantal, cobertores de mangas y guantes",
+          "Solo el delantal",
+          "Solo las botas"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De qué material es el delantal de producción?",
+        "options": [
+          "Tela",
+          "Cuero",
+          "Plástico",
+          "Goma"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Las herramientas (cuchillo y pinzas) se pueden mover de puesto?",
+        "options": [
+          "Sí, siempre",
+          "Solo con permiso",
+          "No, las herramientas se quedan en su puesto",
+          "Solo entre turnos"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué herramientas te proporcionan en el puesto de trabajo?",
+        "options": [
+          "Martillo y destornillador",
+          "Cuchillo y pinzas",
+          "Tijeras y sierra",
+          "Solo cuchillo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué debes hacer con los cascos de protección acústica si los necesitas?",
+        "options": [
+          "Recogerlos en producción",
+          "Bajarlos contigo al preacceso",
+          "Pedirlos al team leader",
+          "No son necesarios"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuándo debes usar la red de barba?",
+        "options": [
+          "Siempre",
+          "Solo si tienes barba",
+          "Solo los hombres",
+          "Nunca"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Quién se mueve: tú o las herramientas?",
+        "options": [
+          "Las herramientas",
+          "Ambos",
+          "Tú te mueves, las herramientas no",
+          "Nadie se mueve"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Dónde cambias los zapatos de interior por botas de producción?",
+        "options": [
+          "En el vestuario",
+          "En el preacceso a producción",
+          "En la cantina",
+          "En la entrada principal"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "porsjoner": {
+    "title": "Porciones",
+    "questions": [
+      {
+        "question": "¿Cuántas áreas de trabajo hay en Porciones?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuántos trabajadores tiene el área Vacío 1?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué hace el trabajador de 'Bandeja' en Vacío 1?",
+        "options": [
+          "Pesa el pescado",
+          "Alimenta la máquina de vacío con bandejas",
+          "Recoge el pescado envasado",
+          "Pone etiquetas"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hace el 'Recogedor' en Vacío 1?",
+        "options": [
+          "Alimenta la máquina",
+          "Recoge el pescado envasado y lo pone en el peso",
+          "Rellena cajas",
+          "Pone etiquetas"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Cuántos trabajadores tiene Vacío 2?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué hace el pesador en Vacío 2?",
+        "options": [
+          "Alimenta la máquina",
+          "Pesa, pone etiqueta y manda a la cinta",
+          "Solo pesa",
+          "Recoge el pescado"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "En Porcionado 1, ¿qué puede tener que hacer el Alimentador?",
+        "options": [
+          "Solo meter el salmón",
+          "Cortar parte del filete para que quede a medida",
+          "Pesar el producto",
+          "Poner etiquetas"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿El puesto de 'Ayuda' en Porcionado 1 es obligatorio?",
+        "options": [
+          "Sí, siempre",
+          "No, es opcional",
+          "Solo en turno de noche",
+          "Solo los lunes"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hace el Envasador?",
+        "options": [
+          "Corta porciones",
+          "Recoge cubas metálicas y envasa por género",
+          "Pesa las cajas",
+          "Limpia la zona"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué cualidad se requiere especialmente para el puesto de Recolector en Porcionado 2?",
+        "options": [
+          "Fuerza física",
+          "Gran destreza con las manos",
+          "Conocimiento de idiomas",
+          "Experiencia previa"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hace el Asistente en Porcionado 2?",
+        "options": [
+          "Alimenta la máquina",
+          "Pone plásticos intermedios en las cajas",
+          "Pesa las cajas",
+          "Supervisa la línea"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De cuántos kilos son las cajas de pieles?",
+        "options": [
+          "7 kg",
+          "10 kg",
+          "14 kg",
+          "20 kg"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿De qué color es la etiqueta de la tapa de las cajas de pieles?",
+        "options": [
+          "Blanca",
+          "Azul",
+          "Amarilla",
+          "Verde"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Las cajas de pieles llevan bolsa azul?",
+        "options": [
+          "Sí",
+          "No",
+          "Solo las grandes",
+          "Depende del turno"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Si no hay pescado a primera hora, ¿qué debes hacer?",
+        "options": [
+          "Esperar sentado",
+          "Preparar las cajas del día y ser proactivo",
+          "Ir a la cantina",
+          "Irte a otra zona"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "final": {
+    "title": "Examen Final Vikenco",
+    "questions": [
+      {
+        "question": "¿Dónde está ubicado Vikenco?",
+        "options": [
+          "Oslo",
+          "Bergen",
+          "Rindarøya, Aukra",
+          "Trondheim"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuál es el número de emergencia en Noruega?",
+        "options": [
+          "110",
+          "112",
+          "113",
+          "911"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué es lo primero que haces al llegar a la fábrica?",
+        "options": [
+          "Ir a la cantina",
+          "Dejar zapatos y ponerte calzado interior",
+          "Ponerte el mono",
+          "Hacer login"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Está permitido el chicle en producción?",
+        "options": [
+          "Sí",
+          "Solo sin azúcar",
+          "No, nunca",
+          "Solo en pausas"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuántas veces te lavas las manos antes de producción?",
+        "options": [
+          "Una",
+          "Dos (acceso y preacceso)",
+          "Tres",
+          "Ninguna"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De qué color son las botas de producción?",
+        "options": [
+          "Negras",
+          "Verdes",
+          "Azules",
+          "Blancas"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Se pueden mover las herramientas de su puesto?",
+        "options": [
+          "Sí",
+          "Solo con permiso",
+          "No, nunca",
+          "Solo entre turnos"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué significa LOTO?",
+        "options": [
+          "Look Out Turn Off",
+          "Lock Out / Tag Out",
+          "Lights On Tools Off",
+          "Leave On Take Off"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De qué color es la ropa de los team leaders?",
+        "options": [
+          "Azul",
+          "Roja",
+          "Blanca",
+          "Verde"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "¿Cuántas áreas de trabajo tiene Porciones?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Puedes prestar tu llavero NFC a un compañero?",
+        "options": [
+          "Sí",
+          "Solo en emergencias",
+          "No, es personal",
+          "Sí, con permiso"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Si no hay pescado a primera hora, ¿qué haces?",
+        "options": [
+          "Esperar",
+          "Preparar cajas y ser proactivo",
+          "Ir a la cantina",
+          "Irte a casa"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿De qué color es la etiqueta en las cajas de pieles?",
+        "options": [
+          "Blanca",
+          "Azul",
+          "Amarilla",
+          "Roja"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuántos trabajadores tiene Vacío 1?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Por qué las tiritas deben ser azules?",
+        "options": [
+          "Son más visibles",
+          "Contienen metal y los detectores las detectan",
+          "Son impermeables",
+          "Color de empresa"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué certificado necesitan TODOS los empleados?",
+        "options": [
+          "Antecedentes penales",
+          "Certificado de Luftfartstilsynet",
+          "Certificado médico",
+          "Carnet de conducir"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Dónde es el único lugar para fumar?",
+        "options": [
+          "Entrada principal",
+          "Parking",
+          "Zona de fumadores designada",
+          "Cualquier exterior"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Qué debes hacer si ves un incumplimiento de seguridad?",
+        "options": [
+          "Ignorar",
+          "Reportar al team leader",
+          "Solucionar tú mismo",
+          "Esperar a reunión"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "¿Qué hace el Porteador en Porcionado 2?",
+        "options": [
+          "Alimenta la máquina",
+          "Pone plásticos",
+          "Pesa la caja y la pasa a producción",
+          "Supervisa"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "¿Cuál es la visión de Vikenco?",
+        "options": [
+          "Pescado para todos",
+          "Quality from the sea",
+          "El mejor salmón",
+          "Fresco cada día"
+        ],
+        "correct": 1
       }
     ]
   }

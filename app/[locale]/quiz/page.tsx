@@ -2,9 +2,13 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 
 const quizzes = [
-  { id: 'welcome', icon: '👋', color: 'bg-blue-500' },
-  { id: 'hms', icon: '🦺', color: 'bg-red-500' },
-  { id: 'production', icon: '🐟', color: 'bg-cyan-500' },
+  { id: 'welcome', icon: '👋', color: 'bg-blue-500', labelKey: 'welcome' },
+  { id: 'hms', icon: '🦺', color: 'bg-red-500', labelKey: 'hms' },
+  { id: 'production', icon: '🐟', color: 'bg-cyan-500', labelKey: 'production' },
+  { id: 'conduct', icon: '📋', color: 'bg-amber-500', labelKey: 'conduct' },
+  { id: 'equipment', icon: '🔧', color: 'bg-emerald-500', labelKey: 'equipment' },
+  { id: 'porsjoner', icon: '📦', color: 'bg-orange-500', labelKey: 'porsjoner' },
+  { id: 'final', icon: '🎓', color: 'bg-purple-600', labelKey: 'final' },
 ]
 
 export default function QuizListPage() {
@@ -28,7 +32,7 @@ export default function QuizListPage() {
             </div>
             <div className="flex-1">
               <h2 className="font-bold text-gray-900 group-hover:text-[var(--vikenco-blue)] transition-colors">
-                {tm(quiz.id === 'welcome' ? 'welcome' : quiz.id === 'hms' ? 'hms' : 'production')}
+                {tm(quiz.labelKey)}
               </h2>
               <p className="text-sm text-gray-500">{t('subtitle')}</p>
             </div>

@@ -38,7 +38,11 @@
     "equipment": "Echipamente & Unelte",
     "equipmentDesc": "Tot echipamentul pe care trebuie să-l cunoașteți",
     "emergency": "Situații de urgență",
-    "emergencyDesc": "Ce faceți într-o situație de urgență?"
+    "emergencyDesc": "Ce faceți într-o situație de urgență?",
+    "porsjoner": "Porții",
+    "porsjonerDesc": "Porții",
+    "final": "Examen Final",
+    "finalDesc": "Examen Final"
   },
   "quiz": {
     "title": "Quiz",
