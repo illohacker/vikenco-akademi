@@ -1,0 +1,151 @@
+{
+  "title": "Equipamiento y Herramientas",
+  "description": "Todo el equipo que necesitas conocer para trabajar en la fábrica",
+  "lessons": [
+    {
+      "id": "indoor-footwear",
+      "title": "Calzado de interior",
+      "icon": "👟",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "Lo primero que debes hacer al llegar a la fábrica es dejar tus zapatos y ponerte el calzado de interior."
+        },
+        {
+          "type": "info",
+          "title": "¿Qué debes saber?",
+          "items": [
+            "👟 La empresa te proporciona el calzado de interior",
+            "👢 Usarás este calzado durante toda tu estancia en la fábrica (fuera de producción)",
+            "🚫 No puedes usar tu calzado personal dentro de las instalaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-access",
+      "title": "Acceso a producción – Equipamiento inicial",
+      "icon": "🚪",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Pasos al entrar al acceso de producción:",
+          "animatedSteps": [
+            {
+              "emoji": "🧼",
+              "title": "Lavado de manos",
+              "description": "Lávate las manos siguiendo el protocolo establecido (jabón, frotar 20 seg, aclarar, secar, desinfectante)"
+            },
+            {
+              "emoji": "🥋",
+              "title": "Mono de trabajo",
+              "description": "Ponte el mono de trabajo proporcionado por la empresa"
+            },
+            {
+              "emoji": "🧢",
+              "title": "Red de pelo y barba",
+              "description": "Ponte la red del pelo. Si tienes barba, también la red de barba"
+            },
+            {
+              "emoji": "🔑",
+              "title": "Login con llave",
+              "description": "Haz login con tu llave personal antes de bajar a la zona de producción"
+            }
+          ]
+        },
+        {
+          "type": "mandatory",
+          "title": "Equipamiento obligatorio en esta zona:",
+          "gridItems": [
+            { "emoji": "🥋", "label": "Mono de trabajo" },
+            { "emoji": "🧢", "label": "Red de pelo" },
+            { "emoji": "🧔", "label": "Red de barba (si aplica)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-production-access",
+      "title": "Pre-acceso a producción – Equipamiento completo",
+      "icon": "🥾",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "En el preacceso a producción debes completar tu equipamiento antes de entrar a la zona de trabajo."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Pasos en el preacceso:",
+          "animatedSteps": [
+            {
+              "emoji": "🥾",
+              "title": "Cambio de calzado",
+              "description": "Cámbiate los zapatos de interior por las botas de agua azules de seguridad (proporcionadas por la empresa)"
+            },
+            {
+              "emoji": "🧼",
+              "title": "Lavado de manos",
+              "description": "Lávate las manos de nuevo siguiendo el protocolo completo"
+            },
+            {
+              "emoji": "🦺",
+              "title": "Delantal de plástico",
+              "description": "Ponte el delantal de plástico"
+            },
+            {
+              "emoji": "💪",
+              "title": "Cobertor de mangas",
+              "description": "Ponte los cobertores de mangas de plástico"
+            },
+            {
+              "emoji": "🧤",
+              "title": "Guantes",
+              "description": "Ponte los guantes correspondientes a tu puesto de trabajo"
+            }
+          ]
+        },
+        {
+          "type": "mandatory",
+          "title": "Equipamiento obligatorio para producción:",
+          "gridItems": [
+            { "emoji": "🥾", "label": "Botas de agua azules" },
+            { "emoji": "🦺", "label": "Delantal de plástico" },
+            { "emoji": "💪", "label": "Cobertor de mangas" },
+            { "emoji": "🧤", "label": "Guantes" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-tools",
+      "title": "Herramientas de trabajo",
+      "icon": "🔪",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Herramientas en tu puesto de trabajo:",
+          "items": [
+            "🔪 Cuchillo – proporcionado en el puesto de trabajo",
+            "🪡 Pinzas – proporcionadas en el puesto de trabajo"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Las herramientas NO se mueven de su puesto. Tú te mueves cuando te toca, pero las herramientas se quedan donde están."
+        },
+        {
+          "type": "rules",
+          "title": "Reglas sobre las herramientas:",
+          "items": [
+            "Mover cuchillos o pinzas de un puesto a otro",
+            "Llevar herramientas fuera de la zona de producción",
+            "Usar herramientas de otro puesto sin autorización"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "Equipment & Tools",
+  "description": "All the equipment you need to know to work at the factory",
+  "lessons": [
+    {
+      "id": "indoor-footwear",
+      "title": "Indoor footwear",
+      "icon": "👟",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "The first thing you must do when arriving at the factory is leave your shoes and put on the indoor footwear."
+        },
+        {
+          "type": "info",
+          "title": "What you need to know:",
+          "items": [
+            "👟 The company provides indoor footwear",
+            "👢 You will use this footwear throughout your stay at the factory (outside production)",
+            "🚫 You cannot use your personal shoes inside the facilities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-access",
+      "title": "Production access – Initial equipment",
+      "icon": "🚪",
+      "sections": [
+        {
+          "type": "animated-steps",
+          "title": "Steps when entering the production access:",
+          "animatedSteps": [
+            {
+              "emoji": "🧼",
+              "title": "Hand washing",
+              "description": "Wash your hands following the established protocol (soap, scrub 20 sec, rinse, dry, sanitize)"
+            },
+            {
+              "emoji": "🥋",
+              "title": "Work overalls",
+              "description": "Put on the work overalls provided by the company"
+            },
+            {
+              "emoji": "🧢",
+              "title": "Hair and beard net",
+              "description": "Put on the hair net. If you have a beard, also put on the beard net"
+            },
+            {
+              "emoji": "🔑",
+              "title": "Login with key",
+              "description": "Log in with your personal key before going down to the production area"
+            }
+          ]
+        },
+        {
+          "type": "mandatory",
+          "title": "Mandatory equipment in this area:",
+          "gridItems": [
+            { "emoji": "🥋", "label": "Work overalls" },
+            { "emoji": "🧢", "label": "Hair net" },
+            { "emoji": "🧔", "label": "Beard net (if applicable)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-production-access",
+      "title": "Pre-production access – Full equipment",
+      "icon": "🥾",
+      "sections": [
+        {
+          "type": "alert",
+          "style": "warning",
+          "text": "In the pre-production access you must complete your equipment before entering the work area."
+        },
+        {
+          "type": "animated-steps",
+          "title": "Steps in the pre-access:",
+          "animatedSteps": [
+            {
+              "emoji": "🥾",
+              "title": "Footwear change",
+              "description": "Change your indoor shoes for the blue safety rubber boots (provided by the company)"
+            },
+            {
+              "emoji": "🧼",
+              "title": "Hand washing",
+              "description": "Wash your hands again following the full protocol"
+            },
+            {
+              "emoji": "🦺",
+              "title": "Plastic apron",
+              "description": "Put on the plastic apron"
+            },
+            {
+              "emoji": "💪",
+              "title": "Sleeve covers",
+              "description": "Put on the plastic sleeve covers"
+            },
+            {
+              "emoji": "🧤",
+              "title": "Gloves",
+              "description": "Put on the gloves corresponding to your work station"
+            }
+          ]
+        },
+        {
+          "type": "mandatory",
+          "title": "Mandatory equipment for production:",
+          "gridItems": [
+            { "emoji": "🥾", "label": "Blue rubber boots" },
+            { "emoji": "🦺", "label": "Plastic apron" },
+            { "emoji": "💪", "label": "Sleeve covers" },
+            { "emoji": "🧤", "label": "Gloves" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-tools",
+      "title": "Work tools",
+      "icon": "🔪",
+      "sections": [
+        {
+          "type": "info",
+          "title": "Tools at your work station:",
+          "items": [
+            "🔪 Knife – provided at the work station",
+            "🪡 Tweezers – provided at the work station"
+          ]
+        },
+        {
+          "type": "alert",
+          "style": "danger",
+          "text": "Tools DO NOT move from their station. You move when it's your turn, but the tools stay where they are."
+        },
+        {
+          "type": "rules",
+          "title": "Rules about tools:",
+          "items": [
+            "Moving knives or tweezers from one station to another",
+            "Taking tools outside the production area",
+            "Using tools from another station without authorization"
+          ]
+        }
+      ]
+    }
+  ]
+}
