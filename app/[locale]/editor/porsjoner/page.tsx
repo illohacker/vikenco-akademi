@@ -358,20 +358,21 @@ export default function PorsjonerEditor() {
           onPointerUp={handlePointerUp}
         >
           {/* Background */}
-          <rect x="0" y="0" width="950" height="600" rx="12" fill="#1e293b" />
+          <rect x="0" y="0" width="950" height="600" rx="12" fill="#e2e8f0" />
 
           {/* Grid lines */}
           {Array.from({ length: 19 }).map((_, i) => (
-            <line key={`gv${i}`} x1={(i + 1) * 50} y1="0" x2={(i + 1) * 50} y2="600" stroke="#334155" strokeWidth="0.5" />
+            <line key={`gv${i}`} x1={(i + 1) * 50} y1="0" x2={(i + 1) * 50} y2="600" stroke="#cbd5e1" strokeWidth="0.5" />
           ))}
           {Array.from({ length: 12 }).map((_, i) => (
-            <line key={`gh${i}`} x1="0" y1={(i + 1) * 50} x2="950" y2={(i + 1) * 50} stroke="#334155" strokeWidth="0.5" />
+            <line key={`gh${i}`} x1="0" y1={(i + 1) * 50} x2="950" y2={(i + 1) * 50} stroke="#cbd5e1" strokeWidth="0.5" />
           ))}
 
           {/* Title */}
-          <text x="475" y="25" textAnchor="middle" fill="#64748b" fontSize="13" fontWeight="bold">
+          <text x="475" y="25" textAnchor="middle" fill="#334155" fontSize="13" fontWeight="bold">
             PORCIONES — Editor de áreas y trabajadores
           </text>
+
 
           {/* Render zones */}
           {items.filter(i => i.type === 'zone').map((item) => {
@@ -385,7 +386,7 @@ export default function PorsjonerEditor() {
                   height={item.height || 200}
                   rx="8"
                   fill={item.color}
-                  opacity={0.15}
+                  opacity={0.45}
                   stroke={item.color}
                   strokeWidth="2"
                   strokeDasharray="6 3"
@@ -457,7 +458,7 @@ export default function PorsjonerEditor() {
                   x={item.x}
                   y={item.y - 25}
                   textAnchor="middle"
-                  fill="white"
+                  fill="#1e293b"
                   fontSize="9"
                   fontWeight="bold"
                   className="pointer-events-none select-none"
@@ -495,7 +496,7 @@ export default function PorsjonerEditor() {
                   x={item.x}
                   y={item.y + 30}
                   textAnchor="middle"
-                  fill="#64748b"
+                  fill="#475569"
                   fontSize="7"
                   className="pointer-events-none select-none"
                 >
@@ -527,7 +528,7 @@ export default function PorsjonerEditor() {
 
           {/* Empty state hint */}
           {zones.length === 0 && (
-            <text x="475" y="310" textAnchor="middle" fill="#475569" fontSize="16">
+            <text x="475" y="310" textAnchor="middle" fill="#64748b" fontSize="16">
               Pulsa "+ Nueva área" para empezar
             </text>
           )}
