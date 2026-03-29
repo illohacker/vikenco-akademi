@@ -60,7 +60,16 @@
           "gridItems": [
             { "emoji": "🥋", "label": "Mono de trabajo" },
             { "emoji": "🧢", "label": "Red de pelo" },
-            { "emoji": "🧔", "label": "Red de barba (si aplica)" }
+            { "emoji": "🧔", "label": "Red de barba (si aplica)" },
+            { "emoji": "🎧", "label": "Cascos de protección acústica (si es necesario)" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Protección acústica:",
+          "items": [
+            "🎧 Si necesitas cascos de protección acústica, debes bajarlos contigo al preacceso de producción",
+            "⚠️ No todos los puestos requieren protección acústica, consulta con tu responsable"
           ]
         }
       ]

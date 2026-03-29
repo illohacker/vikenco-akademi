@@ -60,7 +60,16 @@
           "gridItems": [
             { "emoji": "🥋", "label": "Work overalls" },
             { "emoji": "🧢", "label": "Hair net" },
-            { "emoji": "🧔", "label": "Beard net (if applicable)" }
+            { "emoji": "🧔", "label": "Beard net (if applicable)" },
+            { "emoji": "🎧", "label": "Hearing protection (if needed)" }
+          ]
+        },
+        {
+          "type": "info",
+          "title": "Hearing protection:",
+          "items": [
+            "🎧 If you need hearing protection, you must bring it down with you to the pre-production access",
+            "⚠️ Not all stations require hearing protection, check with your supervisor"
           ]
         }
       ]
