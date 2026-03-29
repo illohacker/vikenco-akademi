@@ -676,98 +676,107 @@
       "color": "from-amber-500 to-amber-600",
       "lessons": [
         {
-          "id": "cajas-station",
-          "title": "Dėžės (Cajas)",
+          "id": "cajas-overview",
+          "title": "Dėžių stotis – Apžvalga",
           "icon": "📦",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 darbuotojas šioje pozicijoje. Jūsų darbas – imti paruoštas filė nuo juostos ir dėti jas į dėžes pagal tam tikrą sluoksniavimo tvarką."
+              "text": "3 darbuotojai šioje stotyje. Darbas padalintas į dvi zonas: kamštinės dėžės ir kartoninės dėžės."
             },
             {
-              "type": "animated-steps",
-              "title": "Kaip teisingai pakuoti dėžes:",
-              "animatedSteps": [
-                {
-                  "emoji": "🐟",
-                  "title": "Paimkite filė nuo juostos",
-                  "description": "Imkite paruoštas filė, kai jos atvyksta konvejeriu"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Dėkite sluoksniais po 3",
-                  "description": "Kiekvienas sluoksnis dėžėje – 3 lašišos filė greta viena kitos"
-                },
-                {
-                  "emoji": "↔️",
-                  "title": "Keiskite uodegų kryptį",
-                  "description": "Jei pirmame sluoksnyje uodegos rodo į kairę, kitame turi rodyti į dešinę"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Kartokite raštą",
-                  "description": "Tęskite kaitaliodami kryptį su kiekvienu nauju 3 filė sluoksniu"
-                },
-                {
-                  "emoji": "✅",
-                  "title": "Pilna dėžė paruošta",
-                  "description": "Kai dėžė pilna, perkelkite ją prie ženklinimo stoties"
-                }
+              "type": "info",
+              "title": "Zonų išdėstymas:",
+              "items": [
+                "🟤 Kamštinės dėžės (2 žmonės) – Didelės ir mažos",
+                "📦 Kartoninės dėžės (1 žmogus) – Belly (mažos), Backbone/Head (didelės), Porcijų dėžės (skin & meat)"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Kaitaliojimo raštas būtinas tinkamam svorio paskirstymui ir prezentacijai. Pirmas sluoksnis uodegos kairėn → kitas dešinėn → kartoti."
+              "text": "Svarbiausia: DIDELIŲ dėžių tiekimas niekada negali sustoti. Backbone ir Head generuoja didžiausią paklausą."
             }
           ]
         },
         {
-          "id": "etiquetador-station",
-          "title": "Ženklinimas (Etiquetador)",
-          "icon": "🏷️",
+          "id": "cajas-corcho",
+          "title": "Kamštinės dėžės – 2 žmonės",
+          "icon": "🟤",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 darbuotojas šioje pozicijoje. Jūs esate paskutinis žingsnis prieš dėžei paliekant gamybos liniją. Tikslumas yra lemiamas."
+              "text": "Darbas paprastas, bet turi būti LABAI nuoseklus. Linijų paklausa itin didelė."
             },
             {
-              "type": "animated-steps",
-              "title": "Kaip ženklinti dėžes:",
-              "animatedSteps": [
-                {
-                  "emoji": "⚖️",
-                  "title": "Patikrinkite svorį",
-                  "description": "Dėžė turi pasiekti teisingą svorį pagal esamą užsakymą"
-                },
-                {
-                  "emoji": "⌨️",
-                  "title": "Paspauskite Enter",
-                  "description": "Kai svoris teisingas, paspauskite Enter mygtuką, kad atspausdintumėte etiketę"
-                },
-                {
-                  "emoji": "🏷️",
-                  "title": "Paimkite etiketę",
-                  "description": "Paimkite atspausdintą etiketę iš mašinos"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Priklijuokite ant dėžės",
-                  "description": "Tvarkingai priklijuokite etiketę ant dėžės"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Padėkite ant juostos",
-                  "description": "Padėkite pažymėtą dėžę ant konvejerio siuntimui"
-                }
+              "type": "info",
+              "title": "Jūsų užduotys:",
+              "items": [
+                "📦 Surinkite kamštines dėžes – dideles ir mažas – pastoviu tempu",
+                "🔄 Nuolat pildykite rampą dėžėmis",
+                "⚡ Linijos niekada nesustoja – turite spėti"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Niekada neženklinkite dėžės, kuri nepasiekė teisingo svorio. Svorį nustato užsakymo specifikacija."
+              "text": "SVARBU: PAKARTOTINAI tikrinkite, ar dėžės tikrai slysta žemyn rampa! Jos dažnai užstringa ir jūs klaidingai manote, kad linija nereikalauja dėžių."
+            },
+            {
+              "type": "info",
+              "title": "Dažna klaida:",
+              "items": [
+                "⚠️ Dėžės užstringa rampoje → manote paklausa maža",
+                "🔍 Reguliariai tikrinkite rampą",
+                "🚨 Jei linijoje baigiasi dėžės – sustoja visa gamyba"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cajas-carton",
+          "title": "Kartoninės dėžės – 1 žmogus",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Ši pozicija reikalauja daugiau įgūdžių. Tiekiate dėžes dviem linijoms vienu metu."
+            },
+            {
+              "type": "info",
+              "title": "1. Belly dėžės (MAŽOS):",
+              "items": [
+                "📦 Mažos kartoninės dėžės Belly produkcijai",
+                "🔵 Turi turėti plastikinį dangalą",
+                "🆕 Su nauja mašina: turi turėti ir dangtelį"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "2. Backbone/Head dėžės (DIDELĖS):",
+              "items": [
+                "📦 Didelės kartoninės dėžės",
+                "🔵 Turi turėti plastikinį dangalą",
+                "🆕 Su nauja mašina: turi turėti ir dangtelį",
+                "🚨 AUKŠČIAUSIA PRIORITETAS"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "3. Porcijų dėžės – Skin & Meat:",
+              "items": [
+                "📦 Rudos išorėje, baltos viduje",
+                "🔧 Tik surinkite ir nuleiskite rampa",
+                "✅ Paprasčiausias tipas"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "VISADA pirmenybė DIDELĖMS dėžėms (Backbone/Head). Niekada neleiskite joms baigtis!"
             }
           ]
         }

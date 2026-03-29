@@ -676,98 +676,107 @@
       "color": "from-amber-500 to-amber-600",
       "lessons": [
         {
-          "id": "cajas-station",
-          "title": "Cutii (Cajas)",
+          "id": "cajas-overview",
+          "title": "Stația de cutii – Prezentare",
           "icon": "📦",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 muncitor la această poziție. Treaba ta este să iei fileurile finite de pe bandă și să le pui în cutii urmând un model specific de straturi."
+              "text": "3 muncitori la această stație. Munca e împărțită în două zone: cutii de plută și cutii de carton."
             },
             {
-              "type": "animated-steps",
-              "title": "Cum să ambalezi cutiile corect:",
-              "animatedSteps": [
-                {
-                  "emoji": "🐟",
-                  "title": "Ia fileurile de pe bandă",
-                  "description": "Preia fileurile finite pe măsură ce ajung pe conveior"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Pune în straturi de 3",
-                  "description": "Fiecare strat din cutie constă din 3 fileuri de somon una lângă alta"
-                },
-                {
-                  "emoji": "↔️",
-                  "title": "Alternează direcția cozilor",
-                  "description": "Dacă primul strat are cozile spre stânga, următorul trebuie să le aibă spre dreapta"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Repetă modelul",
-                  "description": "Continuă să alternezi direcția cu fiecare strat nou de 3 fileuri"
-                },
-                {
-                  "emoji": "✅",
-                  "title": "Cutie plină gata",
-                  "description": "Când cutia e plină, mută-o la stația de etichetare"
-                }
+              "type": "info",
+              "title": "Zonele:",
+              "items": [
+                "🟤 Cutii de plută (2 persoane) – Mari și mici",
+                "📦 Cutii de carton (1 persoană) – Belly (mici), Backbone/Head (mari), Porții (skin & meat)"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Modelul alternant este esențial pentru distribuția corectă a greutății și prezentare. Primul strat cozi stânga → următorul cozi dreapta → repetă."
+              "text": "Cel mai important: distribuția cutiilor MARI nu trebuie să se oprească niciodată. Backbone și Head generează cea mai mare cerere."
             }
           ]
         },
         {
-          "id": "etiquetador-station",
-          "title": "Etichetare (Etiquetador)",
-          "icon": "🏷️",
+          "id": "cajas-corcho",
+          "title": "Cutii de plută – 2 persoane",
+          "icon": "🟤",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 muncitor la această poziție. Ești ultimul pas înainte ca cutia să părăsească linia de producție. Precizia este critică."
+              "text": "Munca e simplă dar trebuie să fie FOARTE constantă. Cererea de la linii e extrem de mare."
             },
             {
-              "type": "animated-steps",
-              "title": "Cum să etichetezi cutiile:",
-              "animatedSteps": [
-                {
-                  "emoji": "⚖️",
-                  "title": "Verifică greutatea",
-                  "description": "Cutia trebuie să atingă greutatea corectă conform comenzii curente"
-                },
-                {
-                  "emoji": "⌨️",
-                  "title": "Apasă Enter",
-                  "description": "Când greutatea e corectă, apasă tasta Enter pentru a imprima eticheta"
-                },
-                {
-                  "emoji": "🏷️",
-                  "title": "Ia eticheta",
-                  "description": "Ridică eticheta tipărită de la mașină"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Lipește-o pe cutie",
-                  "description": "Aplică eticheta ordonat pe cutie"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Pune pe bandă",
-                  "description": "Pune cutia etichetată pe banda transportoare pentru expediere"
-                }
+              "type": "info",
+              "title": "Sarcinile tale:",
+              "items": [
+                "📦 Asamblează cutii de plută – mari și mici – constant",
+                "🔄 Ține rampa mereu plină",
+                "⚡ Liniile nu se opresc niciodată"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Nu eticheta niciodată o cutie care nu a atins greutatea corectă. Greutatea este determinată de specificația comenzii."
+              "text": "IMPORTANT: Verifică REPETAT că cutiile coboară pe rampă! Se blochează des și ai impresia falsă că linia nu cere cutii."
+            },
+            {
+              "type": "info",
+              "title": "Capcana obișnuită:",
+              "items": [
+                "⚠️ Cutiile se blochează pe rampă → crezi că cererea e scăzută",
+                "🔍 Verifică rampa regulat",
+                "🚨 Fără cutii = oprire totală"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cajas-carton",
+          "title": "Cutii de carton – 1 persoană",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Această poziție necesită mai multă îndemânare. Alimentezi două linii cu cutii simultan."
+            },
+            {
+              "type": "info",
+              "title": "1. Cutii Belly (MICI):",
+              "items": [
+                "📦 Cutii mici de carton pentru Belly",
+                "🔵 Trebuie să aibă folia de plastic",
+                "🆕 Cu mașina nouă: trebuie și capac"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "2. Cutii Backbone/Head (MARI):",
+              "items": [
+                "📦 Cutii mari de carton",
+                "🔵 Trebuie să aibă folia de plastic",
+                "🆕 Cu mașina nouă: trebuie și capac",
+                "🚨 PRIORITATE MAXIMĂ"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "3. Cutii porții – Skin & Meat:",
+              "items": [
+                "📦 Maro pe exterior, albe pe interior",
+                "🔧 Doar asamblează-le și trimite-le pe rampă",
+                "✅ Cel mai simplu tip"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "ÎNTOTDEAUNA prioritizează cutiile MARI (Backbone/Head). Nu le lăsa niciodată să se termine!"
             }
           ]
         }

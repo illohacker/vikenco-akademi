@@ -676,98 +676,107 @@
       "color": "from-amber-500 to-amber-600",
       "lessons": [
         {
-          "id": "cajas-station",
-          "title": "Kasser (Cajas)",
+          "id": "cajas-overview",
+          "title": "Kassestasjonen – Oversikt",
           "icon": "📦",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 arbeider på denne posisjonen. Jobben din er å ta de ferdige filetene fra båndet og pakke dem i kasser etter et bestemt lagmønster."
+              "text": "3 arbeidere på denne stasjonen. Arbeidet er delt i to soner: korkesker og pappesker. Linjene har ekstremt høy etterspørsel etter esker – hold tempoet!"
             },
             {
-              "type": "animated-steps",
-              "title": "Slik pakker du kasser riktig:",
-              "animatedSteps": [
-                {
-                  "emoji": "🐟",
-                  "title": "Plukk fileter fra båndet",
-                  "description": "Ta de ferdige filetene når de ankommer transportbåndet"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Legg i lag med 3",
-                  "description": "Hvert lag i kassen består av 3 laksefileter side om side"
-                },
-                {
-                  "emoji": "↔️",
-                  "title": "Veksle haleretning",
-                  "description": "Hvis første lag har halene mot venstre, må neste lag ha halene mot høyre"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Gjenta mønsteret",
-                  "description": "Fortsett å veksle retning med hvert nytt lag med 3 fileter"
-                },
-                {
-                  "emoji": "✅",
-                  "title": "Full kasse klar",
-                  "description": "Når kassen er full, flytt den til etiketteringsstasjonen"
-                }
+              "type": "info",
+              "title": "Soneinndeling:",
+              "items": [
+                "🟤 Korkesker (2 personer) – Store og små korkesker",
+                "📦 Pappesker (1 person) – Belly-esker (små), Backbone/Head-esker (store), Porsjonesker (skin & meat)"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Det vekslende mønsteret er viktig for riktig vektfordeling og presentasjon. Første lag haler til venstre → neste lag haler til høyre → gjenta."
+              "text": "Det viktigste: distribusjon av STORE esker må aldri stoppe. Backbone og Head genererer høyest etterspørsel."
             }
           ]
         },
         {
-          "id": "etiquetador-station",
-          "title": "Etikettering (Etiquetador)",
-          "icon": "🏷️",
+          "id": "cajas-corcho",
+          "title": "Korkesker – 2 personer",
+          "icon": "🟤",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 arbeider på denne posisjonen. Du er det siste trinnet før kassen forlater produksjonslinjen. Nøyaktighet er avgjørende."
+              "text": "Arbeidet er enkelt, men må være SVÆRT konstant. Etterspørselen fra linjene er ekstremt høy."
             },
             {
-              "type": "animated-steps",
-              "title": "Slik merker du kasser:",
-              "animatedSteps": [
-                {
-                  "emoji": "⚖️",
-                  "title": "Sjekk vekten",
-                  "description": "Kassen må nå riktig vekt som spesifisert av gjeldende bestilling"
-                },
-                {
-                  "emoji": "⌨️",
-                  "title": "Trykk Enter",
-                  "description": "Når vekten er riktig, trykk Enter-tasten på maskinen for å skrive ut etiketten"
-                },
-                {
-                  "emoji": "🏷️",
-                  "title": "Hent etiketten",
-                  "description": "Plukk opp den trykte etiketten fra maskinen"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Lim den på kassen",
-                  "description": "Fest etiketten pent på kassen"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Sett på båndet",
-                  "description": "Sett den merkede kassen på transportbåndet for utsending"
-                }
+              "type": "info",
+              "title": "Dine oppgaver:",
+              "items": [
+                "📦 Monter korkesker – store og små – i jevnt tempo",
+                "🔄 Hold rampen kontinuerlig fylt med esker",
+                "⚡ Linjene stopper aldri – du må holde tritt med etterspørselen"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Merk aldri en kasse som ikke har nådd riktig vekt. Vekten bestemmes av bestillingsspesifikasjonen."
+              "text": "VIKTIG: Sjekk GJENTATTE GANGER at eskene faktisk glir ned rampen! De setter seg ofte fast, og du får en falsk følelse av at linjen ikke trenger esker. Sjekk rampen hele tiden!"
+            },
+            {
+              "type": "info",
+              "title": "Vanlig felle:",
+              "items": [
+                "⚠️ Esker setter seg fast i rampen → du tror etterspørselen er lav",
+                "🔍 Sjekk rampen regelmessig – skyv fast esker videre",
+                "🚨 Hvis linjen mangler esker, stopper hele produksjonen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cajas-carton",
+          "title": "Pappesker – 1 person",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Denne posisjonen krever mer ferdigheter. Du mater to linjer med esker og må håndtere flere typer samtidig."
+            },
+            {
+              "type": "info",
+              "title": "1. Belly-esker (SMÅ):",
+              "items": [
+                "📦 Små pappesker til Belly-produksjonen",
+                "🔵 Skal ha plastdeksel",
+                "🆕 Med ny maskin (under implementering): skal også ha lokk"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "2. Backbone/Head-esker (STORE):",
+              "items": [
+                "📦 Store pappesker til Backbone og Head",
+                "🔵 Skal ha plastdeksel",
+                "🆕 Med ny maskin (under implementering): skal også ha lokk",
+                "🚨 HØYEST PRIORITET – Backbone og Head genererer mest etterspørsel"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "3. Porsjonesker – Skin & Meat:",
+              "items": [
+                "📦 Brune esker utvendig, hvite innvendig",
+                "🔧 Bare monter dem og send ned rampen",
+                "✅ Den enkleste esketypen"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Prioriter ALLTID store esker (Backbone/Head). De har høyest etterspørsel på grunn av den høye produksjonsraten. Aldri la store esker gå tomme!"
             }
           ]
         }

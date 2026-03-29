@@ -676,98 +676,107 @@
       "color": "from-amber-500 to-amber-600",
       "lessons": [
         {
-          "id": "cajas-station",
-          "title": "Cajas",
+          "id": "cajas-overview",
+          "title": "Estación de Cajas – Vista general",
           "icon": "📦",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 persona en este puesto. Tu trabajo es coger los filetes terminados de la cinta y meterlos en las cajas siguiendo un patrón de capas específico."
+              "text": "3 personas en esta estación. El trabajo se divide en dos zonas: cajas de corcho y cajas de cartón. Las líneas tienen una altísima demanda de cajas – ¡mantén el ritmo!"
             },
             {
-              "type": "animated-steps",
-              "title": "Cómo llenar las cajas correctamente:",
-              "animatedSteps": [
-                {
-                  "emoji": "🐟",
-                  "title": "Coge filetes de la cinta",
-                  "description": "Toma los filetes terminados a medida que llegan por la cinta"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Coloca en capas de 3",
-                  "description": "Cada capa en la caja consiste en 3 filetes de salmón uno al lado del otro"
-                },
-                {
-                  "emoji": "↔️",
-                  "title": "Alterna la dirección de las colas",
-                  "description": "Si la primera capa tiene las colas hacia un lado, la siguiente debe tenerlas hacia el lado contrario"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Repite el patrón",
-                  "description": "Continúa alternando la dirección con cada nueva capa de 3 filetes"
-                },
-                {
-                  "emoji": "✅",
-                  "title": "Caja llena lista",
-                  "description": "Cuando la caja esté llena, pásala al etiquetador"
-                }
+              "type": "info",
+              "title": "Distribución de zonas:",
+              "items": [
+                "🟤 Cajas de corcho (2 personas) – Grandes y pequeñas",
+                "📦 Cajas de cartón (1 persona) – Cajas Belly (pequeñas), cajas Backbone/Head (grandes), cajas de porciones (skin & meat)"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "El patrón alternado es esencial para una correcta distribución del peso y presentación. Primera capa colas a un lado → siguiente capa colas al otro → repetir."
+              "text": "Lo más importante: la distribución de cajas GRANDES no puede faltar nunca. Backbone y Head son los que más demanda generan."
             }
           ]
         },
         {
-          "id": "etiquetador-station",
-          "title": "Etiquetador",
-          "icon": "🏷️",
+          "id": "cajas-corcho",
+          "title": "Cajas de Corcho – 2 personas",
+          "icon": "🟤",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 persona en este puesto. Eres el último paso antes de que la caja salga de la línea de producción. La precisión es fundamental."
+              "text": "El trabajo es sencillo pero debe ser MUY constante. Existe una altísima demanda de cajas por parte de las líneas y se tiene que satisfacer."
             },
             {
-              "type": "animated-steps",
-              "title": "Cómo etiquetar cajas:",
-              "animatedSteps": [
-                {
-                  "emoji": "⚖️",
-                  "title": "Comprueba el peso",
-                  "description": "La caja debe alcanzar el peso correcto según el pedido actual"
-                },
-                {
-                  "emoji": "⌨️",
-                  "title": "Pulsa Enter",
-                  "description": "Una vez que el peso es correcto, pulsa la tecla Enter para imprimir la etiqueta"
-                },
-                {
-                  "emoji": "🏷️",
-                  "title": "Recoge la etiqueta",
-                  "description": "Coge la etiqueta impresa de la máquina"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Pégala en la caja",
-                  "description": "Pega la etiqueta correctamente en la caja"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Pon en la cinta",
-                  "description": "Coloca la caja etiquetada en la cinta transportadora para envío"
-                }
+              "type": "info",
+              "title": "Tus tareas:",
+              "items": [
+                "📦 Monta cajas de corcho – grandes y pequeñas – a ritmo constante",
+                "🔄 Mantén la rampa siempre llena de cajas",
+                "⚡ Las líneas no paran nunca – tienes que mantener el ritmo de demanda"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Nunca etiquetes una caja que no haya alcanzado el peso correcto. El peso lo determina la especificación del pedido."
+              "text": "IMPORTANTE: Comprueba de manera REITERADA que las cajas están bajando por la rampa. En muchas ocasiones se quedan atrapadas y tienes la falsa sensación de que la línea no está demandando cajas. ¡Revisa la rampa constantemente!"
+            },
+            {
+              "type": "info",
+              "title": "Trampa habitual:",
+              "items": [
+                "⚠️ Las cajas se atascan en la rampa → crees que la demanda es baja",
+                "🔍 Revisa la rampa con frecuencia – empuja las cajas atascadas",
+                "🚨 Si la línea se queda sin cajas, se para toda la producción"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cajas-carton",
+          "title": "Cajas de Cartón – 1 persona",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "Este puesto requiere un poco más de habilidad. Debes ir alimentando dos líneas de cajas y manejar varios tipos a la vez."
+            },
+            {
+              "type": "info",
+              "title": "1. Cajas Belly (PEQUEÑAS):",
+              "items": [
+                "📦 Cajas de cartón pequeñas para la producción de Belly",
+                "🔵 Deben llevar su plástico cobertor",
+                "🆕 Con la máquina nueva (proceso por implementarse): deben llevar tapa"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "2. Cajas Backbone/Head (GRANDES):",
+              "items": [
+                "📦 Cajas de cartón grandes para Backbone y Head",
+                "🔵 Deben llevar su plástico cobertor",
+                "🆕 Con la máquina nueva (proceso por implementarse): deben llevar tapa",
+                "🚨 MÁXIMA PRIORIDAD – Backbone y Head generan la mayor demanda"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "3. Cajas de Porciones – Skin & Meat:",
+              "items": [
+                "📦 Cajas marrones por fuera y blancas por dentro",
+                "🔧 Solo hay que montarlas y echarlas por la rampa",
+                "✅ El tipo de caja más sencillo"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "Prioriza SIEMPRE las cajas grandes (Backbone/Head). Tienen la mayor demanda por la alta generación de producción. ¡Nunca dejes que se acaben las cajas grandes!"
             }
           ]
         }

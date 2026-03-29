@@ -676,98 +676,107 @@
       "color": "from-amber-500 to-amber-600",
       "lessons": [
         {
-          "id": "cajas-station",
-          "title": "Boxes (Cajas)",
+          "id": "cajas-overview",
+          "title": "Box Station – Overview",
           "icon": "📦",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 worker at this position. Your job is to take the finished fillets from the belt and pack them into boxes following a specific layering pattern."
+              "text": "3 workers at this station. Work is divided into two zones: cork boxes and cardboard boxes. Lines have extremely high box demand – keep up the pace!"
             },
             {
-              "type": "animated-steps",
-              "title": "How to pack boxes correctly:",
-              "animatedSteps": [
-                {
-                  "emoji": "🐟",
-                  "title": "Pick up fillets from the belt",
-                  "description": "Take the finished fillets as they arrive on the conveyor"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Place in layers of 3",
-                  "description": "Each layer in the box consists of 3 salmon fillets side by side"
-                },
-                {
-                  "emoji": "↔️",
-                  "title": "Alternate tail direction",
-                  "description": "If the first layer has tails pointing left, the next layer must have tails pointing right"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Repeat the pattern",
-                  "description": "Continue alternating direction with each new layer of 3 fillets"
-                },
-                {
-                  "emoji": "✅",
-                  "title": "Full box ready",
-                  "description": "When the box is full, move it to the labelling station"
-                }
+              "type": "info",
+              "title": "Zone layout:",
+              "items": [
+                "🟤 Cork boxes (2 people) – Large and small cork boxes",
+                "📦 Cardboard boxes (1 person) – Belly boxes (small), Backbone/Head boxes (large), Portion boxes (skin & meat)"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "The alternating pattern is essential for proper weight distribution and presentation. First layer tails left → next layer tails right → repeat."
+              "text": "Most important: distribution of LARGE boxes must never stop. Backbone and Head generate the highest demand."
             }
           ]
         },
         {
-          "id": "etiquetador-station",
-          "title": "Labelling (Etiquetador)",
-          "icon": "🏷️",
+          "id": "cajas-corcho",
+          "title": "Cork Boxes – 2 people",
+          "icon": "🟤",
           "sections": [
             {
               "type": "alert",
               "style": "warning",
-              "text": "1 worker at this position. You are the last step before the box leaves the production line. Accuracy is critical."
+              "text": "The work is simple but must be VERY consistent. Demand from the lines is extremely high."
             },
             {
-              "type": "animated-steps",
-              "title": "How to label boxes:",
-              "animatedSteps": [
-                {
-                  "emoji": "⚖️",
-                  "title": "Check the weight",
-                  "description": "The box must reach the correct weight as specified by the current order"
-                },
-                {
-                  "emoji": "⌨️",
-                  "title": "Press Enter",
-                  "description": "Once the weight is correct, press the Enter key on the machine to print the label"
-                },
-                {
-                  "emoji": "🏷️",
-                  "title": "Collect the label",
-                  "description": "Pick up the printed label from the machine"
-                },
-                {
-                  "emoji": "📦",
-                  "title": "Stick it on the box",
-                  "description": "Apply the label neatly onto the box"
-                },
-                {
-                  "emoji": "🔄",
-                  "title": "Place on the belt",
-                  "description": "Put the labelled box on the conveyor belt for shipping"
-                }
+              "type": "info",
+              "title": "Your tasks:",
+              "items": [
+                "📦 Assemble cork boxes – large and small – at a steady pace",
+                "🔄 Keep the ramp continuously filled with boxes",
+                "⚡ The lines never stop – you must keep up with demand"
               ]
             },
             {
               "type": "alert",
               "style": "danger",
-              "text": "Never label a box that hasn't reached the correct weight. The weight is determined by the order specification."
+              "text": "IMPORTANT: Check REPEATEDLY that boxes are actually sliding down the ramp! They often get stuck, giving you a false sense that the line doesn't need boxes. Check the ramp constantly!"
+            },
+            {
+              "type": "info",
+              "title": "Common trap:",
+              "items": [
+                "⚠️ Boxes get stuck on the ramp → you think demand is low",
+                "🔍 Check the ramp regularly – push stuck boxes through",
+                "🚨 If the line runs out of boxes, all production stops"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cajas-carton",
+          "title": "Cardboard Boxes – 1 person",
+          "icon": "📦",
+          "sections": [
+            {
+              "type": "alert",
+              "style": "warning",
+              "text": "This position requires more skill. You feed two lines with boxes and must handle several types simultaneously."
+            },
+            {
+              "type": "info",
+              "title": "1. Belly boxes (SMALL):",
+              "items": [
+                "📦 Small cardboard boxes for Belly production",
+                "🔵 Must include plastic cover",
+                "🆕 With new machine (being implemented): must also include lid"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "2. Backbone/Head boxes (LARGE):",
+              "items": [
+                "📦 Large cardboard boxes for Backbone and Head",
+                "🔵 Must include plastic cover",
+                "🆕 With new machine (being implemented): must also include lid",
+                "🚨 HIGHEST PRIORITY – Backbone and Head generate most demand"
+              ]
+            },
+            {
+              "type": "info",
+              "title": "3. Portion boxes – Skin & Meat:",
+              "items": [
+                "📦 Brown on the outside, white on the inside",
+                "🔧 Just assemble them and send down the ramp",
+                "✅ The simplest box type"
+              ]
+            },
+            {
+              "type": "alert",
+              "style": "danger",
+              "text": "ALWAYS prioritize large boxes (Backbone/Head). They have the highest demand due to high production rate. Never let large boxes run out!"
             }
           ]
         }
