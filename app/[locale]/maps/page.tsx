@@ -18,6 +18,21 @@ interface Zone {
   inactive?: boolean
 }
 
+const secondFloorZones: Zone[] = [
+  // Top row - left: Acceso a producción
+  { id: 'acceso', x: 30, y: 30, width: 280, height: 150, color: '#6366f1', hoverColor: '#4f46e5', labelKey: 'acceso', moduleLink: '', emoji: '🚪', inactive: true },
+  // Top row - middle: LAV
+  { id: 'lav', x: 320, y: 30, width: 130, height: 150, color: '#06b6d4', hoverColor: '#0891b2', labelKey: 'lav', moduleLink: '', emoji: '🧺', inactive: true },
+  // Top row - middle: GYM
+  { id: 'gym', x: 460, y: 30, width: 130, height: 150, color: '#f59e0b', hoverColor: '#d97706', labelKey: 'gym', moduleLink: '', emoji: '💪', inactive: true },
+  // Top row - right: CAJAS (separated, top right)
+  { id: 'cajas2f', x: 640, y: 30, width: 230, height: 170, color: '#10b981', hoverColor: '#059669', labelKey: 'cajas2f', moduleLink: '/modules/production#cajas', emoji: '📦' },
+  // Bottom center: VF (Vestuario Femenino)
+  { id: 'vf', x: 200, y: 250, width: 220, height: 180, color: '#ec4899', hoverColor: '#db2777', labelKey: 'vf', moduleLink: '', emoji: '👩', inactive: true },
+  // Bottom center: VM (Vestuario Masculino)
+  { id: 'vm', x: 430, y: 250, width: 220, height: 180, color: '#3b82f6', hoverColor: '#2563eb', labelKey: 'vm', moduleLink: '', emoji: '👨', inactive: true },
+]
+
 const zones: Zone[] = [
   // INFEED - bottom
   { id: 'infeed', x: 30, y: 430, width: 840, height: 90, color: '#3b82f6', hoverColor: '#2563eb', labelKey: 'infeed', moduleLink: '/modules/production#infeed-line-1', emoji: '📥' },
@@ -163,6 +178,113 @@ export default function MapsPage() {
             <span className="text-sm font-medium text-gray-700">{zone.emoji} {t(zone.labelKey)}</span>
           </Link>
         ))}
+      </div>
+
+      {/* Second Floor Map */}
+      <h2 className="text-2xl font-bold text-[var(--vikenco-blue)] mt-14 mb-2">{t('secondFloorTitle')}</h2>
+      <p className="text-gray-500 mb-6">{t('secondFloorSubtitle')}</p>
+
+      <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-4 sm:p-6 overflow-hidden">
+        <svg viewBox="0 0 900 480" className="w-full h-auto" style={{ maxHeight: '480px' }}>
+          {/* Background */}
+          <rect x="15" y="15" width="870" height="450" rx="16" fill="#f8fafc" stroke="#e2e8f0" strokeWidth="2" />
+
+          {/* Zones */}
+          {secondFloorZones.map((zone) => {
+            const isInactive = zone.inactive
+            const isHovered = hovered === zone.id
+            const opacity = isInactive ? 0.3 : (hovered && !isHovered ? 0.5 : 0.9)
+
+            const content = (
+              <g
+                key={zone.id}
+                onMouseEnter={() => !isInactive && setHovered(zone.id)}
+                onMouseLeave={() => setHovered(null)}
+                className={isInactive ? 'cursor-not-allowed' : 'cursor-pointer'}
+              >
+                <rect
+                  x={zone.x}
+                  y={zone.y}
+                  width={zone.width}
+                  height={zone.height}
+                  rx="10"
+                  fill={isHovered ? zone.hoverColor : zone.color}
+                  opacity={opacity}
+                  className="transition-all duration-200"
+                />
+                {/* Emoji */}
+                {zone.emoji && (
+                  <text
+                    x={zone.x + zone.width / 2}
+                    y={zone.y + zone.height / 2 - (zone.height > 150 ? 15 : 8)}
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fontSize={zone.height > 150 ? "28" : "20"}
+                    className="pointer-events-none select-none"
+                  >
+                    {zone.emoji}
+                  </text>
+                )}
+                {/* Label */}
+                <text
+                  x={zone.x + zone.width / 2}
+                  y={zone.y + zone.height / 2 + (zone.height > 150 ? 18 : 10)}
+                  textAnchor="middle"
+                  dominantBaseline="central"
+                  fill="white"
+                  fontSize={zone.width < 120 ? "10" : "13"}
+                  fontWeight="bold"
+                  className="pointer-events-none select-none"
+                >
+                  {t(zone.labelKey)}
+                </text>
+                {/* Inactive label */}
+                {isInactive && (
+                  <text
+                    x={zone.x + zone.width / 2}
+                    y={zone.y + zone.height / 2 + 25}
+                    textAnchor="middle"
+                    fill="white"
+                    fontSize="9"
+                    opacity="0.7"
+                    className="pointer-events-none select-none"
+                  >
+                    ({t('inactive')})
+                  </text>
+                )}
+              </g>
+            )
+
+            if (isInactive || !zone.moduleLink) return content
+            return (
+              <Link key={zone.id} href={zone.moduleLink}>
+                {content}
+              </Link>
+            )
+          })}
+
+          {/* Footer label */}
+          <text x="450" y="475" textAnchor="middle" fill="#94a3b8" fontSize="11" fontStyle="italic">
+            Vikenco — 2. etasje
+          </text>
+        </svg>
+      </div>
+
+      {/* Second floor zone list for mobile */}
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {secondFloorZones.map((zone) => {
+          const inner = (
+            <div
+              key={zone.id}
+              className="flex items-center gap-2 p-3 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all"
+            >
+              <div className="w-4 h-4 rounded" style={{ backgroundColor: zone.color, opacity: zone.inactive ? 0.4 : 1 }} />
+              <span className="text-sm font-medium text-gray-700">{zone.emoji} {t(zone.labelKey)}</span>
+            </div>
+          )
+          if (zone.inactive || !zone.moduleLink) return <div key={zone.id}>{inner}</div>
+          return <Link key={zone.id} href={zone.moduleLink}>{inner}</Link>
+        })}
       </div>
     </div>
   )

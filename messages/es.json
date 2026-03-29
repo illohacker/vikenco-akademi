@@ -64,7 +64,15 @@
     "l3": "Línea 3",
     "porsjoner": "Porciones",
     "terminal": "Terminal",
-    "inactive": "Inactiva"
+    "inactive": "Inactiva",
+    "secondFloorTitle": "Segunda planta",
+    "secondFloorSubtitle": "Vestuarios, acceso a producción y servicios",
+    "acceso": "Acceso a producción",
+    "lav": "Lavandería",
+    "gym": "Gimnasio",
+    "cajas2f": "Cajas",
+    "vf": "Vestuario femenino",
+    "vm": "Vestuario masculino"
   },
   "leaderboard": {
     "title": "Clasificación",

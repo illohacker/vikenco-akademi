@@ -64,7 +64,15 @@
     "l3": "Line 3",
     "porsjoner": "Portions",
     "terminal": "Terminal",
-    "inactive": "Inactive"
+    "inactive": "Inactive",
+    "secondFloorTitle": "Second Floor",
+    "secondFloorSubtitle": "Changing rooms, production access and facilities",
+    "acceso": "Production Access",
+    "lav": "Laundry",
+    "gym": "Gym",
+    "cajas2f": "Boxes",
+    "vf": "Women's changing room",
+    "vm": "Men's changing room"
   },
   "leaderboard": {
     "title": "Leaderboard",

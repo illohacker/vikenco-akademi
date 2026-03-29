@@ -64,7 +64,15 @@
     "l3": "Linje 3",
     "porsjoner": "Porsjoner",
     "terminal": "Terminal",
-    "inactive": "Ikke i bruk"
+    "inactive": "Ikke i bruk",
+    "secondFloorTitle": "Andre etasje",
+    "secondFloorSubtitle": "Garderober, tilgang til produksjon og fasiliteter",
+    "acceso": "Tilgang til produksjon",
+    "lav": "Vaskeri",
+    "gym": "Treningsrom",
+    "cajas2f": "Esker",
+    "vf": "Damegarderobe",
+    "vm": "Herregarderobe"
   },
   "leaderboard": {
     "title": "Resultattavle",

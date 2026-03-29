@@ -64,7 +64,15 @@
     "l3": "Linija 3",
     "porsjoner": "Porcijos",
     "terminal": "Terminalas",
-    "inactive": "Neaktyvi"
+    "inactive": "Neaktyvi",
+    "secondFloorTitle": "Antras aukštas",
+    "secondFloorSubtitle": "Persirengimo kambariai, prieiga prie gamybos ir paslaugos",
+    "acceso": "Prieiga prie gamybos",
+    "lav": "Skalbykla",
+    "gym": "Sporto salė",
+    "cajas2f": "Dėžės",
+    "vf": "Moterų persirengimo kambarys",
+    "vm": "Vyrų persirengimo kambarys"
   },
   "leaderboard": {
     "title": "Rezultatų lentelė",

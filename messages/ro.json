@@ -64,7 +64,15 @@
     "l3": "Linia 3",
     "porsjoner": "Porții",
     "terminal": "Terminal",
-    "inactive": "Inactivă"
+    "inactive": "Inactivă",
+    "secondFloorTitle": "Etajul al doilea",
+    "secondFloorSubtitle": "Vestiare, acces la producție și facilități",
+    "acceso": "Acces la producție",
+    "lav": "Spălătorie",
+    "gym": "Sala de sport",
+    "cajas2f": "Cutii",
+    "vf": "Vestiar femei",
+    "vm": "Vestiar bărbați"
   },
   "leaderboard": {
     "title": "Clasament",
